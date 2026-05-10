@@ -118,85 +118,55 @@ function renderHomeScreen() {
 // Load Quiz Set
 async function loadQuizSet(set) {
     showScreen('loading');
+    console.log(`Đang nạp bộ đề: ${set.id} từ đường dẫn: ${set.path}`);
     
-    // Tự động thử Fetch trước, nếu fail (CORS/Offline) thì dùng Script Tag
     try {
         const [infoRes, quizRes] = await Promise.all([
-            fetch(`${set.path}/${set.id}_info.json`),
-            fetch(`${set.path}/${set.id}_quiz.json`)
+            fetch(`${set.path}/${set.id}_info.json?v=${Date.now()}`),
+            fetch(`${set.path}/${set.id}_quiz.json?v=${Date.now()}`)
         ]);
         
+        if (!infoRes.ok || !quizRes.ok) {
+            throw new Error(`Không thể tải file dữ liệu (Status: ${infoRes.status}/${quizRes.status})`);
+        }
+
         currentInfo = await infoRes.json();
         const rawData = await quizRes.json();
 
-        // Kiểm tra cấu trúc dữ liệu: Phân tầng (Hierarchy), Tối ưu (Object), hay Cũ (Array)
-        if (Array.isArray(rawData) && rawData[0] && rawData[0].questions && rawData[0].hint) {
-            // ĐỊNH DẠNG PHÂN TẦNG (MỚI NHẤT)
-            currentQuizData = [];
-            currentVocabData = {};
+        // Xử lý dữ liệu
+        currentQuizData = [];
+        currentVocabData = {};
+        
+        // Kiểm tra cấu trúc phân tầng (Hierarchy)
+        if (Array.isArray(rawData) && rawData[0]?.questions) {
             rawData.forEach(item => {
                 currentVocabData[item.id] = item.hint;
                 
-                // PHÂN GIẢI UNIT TỪ ID (e.g., "e9u1_artisan" -> "Unit 1")
+                // Phân loại Unit từ ID (e.g., "e9u1_artisan" -> "Unit 1")
                 const unitMatch = item.id.match(/u(\d+)/);
                 const unitLabel = unitMatch ? `Unit ${unitMatch[1]}` : "General";
 
                 item.questions.forEach(q => {
                     currentQuizData.push({
                         ...q,
-                        id: q.id, // Lấy trực tiếp ID đầy đủ từ JSON
                         unit: unitLabel,
                         word: item.hint.word
                     });
                 });
             });
-            console.log("Đã nạp bộ đề định dạng Phân tầng (Hierarchy).");
-        } else if (rawData.questions && rawData.vocabulary) {
-            // ĐỊNH DẠNG TỐI ƯU (OBJECT)
-            currentQuizData = rawData.questions;
-            currentVocabData = rawData.vocabulary;
-            console.log("Đã nạp bộ đề định dạng Tối ưu (Object).");
         } else {
-            // ĐỊNH DẠNG CŨ
-            currentQuizData = rawData;
-            currentVocabData = null;
-            console.log("Đã nạp bộ đề định dạng cũ.");
+            // Định dạng phẳng hoặc cũ
+            currentQuizData = rawData.questions || rawData;
+            currentVocabData = rawData.vocabulary || null;
         }
         
+        console.log(`Nạp thành công ${currentQuizData.length} câu hỏi.`);
         setupIntroScreen(set);
     } catch (err) {
-        console.warn("Fetch bị chặn. Đang thử nạp dữ liệu qua Script Tag...");
-        loadDataViaScript(set);
+        console.error("Lỗi nạp dữ liệu:", err);
+        alert(`Lỗi hệ thống: ${err.message}\nVui lòng kiểm tra đường dẫn hoặc kết nối mạng.`);
+        showScreen('home');
     }
-}
-
-function loadDataViaScript(set) {
-    const scripts = [
-        `${set.path}/${set.id}_info.js`,
-        `${set.path}/${set.id}_quiz.js`,
-        `${set.path}/${set.id}_lesson.js`
-    ];
-    
-    let loadedCount = 0;
-    scripts.forEach(src => {
-        const s = document.createElement('script');
-        s.src = src;
-        s.onload = () => {
-            loadedCount++;
-            if (loadedCount === scripts.length) {
-                // Sau khi nạp xong, gán dữ liệu từ biến toàn cục vào biến nội bộ
-                currentInfo = window.QUIZ_INFO;
-                currentQuizData = window.QUIZ_DATA;
-                currentLessonData = window.QUIZ_LESSON; // Nạp dữ liệu định nghĩa
-                setupIntroScreen(set);
-            }
-        };
-        s.onerror = () => {
-            alert("Lỗi: Không tìm thấy file dữ liệu offline (.js)");
-            showScreen('home');
-        };
-        document.body.appendChild(s);
-    });
 }
 
 function setupIntroScreen(set) {
