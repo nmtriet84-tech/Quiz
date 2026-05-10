@@ -1,0 +1,18 @@
+{
+  "id": "English9Vocabulary",
+  "title": "Từ vựng tiếng anh 9 Global Success",
+  "description": "Bộ từ vựng chuẩn chương trình lớp 9 mới. Chinh phục 1800+ câu hỏi trắc nghiệm chuyên sâu.",
+  "units": [
+    { "id": "Unit 1", "title": "Local Community" },
+    { "id": "Unit 2", "title": "City Life" },
+    { "id": "Unit 3", "title": "Healthy Living for Teens" },
+    { "id": "Unit 4", "title": "Remembering the Past" },
+    { "id": "Unit 5", "title": "Our Experiences" },
+    { "id": "Unit 6", "title": "Lifestyles" }
+  ],
+  "stats": {
+    "lessons": 269,
+    "questions": 1883,
+    "units": 6
+  }
+}
