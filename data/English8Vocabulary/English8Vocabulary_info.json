@@ -1,0 +1,20 @@
+{
+  "id": "English8Vocabulary",
+  "title": "Từ vựng tiếng anh 8 Global Success",
+  "description": "Bộ từ vựng chuẩn chương trình lớp 8. Chinh phục 533 từ vựng qua hệ thống trắc nghiệm thông minh.",
+  "units": [
+    { "id": "e81u1", "title": "Unit 1: Leisure Time" },
+    { "id": "e81u2", "title": "Unit 2: Life in the Countryside" },
+    { "id": "e81u3", "title": "Unit 3: Teenagers" },
+    { "id": "e80u2", "title": "Unit 4: Ethnic Groups of Viet Nam" },
+    { "id": "e81u4", "title": "Unit 5: Our Customs and Traditions" },
+    { "id": "e81u5", "title": "Unit 6: Lifestyles" },
+    { "id": "e80u3", "title": "Unit 7: Environmental Protection" },
+    { "id": "e80u4", "title": "Unit 9: Natural Disasters" }
+  ],
+  "stats": {
+    "lessons": 533,
+    "questions": 3731,
+    "units": 8
+  }
+}
