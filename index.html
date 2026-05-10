@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizGame - Học không khó, chỉ sợ không chơi!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- Header -->
+        <header>
+            <h1 class="crayon-title">🖍️ QuizGame</h1>
+            <p class="slogan">Học không khó, chỉ sợ không chơi!</p>
+        </header>
+
+        <!-- Data Files -->
+    <script src="data/English8Vocabulary/English8Vocabulary_info.js"></script>
+    <script src="data/English8Vocabulary/English8Vocabulary_quiz.js"></script>
+
+        <!-- Main Screen -->
+        <main id="main-content">
+            <!-- Loading Screen -->
+            <div id="loading-screen" class="screen">
+                <div class="loader"></div>
+                <p>Đang tải bộ đề bí mật...</p>
+            </div>
+
+            <!-- Home Screen: Select Quiz Set -->
+            <div id="home-screen" class="screen hidden">
+                <div class="user-config-box">
+                    <label for="user-name-input" class="input-label">📝 Thông tin thí sinh:</label>
+                    <input type="text" id="user-name-input" class="crayon-input" placeholder="Họ và tên - Lớp. Ví dụ: Nguyễn Minh An - 9A2">
+                    <p class="input-guide">Bạn cần nhập tên để lưu danh bảng vàng!</p>
+                </div>
+                <h2 class="section-title">Chọn bộ thử thách của bạn:</h2>
+                <div id="quiz-set-list" class="grid-container">
+                    <!-- Quiz Sets will be injected here -->
+                </div>
+            </div>
+
+            <!-- Intro Screen: Select Unit/Level -->
+            <div id="intro-screen" class="screen hidden">
+                <div id="intro-info">
+                    <button class="btn-back">← Quay lại</button>
+                    <h2 id="current-quiz-title">Tên bộ đề</h2>
+                    <p id="current-quiz-desc">Mô tả</p>
+                    
+                    <div class="setup-grid">
+                        <div class="setup-item">
+                            <label>Chọn các bài học (Unit):</label>
+                            <div id="unit-checkboxes" class="checkbox-group">
+                                <!-- Unit checkboxes will be injected here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="btn-start-game" class="btn-primary">BẮT ĐẦU CHƠI! 🚀</button>
+                </div>
+            </div>
+
+            <!-- Game Screen -->
+            <div id="game-screen" class="screen hidden">
+                <div class="game-header">
+                    <div id="timer-box" class="timer">60s</div>
+                    <div class="progress-container">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <div class="game-stats">
+                        <span id="question-counter">Câu: 1/20</span>
+                        <span id="score-display">Điểm: 0</span>
+                    </div>
+                </div>
+                
+                <div id="question-container">
+                    <h3 id="question-text">Câu hỏi đang tải...</h3>
+                    <div id="hint-container" class="hint-box hidden">
+                        <strong>💡 Gợi ý:</strong> <span id="hint-text"></span>
+                    </div>
+                </div>
+                
+                <div id="options-container" class="options-grid">
+                    <!-- Options will be injected here -->
+                </div>
+
+                <div class="game-footer">
+                    <button id="btn-finish" class="btn-secondary">Nộp bài 🏁</button>
+                    <button id="btn-next" class="btn-primary">Câu tiếp theo →</button>
+                </div>
+            </div>
+
+            <!-- Result Screen -->
+            <div id="result-screen" class="screen hidden">
+                <div class="result-card">
+                    <h2 id="result-title">Kết thúc! 🏆</h2>
+                    <div class="final-score">
+                        <span id="final-score-val">0</span>
+                        <p>Điểm của bạn</p>
+                    </div>
+                    <div class="result-buttons">
+                        <button id="btn-replay" class="btn-secondary">Chơi lại 🔄</button>
+                        <button id="btn-home" class="btn-primary">Về trang chủ 🏠</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2026 QuizGame Team | Design with ❤️ and Crayons</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

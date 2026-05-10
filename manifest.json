@@ -1,0 +1,28 @@
+[
+  {
+    "id": "English8Vocabulary",
+    "title": "English 8 Vocabulary",
+    "description": "Làm chủ 530+ từ vựng Tiếng Anh 8 phong cách Gen Z. Học cực nhanh, nhớ cực lâu!",
+    "category": "Vocabulary",
+    "icon": "📝",
+    "stats": {
+      "questions": 3642,
+      "lessons": 530,
+      "units": 8
+    },
+    "path": "data/English8Vocabulary"
+  },
+  {
+    "id": "English9Vocabulary",
+    "title": "Từ vựng tiếng anh 9 Global Success",
+    "description": "Chinh phục toàn bộ 269 từ vựng trọng tâm lớp 9 qua 1883 câu hỏi trắc nghiệm chuyên sâu.",
+    "category": "Vocabulary",
+    "icon": "🎓",
+    "stats": {
+      "questions": 1883,
+      "lessons": 269,
+      "units": 6
+    },
+    "path": "data/English9Vocabulary"
+  }
+]
