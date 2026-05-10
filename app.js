@@ -1,14 +1,7 @@
 // QuizGame App Logic
 let manifest = [
-    {
-        id: "English9Vocabulary",
-        title: "Từ vựng tiếng Anh 9 Global Success",
-        description: "Chinh phục toàn bộ 269 từ vựng trọng tâm lớp 9 qua 1883 câu hỏi trắc nghiệm chuyên sâu.",
-        category: "Vocabulary",
-        icon: "🎓",
-        stats: { questions: 1883, lessons: 269, units: 6 },
-        path: "data/English9Vocabulary"
-    }
+    createFallbackManifestItem("English8Vocabulary", "Từ vựng tiếng Anh 8 Global Success", "📘", 3731, 533, 8),
+    createFallbackManifestItem("English9Vocabulary", "Từ vựng tiếng Anh 9 Global Success", "🎓", 1883, 269, 6)
 ];
 
 let userData = { name: "" };
@@ -18,6 +11,7 @@ let currentInfo = {};
 let filteredQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+let currentUnitLabels = {};
 let timerInterval;
 let timeLeft = 60;
 
@@ -50,12 +44,24 @@ const screens = {
     result: document.getElementById("result-screen")
 };
 
+function createFallbackManifestItem(id, title, icon, questions, lessons, units) {
+    return {
+        id,
+        title,
+        description: title,
+        category: "Vocabulary",
+        icon,
+        stats: { questions, lessons, units },
+        path: `data/${id}`
+    };
+}
+
 window.addEventListener("DOMContentLoaded", async () => {
     try {
         const response = await fetch("manifest.json");
         if (response.ok) {
             const loadedManifest = await response.json();
-            manifest = loadedManifest.filter(set => set.id === "English9Vocabulary");
+            manifest = loadedManifest;
         }
     } catch (err) {
         console.warn("Không tải được manifest, dùng cấu hình dự phòng.", err);
@@ -92,8 +98,10 @@ function unitCodeFromId(id) {
 }
 
 function unitCodeFromLabel(value) {
-    const unitMatch = String(value).match(/unit\s*(\d+)/i);
-    if (unitMatch) return `e9u${unitMatch[1]}`;
+    if (/^e\d+u\d+$/i.test(String(value))) {
+        return String(value).toLowerCase();
+    }
+
     return String(value).toLowerCase();
 }
 
@@ -174,10 +182,15 @@ async function loadQuizSet(set) {
 function normalizeQuizData(rawData) {
     currentQuizData = [];
     currentVocabData = {};
+    currentUnitLabels = {};
 
     if (Array.isArray(rawData) && rawData[0]?.questions) {
         rawData.forEach(item => {
             const unitCode = unitCodeFromId(item.id);
+            const unitNumber = unitCode.match(/u(\d+)$/i)?.[1];
+            if (unitNumber && !currentUnitLabels[unitCode]) {
+                currentUnitLabels[unitCode] = `Unit ${unitNumber}`;
+            }
             currentVocabData[item.id] = item.hint;
 
             item.questions.forEach(question => {
@@ -199,6 +212,10 @@ function normalizeQuizData(rawData) {
         currentQuizData = questions.map(question => {
             const unitCode = unitCodeFromId(question.id);
             const meta = questionMeta(question.id);
+            const unitNumber = unitCode.match(/u(\d+)$/i)?.[1];
+            if (unitNumber && !currentUnitLabels[unitCode]) {
+                currentUnitLabels[unitCode] = `Unit ${unitNumber}`;
+            }
             return {
                 ...question,
                 unit: unitCode,
@@ -225,22 +242,49 @@ function setupIntroScreen(set) {
     const checkboxGroup = document.getElementById("unit-checkboxes");
     checkboxGroup.innerHTML = "";
 
-    currentInfo.units.forEach(unit => {
-        const rawId = typeof unit === "object" ? unit.id : unit;
-        const title = typeof unit === "object" ? unit.title : unitLabelFromCode(rawId);
-        const unitCode = unitCodeFromLabel(rawId);
-
+    getUnitsForIntro().forEach(unit => {
         const label = document.createElement("label");
         label.className = "checkbox-item";
         label.innerHTML = `
-            <input type="checkbox" name="unit" value="${unitCode}" checked>
-            <span>${unitLabelFromCode(unitCode)} - ${title}</span>
+            <input type="checkbox" name="unit" value="${unit.id}" checked>
+            <span>${unit.title}</span>
         `;
         checkboxGroup.appendChild(label);
     });
 
     showScreen("intro");
     loadLeaderboard(set.id);
+}
+
+function getUnitsForIntro() {
+    if (Array.isArray(currentInfo.units) && currentInfo.units.length > 0) {
+        return currentInfo.units.map(unit => {
+            const rawId = typeof unit === "object" ? unit.id : unit;
+            const title = typeof unit === "object" ? unit.title : String(unit);
+            const explicitCode = unitCodeFromLabel(rawId);
+            const unitNumber = title.match(/unit\s*(\d+)/i)?.[1] || String(rawId).match(/unit\s*(\d+)/i)?.[1];
+            const unitCode = currentQuizData.some(q => q.unitCode === explicitCode)
+                ? explicitCode
+                : findUnitCodeByNumber(unitNumber) || explicitCode;
+            const displayTitle = /^unit\s*\d+/i.test(title)
+                ? title
+                : `${unitLabelFromCode(unitCode)} - ${title}`;
+
+            currentUnitLabels[unitCode] = displayTitle;
+            return { id: unitCode, title: displayTitle };
+        });
+    }
+
+    return Object.keys(currentUnitLabels)
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+        .map(unitCode => ({ id: unitCode, title: currentUnitLabels[unitCode] || unitLabelFromCode(unitCode) }));
+}
+
+function findUnitCodeByNumber(unitNumber) {
+    if (!unitNumber) return "";
+    return Object.keys(currentUnitLabels).find(unitCode => {
+        return unitCode.match(/u(\d+)$/i)?.[1] === String(unitNumber);
+    }) || "";
 }
 
 document.getElementById("btn-start-game").onclick = () => {
@@ -533,7 +577,7 @@ function splitPlayerInfo(value) {
 }
 
 function selectedUnitLabels() {
-    return selectedUnitsForGame.map(unitLabelFromCode).join(", ");
+    return selectedUnitsForGame.map(unit => currentUnitLabels[unit] || unitLabelFromCode(unit)).join(", ");
 }
 
 function scoreOnScale10() {
