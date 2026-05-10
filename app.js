@@ -1,34 +1,34 @@
 // QuizGame App Logic
 let manifest = [
     {
-        "id": "English8Vocabulary",
-        "title": "English 8 Vocabulary",
-        "description": "Làm chủ 530+ từ vựng Tiếng Anh 8 phong cách Gen Z. Học cực nhanh, nhớ cực lâu!",
-        "category": "Vocabulary",
-        "icon": "📝",
-        "stats": { "questions": 3642, "lessons": 530, "units": 8 },
-        "path": "data/English8Vocabulary"
-    },
-    {
-        "id": "English9Vocabulary",
-        "title": "Từ vựng tiếng anh 9 Global Success",
-        "description": "Chinh phục toàn bộ 269 từ vựng trọng tâm lớp 9 qua 1883 câu hỏi trắc nghiệm chuyên sâu.",
-        "category": "Vocabulary",
-        "icon": "🎓",
-        "stats": { "questions": 1883, "lessons": 269, "units": 6 },
-        "path": "data/English9Vocabulary"
+        id: "English9Vocabulary",
+        title: "Từ vựng tiếng Anh 9 Global Success",
+        description: "Chinh phục toàn bộ 269 từ vựng trọng tâm lớp 9 qua 1883 câu hỏi trắc nghiệm chuyên sâu.",
+        category: "Vocabulary",
+        icon: "🎓",
+        stats: { questions: 1883, lessons: 269, units: 6 },
+        path: "data/English9Vocabulary"
     }
 ];
+
 let userData = { name: "" };
 let currentQuizData = [];
-let currentVocabData = {}; // Bảng tra cứu từ vựng tối ưu
+let currentVocabData = {};
 let currentInfo = {};
 let filteredQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let totalQuestionsToPlay = 20;
 let timerInterval;
 let timeLeft = 60;
+
+const QUESTIONS_PER_GAME = 20;
+const QUESTION_TYPES = ["M", "C", "P", "S"];
+const LEADERBOARD_URL = "https://script.google.com/macros/s/AKfycbzecLrC53O4VjeFdc9Gt22NQ-NZID959QrDxkPUTtU53X2VblQmNcgQQAnxvPb4eAvrqw/exec";
+
+let currentQuizSet = null;
+let selectedUnitsForGame = [];
+let gameStartedAt = 0;
+let leaderboardRequestId = 0;
 
 const slogans = [
     "Học hết mình, chơi nhiệt tình - Tự tin chinh phục tiếng Anh!",
@@ -43,427 +43,621 @@ const slogans = [
     "Học cùng QuizGame - Không lo nhàm chán!"
 ];
 
+const screens = {
+    loading: document.getElementById("loading-screen"),
+    home: document.getElementById("home-screen"),
+    intro: document.getElementById("intro-screen"),
+    game: document.getElementById("game-screen"),
+    result: document.getElementById("result-screen")
+};
+
+window.addEventListener("DOMContentLoaded", async () => {
+    try {
+        const response = await fetch("manifest.json");
+        if (response.ok) {
+            const loadedManifest = await response.json();
+            manifest = loadedManifest.filter(set => set.id === "English9Vocabulary");
+        }
+    } catch (err) {
+        console.warn("Không tải được manifest, dùng cấu hình dự phòng.", err);
+    }
+
+    renderHomeScreen();
+});
+
+function showScreen(screenId) {
+    Object.values(screens).forEach(screen => screen.classList.add("hidden"));
+    screens[screenId].classList.remove("hidden");
+}
+
 function updateSlogan(text) {
-    const sloganEl = document.querySelector('.slogan');
+    const sloganEl = document.querySelector(".slogan");
     if (sloganEl) sloganEl.innerText = text;
 }
 
 function updateRandomSlogan() {
-    const randomSlogan = slogans[Math.floor(Math.random() * slogans.length)];
-    updateSlogan(randomSlogan);
+    updateSlogan(slogans[Math.floor(Math.random() * slogans.length)]);
 }
 
-// Elements
-const screens = {
-    loading: document.getElementById('loading-screen'),
-    home: document.getElementById('home-screen'),
-    intro: document.getElementById('intro-screen'),
-    game: document.getElementById('game-screen'),
-    result: document.getElementById('result-screen')
-};
-
-// Init app
-window.addEventListener('DOMContentLoaded', async () => {
-    try {
-        const response = await fetch('manifest.json');
-        if (response.ok) {
-            manifest = await response.json();
-        }
-        renderHomeScreen();
-    } catch (err) {
-        console.warn("Chạy offline: Sử dụng manifest dự phòng.");
-        renderHomeScreen();
+function shuffle(array) {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
     }
-});
-
-function showScreen(screenId) {
-    Object.values(screens).forEach(s => s.classList.add('hidden'));
-    screens[screenId].classList.remove('hidden');
+    return copy;
 }
 
-// Home Screen
+function unitCodeFromId(id) {
+    return id.match(/^(e\d+u\d+)/)?.[1] || id.split("_")[0];
+}
+
+function unitCodeFromLabel(value) {
+    const unitMatch = String(value).match(/unit\s*(\d+)/i);
+    if (unitMatch) return `e9u${unitMatch[1]}`;
+    return String(value).toLowerCase();
+}
+
+function unitLabelFromCode(code) {
+    const unitMatch = code.match(/u(\d+)$/i);
+    return unitMatch ? `Unit ${unitMatch[1]}` : code;
+}
+
+function questionMeta(questionId) {
+    const match = questionId.match(/_([A-Z])(\d)(\d{2})$/);
+    return {
+        type: match?.[1] || "C",
+        level: Number(match?.[2] || 1)
+    };
+}
+
+function wordIdFromQuestionId(questionId) {
+    return questionId.split("_").slice(0, -1).join("_");
+}
+
 function renderHomeScreen() {
-    updateRandomSlogan(); // Đổi slogan ngẫu nhiên mỗi khi về Home
-    const list = document.getElementById('quiz-set-list');
-    list.innerHTML = '';
-    
+    updateRandomSlogan();
+    const list = document.getElementById("quiz-set-list");
+    list.innerHTML = "";
+
     manifest.forEach(set => {
-        const card = document.createElement('div');
-        card.className = 'quiz-card';
+        const card = document.createElement("div");
+        card.className = "quiz-card";
         card.innerHTML = `
             <div class="quiz-icon">${set.icon}</div>
             <h3>${set.title}</h3>
             <p>${set.stats.lessons} từ | ${set.stats.questions} câu</p>
         `;
         card.onclick = () => {
-            const nameInput = document.getElementById('user-name-input');
+            const nameInput = document.getElementById("user-name-input");
             const nameValue = nameInput.value.trim();
-            
+
             if (!nameValue) {
-                alert("Vui lòng nhập Họ tên và Lớp của bạn trước khi chọn bộ thử thách nhé! 😊");
+                alert("Vui lòng nhập Họ tên và Lớp trước khi chọn bộ thử thách nhé!");
                 nameInput.focus();
-                nameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                nameInput.scrollIntoView({ behavior: "smooth", block: "center" });
                 return;
             }
-            
+
             userData.name = nameValue;
             loadQuizSet(set);
         };
         list.appendChild(card);
     });
-    
-    showScreen('home');
+
+    showScreen("home");
 }
 
-// Load Quiz Set
 async function loadQuizSet(set) {
-    showScreen('loading');
-    console.log(`Đang nạp bộ đề: ${set.id} từ đường dẫn: ${set.path}`);
-    
+    showScreen("loading");
+
     try {
         const [infoRes, quizRes] = await Promise.all([
             fetch(`${set.path}/${set.id}_info.json?v=${Date.now()}`),
             fetch(`${set.path}/${set.id}_quiz.json?v=${Date.now()}`)
         ]);
-        
+
         if (!infoRes.ok || !quizRes.ok) {
-            throw new Error(`Không thể tải file dữ liệu (Status: ${infoRes.status}/${quizRes.status})`);
+            throw new Error(`Không thể tải file dữ liệu (${infoRes.status}/${quizRes.status})`);
         }
 
         currentInfo = await infoRes.json();
         const rawData = await quizRes.json();
-
-        // Xử lý dữ liệu
-        currentQuizData = [];
-        currentVocabData = {};
-        
-        // Kiểm tra cấu trúc phân tầng (Hierarchy)
-        if (Array.isArray(rawData) && rawData[0]?.questions) {
-            rawData.forEach(item => {
-                currentVocabData[item.id] = item.hint;
-                
-                // Phân loại Unit từ ID (e.g., "e9u1_artisan" -> "Unit 1")
-                const unitMatch = item.id.match(/u(\d+)/);
-                const unitLabel = unitMatch ? `Unit ${unitMatch[1]}` : "General";
-
-                item.questions.forEach(q => {
-                    currentQuizData.push({
-                        ...q,
-                        unit: unitLabel,
-                        word: item.hint.word
-                    });
-                });
-            });
-        } else {
-            // Định dạng phẳng hoặc cũ
-            currentQuizData = rawData.questions || rawData;
-            currentVocabData = rawData.vocabulary || null;
-        }
-        
-        console.log(`Nạp thành công ${currentQuizData.length} câu hỏi.`);
+        normalizeQuizData(rawData);
         setupIntroScreen(set);
     } catch (err) {
         console.error("Lỗi nạp dữ liệu:", err);
-        alert(`Lỗi hệ thống: ${err.message}\nVui lòng kiểm tra đường dẫn hoặc kết nối mạng.`);
-        showScreen('home');
+        alert(`Lỗi tải dữ liệu: ${err.message}\nHãy chạy qua web server hoặc kiểm tra lại đường dẫn data.`);
+        showScreen("home");
     }
 }
 
+function normalizeQuizData(rawData) {
+    currentQuizData = [];
+    currentVocabData = {};
+
+    if (Array.isArray(rawData) && rawData[0]?.questions) {
+        rawData.forEach(item => {
+            const unitCode = unitCodeFromId(item.id);
+            currentVocabData[item.id] = item.hint;
+
+            item.questions.forEach(question => {
+                const meta = questionMeta(question.id);
+                currentQuizData.push({
+                    ...question,
+                    unit: unitCode,
+                    unitCode,
+                    unitLabel: unitLabelFromCode(unitCode),
+                    wordId: item.id,
+                    word: item.hint?.word || item.id,
+                    type: meta.type,
+                    level: meta.level
+                });
+            });
+        });
+    } else {
+        const questions = rawData.questions || rawData;
+        currentQuizData = questions.map(question => {
+            const unitCode = unitCodeFromId(question.id);
+            const meta = questionMeta(question.id);
+            return {
+                ...question,
+                unit: unitCode,
+                unitCode,
+                unitLabel: unitLabelFromCode(unitCode),
+                wordId: wordIdFromQuestionId(question.id),
+                word: wordIdFromQuestionId(question.id),
+                type: meta.type,
+                level: meta.level
+            };
+        });
+        currentVocabData = rawData.vocabulary || {};
+    }
+
+    console.log(`Đã nạp ${currentQuizData.length} câu hỏi.`);
+}
+
 function setupIntroScreen(set) {
-    updateSlogan(`${userData.name} - ${set.title}`); // Thay slogan thành Tên - Bộ đề
-    document.getElementById('current-quiz-title').innerText = set.title;
-    document.getElementById('current-quiz-desc').innerText = set.description;
-    
-    // Render Unit Checkboxes
-    const checkboxGroup = document.getElementById('unit-checkboxes');
-    checkboxGroup.innerHTML = '';
-    
-    currentInfo.units.forEach(u => {
-        const unitId = typeof u === 'object' ? u.id : u;
-        const unitTitle = typeof u === 'object' ? u.title : u;
-        
-        const label = document.createElement('label');
-        label.className = 'checkbox-item';
+    currentQuizSet = set;
+    updateSlogan(`${userData.name} - ${set.title}`);
+    document.getElementById("current-quiz-title").innerText = set.title;
+    document.getElementById("current-quiz-desc").innerText = set.description;
+
+    const checkboxGroup = document.getElementById("unit-checkboxes");
+    checkboxGroup.innerHTML = "";
+
+    currentInfo.units.forEach(unit => {
+        const rawId = typeof unit === "object" ? unit.id : unit;
+        const title = typeof unit === "object" ? unit.title : unitLabelFromCode(rawId);
+        const unitCode = unitCodeFromLabel(rawId);
+
+        const label = document.createElement("label");
+        label.className = "checkbox-item";
         label.innerHTML = `
-            <input type="checkbox" name="unit" value="${unitId}" checked>
-            <span>${unitTitle}</span>
+            <input type="checkbox" name="unit" value="${unitCode}" checked>
+            <span>${unitLabelFromCode(unitCode)} - ${title}</span>
         `;
         checkboxGroup.appendChild(label);
     });
-    
-    showScreen('intro');
+
+    showScreen("intro");
+    loadLeaderboard(set.id);
 }
 
-// Start Game Logic
-document.getElementById('btn-start-game').onclick = () => {
+document.getElementById("btn-start-game").onclick = () => {
     const selectedUnits = Array.from(document.querySelectorAll('input[name="unit"]:checked')).map(cb => cb.value);
-    
+
     if (selectedUnits.length === 0) {
         alert("Vui lòng chọn ít nhất một Unit để bắt đầu!");
         return;
     }
-    
-    filteredQuestions = pickBalancedQuestions(selectedUnits, 20);
-    
-    if (filteredQuestions.length < 20) {
-        alert("Không đủ câu hỏi để tạo đề (Cần ít nhất 20 câu). Hãy chọn thêm Unit!");
+
+    filteredQuestions = pickBalancedQuestions(selectedUnits, QUESTIONS_PER_GAME);
+
+    if (filteredQuestions.length < QUESTIONS_PER_GAME) {
+        alert(`Không đủ câu hỏi để tạo đề ${QUESTIONS_PER_GAME} câu. Hãy chọn thêm Unit!`);
         return;
     }
-    
+
+    selectedUnitsForGame = selectedUnits;
     startGame();
 };
 
 function pickBalancedQuestions(units, total) {
-    const questionsByLevel = { 1: [], 2: [], 3: [], 4: [] };
-    
-    // Group questions by level and unit
-    currentQuizData.forEach(q => {
-        const parts = q.id.split('_');
-        const unit = parts[0];
-        const level = parts[parts.length - 1].charAt(1);
-        
-        // Lấy word chính xác (bao gồm cả dấu gạch dưới nếu là từ ghép)
-        const word = parts.slice(1, -1).join('_');
-        
-        if (units.includes(unit)) {
-            if (!questionsByLevel[level]) questionsByLevel[level] = [];
-            questionsByLevel[level].push({ ...q, unit, word: word });
+    const selectedUnitSet = new Set(units.map(unitCodeFromLabel));
+    const pool = currentQuizData.filter(q => selectedUnitSet.has(q.unitCode));
+    const selected = [];
+    const selectedIds = new Set();
+    const selectedWords = new Set();
+
+    const takeQuestion = question => {
+        if (!question || selectedIds.has(question.id)) return false;
+        selected.push(question);
+        selectedIds.add(question.id);
+        selectedWords.add(question.wordId);
+        return true;
+    };
+
+    const uniqueWordPool = shuffle(pool).filter(q => !selectedWords.has(q.wordId));
+    const perTypeTarget = Math.floor(total / QUESTION_TYPES.length);
+
+    QUESTION_TYPES.forEach(type => {
+        const typePool = uniqueWordPool.filter(q => q.type === type);
+        shuffle(units).forEach(unit => {
+            if (selected.filter(q => q.type === type).length >= perTypeTarget) return;
+            const candidate = typePool.find(q => q.unitCode === unitCodeFromLabel(unit) && !selectedWords.has(q.wordId));
+            takeQuestion(candidate);
+        });
+
+        shuffle(typePool).forEach(question => {
+            if (selected.filter(q => q.type === type).length < perTypeTarget && !selectedWords.has(question.wordId)) {
+                takeQuestion(question);
+            }
+        });
+    });
+
+    shuffle(pool).forEach(question => {
+        if (selected.length < total && !selectedWords.has(question.wordId)) {
+            takeQuestion(question);
         }
     });
 
-    let finalSelection = [];
-    const questionsPerLevel = total / 4; // 20 / 4 = 5 câu mỗi level
-
-    // Mỗi level cần bốc 5 câu
-    for (let level = 1; level <= 4; level++) {
-        let pool = questionsByLevel[level];
-        if (pool.length < questionsPerLevel) return []; // Không đủ câu cho level này
-
-        // Xáo trộn pool
-        pool.sort(() => Math.random() - 0.5);
-
-        // Thuật toán bốc đều theo Unit cho từng level
-        let levelSelected = [];
-        let unitIndex = 0;
-        
-        // Cố gắng bốc sao cho các Unit trong level này cũng được chia đều
-        while (levelSelected.length < questionsPerLevel && pool.length > 0) {
-            const targetUnit = units[unitIndex % units.length];
-            const qIdx = pool.findIndex(q => q.unit === targetUnit);
-            
-            if (qIdx !== -1) {
-                const picked = pool.splice(qIdx, 1)[0];
-                // Kiểm tra xem từ vựng này đã có trong đề chưa để đảm bảo "mỗi từ 1 câu"
-                if (!finalSelection.some(s => s.word === picked.word)) {
-                    levelSelected.push(picked);
-                } else {
-                    // Nếu từ đã tồn tại, vẫn lấy nếu không còn lựa chọn nào khác của Unit đó
-                    levelSelected.push(picked);
-                }
-            }
-            unitIndex++;
-            
-            // Nếu đã duyệt hết các Unit mà chưa đủ câu, lấy đại trong pool còn lại
-            if (unitIndex > units.length * 2 && levelSelected.length < questionsPerLevel) {
-                levelSelected.push(pool.splice(0, 1)[0]);
-            }
+    shuffle(pool).forEach(question => {
+        if (selected.length < total) {
+            takeQuestion(question);
         }
-        finalSelection = finalSelection.concat(levelSelected);
-    }
+    });
 
-    return finalSelection.sort(() => Math.random() - 0.5);
+    return shuffle(selected).slice(0, total);
 }
 
 function startGame() {
     currentQuestionIndex = 0;
     score = 0;
-    showScreen('game');
+    gameStartedAt = Date.now();
+    showScreen("game");
     renderQuestion();
 }
 
 function renderQuestion() {
     const q = filteredQuestions[currentQuestionIndex];
-    
-    // Reset UI
-    document.getElementById('btn-next').disabled = true; // Khóa nút Tiếp cho đến khi trả lời
-    document.getElementById('btn-next').style.opacity = "0.5";
-    document.getElementById('hint-container').classList.add('hidden');
-    document.getElementById('timer-box').classList.remove('warning');
-    
-    document.getElementById('question-counter').innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
-    document.getElementById('score-display').innerText = `Điểm: ${score}`;
-    document.getElementById('progress-bar').style.width = `${((currentQuestionIndex) / filteredQuestions.length) * 100}%`;
-    
-    document.getElementById('question-text').innerText = q.question;
-    
-    const optionsBox = document.getElementById('options-container');
-    optionsBox.innerHTML = '';
-    
-    const originalOptions = [...q.options];
-    const correctText = originalOptions[0];
-    const shuffledOptions = [...originalOptions].sort(() => Math.random() - 0.5);
-    
-    shuffledOptions.forEach(opt => {
-        const btn = document.createElement('button');
-        btn.className = 'option-btn';
-        btn.innerText = opt;
-        btn.onclick = () => handleAnswer(opt === correctText, btn);
+
+    document.getElementById("btn-next").disabled = true;
+    document.getElementById("btn-next").style.opacity = "0.5";
+    document.getElementById("hint-container").classList.add("hidden");
+    document.getElementById("timer-box").classList.remove("warning");
+
+    document.getElementById("question-counter").innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
+    document.getElementById("score-display").innerText = `Điểm: ${score}`;
+    document.getElementById("progress-bar").style.width = `${(currentQuestionIndex / filteredQuestions.length) * 100}%`;
+    document.getElementById("question-text").innerText = q.question;
+
+    const optionsBox = document.getElementById("options-container");
+    optionsBox.innerHTML = "";
+
+    const correctText = q.options[0];
+    shuffle(q.options).forEach(option => {
+        const btn = document.createElement("button");
+        btn.className = "option-btn";
+        btn.innerText = option;
+        btn.onclick = () => handleAnswer(option === correctText, btn);
         optionsBox.appendChild(btn);
     });
 
-    startTimer(q.id);
+    startTimer(q.level);
 }
 
-function startTimer(questionId) {
+function startTimer(level) {
     clearInterval(timerInterval);
-    const level = questionId.split('_').pop().charAt(1);
-    
-    // Logic đếm ngược: L1=30s, L2=45s, L3&L4=60s
-    if (level == 1) timeLeft = 30;
-    else if (level == 2) timeLeft = 45;
-    else timeLeft = 60;
-
+    timeLeft = level === 1 ? 30 : level === 2 ? 45 : 60;
     updateTimerDisplay();
 
     timerInterval = setInterval(() => {
         timeLeft--;
         updateTimerDisplay();
-        
+
         if (timeLeft <= 5) {
-            document.getElementById('timer-box').classList.add('warning');
+            document.getElementById("timer-box").classList.add("warning");
         }
 
         if (timeLeft <= 0) {
             clearInterval(timerInterval);
-            handleAnswer(false, null); // Hết giờ coi như sai
+            handleAnswer(false, null);
         }
     }, 1000);
 }
 
 function updateTimerDisplay() {
-    document.getElementById('timer-box').innerText = `${timeLeft}s`;
+    document.getElementById("timer-box").innerText = `${timeLeft}s`;
 }
 
 function handleAnswer(isCorrect, btn) {
-    try {
-        clearInterval(timerInterval);
-        
-        const btns = document.querySelectorAll('.option-btn');
-        btns.forEach(b => b.disabled = true);
-        
-        const q = filteredQuestions[currentQuestionIndex];
-        const correctText = q.options[0];
+    clearInterval(timerInterval);
 
-        if (isCorrect) {
-            score++;
-            if (btn) btn.classList.add('correct');
-        } else {
-            if (btn) btn.classList.add('wrong');
-            btns.forEach(b => {
-                if (b.innerText === correctText) b.classList.add('correct');
-            });
-            
-            // LOGIC: SAI 1 TẶNG 2
-            addExtraQuestions(q);
-        }
-        
-        // HIỆN HINT (Tự động phân giải)
-        const hint = getHintForQuestion(q);
-        showHint(hint);
-    } catch (err) {
-        console.error("Lỗi trong handleAnswer:", err);
-    } finally {
-        // Cập nhật lại thanh tiến trình vì số lượng câu hỏi có thể đã tăng lên
-        updateProgress();
-        
-        const nextBtn = document.getElementById('btn-next');
-        if (nextBtn) {
-            nextBtn.disabled = false;
-            nextBtn.style.opacity = "1";
-        }
+    const buttons = document.querySelectorAll(".option-btn");
+    buttons.forEach(button => {
+        button.disabled = true;
+    });
+
+    const q = filteredQuestions[currentQuestionIndex];
+    const correctText = q.options[0];
+
+    if (isCorrect) {
+        score++;
+        if (btn) btn.classList.add("correct");
+    } else {
+        if (btn) btn.classList.add("wrong");
+        buttons.forEach(button => {
+            if (button.innerText === correctText) button.classList.add("correct");
+        });
+        addExtraQuestions(q);
     }
+
+    showHint(getHintForQuestion(q));
+    updateProgress();
+
+    const nextBtn = document.getElementById("btn-next");
+    nextBtn.disabled = false;
+    nextBtn.style.opacity = "1";
 }
 
 function updateProgress() {
-    document.getElementById('question-counter').innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
-    document.getElementById('progress-bar').style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
+    document.getElementById("question-counter").innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
+    document.getElementById("score-display").innerText = `Điểm: ${score}`;
+    document.getElementById("progress-bar").style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
 }
 
 function addExtraQuestions(failedQuestion) {
-    const parts = failedQuestion.id.split('_');
-    const unit = failedQuestion.unit;
-    const level = parseInt(parts[parts.length - 1].charAt(1));
-
-    // Tìm các câu hỏi chưa có trong filteredQuestions
     const existingIds = new Set(filteredQuestions.map(q => q.id));
-    
-    // Lọc các câu cùng Unit, độ khó >= level hiện tại
     const pool = currentQuizData.filter(q => {
-        const qParts = q.id.split('_');
-        const qUnit = qParts[0];
-        const qLevel = parseInt(qParts[qParts.length - 1].charAt(1));
-        return qUnit === unit && qLevel >= level && !existingIds.has(q.id);
+        return q.unitCode === failedQuestion.unitCode
+            && q.level >= failedQuestion.level
+            && !existingIds.has(q.id);
     });
 
-    // Lấy ngẫu nhiên 2 câu
-    const extras = pool.sort(() => Math.random() - 0.5).slice(0, 2);
-    
-    if (extras.length > 0) {
-        // Gán thêm thông tin cần thiết và đẩy vào danh sách
-        const processedExtras = extras.map(q => {
-            const qParts = q.id.split('_');
-            return { ...q, unit: qParts[0], word: qParts.slice(1, -1).join('_') };
-        });
-        filteredQuestions.push(...processedExtras);
-        console.log(`Đã thêm ${processedExtras.length} câu hỏi mới do trả lời sai.`);
-    }
-}
-
-// Hàm chuẩn hóa để so khớp từ vựng (loại bỏ _ và khoảng trắng, viết thường)
-function normalizeKey(str) {
-    return str ? str.toLowerCase().replace(/[_\s-]/g, '') : '';
+    const extras = shuffle(pool).slice(0, 2);
+    filteredQuestions.push(...extras);
 }
 
 function getHintForQuestion(q) {
-    // 1. Nếu có bảng vocab tập trung (Định dạng mới)
-    if (currentVocabData) {
-        const wordId = q.id.split('_').slice(0, -1).join('_');
-        return currentVocabData[wordId];
-    }
-    // 2. Nếu không, dùng hint tích hợp (Định dạng cũ)
-    return q.lesson_hint;
+    return currentVocabData[q.wordId] || q.lesson_hint || null;
 }
 
 function showHint(hint) {
-    const hintContainer = document.getElementById('hint-container');
-    const hintText = document.getElementById('hint-text');
-    
-    if (hint) {
-        // Hỗ trợ cả định dạng mới (phẳng) và định dạng cũ (nesting meanings)
-        const word = hint.word || "";
-        const phonetics = hint.phonetics || "";
-        const type = hint.type || (hint.meanings ? hint.meanings[0].pos : "Vocab");
-        const meaning_vn = hint.meaning || (hint.meanings ? hint.meanings[0].meaning_vn : "");
-        const example = hint.example || (hint.meanings && hint.meanings[0].examples ? hint.meanings[0].examples[0] : "");
-        
-        hintText.innerHTML = `
-            <div class="hint-header">
-                <span class="hint-word">${word}</span>
-                <span class="hint-ipa">${phonetics}</span>
-            </div>
-            <div class="hint-body">
-                <span class="hint-type">[${type}]</span> ${meaning_vn}
-                <div class="hint-example">${example ? '<em>Ví dụ: ' + example + '</em>' : ''}</div>
-            </div>
-        `;
-        hintContainer.classList.remove('hidden');
-    } else {
-        hintContainer.classList.add('hidden');
+    const hintContainer = document.getElementById("hint-container");
+    const hintText = document.getElementById("hint-text");
+
+    if (!hint) {
+        hintContainer.classList.add("hidden");
+        return;
     }
+
+    const firstMeaning = hint.meanings?.[0] || {};
+    const word = hint.word || "";
+    const phonetics = hint.phonetics || "";
+    const type = hint.type || firstMeaning.pos || "Vocab";
+    const meaning = hint.meaning || firstMeaning.meaning_vn || "";
+    const example = hint.example || firstMeaning.examples?.[0] || "";
+
+    hintText.innerHTML = `
+        <div class="hint-header">
+            <span class="hint-word">${word}</span>
+            <span class="hint-ipa">${phonetics}</span>
+        </div>
+        <div class="hint-body">
+            <span class="hint-type">[${type}]</span> ${meaning}
+            <div class="hint-example">${example ? `<em>Ví dụ: ${example}</em>` : ""}</div>
+        </div>
+    `;
+    hintContainer.classList.remove("hidden");
 }
 
-// Controls
-document.getElementById('btn-next').onclick = () => {
+function loadLeaderboard(quizId) {
+    const status = document.getElementById("leaderboard-status");
+    const body = document.getElementById("leaderboard-body");
+    if (!status || !body) return;
+
+    const requestId = ++leaderboardRequestId;
+    const callbackName = `quizGameLeaderboard_${Date.now()}_${requestId}`;
+    const script = document.createElement("script");
+    const params = new URLSearchParams({
+        action: "top",
+        quizId,
+        limit: "10",
+        callback: callbackName
+    });
+
+    status.innerText = "Đang tải bảng xếp hạng...";
+    body.innerHTML = "";
+
+    window[callbackName] = payload => {
+        if (requestId !== leaderboardRequestId) return;
+        renderLeaderboard(payload);
+        cleanupJsonp(callbackName, script);
+    };
+
+    script.onerror = () => {
+        if (requestId === leaderboardRequestId) {
+            status.innerText = "Chưa tải được TOP 10. Kiểm tra lại URL Apps Script hoặc quyền truy cập Web App.";
+        }
+        cleanupJsonp(callbackName, script);
+    };
+
+    script.src = `${LEADERBOARD_URL}?${params.toString()}`;
+    document.body.appendChild(script);
+}
+
+function cleanupJsonp(callbackName, script) {
+    delete window[callbackName];
+    if (script.parentNode) script.parentNode.removeChild(script);
+}
+
+function renderLeaderboard(payload) {
+    const status = document.getElementById("leaderboard-status");
+    const body = document.getElementById("leaderboard-body");
+    const scores = payload?.scores || [];
+
+    body.innerHTML = "";
+
+    if (!payload?.ok) {
+        status.innerText = payload?.error || "Không tải được bảng xếp hạng.";
+        return;
+    }
+
+    if (scores.length === 0) {
+        status.innerText = "Chưa có điểm nào. Bạn có thể là người mở bảng!";
+        body.innerHTML = `<tr><td class="leaderboard-empty" colspan="6">Chưa có dữ liệu</td></tr>`;
+        return;
+    }
+
+    status.innerText = `Đang hiển thị ${scores.length} kết quả cao nhất.`;
+    body.innerHTML = scores.map(row => `
+        <tr>
+            <td>${row.rank || ""}</td>
+            <td>${escapeHtml(row.playerName || "")}</td>
+            <td>${escapeHtml(row.className || "")}</td>
+            <td>${Number(row.score || 0).toFixed(2)}</td>
+            <td>${Number(row.correct || 0)}/${Number(row.total || 0)}</td>
+            <td>${formatDuration(row.durationSeconds || 0)}</td>
+        </tr>
+    `).join("");
+}
+
+function splitPlayerInfo(value) {
+    const parts = String(value || "").split(/\s+-\s+/);
+    return {
+        playerName: (parts[0] || value || "").trim(),
+        className: parts.slice(1).join(" - ").trim()
+    };
+}
+
+function selectedUnitLabels() {
+    return selectedUnitsForGame.map(unitLabelFromCode).join(", ");
+}
+
+function buildResultStats(finalScore) {
+    const player = splitPlayerInfo(userData.name);
+    const total = filteredQuestions.length;
+    const percent = total ? (score / total) * 100 : 0;
+    const durationSeconds = gameStartedAt ? Math.round((Date.now() - gameStartedAt) / 1000) : 0;
+
+    return {
+        timestamp: new Date(),
+        quizId: currentQuizSet?.id || "",
+        quizTitle: currentQuizSet?.title || "",
+        playerName: player.playerName,
+        className: player.className,
+        units: selectedUnitLabels(),
+        score: Number(finalScore.toFixed(2)),
+        correct: score,
+        total,
+        percent: Number(percent.toFixed(2)),
+        durationSeconds,
+        extraQuestions: Math.max(0, total - QUESTIONS_PER_GAME)
+    };
+}
+
+function saveScore(stats) {
+    const status = document.getElementById("save-score-status");
+    if (!currentQuizSet || !status) return;
+
+    const payload = new URLSearchParams({
+        action: "submit",
+        quizId: stats.quizId,
+        quizTitle: stats.quizTitle,
+        playerName: stats.playerName,
+        className: stats.className,
+        units: stats.units,
+        score: stats.score.toFixed(2),
+        correct: String(stats.correct),
+        total: String(stats.total),
+        percent: stats.percent.toFixed(2),
+        durationSeconds: String(stats.durationSeconds),
+        extraQuestions: String(stats.extraQuestions),
+        userAgent: navigator.userAgent,
+        nonce: `${Date.now()}-${Math.random().toString(36).slice(2)}`
+    });
+
+    status.innerText = "Đang lưu điểm lên bảng xếp hạng...";
+
+    fetch(LEADERBOARD_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" },
+        body: payload.toString()
+    })
+        .then(() => {
+            status.innerText = "Đã gửi điểm lên bảng xếp hạng.";
+            loadLeaderboard(currentQuizSet.id);
+        })
+        .catch(err => {
+            console.warn("Không gửi được điểm:", err);
+            status.innerText = "Chưa gửi được điểm. Kiểm tra lại Apps Script Web App.";
+        });
+}
+
+function showSummaryModal(stats) {
+    const modal = document.getElementById("summary-modal");
+    const grid = document.getElementById("summary-grid");
+    if (!modal || !grid) return;
+
+    const rows = [
+        ["Thời gian", formatDateTime(stats.timestamp)],
+        ["Mã bộ đề", stats.quizId],
+        ["Tên bộ đề", stats.quizTitle],
+        ["Họ tên", stats.playerName],
+        ["Lớp", stats.className || "Chưa tách lớp"],
+        ["Unit đã chọn", stats.units || "Tất cả", true],
+        ["Điểm", stats.score.toFixed(2)],
+        ["Số câu đúng", String(stats.correct)],
+        ["Tổng số câu", String(stats.total)],
+        ["Tỉ lệ đúng", `${stats.percent.toFixed(2)}%`],
+        ["Thời gian làm bài", formatDuration(stats.durationSeconds)],
+        ["Câu cộng thêm", String(stats.extraQuestions)]
+    ];
+
+    grid.innerHTML = rows.map(([label, value, wide]) => `
+        <div class="summary-item${wide ? " wide" : ""}">
+            <span class="summary-label">${escapeHtml(label)}</span>
+            <span class="summary-value">${escapeHtml(value)}</span>
+        </div>
+    `).join("");
+
+    modal.classList.remove("hidden");
+}
+
+function closeSummaryModal() {
+    document.getElementById("summary-modal")?.classList.add("hidden");
+}
+
+function formatDuration(seconds) {
+    const total = Number(seconds) || 0;
+    const minutes = Math.floor(total / 60);
+    const rest = total % 60;
+    return minutes > 0 ? `${minutes}:${String(rest).padStart(2, "0")}` : `${rest}s`;
+}
+
+function formatDateTime(date) {
+    return new Intl.DateTimeFormat("vi-VN", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    }).format(date);
+}
+
+function escapeHtml(value) {
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+document.getElementById("btn-next").onclick = () => {
     currentQuestionIndex++;
     if (currentQuestionIndex < filteredQuestions.length) {
         renderQuestion();
@@ -472,7 +666,7 @@ document.getElementById('btn-next').onclick = () => {
     }
 };
 
-document.getElementById('btn-finish').onclick = () => {
+document.getElementById("btn-finish").onclick = () => {
     if (confirm("Bạn có chắc chắn muốn nộp bài sớm không?")) {
         clearInterval(timerInterval);
         showResult();
@@ -480,16 +674,37 @@ document.getElementById('btn-finish').onclick = () => {
 };
 
 function showResult() {
-    // Tính điểm hệ 10: (Số câu đúng / Tổng số câu) * 10
-    const finalScore = (score / filteredQuestions.length) * 10;
-    
-    // Hiển thị tên người chơi và thông điệp cá nhân hóa
-    document.getElementById('result-title').innerHTML = `Chúc mừng, <br><span style="color: var(--accent-color)">${userData.name}</span>!`;
-    document.getElementById('final-score-val').innerText = finalScore.toFixed(2);
-    showScreen('result');
+    clearInterval(timerInterval);
+    const finalScore = filteredQuestions.length ? (score / filteredQuestions.length) * 10 : 0;
+    const stats = buildResultStats(finalScore);
+    document.getElementById("result-title").innerHTML = `Chúc mừng,<br><span style="color: var(--accent-color)">${userData.name}</span>!`;
+    document.getElementById("final-score-val").innerText = finalScore.toFixed(2);
+    showSummaryModal(stats);
+    saveScore(stats);
+    showScreen("result");
 }
 
-// Navigation
-document.querySelector('.btn-back').onclick = () => showScreen('home');
-document.getElementById('btn-home').onclick = () => showScreen('home');
-document.getElementById('btn-replay').onclick = () => startGame();
+document.querySelector(".btn-back").onclick = () => showScreen("home");
+document.getElementById("btn-home").onclick = () => {
+    closeSummaryModal();
+    showScreen("home");
+};
+document.getElementById("btn-replay").onclick = () => {
+    closeSummaryModal();
+    startGame();
+};
+document.getElementById("btn-refresh-leaderboard").onclick = () => {
+    if (currentQuizSet) loadLeaderboard(currentQuizSet.id);
+};
+document.getElementById("btn-close-summary").onclick = closeSummaryModal;
+document.getElementById("btn-summary-home").onclick = () => {
+    closeSummaryModal();
+    showScreen("home");
+};
+document.getElementById("btn-summary-replay").onclick = () => {
+    closeSummaryModal();
+    startGame();
+};
+document.getElementById("summary-modal").onclick = event => {
+    if (event.target.id === "summary-modal") closeSummaryModal();
+};

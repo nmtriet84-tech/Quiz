@@ -9,20 +9,17 @@
 </head>
 <body>
     <div id="app-container">
-        <!-- Header -->
         <header>
             <h1 class="crayon-title">🖍️ QuizGame</h1>
             <p class="slogan">Học không khó, chỉ sợ không chơi!</p>
         </header>
 
         <main id="main-content">
-            <!-- Loading Screen -->
             <div id="loading-screen" class="screen">
                 <div class="loader"></div>
                 <p>Đang tải bộ đề bí mật...</p>
             </div>
 
-            <!-- Home Screen: Select Quiz Set -->
             <div id="home-screen" class="screen hidden">
                 <div class="user-config-box">
                     <label for="user-name-input" class="input-label">📝 Thông tin thí sinh:</label>
@@ -30,32 +27,49 @@
                     <p class="input-guide">Bạn cần nhập tên để lưu danh bảng vàng!</p>
                 </div>
                 <h2 class="section-title">Chọn bộ thử thách của bạn:</h2>
-                <div id="quiz-set-list" class="grid-container">
-                    <!-- Quiz Sets will be injected here -->
-                </div>
+                <div id="quiz-set-list" class="grid-container"></div>
             </div>
 
-            <!-- Intro Screen: Select Unit/Level -->
             <div id="intro-screen" class="screen hidden">
                 <div id="intro-info">
                     <button class="btn-back">← Quay lại</button>
                     <h2 id="current-quiz-title">Tên bộ đề</h2>
                     <p id="current-quiz-desc">Mô tả</p>
-                    
+
                     <div class="setup-grid">
                         <div class="setup-item">
                             <label>Chọn các bài học (Unit):</label>
-                            <div id="unit-checkboxes" class="checkbox-group">
-                                <!-- Unit checkboxes will be injected here -->
-                            </div>
+                            <div id="unit-checkboxes" class="checkbox-group"></div>
                         </div>
                     </div>
-                    
+
+                    <section class="leaderboard-panel" aria-labelledby="leaderboard-title">
+                        <div class="leaderboard-heading">
+                            <h3 id="leaderboard-title">🏆 TOP 10</h3>
+                            <button id="btn-refresh-leaderboard" class="btn-mini" type="button">Làm mới</button>
+                        </div>
+                        <div id="leaderboard-status" class="leaderboard-status">Đang tải bảng xếp hạng...</div>
+                        <div class="leaderboard-table-wrap">
+                            <table class="leaderboard-table">
+                                <thead>
+                                    <tr>
+                                        <th>Hạng</th>
+                                        <th>Thí sinh</th>
+                                        <th>Lớp</th>
+                                        <th>Điểm</th>
+                                        <th>Đúng</th>
+                                        <th>Thời gian</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="leaderboard-body"></tbody>
+                            </table>
+                        </div>
+                    </section>
+
                     <button id="btn-start-game" class="btn-primary">BẮT ĐẦU CHƠI! 🚀</button>
                 </div>
             </div>
 
-            <!-- Game Screen -->
             <div id="game-screen" class="screen hidden">
                 <div class="game-header">
                     <div id="timer-box" class="timer">60s</div>
@@ -67,17 +81,15 @@
                         <span id="score-display">Điểm: 0</span>
                     </div>
                 </div>
-                
+
                 <div id="question-container">
                     <h3 id="question-text">Câu hỏi đang tải...</h3>
                     <div id="hint-container" class="hint-box hidden">
                         <strong>💡 Gợi ý:</strong> <span id="hint-text"></span>
                     </div>
                 </div>
-                
-                <div id="options-container" class="options-grid">
-                    <!-- Options will be injected here -->
-                </div>
+
+                <div id="options-container" class="options-grid"></div>
 
                 <div class="game-footer">
                     <button id="btn-finish" class="btn-secondary">Nộp bài 🏁</button>
@@ -85,7 +97,6 @@
                 </div>
             </div>
 
-            <!-- Result Screen -->
             <div id="result-screen" class="screen hidden">
                 <div class="result-card">
                     <h2 id="result-title">Kết thúc! 🏆</h2>
@@ -93,6 +104,7 @@
                         <span id="final-score-val">0</span>
                         <p>Điểm của bạn</p>
                     </div>
+                    <p id="save-score-status" class="save-score-status">Đang lưu điểm...</p>
                     <div class="result-buttons">
                         <button id="btn-replay" class="btn-secondary">Chơi lại 🔄</button>
                         <button id="btn-home" class="btn-primary">Về trang chủ 🏠</button>
@@ -100,12 +112,26 @@
                 </div>
             </div>
         </main>
-        
+
         <footer>
             <p>© 2026 QuizGame Team | Design with ❤️ and Crayons</p>
         </footer>
     </div>
 
-    <script src="app.js?v=2.0"></script>
+    <div id="summary-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="summary-title">
+        <div class="summary-modal">
+            <div class="summary-header">
+                <h2 id="summary-title">📋 Thống kê bài làm</h2>
+                <button id="btn-close-summary" class="btn-icon" type="button" aria-label="Đóng">×</button>
+            </div>
+            <div id="summary-grid" class="summary-grid"></div>
+            <div class="summary-actions">
+                <button id="btn-summary-home" class="btn-secondary" type="button">Về trang chủ 🏠</button>
+                <button id="btn-summary-replay" class="btn-primary" type="button">Chơi lại 🔄</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=3.1"></script>
 </body>
 </html>

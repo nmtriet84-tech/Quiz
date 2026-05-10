@@ -70,6 +70,20 @@ header {
 
 .hidden { display: none !important; }
 
+.loader {
+    width: 54px;
+    height: 54px;
+    border: 6px solid #FFEFD6;
+    border-top-color: var(--primary-color);
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
 /* Buttons */
 button {
     cursor: pointer;
@@ -208,6 +222,77 @@ select {
     cursor: pointer;
 }
 
+.leaderboard-panel {
+    margin-top: 24px;
+    padding: 16px;
+    border: 2px dashed var(--accent-color);
+    border-radius: 16px;
+    background: #F7FFF7;
+    text-align: left;
+}
+
+.leaderboard-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.leaderboard-heading h3 {
+    font-size: 1.25rem;
+}
+
+.btn-mini {
+    background: white;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    padding: 6px 10px;
+    box-shadow: 2px 2px 0px var(--text-color);
+}
+
+.leaderboard-status,
+.save-score-status {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.leaderboard-table-wrap {
+    overflow-x: auto;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    padding: 8px;
+    border-bottom: 1px solid #DDEADD;
+    white-space: nowrap;
+}
+
+.leaderboard-table th {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.leaderboard-table td:nth-child(1),
+.leaderboard-table td:nth-child(4),
+.leaderboard-table td:nth-child(5),
+.leaderboard-table td:nth-child(6) {
+    text-align: center;
+}
+
+.leaderboard-empty {
+    text-align: center;
+    color: #777;
+}
+
 .timer {
     font-size: 2.5rem;
     font-weight: bold;
@@ -327,8 +412,140 @@ select {
     margin: 20px 0;
 }
 
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 20;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: rgba(77, 77, 77, 0.45);
+}
+
+.summary-modal {
+    width: min(720px, 100%);
+    max-height: min(760px, 92vh);
+    overflow-y: auto;
+    background: var(--card-bg);
+    border: var(--border-width) solid var(--text-color);
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px var(--text-color);
+    padding: 22px;
+    text-align: left;
+}
+
+.summary-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.summary-header h2 {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.btn-icon {
+    width: 38px;
+    height: 38px;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+    background: white;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    line-height: 1;
+    box-shadow: 2px 2px 0px var(--text-color);
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.summary-item {
+    padding: 12px;
+    border: 2px solid #EFEFEF;
+    border-radius: 12px;
+    background: #FFFCF7;
+}
+
+.summary-item.wide {
+    grid-column: 1 / -1;
+}
+
+.summary-label {
+    display: block;
+    color: #777;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+.summary-value {
+    color: var(--text-color);
+    font-size: 1.05rem;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.summary-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 18px;
+}
+
 footer {
     margin-top: 40px;
     color: #888;
     font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 12px;
+    }
+
+    .screen {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .crayon-title {
+        font-size: 2.5rem;
+    }
+
+    #question-text {
+        font-size: 1.35rem;
+        margin: 20px 0;
+    }
+
+    .options-grid,
+    .game-footer {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+
+    .game-footer button {
+        width: 100%;
+    }
+
+    .leaderboard-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-actions {
+        flex-direction: column;
+    }
+
+    .summary-actions button {
+        width: 100%;
+    }
 }
