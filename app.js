@@ -23,12 +23,11 @@ let timeLeft = 60;
 
 const QUESTIONS_PER_GAME = 20;
 const QUESTION_TYPES = ["M", "C", "P", "S"];
-const LEADERBOARD_URL = "https://script.google.com/macros/s/AKfycbzecLrC53O4VjeFdc9Gt22NQ-NZID959QrDxkPUTtU53X2VblQmNcgQQAnxvPb4eAvrqw/exec";
+const LEADERBOARD_URL = "https://script.google.com/macros/s/AKfycbxwb3BJGz73Tx8sEb-ihuI5rFmXbuFmSXmP1GfGCKulV5lrfJCNGxzbE4XDdCqTEk6yVw/exec";
 
 let currentQuizSet = null;
 let selectedUnitsForGame = [];
 let gameStartedAt = 0;
-let leaderboardRequestId = 0;
 
 const slogans = [
     "Học hết mình, chơi nhiệt tình - Tự tin chinh phục tiếng Anh!",
@@ -328,7 +327,7 @@ function renderQuestion() {
     document.getElementById("timer-box").classList.remove("warning");
 
     document.getElementById("question-counter").innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
-    document.getElementById("score-display").innerText = `Điểm: ${score}`;
+    document.getElementById("score-display").innerText = `Điểm: ${formattedScoreOnScale10()}`;
     document.getElementById("progress-bar").style.width = `${(currentQuestionIndex / filteredQuestions.length) * 100}%`;
     document.getElementById("question-text").innerText = q.question;
 
@@ -403,7 +402,7 @@ function handleAnswer(isCorrect, btn) {
 
 function updateProgress() {
     document.getElementById("question-counter").innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
-    document.getElementById("score-display").innerText = `Điểm: ${score}`;
+    document.getElementById("score-display").innerText = `Điểm: ${formattedScoreOnScale10()}`;
     document.getElementById("progress-bar").style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
 }
 
@@ -457,45 +456,29 @@ function loadLeaderboard(quizId) {
     const body = document.getElementById("leaderboard-body");
     if (!status || !body) return;
 
-    const requestId = ++leaderboardRequestId;
-    const callbackName = `quizGameLeaderboard_${Date.now()}_${requestId}`;
-    const script = document.createElement("script");
     const params = new URLSearchParams({
         action: "top",
         quizId,
+        bank: quizId,
         limit: "10",
-        callback: callbackName
     });
 
     status.innerText = "Đang tải bảng xếp hạng...";
     body.innerHTML = "";
 
-    window[callbackName] = payload => {
-        if (requestId !== leaderboardRequestId) return;
-        renderLeaderboard(payload);
-        cleanupJsonp(callbackName, script);
-    };
-
-    script.onerror = () => {
-        if (requestId === leaderboardRequestId) {
-            status.innerText = "Chưa tải được TOP 10. Kiểm tra lại URL Apps Script hoặc quyền truy cập Web App.";
-        }
-        cleanupJsonp(callbackName, script);
-    };
-
-    script.src = `${LEADERBOARD_URL}?${params.toString()}`;
-    document.body.appendChild(script);
-}
-
-function cleanupJsonp(callbackName, script) {
-    delete window[callbackName];
-    if (script.parentNode) script.parentNode.removeChild(script);
+    fetch(`${LEADERBOARD_URL}?${params.toString()}`, { cache: "no-store" })
+        .then(response => response.text())
+        .then(text => renderLeaderboard(parseLeaderboardResponse(text)))
+        .catch(err => {
+            console.warn("Không tải được bảng xếp hạng:", err);
+            status.innerText = "Chưa tải được TOP 10. Hãy kiểm tra Web App đã deploy quyền Anyone và URL có đúng không.";
+        });
 }
 
 function renderLeaderboard(payload) {
     const status = document.getElementById("leaderboard-status");
     const body = document.getElementById("leaderboard-body");
-    const scores = payload?.scores || [];
+    const scores = normalizeLeaderboardRows(payload?.scores || payload?.top10 || []);
 
     body.innerHTML = "";
 
@@ -523,6 +506,24 @@ function renderLeaderboard(payload) {
     `).join("");
 }
 
+function parseLeaderboardResponse(text) {
+    const trimmed = text.trim();
+    const jsonpMatch = trimmed.match(/^[\w.$]+\((.*)\);?$/s);
+    return JSON.parse(jsonpMatch ? jsonpMatch[1] : trimmed);
+}
+
+function normalizeLeaderboardRows(rows) {
+    return rows.map((row, index) => ({
+        rank: row.rank ?? row["Hạng"] ?? row.hang ?? row.rankNo ?? index + 1,
+        playerName: row.playerName ?? row["Họ tên"] ?? row.name ?? row.student ?? row.ten ?? "",
+        className: row.className ?? row["Lớp"] ?? row.class ?? row.lop ?? "",
+        score: row.score ?? row["Điểm"] ?? row.point ?? row.diem ?? 0,
+        correct: row.correct ?? row["Số câu đúng"] ?? row.correctCount ?? row.dung ?? 0,
+        total: row.total ?? row["Tổng số câu"] ?? row.totalQuestions ?? row.tong ?? 0,
+        durationSeconds: row.durationSeconds ?? row["Thời gian làm bài (giây)"] ?? row.duration ?? row.time ?? 0
+    }));
+}
+
 function splitPlayerInfo(value) {
     const parts = String(value || "").split(/\s+-\s+/);
     return {
@@ -533,6 +534,15 @@ function splitPlayerInfo(value) {
 
 function selectedUnitLabels() {
     return selectedUnitsForGame.map(unitLabelFromCode).join(", ");
+}
+
+function scoreOnScale10() {
+    const total = filteredQuestions.length || QUESTIONS_PER_GAME;
+    return total ? (score / total) * 10 : 0;
+}
+
+function formattedScoreOnScale10() {
+    return scoreOnScale10().toFixed(2);
 }
 
 function buildResultStats(finalScore) {
@@ -564,6 +574,7 @@ function saveScore(stats) {
     const payload = new URLSearchParams({
         action: "submit",
         quizId: stats.quizId,
+        bank: stats.quizId,
         quizTitle: stats.quizTitle,
         playerName: stats.playerName,
         className: stats.className,
@@ -675,7 +686,7 @@ document.getElementById("btn-finish").onclick = () => {
 
 function showResult() {
     clearInterval(timerInterval);
-    const finalScore = filteredQuestions.length ? (score / filteredQuestions.length) * 10 : 0;
+    const finalScore = scoreOnScale10();
     const stats = buildResultStats(finalScore);
     document.getElementById("result-title").innerHTML = `Chúc mừng,<br><span style="color: var(--accent-color)">${userData.name}</span>!`;
     document.getElementById("final-score-val").innerText = finalScore.toFixed(2);
