@@ -177,12 +177,16 @@ function setupIntroScreen(set) {
     // Render Unit Checkboxes
     const checkboxGroup = document.getElementById('unit-checkboxes');
     checkboxGroup.innerHTML = '';
+    
     currentInfo.units.forEach(u => {
+        const unitId = typeof u === 'object' ? u.id : u;
+        const unitTitle = typeof u === 'object' ? u.title : u;
+        
         const label = document.createElement('label');
         label.className = 'checkbox-item';
         label.innerHTML = `
-            <input type="checkbox" name="unit" value="${u}" checked>
-            <span>${u.toUpperCase()}</span>
+            <input type="checkbox" name="unit" value="${unitId}" checked>
+            <span>${unitTitle}</span>
         `;
         checkboxGroup.appendChild(label);
     });
