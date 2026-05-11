@@ -60,7 +60,7 @@
         ]
       },
       {
-        "id": "e81u5_active_P201",
+        "id": "e81u5_active_S251",
         "question": "Âm 'a' trong 'active' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -162,7 +162,7 @@
         ]
       },
       {
-        "id": "e81u5_activist_P201",
+        "id": "e81u5_activist_S251",
         "question": "Đuôi '-ist' trong 'activist' phát âm là:",
         "options": [
           "/ɪst/",
@@ -264,7 +264,7 @@
         ]
       },
       {
-        "id": "e81u1_activity_P201",
+        "id": "e81u1_activity_S251",
         "question": "Âm 'a' đầu tiên trong 'activity' phát âm là:",
         "options": [
           "/æ/",
@@ -356,7 +356,7 @@
         ]
       },
       {
-        "id": "e81u5_adulthood_P201",
+        "id": "e81u5_adulthood_S251",
         "question": "Âm 'u' trong 'adult' phát âm là:",
         "options": [
           "/ʌ/",
@@ -373,16 +373,6 @@
           "1",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_adulthood_S101",
-        "question": "Trọng âm của từ 'adulthood' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -468,7 +458,7 @@
         ]
       },
       {
-        "id": "e81u1_aerobics_P201",
+        "id": "e81u1_aerobics_S251",
         "question": "Âm 'ae' trong 'aerobics' phát âm là:",
         "options": [
           "/er/",
@@ -560,7 +550,7 @@
         ]
       },
       {
-        "id": "e81u3_affect_P201",
+        "id": "e81u3_affect_S251",
         "question": "Âm 'a' đầu tiên trong 'affect' phát âm là:",
         "options": [
           "/ə/",
@@ -577,16 +567,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_affect_S101",
-        "question": "Trọng âm của động từ 'affect' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -672,7 +652,7 @@
         ]
       },
       {
-        "id": "e81u5_affected_P201",
+        "id": "e81u5_affected_S251",
         "question": "Đuôi '-ed' trong 'affected' phát âm là:",
         "options": [
           "/ɪd/",
@@ -774,7 +754,7 @@
         ]
       },
       {
-        "id": "e81u3_airconditioner_P201",
+        "id": "e81u3_airconditioner_S251",
         "question": "Âm 'c' trong 'conditioner' phát âm là:",
         "options": [
           "/k/",
@@ -876,7 +856,7 @@
         ]
       },
       {
-        "id": "e81u3_airconditioning_P201",
+        "id": "e81u3_airconditioning_S251",
         "question": "Đuôi '-ing' trong 'conditioning' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -978,7 +958,7 @@
         ]
       },
       {
-        "id": "e81u5_ambition_P201",
+        "id": "e81u5_ambition_S251",
         "question": "Âm 'tion' trong 'ambition' phát âm là:",
         "options": [
           "/ʃən/",
@@ -1080,7 +1060,7 @@
         ]
       },
       {
-        "id": "e81u2_amount_P201",
+        "id": "e81u2_amount_S251",
         "question": "Âm 'ou' trong 'amount' phát âm là:",
         "options": [
           "/aʊ/",
@@ -1182,7 +1162,7 @@
         ]
       },
       {
-        "id": "e81u1_ancient_P201",
+        "id": "e81u1_ancient_S251",
         "question": "Âm 'ci' trong 'ancient' phát âm là:",
         "options": [
           "/ʃ/",
@@ -1274,7 +1254,7 @@
         ]
       },
       {
-        "id": "e81u2_announce_P201",
+        "id": "e81u2_announce_S251",
         "question": "Âm 'ou' trong 'announce' phát âm là:",
         "options": [
           "/aʊ/",
@@ -1291,16 +1271,6 @@
           "Âm tiết 1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u2_announce_S101",
-        "question": "Trọng âm của từ 'announce' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -1386,7 +1356,7 @@
         ]
       },
       {
-        "id": "e81u2_announcement_P201",
+        "id": "e81u2_announcement_S251",
         "question": "Đuôi '-ment' trong 'announcement' phát âm là:",
         "options": [
           "/mənt/",
@@ -1488,7 +1458,7 @@
         ]
       },
       {
-        "id": "e81u5_appearance_P201",
+        "id": "e81u5_appearance_S251",
         "question": "Âm 'ear' trong 'appear' phát âm là:",
         "options": [
           "/ɪr/",
@@ -1590,7 +1560,7 @@
         ]
       },
       {
-        "id": "e81u5_argument_P201",
+        "id": "e81u5_argument_S251",
         "question": "Âm 'u' trong 'argument' phát âm là:",
         "options": [
           "/jə/",
@@ -1682,7 +1652,7 @@
         ]
       },
       {
-        "id": "e81u5_arising_P201",
+        "id": "e81u5_arising_S251",
         "question": "Âm 'i' trong 'arise' phát âm là:",
         "options": [
           "/aɪ/",
@@ -1699,16 +1669,6 @@
           "1",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_arising_S101",
-        "question": "Trọng âm của từ 'arising' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -1794,7 +1754,7 @@
         ]
       },
       {
-        "id": "e81u4_arranged_P201",
+        "id": "e81u4_arranged_S251",
         "question": "Đuôi '-ed' trong 'arranged' phát âm là:",
         "options": [
           "/d/",
@@ -1896,7 +1856,7 @@
         ]
       },
       {
-        "id": "e81u4_arranging_P201",
+        "id": "e81u4_arranging_S251",
         "question": "Âm 'g' cuối trong 'arranging' phát âm là:",
         "options": [
           "/ŋ/",
@@ -1998,7 +1958,7 @@
         ]
       },
       {
-        "id": "e81u4_artgallery_P201",
+        "id": "e81u4_artgallery_S251",
         "question": "Âm 'a' trong 'gallery' phát âm là:",
         "options": [
           "/æ/",
@@ -2100,7 +2060,7 @@
         ]
       },
       {
-        "id": "e81u1_art_P201",
+        "id": "e81u1_art_S251",
         "question": "Âm 'ar' trong 'art' phát âm giống từ nào?",
         "options": [
           "car",
@@ -2202,7 +2162,7 @@
         ]
       },
       {
-        "id": "e81u4_artistic_P101",
+        "id": "e81u4_artistic_S151",
         "question": "Cách phát âm đúng của 'artistic' là gì?",
         "options": [
           "/ɑːˈtɪstɪk/",
@@ -2238,108 +2198,6 @@
           "artistic",
           "arising",
           "art",
-          "argument"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "e81u1_artistic",
-    "hint": {
-      "word": "artistic",
-      "phonetics": "",
-      "type": "Vocabulary",
-      "meaning": "(Nghĩa của từ này đang được cập nhật)",
-      "example": "She has an artistic talent for playing the piano. (Cô ấy có tài năng nghệ thuật chơi đàn piano.)"
-    },
-    "questions": [
-      {
-        "id": "e81u1_artistic_C101",
-        "question": "She is a very ____ person who loves painting and drawing.",
-        "options": [
-          "artistic",
-          "toxic",
-          "poisonous",
-          "wasteful"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_C201",
-        "question": "The building has many ____ features.",
-        "options": [
-          "artistic",
-          "noisy",
-          "crowded",
-          "strange"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_C301",
-        "question": "He has a lot of ____ talent.",
-        "options": [
-          "artistic",
-          "digital",
-          "experienced",
-          "independent"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_C401",
-        "question": "She wants to pursue an ____ career.",
-        "options": [
-          "artistic",
-          "electrical",
-          "electric",
-          "volcanic"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_P201",
-        "question": "Phiên âm của 'artistic' là gì?",
-        "options": [
-          "/ɑːrˈtɪs.tɪk/",
-          "/ˈɑːr.tɪs.tɪk/",
-          "/ɑːrˈtɪs.tiːk/",
-          "/ɑːrˈtaɪs.tɪk/"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_S301",
-        "question": "Trọng âm của 'artistic' rơi vào âm tiết mấy?",
-        "options": [
-          "2",
-          "1",
-          "3",
-          "Cuối"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_S101",
-        "question": "Trọng âm của từ 'artistic' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_M102",
-        "question": "Từ '(Nghĩa của từ này đang được cập nhật)' viết tiếng Anh đúng là:",
-        "options": [
-          "artistic",
-          "artisti",
-          "artystic",
-          "artisstic"
-        ]
-      },
-      {
-        "id": "e81u1_artistic_M103",
-        "question": "Từ tiếng Anh nào có nghĩa là '(Nghĩa của từ này đang được cập nhật)'?",
-        "options": [
-          "artistic",
-          "arising",
-          "arranged",
           "argument"
         ]
       }
@@ -2406,7 +2264,7 @@
         ]
       },
       {
-        "id": "e81u5_assistance_P201",
+        "id": "e81u5_assistance_S251",
         "question": "Âm 'a' thứ hai trong 'assistance' phát âm là:",
         "options": [
           "/ə/",
@@ -2508,7 +2366,7 @@
         ]
       },
       {
-        "id": "e81u5_attitude_P201",
+        "id": "e81u5_attitude_S251",
         "question": "Âm 'u' trong 'attitude' phát âm là:",
         "options": [
           "/uː/",
@@ -2610,7 +2468,7 @@
         ]
       },
       {
-        "id": "e81u4_attracted_P201",
+        "id": "e81u4_attracted_S251",
         "question": "Đuôi '-ed' trong 'attracted' phát âm là:",
         "options": [
           "/ɪd/",
@@ -2712,7 +2570,7 @@
         ]
       },
       {
-        "id": "e81u4_attracting_P201",
+        "id": "e81u4_attracting_S251",
         "question": "Âm 'a' trong 'attracting' phát âm là:",
         "options": [
           "/ə/",
@@ -2814,7 +2672,7 @@
         ]
       },
       {
-        "id": "e81u4_avalanche_P201",
+        "id": "e81u4_avalanche_S251",
         "question": "Âm 'ch' trong 'avalanche' phát âm là:",
         "options": [
           "/ntʃ/",
@@ -2916,7 +2774,7 @@
         ]
       },
       {
-        "id": "e81u4_award_P201",
+        "id": "e81u4_award_S251",
         "question": "Âm 'aw' trong 'award' phát âm giống từ nào?",
         "options": [
           "door",
@@ -3018,7 +2876,7 @@
         ]
       },
       {
-        "id": "e81u5_awareness_P201",
+        "id": "e81u5_awareness_S251",
         "question": "Âm 'are' trong 'aware' phát âm giống từ nào?",
         "options": [
           "bear",
@@ -3120,7 +2978,7 @@
         ]
       },
       {
-        "id": "e81u4_bag_P201",
+        "id": "e81u4_bag_S251",
         "question": "Âm 'a' trong 'bag' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -3222,7 +3080,7 @@
         ]
       },
       {
-        "id": "e81u1_balance_P201",
+        "id": "e81u1_balance_S251",
         "question": "Âm 'a' đầu tiên trong 'balance' phát âm là:",
         "options": [
           "/æ/",
@@ -3324,7 +3182,7 @@
         ]
       },
       {
-        "id": "e81u5_balanced_P201",
+        "id": "e81u5_balanced_S251",
         "question": "Âm 'a' trong 'balance' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -3426,7 +3284,7 @@
         ]
       },
       {
-        "id": "e81u4_ballet_P201",
+        "id": "e81u4_ballet_S251",
         "question": "Âm 't' cuối trong 'ballet' phát âm thế nào?",
         "options": [
           "Âm câm (không phát âm)",
@@ -3528,7 +3386,7 @@
         ]
       },
       {
-        "id": "e81u4_bamboo_P201",
+        "id": "e81u4_bamboo_S251",
         "question": "Âm 'oo' trong 'bamboo' phát âm là:",
         "options": [
           "/uː/",
@@ -3630,7 +3488,7 @@
         ]
       },
       {
-        "id": "e81u4_battery_P201",
+        "id": "e81u4_battery_S251",
         "question": "Âm 'a' trong 'battery' phát âm là:",
         "options": [
           "/æ/",
@@ -3732,7 +3590,7 @@
         ]
       },
       {
-        "id": "e81u1_bead_P201",
+        "id": "e81u1_bead_S251",
         "question": "Âm 'ea' trong 'bead' phát âm là:",
         "options": [
           "/iː/",
@@ -3824,7 +3682,7 @@
         ]
       },
       {
-        "id": "e81u1_beaded_P201",
+        "id": "e81u1_beaded_S251",
         "question": "Âm 'ea' trong 'beaded' phát âm là:",
         "options": [
           "/iː/",
@@ -3936,7 +3794,7 @@
         ]
       },
       {
-        "id": "e81u4_beauty_P201",
+        "id": "e81u4_beauty_S251",
         "question": "Âm 'eau' trong 'beauty' phát âm là:",
         "options": [
           "/juː/",
@@ -4038,7 +3896,7 @@
         ]
       },
       {
-        "id": "e81u4_belief_P201",
+        "id": "e81u4_belief_S251",
         "question": "Âm 'ie' trong 'belief' phát âm giống từ nào?",
         "options": [
           "leaf",
@@ -4140,7 +3998,7 @@
         ]
       },
       {
-        "id": "e81u4_belongings_P201",
+        "id": "e81u4_belongings_S251",
         "question": "Âm 'o' trong 'belong' phát âm là:",
         "options": [
           "/ɑː/",
@@ -4242,7 +4100,7 @@
         ]
       },
       {
-        "id": "e81u5_beverage_P201",
+        "id": "e81u5_beverage_S251",
         "question": "Âm 'e' đầu tiên trong 'beverage' phát âm giống từ nào?",
         "options": [
           "desk",
@@ -4344,7 +4202,7 @@
         ]
       },
       {
-        "id": "e81u4_blanket_P201",
+        "id": "e81u4_blanket_S251",
         "question": "Âm 'a' trong 'blanket' phát âm là:",
         "options": [
           "/æ/",
@@ -4446,7 +4304,7 @@
         ]
       },
       {
-        "id": "e81u4_blizzard_P201",
+        "id": "e81u4_blizzard_S251",
         "question": "Âm 'i' trong 'blizzard' phát âm là:",
         "options": [
           "/ɪ/",
@@ -4538,7 +4396,7 @@
         ]
       },
       {
-        "id": "e81u5_blog_P201",
+        "id": "e81u5_blog_S251",
         "question": "Âm 'o' trong 'blog' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -4555,16 +4413,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u5_blog_S101",
-        "question": "Từ 'blog' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -4650,7 +4498,7 @@
         ]
       },
       {
-        "id": "e81u1_boardgame_P201",
+        "id": "e81u1_boardgame_S251",
         "question": "Âm /ɔː/ trong 'board' phát âm giống từ nào?",
         "options": [
           "floor",
@@ -4742,7 +4590,7 @@
         ]
       },
       {
-        "id": "e81u4_boardup_P201",
+        "id": "e81u4_boardup_S251",
         "question": "Âm 'oa' trong 'board' phát âm là:",
         "options": [
           "/ɔːr/",
@@ -4759,16 +4607,6 @@
           "board",
           "Cả hai bằng nhau",
           "Không từ nào"
-        ]
-      },
-      {
-        "id": "e81u4_boardup_S101",
-        "question": "Trọng âm chính của cụm 'board up' thường rơi vào từ nào?",
-        "options": [
-          "Từ đầu tiên (board)",
-          "Từ thứ hai (up)",
-          "Cả hai từ",
-          "Không có trọng âm"
         ]
       },
       {
@@ -4844,7 +4682,7 @@
         ]
       },
       {
-        "id": "e81u5_boundary_P201",
+        "id": "e81u5_boundary_S251",
         "question": "Âm 'ou' trong 'bound' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -4861,16 +4699,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_boundary_S101",
-        "question": "Trọng âm của từ 'boundary' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -4956,7 +4784,7 @@
         ]
       },
       {
-        "id": "e81u1_bracelet_P201",
+        "id": "e81u1_bracelet_S251",
         "question": "Âm 'c' trong 'bracelet' phát âm là:",
         "options": [
           "/s/",
@@ -5058,7 +4886,7 @@
         ]
       },
       {
-        "id": "e81u4_bravery_P201",
+        "id": "e81u4_bravery_S251",
         "question": "Âm 'a' trong 'brave' phát âm là:",
         "options": [
           "/eɪ/",
@@ -5160,7 +4988,7 @@
         ]
       },
       {
-        "id": "e81u5_breakup_P201",
+        "id": "e81u5_breakup_S251",
         "question": "Âm 'ea' trong 'break' phát âm giống từ nào?",
         "options": [
           "cake",
@@ -5262,7 +5090,7 @@
         ]
       },
       {
-        "id": "e81u4_building_P201",
+        "id": "e81u4_building_S251",
         "question": "Âm 'ui' trong 'building' phát âm là:",
         "options": [
           "/ɪ/",
@@ -5364,7 +5192,7 @@
         ]
       },
       {
-        "id": "e81u5_burden_P201",
+        "id": "e81u5_burden_S251",
         "question": "Âm 'ur' trong 'burden' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -5466,7 +5294,7 @@
         ]
       },
       {
-        "id": "e81u3_burn_P201",
+        "id": "e81u3_burn_S251",
         "question": "Âm 'ur' trong 'burn' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -5568,7 +5396,7 @@
         ]
       },
       {
-        "id": "e81u1_button_P201",
+        "id": "e81u1_button_S251",
         "question": "Âm 'u' trong 'button' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -5670,7 +5498,7 @@
         ]
       },
       {
-        "id": "e81u1_cake_P201",
+        "id": "e81u1_cake_S251",
         "question": "Âm 'a' trong 'cake' phát âm là:",
         "options": [
           "/eɪ/",
@@ -5772,7 +5600,7 @@
         ]
       },
       {
-        "id": "e81u5_calmly_P201",
+        "id": "e81u5_calmly_S251",
         "question": "Âm 'al' trong 'calm' phát âm giống từ nào?",
         "options": [
           "car",
@@ -5874,7 +5702,7 @@
         ]
       },
       {
-        "id": "e81u4_canal_P201",
+        "id": "e81u4_canal_S251",
         "question": "Âm 'a' thứ hai trong 'canal' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -5976,7 +5804,7 @@
         ]
       },
       {
-        "id": "e81u2_candied_P201",
+        "id": "e81u2_candied_S251",
         "question": "Đuôi '-ied' trong 'candied' phát âm là:",
         "options": [
           "/id/",
@@ -6078,7 +5906,7 @@
         ]
       },
       {
-        "id": "e81u2_candy_P201",
+        "id": "e81u2_candy_S251",
         "question": "Âm 'a' trong 'candy' phát âm là:",
         "options": [
           "/æ/",
@@ -6180,7 +6008,7 @@
         ]
       },
       {
-        "id": "e81u4_capital_P201",
+        "id": "e81u4_capital_S251",
         "question": "Âm 'a' đầu tiên trong 'capital' phát âm là:",
         "options": [
           "/æ/",
@@ -6272,7 +6100,7 @@
         ]
       },
       {
-        "id": "e81u4_capture_P201",
+        "id": "e81u4_capture_S251",
         "question": "Âm 'u' trong 'capture' phát âm là:",
         "options": [
           "/tʃɚ/",
@@ -6289,16 +6117,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_capture_S101",
-        "question": "Trọng âm của từ 'capture' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -6384,7 +6202,7 @@
         ]
       },
       {
-        "id": "e81u4_careful_P101",
+        "id": "e81u4_careful_S151",
         "question": "Phát âm IPA đúng của 'careful' là gì?",
         "options": [
           "/ˈkeəfʊl/",
@@ -6421,108 +6239,6 @@
           "candied",
           "canal",
           "cathedral"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "e81u1_careful",
-    "hint": {
-      "word": "careful",
-      "phonetics": "/ˈker.fəl/",
-      "type": "Adjective",
-      "meaning": "Cẩn thận",
-      "example": "He is very careful with his schoolwork. (Cậu ấy rất cẩn thận với bài vở ở trường.)"
-    },
-    "questions": [
-      {
-        "id": "e81u1_careful_C101",
-        "question": "Be ____ when you cross the street.",
-        "options": [
-          "careful",
-          "toxic",
-          "poisonous",
-          "wasteful"
-        ]
-      },
-      {
-        "id": "e81u1_careful_C201",
-        "question": "She is a very ____ driver.",
-        "options": [
-          "careful",
-          "noisy",
-          "crowded",
-          "strange"
-        ]
-      },
-      {
-        "id": "e81u1_careful_C301",
-        "question": "You should be more ____ with your work.",
-        "options": [
-          "careful",
-          "digital",
-          "experienced",
-          "independent"
-        ]
-      },
-      {
-        "id": "e81u1_careful_C401",
-        "question": "After a ____ consideration, he decided to accept the job.",
-        "options": [
-          "careful",
-          "electrical",
-          "electric",
-          "volcanic"
-        ]
-      },
-      {
-        "id": "e81u1_careful_P201",
-        "question": "Âm 'are' trong 'careful' phát âm giống từ nào?",
-        "options": [
-          "bear",
-          "car",
-          "near",
-          "hear"
-        ]
-      },
-      {
-        "id": "e81u1_careful_S301",
-        "question": "Trọng âm của 'careful' rơi vào âm tiết mấy?",
-        "options": [
-          "1",
-          "2",
-          "Cả hai",
-          "Không có"
-        ]
-      },
-      {
-        "id": "e81u1_careful_S101",
-        "question": "Trọng âm của từ 'careful' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
-        ]
-      },
-      {
-        "id": "e81u1_careful_M102",
-        "question": "Từ 'Cẩn thận' viết tiếng Anh đúng là:",
-        "options": [
-          "careful",
-          "caraful",
-          "carreful",
-          "carefu"
-        ]
-      },
-      {
-        "id": "e81u1_careful_M103",
-        "question": "Từ tiếng Anh nào có nghĩa là 'Cẩn thận'?",
-        "options": [
-          "careful",
-          "cake",
-          "calmly",
-          "canal"
         ]
       }
     ]
@@ -6588,7 +6304,7 @@
         ]
       },
       {
-        "id": "e81u4_carelessly_P201",
+        "id": "e81u4_carelessly_S251",
         "question": "Âm 'a' trong 'care' phát âm giống từ nào?",
         "options": [
           "bear",
@@ -6690,7 +6406,7 @@
         ]
       },
       {
-        "id": "e81u4_carnival_P201",
+        "id": "e81u4_carnival_S251",
         "question": "Âm 'i' trong 'carnival' phát âm là:",
         "options": [
           "/ə/",
@@ -6782,7 +6498,7 @@
         ]
       },
       {
-        "id": "e81u4_carve_P201",
+        "id": "e81u4_carve_S251",
         "question": "Âm 'ar' trong 'carve' phát âm giống từ nào?",
         "options": [
           "car",
@@ -6799,16 +6515,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u4_carve_S101",
-        "question": "Từ 'carve' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -6894,7 +6600,7 @@
         ]
       },
       {
-        "id": "e81u1_carving_P201",
+        "id": "e81u1_carving_S251",
         "question": "Âm 'ar' trong 'carving' phát âm giống từ nào?",
         "options": [
           "car",
@@ -6996,7 +6702,7 @@
         ]
       },
       {
-        "id": "e81u4_cathedral_P201",
+        "id": "e81u4_cathedral_S251",
         "question": "Âm 'th' trong 'cathedral' phát âm là:",
         "options": [
           "/θ/",
@@ -7098,7 +6804,7 @@
         ]
       },
       {
-        "id": "e81u3_cause_P201",
+        "id": "e81u3_cause_S251",
         "question": "Âm 'au' trong 'cause' phát âm là:",
         "options": [
           "/ɑː/",
@@ -7200,7 +6906,7 @@
         ]
       },
       {
-        "id": "e81u4_celebrate_P201",
+        "id": "e81u4_celebrate_S251",
         "question": "Âm 'c' đầu tiên trong 'celebrate' phát âm là:",
         "options": [
           "/s/",
@@ -7302,7 +7008,7 @@
         ]
       },
       {
-        "id": "e81u4_centuries_P201",
+        "id": "e81u4_centuries_S251",
         "question": "Âm 'c' đầu tiên trong 'centuries' phát âm là:",
         "options": [
           "/s/",
@@ -7404,7 +7110,7 @@
         ]
       },
       {
-        "id": "e81u4_ceremony_P201",
+        "id": "e81u4_ceremony_S251",
         "question": "Âm 'c' trong 'ceremony' phát âm là:",
         "options": [
           "/s/",
@@ -7506,7 +7212,7 @@
         ]
       },
       {
-        "id": "e81u4_characteristic_P201",
+        "id": "e81u4_characteristic_S251",
         "question": "Âm 'ch' trong 'characteristic' phát âm là:",
         "options": [
           "/k/",
@@ -7608,7 +7314,7 @@
         ]
       },
       {
-        "id": "e81u5_charity_P201",
+        "id": "e81u5_charity_S251",
         "question": "Âm 'ch' trong 'charity' phát âm giống từ nào?",
         "options": [
           "chair",
@@ -7710,7 +7416,7 @@
         ]
       },
       {
-        "id": "e81u1_chat_P201",
+        "id": "e81u1_chat_S251",
         "question": "Phiên âm đúng của 'chat' là gì?",
         "options": [
           "/tʃæt/",
@@ -7812,7 +7518,7 @@
         ]
       },
       {
-        "id": "e81u5_cheat_P201",
+        "id": "e81u5_cheat_S251",
         "question": "Âm 'ea' trong 'cheat' phát âm giống từ nào?",
         "options": [
           "meat",
@@ -7914,7 +7620,7 @@
         ]
       },
       {
-        "id": "e81u5_cheating_P201",
+        "id": "e81u5_cheating_S251",
         "question": "Đuôi '-ing' trong 'cheating' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -8016,7 +7722,7 @@
         ]
       },
       {
-        "id": "e81u1_check_P201",
+        "id": "e81u1_check_S251",
         "question": "Âm 'ch' trong 'check' phát âm giống từ nào?",
         "options": [
           "chair",
@@ -8118,7 +7824,7 @@
         ]
       },
       {
-        "id": "e81u4_cheer_P201",
+        "id": "e81u4_cheer_S251",
         "question": "Âm 'ch' trong 'cheer' phát âm giống từ nào?",
         "options": [
           "chair",
@@ -8220,7 +7926,7 @@
         ]
       },
       {
-        "id": "e81u4_cinema_P201",
+        "id": "e81u4_cinema_S251",
         "question": "Âm 'c' đầu tiên trong 'cinema' phát âm là:",
         "options": [
           "/s/",
@@ -8322,7 +8028,7 @@
         ]
       },
       {
-        "id": "e81u4_citizen_P201",
+        "id": "e81u4_citizen_S251",
         "question": "Âm 'c' đầu tiên trong 'citizen' phát âm là:",
         "options": [
           "/s/",
@@ -8424,7 +8130,7 @@
         ]
       },
       {
-        "id": "e81u4_city_P201",
+        "id": "e81u4_city_S251",
         "question": "Âm 'c' đầu tiên trong 'city' phát âm là:",
         "options": [
           "/s/",
@@ -8526,7 +8232,7 @@
         ]
       },
       {
-        "id": "e81u5_clash_P201",
+        "id": "e81u5_clash_S251",
         "question": "Âm 'a' trong 'clash' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -8628,7 +8334,7 @@
         ]
       },
       {
-        "id": "e81u3_cleanup_P201",
+        "id": "e81u3_cleanup_S251",
         "question": "Âm 'ea' trong 'clean' phát âm là:",
         "options": [
           "/iː/",
@@ -8730,7 +8436,7 @@
         ]
       },
       {
-        "id": "e81u4_cliff_P201",
+        "id": "e81u4_cliff_S251",
         "question": "Âm 'i' trong 'cliff' phát âm giống từ nào?",
         "options": [
           "if",
@@ -8832,7 +8538,7 @@
         ]
       },
       {
-        "id": "e81u1_clothes_P201",
+        "id": "e81u1_clothes_S251",
         "question": "Âm 'th' trong 'clothes' phát âm là:",
         "options": [
           "/ð/",
@@ -8934,7 +8640,7 @@
         ]
       },
       {
-        "id": "e81u4_coastal_P201",
+        "id": "e81u4_coastal_S251",
         "question": "Âm 'oa' trong 'coast' phát âm giống từ nào?",
         "options": [
           "boat",
@@ -9026,7 +8732,7 @@
         ]
       },
       {
-        "id": "e81u1_cognition_P201",
+        "id": "e81u1_cognition_S251",
         "question": "Âm 'o' đầu tiên trong 'cognition' phát âm là:",
         "options": [
           "/ɑː/",
@@ -9043,16 +8749,6 @@
           "1",
           "2",
           "4"
-        ]
-      },
-      {
-        "id": "e81u1_cognition_S101",
-        "question": "Trọng âm của từ 'cognition' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -9138,7 +8834,7 @@
         ]
       },
       {
-        "id": "e81u4_collect_P201",
+        "id": "e81u4_collect_S251",
         "question": "Âm 'o' trong 'collect' phát âm là:",
         "options": [
           "/ə/",
@@ -9230,7 +8926,7 @@
         ]
       },
       {
-        "id": "e81u5_comforting_P201",
+        "id": "e81u5_comforting_S251",
         "question": "Âm 'o' trong 'comfort' phát âm là:",
         "options": [
           "/ʌ/",
@@ -9247,16 +8943,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_comforting_S101",
-        "question": "Trọng âm của từ 'comforting' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -9342,7 +9028,7 @@
         ]
       },
       {
-        "id": "e81u5_comment_P201",
+        "id": "e81u5_comment_S251",
         "question": "Âm 'o' trong 'comment' phát âm là:",
         "options": [
           "/ɑː/",
@@ -9444,7 +9130,7 @@
         ]
       },
       {
-        "id": "e81u4_communalhouse_P201",
+        "id": "e81u4_communalhouse_S251",
         "question": "Âm 'u' trong 'communal' phát âm là:",
         "options": [
           "/juː/",
@@ -9546,7 +9232,7 @@
         ]
       },
       {
-        "id": "e81u5_communication_P201",
+        "id": "e81u5_communication_S251",
         "question": "Đuôi '-tion' trong 'communication' phát âm là:",
         "options": [
           "/ʃən/",
@@ -9648,7 +9334,7 @@
         ]
       },
       {
-        "id": "e81u4_community_P201",
+        "id": "e81u4_community_S251",
         "question": "Phiên âm của 'community' là gì?",
         "options": [
           "/kəˈmjuː.nə.t̬i/",
@@ -9750,7 +9436,7 @@
         ]
       },
       {
-        "id": "e81u1_competitive_P201",
+        "id": "e81u1_competitive_S251",
         "question": "Âm 'e' đầu tiên trong 'competitive' phát âm là:",
         "options": [
           "/ə/",
@@ -9852,7 +9538,7 @@
         ]
       },
       {
-        "id": "e81u5_computer_P201",
+        "id": "e81u5_computer_S251",
         "question": "Âm 'u' trong 'computer' phát âm là:",
         "options": [
           "/juː/",
@@ -9954,7 +9640,7 @@
         ]
       },
       {
-        "id": "e81u5_confidence_P201",
+        "id": "e81u5_confidence_S251",
         "question": "Âm 'i' trong 'confidence' phát âm là:",
         "options": [
           "/ə/",
@@ -10056,7 +9742,7 @@
         ]
       },
       {
-        "id": "e81u4_confusion_P201",
+        "id": "e81u4_confusion_S251",
         "question": "Âm 'sion' trong 'confusion' phát âm là:",
         "options": [
           "/ʒən/",
@@ -10148,7 +9834,7 @@
         ]
       },
       {
-        "id": "e81u5_connect_P201",
+        "id": "e81u5_connect_S251",
         "question": "Âm 'o' trong 'connect' phát âm là:",
         "options": [
           "/ə/",
@@ -10165,16 +9851,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_connect_S101",
-        "question": "Trọng âm của động từ 'connect' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -10260,7 +9936,7 @@
         ]
       },
       {
-        "id": "e81u4_connected_P201",
+        "id": "e81u4_connected_S251",
         "question": "Âm 'ed' trong 'connected' phát âm là:",
         "options": [
           "/ɪd/",
@@ -10362,7 +10038,7 @@
         ]
       },
       {
-        "id": "e81u1_construction_P201",
+        "id": "e81u1_construction_S251",
         "question": "Đuôi '-tion' trong 'construction' phát âm là:",
         "options": [
           "/ʃən/",
@@ -10464,7 +10140,7 @@
         ]
       },
       {
-        "id": "e81u5_contact_P201",
+        "id": "e81u5_contact_S251",
         "question": "Âm 'a' trong 'contact' phát âm là:",
         "options": [
           "/æ/",
@@ -10566,7 +10242,7 @@
         ]
       },
       {
-        "id": "e81u4_contest_P201",
+        "id": "e81u4_contest_S251",
         "question": "Âm 'o' trong 'contest' phát âm là:",
         "options": [
           "/ɑː/",
@@ -10668,7 +10344,7 @@
         ]
       },
       {
-        "id": "e81u1_cook_P201",
+        "id": "e81u1_cook_S251",
         "question": "Âm 'oo' trong 'cook' phát âm giống từ nào?",
         "options": [
           "book",
@@ -10770,7 +10446,7 @@
         ]
       },
       {
-        "id": "e81u1_cooking_P201",
+        "id": "e81u1_cooking_S251",
         "question": "Âm 'oo' trong 'cooking' phát âm giống từ nào?",
         "options": [
           "book",
@@ -10872,7 +10548,7 @@
         ]
       },
       {
-        "id": "e81u4_costume_P201",
+        "id": "e81u4_costume_S251",
         "question": "Âm 'u' trong 'costume' phát âm là:",
         "options": [
           "/uː/",
@@ -10974,7 +10650,7 @@
         ]
       },
       {
-        "id": "e81u1_cotton_P201",
+        "id": "e81u1_cotton_S251",
         "question": "Âm 'o' trong 'cotton' phát âm là:",
         "options": [
           "/ɑː/",
@@ -11076,7 +10752,7 @@
         ]
       },
       {
-        "id": "e81u3_cough_P201",
+        "id": "e81u3_cough_S251",
         "question": "Âm 'ou' trong 'cough' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -11178,7 +10854,7 @@
         ]
       },
       {
-        "id": "e81u5_counsellor_P201",
+        "id": "e81u5_counsellor_S251",
         "question": "Âm 'ou' trong 'counsel' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -11280,7 +10956,7 @@
         ]
       },
       {
-        "id": "e81u4_countryside_P201",
+        "id": "e81u4_countryside_S251",
         "question": "Âm 'ou' trong 'country' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -11382,7 +11058,7 @@
         ]
       },
       {
-        "id": "e81u4_couple_P201",
+        "id": "e81u4_couple_S251",
         "question": "Âm 'ou' trong 'couple' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -11484,7 +11160,7 @@
         ]
       },
       {
-        "id": "e81u4_craft_P201",
+        "id": "e81u4_craft_S251",
         "question": "Âm 'a' trong 'craft' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -11586,7 +11262,7 @@
         ]
       },
       {
-        "id": "e81u4_craftsman_P201",
+        "id": "e81u4_craftsman_S251",
         "question": "Âm 'a' trong 'crafts' phát âm là:",
         "options": [
           "/æ/",
@@ -11688,7 +11364,7 @@
         ]
       },
       {
-        "id": "e81u1_creativity_P201",
+        "id": "e81u1_creativity_S251",
         "question": "Phiên âm của 'creativity' là gì?",
         "options": [
           "/ˌkriː.eɪˈtɪv.ə.t̬i/",
@@ -11790,7 +11466,7 @@
         ]
       },
       {
-        "id": "e81u4_culture_P201",
+        "id": "e81u4_culture_S251",
         "question": "Âm 'u' trong 'culture' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -11892,7 +11568,7 @@
         ]
       },
       {
-        "id": "e81u5_curfew_P201",
+        "id": "e81u5_curfew_S251",
         "question": "Âm 'ur' trong 'curfew' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -11994,7 +11670,7 @@
         ]
       },
       {
-        "id": "e81u1_curiosity_P201",
+        "id": "e81u1_curiosity_S251",
         "question": "Âm 'u' đầu tiên trong 'curiosity' phát âm là:",
         "options": [
           "/kjʊr/",
@@ -12096,7 +11772,7 @@
         ]
       },
       {
-        "id": "e81u1_cushion_P201",
+        "id": "e81u1_cushion_S251",
         "question": "Âm 'sh' trong 'cushion' phát âm là:",
         "options": [
           "/ʃ/",
@@ -12198,7 +11874,7 @@
         ]
       },
       {
-        "id": "e81u4_custom_P201",
+        "id": "e81u4_custom_S251",
         "question": "Âm 'u' trong 'custom' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -12290,7 +11966,7 @@
         ]
       },
       {
-        "id": "e81u1_cycle_P201",
+        "id": "e81u1_cycle_S251",
         "question": "Âm 'c' đầu tiên trong 'cycle' phát âm là:",
         "options": [
           "/s/",
@@ -12307,16 +11983,6 @@
           "Âm tiết 2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u1_cycle_S101",
-        "question": "Trọng âm của từ 'cycle' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -12402,7 +12068,7 @@
         ]
       },
       {
-        "id": "e81u1_cycling_P201",
+        "id": "e81u1_cycling_S251",
         "question": "Âm 'y' trong 'cycling' phát âm là:",
         "options": [
           "/aɪ/",
@@ -12504,7 +12170,7 @@
         ]
       },
       {
-        "id": "e80u3_damage_P201",
+        "id": "e80u3_damage_S251",
         "question": "Âm 'a' thứ nhất trong 'damage' phát âm là:",
         "options": [
           "/æ/",
@@ -12606,7 +12272,7 @@
         ]
       },
       {
-        "id": "e81u4_dancer_P201",
+        "id": "e81u4_dancer_S251",
         "question": "Âm 'a' trong 'dancer' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -12708,7 +12374,7 @@
         ]
       },
       {
-        "id": "e81u1_dancing_P201",
+        "id": "e81u1_dancing_S251",
         "question": "Âm 'a' trong 'dancing' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -12810,7 +12476,7 @@
         ]
       },
       {
-        "id": "e81u4_decorating_P201",
+        "id": "e81u4_decorating_S251",
         "question": "Âm 'e' đầu tiên trong 'decorating' phát âm là:",
         "options": [
           "/e/",
@@ -12912,7 +12578,7 @@
         ]
       },
       {
-        "id": "e81u1_decoration_P201",
+        "id": "e81u1_decoration_S251",
         "question": "Đuôi '-tion' trong 'decoration' phát âm là:",
         "options": [
           "/ʃən/",
@@ -13014,7 +12680,7 @@
         ]
       },
       {
-        "id": "e81u4_defeat_P201",
+        "id": "e81u4_defeat_S251",
         "question": "Âm 'ea' trong 'defeat' phát âm giống từ nào?",
         "options": [
           "meat",
@@ -13116,7 +12782,7 @@
         ]
       },
       {
-        "id": "e81u4_delicious_P201",
+        "id": "e81u4_delicious_S251",
         "question": "Âm 'ci' trong 'delicious' phát âm là:",
         "options": [
           "/ʃ/",
@@ -13218,7 +12884,7 @@
         ]
       },
       {
-        "id": "e81u5_depression_P201",
+        "id": "e81u5_depression_S251",
         "question": "Âm 'ssion' trong 'depression' phát âm là:",
         "options": [
           "/ʃən/",
@@ -13320,7 +12986,7 @@
         ]
       },
       {
-        "id": "e81u4_desert_P201",
+        "id": "e81u4_desert_S251",
         "question": "Phiên âm của 'desert' (sa mạc) là gì?",
         "options": [
           "/ˈdez.ɚt/",
@@ -13422,7 +13088,7 @@
         ]
       },
       {
-        "id": "e81u5_design_P201",
+        "id": "e81u5_design_S251",
         "question": "Âm 'g' trong 'design' phát âm thế nào?",
         "options": [
           "Âm câm (không phát âm)",
@@ -13524,7 +13190,7 @@
         ]
       },
       {
-        "id": "e81u1_designer_P201",
+        "id": "e81u1_designer_S251",
         "question": "Đuôi '-er' trong 'designer' phát âm là:",
         "options": [
           "/ər/",
@@ -13626,7 +13292,7 @@
         ]
       },
       {
-        "id": "e81u1_detest_P201",
+        "id": "e81u1_detest_S251",
         "question": "Âm 'e' đầu tiên trong 'detest' phát âm là:",
         "options": [
           "/ɪ/",
@@ -13718,7 +13384,7 @@
         ]
       },
       {
-        "id": "e81u1_developing_P201",
+        "id": "e81u1_developing_S251",
         "question": "Âm 'e' đầu tiên trong 'developing' phát âm là:",
         "options": [
           "/ɪ/",
@@ -13735,16 +13401,6 @@
           "1",
           "3",
           "4"
-        ]
-      },
-      {
-        "id": "e81u1_developing_S101",
-        "question": "Trọng âm của từ 'developing' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -13830,7 +13486,7 @@
         ]
       },
       {
-        "id": "e81u5_device_P201",
+        "id": "e81u5_device_S251",
         "question": "Âm 'c' trong 'device' phát âm là:",
         "options": [
           "/s/",
@@ -13932,7 +13588,7 @@
         ]
       },
       {
-        "id": "e81u5_digital_P201",
+        "id": "e81u5_digital_S251",
         "question": "Âm 'g' trong 'digital' phát âm là:",
         "options": [
           "/dʒ/",
@@ -14034,7 +13690,7 @@
         ]
       },
       {
-        "id": "e81u1_digitalskills_P201",
+        "id": "e81u1_digitalskills_S251",
         "question": "Âm 'g' trong 'digital' phát âm là:",
         "options": [
           "/dʒ/",
@@ -14136,7 +13792,7 @@
         ]
       },
       {
-        "id": "e80u4_disaster_P201",
+        "id": "e80u4_disaster_S251",
         "question": "Phiên âm của 'disaster' là gì?",
         "options": [
           "/dɪˈzæs.tɚ/",
@@ -14228,7 +13884,7 @@
         ]
       },
       {
-        "id": "e81u4_disastrous_P201",
+        "id": "e81u4_disastrous_S251",
         "question": "Đuôi '-ous' trong 'disastrous' phát âm là:",
         "options": [
           "/əs/",
@@ -14245,16 +13901,6 @@
           "1",
           "3",
           "4"
-        ]
-      },
-      {
-        "id": "e81u4_disastrous_S101",
-        "question": "Trọng âm của từ 'disastrous' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -14330,7 +13976,7 @@
         ]
       },
       {
-        "id": "e81u5_discuss_P201",
+        "id": "e81u5_discuss_S251",
         "question": "Âm 'u' trong 'discuss' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -14347,16 +13993,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_discuss_S101",
-        "question": "Trọng âm của động từ 'discuss' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -14442,7 +14078,7 @@
         ]
       },
       {
-        "id": "e81u5_discussion_P201",
+        "id": "e81u5_discussion_S251",
         "question": "Đuôi '-sion' trong 'discussion' phát âm là:",
         "options": [
           "/ʃən/",
@@ -14544,7 +14180,7 @@
         ]
       },
       {
-        "id": "e81u3_disease_P201",
+        "id": "e81u3_disease_S251",
         "question": "Âm 's' trong 'disease' phát âm là:",
         "options": [
           "/z/",
@@ -14646,7 +14282,7 @@
         ]
       },
       {
-        "id": "e81u4_dish_P201",
+        "id": "e81u4_dish_S251",
         "question": "Âm 'i' trong 'dish' phát âm giống từ nào?",
         "options": [
           "fish",
@@ -14748,7 +14384,7 @@
         ]
       },
       {
-        "id": "e81u4_display_P201",
+        "id": "e81u4_display_S251",
         "question": "Âm 'ay' trong 'display' phát âm là:",
         "options": [
           "/eɪ/",
@@ -14850,7 +14486,7 @@
         ]
       },
       {
-        "id": "e81u5_distracted_P201",
+        "id": "e81u5_distracted_S251",
         "question": "Âm 'i' trong 'distract' phát âm giống từ nào?",
         "options": [
           "if",
@@ -14952,7 +14588,7 @@
         ]
       },
       {
-        "id": "e81u4_diversity_P201",
+        "id": "e81u4_diversity_S251",
         "question": "Âm 'i' đầu tiên trong 'diversity' phát âm là:",
         "options": [
           "/aɪ/",
@@ -15054,7 +14690,7 @@
         ]
       },
       {
-        "id": "e81u4_documentary_P201",
+        "id": "e81u4_documentary_S251",
         "question": "Âm 'u' trong 'document' phát âm là:",
         "options": [
           "/ju/",
@@ -15156,7 +14792,7 @@
         ]
       },
       {
-        "id": "e81u1_doll_P201",
+        "id": "e81u1_doll_S251",
         "question": "Âm 'o' trong 'doll' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -15258,7 +14894,7 @@
         ]
       },
       {
-        "id": "e81u4_donate_P201",
+        "id": "e81u4_donate_S251",
         "question": "Âm 'o' trong 'donate' phát âm là:",
         "options": [
           "/oʊ/",
@@ -15360,7 +14996,7 @@
         ]
       },
       {
-        "id": "e81u4_donating_P201",
+        "id": "e81u4_donating_S251",
         "question": "Đuôi '-ing' trong 'donating' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -15462,7 +15098,7 @@
         ]
       },
       {
-        "id": "e81u4_dragondance_P201",
+        "id": "e81u4_dragondance_S251",
         "question": "Âm 'g' trong 'dragon' phát âm là:",
         "options": [
           "/ɡ/",
@@ -15564,7 +15200,7 @@
         ]
       },
       {
-        "id": "e81u1_drawing_P201",
+        "id": "e81u1_drawing_S251",
         "question": "Âm 'aw' trong 'drawing' phát âm giống từ nào?",
         "options": [
           "saw",
@@ -15666,7 +15302,7 @@
         ]
       },
       {
-        "id": "e81u4_dress_P201",
+        "id": "e81u4_dress_S251",
         "question": "Âm 'e' trong 'dress' phát âm giống từ nào?",
         "options": [
           "desk",
@@ -15758,7 +15394,7 @@
         ]
       },
       {
-        "id": "e81u4_drill_P201",
+        "id": "e81u4_drill_S251",
         "question": "Âm 'i' trong 'drill' phát âm giống từ nào?",
         "options": [
           "bill",
@@ -15775,16 +15411,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u4_drill_S101",
-        "question": "Từ 'drill' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -15870,7 +15496,7 @@
         ]
       },
       {
-        "id": "e81u4_drought_P201",
+        "id": "e81u4_drought_S251",
         "question": "Âm 'ou' trong 'drought' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -15972,7 +15598,7 @@
         ]
       },
       {
-        "id": "e81u5_earring_P201",
+        "id": "e81u5_earring_S251",
         "question": "Âm 'ear' trong 'ear' phát âm là:",
         "options": [
           "/ɪr/",
@@ -16074,7 +15700,7 @@
         ]
       },
       {
-        "id": "e80u4_earthquake_P201",
+        "id": "e80u4_earthquake_S251",
         "question": "Âm 'ea' trong 'earth' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -16166,7 +15792,7 @@
         ]
       },
       {
-        "id": "e81u5_ease_P201",
+        "id": "e81u5_ease_S251",
         "question": "Âm 'ea' trong 'ease' phát âm giống từ nào?",
         "options": [
           "see",
@@ -16268,7 +15894,7 @@
         ]
       },
       {
-        "id": "e81u5_edit_P201",
+        "id": "e81u5_edit_S251",
         "question": "Âm 'e' trong 'edit' phát âm là:",
         "options": [
           "/e/",
@@ -16285,16 +15911,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_edit_S101",
-        "question": "Trọng âm của động từ 'edit' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -16380,7 +15996,7 @@
         ]
       },
       {
-        "id": "e81u5_editor_P201",
+        "id": "e81u5_editor_S251",
         "question": "Đuôi '-or' trong 'editor' phát âm là:",
         "options": [
           "/ər/",
@@ -16482,7 +16098,7 @@
         ]
       },
       {
-        "id": "e81u1_education_P201",
+        "id": "e81u1_education_S251",
         "question": "Âm 'du' trong 'education' phát âm là:",
         "options": [
           "/edʒ.ə/",
@@ -16584,7 +16200,7 @@
         ]
       },
       {
-        "id": "e81u3_effect_P201",
+        "id": "e81u3_effect_S251",
         "question": "Âm 'e' đầu tiên trong 'effect' phát âm là:",
         "options": [
           "/ɪ/",
@@ -16686,7 +16302,7 @@
         ]
       },
       {
-        "id": "e81u3_electric_P201",
+        "id": "e81u3_electric_S251",
         "question": "Phiên âm của 'electric' kết thúc bằng âm:",
         "options": [
           "/k/",
@@ -16778,7 +16394,7 @@
         ]
       },
       {
-        "id": "e81u3_electrical_P201",
+        "id": "e81u3_electrical_S251",
         "question": "Âm 'c' trong 'electrical' phát âm là:",
         "options": [
           "/k/",
@@ -16795,16 +16411,6 @@
           "1",
           "3",
           "4"
-        ]
-      },
-      {
-        "id": "e81u3_electrical_S101",
-        "question": "Trọng âm của từ 'electrical' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -16890,7 +16496,7 @@
         ]
       },
       {
-        "id": "e81u3_electrician_P201",
+        "id": "e81u3_electrician_S251",
         "question": "Âm 'c' đầu tiên trong 'electrician' phát âm là:",
         "options": [
           "/k/",
@@ -16992,7 +16598,7 @@
         ]
       },
       {
-        "id": "e81u3_electricity_P201",
+        "id": "e81u3_electricity_S251",
         "question": "Âm 'c' thứ hai trong 'electricity' phát âm là:",
         "options": [
           "/s/",
@@ -17084,7 +16690,7 @@
         ]
       },
       {
-        "id": "e81u4_embrace_P201",
+        "id": "e81u4_embrace_S251",
         "question": "Âm 'c' trong 'embrace' phát âm là:",
         "options": [
           "/s/",
@@ -17101,16 +16707,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_embrace_S101",
-        "question": "Trọng âm của từ 'embrace' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -17196,7 +16792,7 @@
         ]
       },
       {
-        "id": "e81u1_embroidery_P201",
+        "id": "e81u1_embroidery_S251",
         "question": "Âm 'oi' trong 'embroidery' phát âm là:",
         "options": [
           "/ɔɪ/",
@@ -17298,7 +16894,7 @@
         ]
       },
       {
-        "id": "e81u4_emergencyservice_P201",
+        "id": "e81u4_emergencyservice_S251",
         "question": "Âm 'g' trong 'emergency' phát âm là:",
         "options": [
           "/dʒ/",
@@ -17390,7 +16986,7 @@
         ]
       },
       {
-        "id": "e81u2_entertain_P201",
+        "id": "e81u2_entertain_S251",
         "question": "Âm 'ai' trong 'entertain' phát âm là:",
         "options": [
           "/eɪ/",
@@ -17407,16 +17003,6 @@
           "1",
           "2",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u2_entertain_S101",
-        "question": "Trọng âm của từ 'entertain' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ ba",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Không có trọng âm"
         ]
       },
       {
@@ -17502,7 +17088,7 @@
         ]
       },
       {
-        "id": "e81u2_entertaining_P201",
+        "id": "e81u2_entertaining_S251",
         "question": "Đuôi '-ing' trong 'entertaining' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -17604,7 +17190,7 @@
         ]
       },
       {
-        "id": "e81u1_entertainment_P201",
+        "id": "e81u1_entertainment_S251",
         "question": "Đuôi '-ment' trong 'entertainment' phát âm là:",
         "options": [
           "/mənt/",
@@ -17706,7 +17292,7 @@
         ]
       },
       {
-        "id": "e81u3_environment_P201",
+        "id": "e81u3_environment_S251",
         "question": "Âm 'n' trong 'environment' phát âm thế nào?",
         "options": [
           "Được phát âm nhẹ",
@@ -17808,7 +17394,7 @@
         ]
       },
       {
-        "id": "e81u3_environmental_P201",
+        "id": "e81u3_environmental_S251",
         "question": "Đuôi '-al' trong 'environmental' phát âm là:",
         "options": [
           "/əl/",
@@ -17900,7 +17486,7 @@
         ]
       },
       {
-        "id": "e81u3_environmentally_P201",
+        "id": "e81u3_environmentally_S251",
         "question": "Trạng từ này kết thúc bằng đuôi '-ly' phát âm là:",
         "options": [
           "/li/",
@@ -17917,16 +17503,6 @@
           "1",
           "2",
           "6"
-        ]
-      },
-      {
-        "id": "e81u3_environmentally_S101",
-        "question": "Trọng âm của từ 'environmentally' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ tư",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ năm",
-          "Âm tiết thứ hai"
         ]
       },
       {
@@ -18012,7 +17588,7 @@
         ]
       },
       {
-        "id": "e81u3_environmentist_P201",
+        "id": "e81u3_environmentist_S251",
         "question": "Đuôi '-ist' trong 'environmentalist' phát âm là:",
         "options": [
           "/ɪst/",
@@ -18114,7 +17690,7 @@
         ]
       },
       {
-        "id": "e81u4_escapeplan_P201",
+        "id": "e81u4_escapeplan_S251",
         "question": "Âm 'a' trong 'escape' phát âm là:",
         "options": [
           "/eɪ/",
@@ -18216,7 +17792,7 @@
         ]
       },
       {
-        "id": "e81u4_ethnic_P201",
+        "id": "e81u4_ethnic_S251",
         "question": "Âm 'th' trong 'ethnic' phát âm là:",
         "options": [
           "/θ/",
@@ -18318,7 +17894,7 @@
         ]
       },
       {
-        "id": "e81u2_eve_P201",
+        "id": "e81u2_eve_S251",
         "question": "Phiên âm của 'eve' là gì?",
         "options": [
           "/iːv/",
@@ -18420,7 +17996,7 @@
         ]
       },
       {
-        "id": "e81u3_even_P201",
+        "id": "e81u3_even_S251",
         "question": "Âm 'e' đầu tiên trong 'even' phát âm là:",
         "options": [
           "/iː/",
@@ -18522,7 +18098,7 @@
         ]
       },
       {
-        "id": "e81u4_evil_P201",
+        "id": "e81u4_evil_S251",
         "question": "Âm 'i' trong 'evil' phát âm là:",
         "options": [
           "/ə/",
@@ -18624,7 +18200,7 @@
         ]
       },
       {
-        "id": "e81u1_exercise_P201",
+        "id": "e81u1_exercise_S251",
         "question": "Âm 'x' trong 'exercise' phát âm là:",
         "options": [
           "/ks/",
@@ -18726,7 +18302,7 @@
         ]
       },
       {
-        "id": "e81u4_exhibition_P201",
+        "id": "e81u4_exhibition_S251",
         "question": "Âm 'h' trong 'exhibition' phát âm là:",
         "options": [
           "Âm câm (không phát âm)",
@@ -18818,7 +18394,7 @@
         ]
       },
       {
-        "id": "e81u5_expectancy_P201",
+        "id": "e81u5_expectancy_S251",
         "question": "Âm 'x' trong 'expect' phát âm là:",
         "options": [
           "/ks/",
@@ -18835,16 +18411,6 @@
           "1",
           "3",
           "4"
-        ]
-      },
-      {
-        "id": "e81u5_expectancy_S101",
-        "question": "Trọng âm của từ 'expectancy' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -18930,7 +18496,7 @@
         ]
       },
       {
-        "id": "e81u5_expectation_P201",
+        "id": "e81u5_expectation_S251",
         "question": "Âm 'tion' trong 'expectation' phát âm là:",
         "options": [
           "/ʃən/",
@@ -19032,7 +18598,7 @@
         ]
       },
       {
-        "id": "e81u1_extremesport_P201",
+        "id": "e81u1_extremesport_S251",
         "question": "Từ 'extreme' có âm nhấn rơi vào âm tiết mấy?",
         "options": [
           "2",
@@ -19134,7 +18700,7 @@
         ]
       },
       {
-        "id": "e81u5_eyebrow_P201",
+        "id": "e81u5_eyebrow_S251",
         "question": "Âm 'ow' trong 'brow' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -19236,7 +18802,7 @@
         ]
       },
       {
-        "id": "e81u1_fabric_P201",
+        "id": "e81u1_fabric_S251",
         "question": "Âm 'a' trong 'fabric' phát âm là:",
         "options": [
           "/æ/",
@@ -19338,7 +18904,7 @@
         ]
       },
       {
-        "id": "e81u5_facetoface_P201",
+        "id": "e81u5_facetoface_S251",
         "question": "Cụm 'face to face' có mấy âm /s/?",
         "options": [
           "2",
@@ -19440,7 +19006,7 @@
         ]
       },
       {
-        "id": "e81u2_facility_P201",
+        "id": "e81u2_facility_S251",
         "question": "Phiên âm của 'facility' là gì?",
         "options": [
           "/fəˈsɪl.ə.t̬i/",
@@ -19542,7 +19108,7 @@
         ]
       },
       {
-        "id": "e81u1_fashion_P201",
+        "id": "e81u1_fashion_S251",
         "question": "Âm 'sh' trong 'fashion' phát âm là:",
         "options": [
           "/ʃ/",
@@ -19644,7 +19210,7 @@
         ]
       },
       {
-        "id": "e81u4_feature_P201",
+        "id": "e81u4_feature_S251",
         "question": "Âm 'ea' trong 'feature' phát âm giống từ nào?",
         "options": [
           "meat",
@@ -19746,7 +19312,7 @@
         ]
       },
       {
-        "id": "e81u4_festival_P201",
+        "id": "e81u4_festival_S251",
         "question": "Âm 'i' trong 'festival' phát âm là:",
         "options": [
           "/ə/",
@@ -19838,7 +19404,7 @@
         ]
       },
       {
-        "id": "e81u4_finely_P201",
+        "id": "e81u4_finely_S251",
         "question": "Âm 'i' trong 'fine' phát âm là:",
         "options": [
           "/aɪ/",
@@ -19855,16 +19421,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_finely_S101",
-        "question": "Trọng âm của từ 'finely' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -19950,7 +19506,7 @@
         ]
       },
       {
-        "id": "e81u4_fireextinguisher_P201",
+        "id": "e81u4_fireextinguisher_S251",
         "question": "Âm 'u' trong 'extinguisher' phát âm là:",
         "options": [
           "/wɪ/",
@@ -20052,7 +19608,7 @@
         ]
       },
       {
-        "id": "e81u4_firstaidkit_P201",
+        "id": "e81u4_firstaidkit_S251",
         "question": "Âm 'ai' trong 'aid' phát âm là:",
         "options": [
           "/eɪ/",
@@ -20154,7 +19710,7 @@
         ]
       },
       {
-        "id": "e81u1_fishing_P201",
+        "id": "e81u1_fishing_S251",
         "question": "Âm '-ing' trong 'fishing' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -20256,7 +19812,7 @@
         ]
       },
       {
-        "id": "e81u4_flashlight_P201",
+        "id": "e81u4_flashlight_S251",
         "question": "Âm 'i' trong 'light' phát âm là:",
         "options": [
           "/aɪ/",
@@ -20358,7 +19914,7 @@
         ]
       },
       {
-        "id": "e81u4_flood_P201",
+        "id": "e81u4_flood_S251",
         "question": "Âm 'oo' trong 'flood' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -20460,7 +20016,7 @@
         ]
       },
       {
-        "id": "e81u4_flooded_P201",
+        "id": "e81u4_flooded_S251",
         "question": "Đuôi '-ed' trong 'flooded' phát âm là:",
         "options": [
           "/ɪd/",
@@ -20562,7 +20118,7 @@
         ]
       },
       {
-        "id": "e81u1_flowerarranging_P201",
+        "id": "e81u1_flowerarranging_S251",
         "question": "Âm 'ow' trong 'flower' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -20664,7 +20220,7 @@
         ]
       },
       {
-        "id": "e80u2_folk_P201",
+        "id": "e80u2_folk_S251",
         "question": "Âm 'l' trong 'folk' phát âm thế nào?",
         "options": [
           "Âm câm (không phát âm)",
@@ -20766,7 +20322,7 @@
         ]
       },
       {
-        "id": "e81u4_foodcourt_P201",
+        "id": "e81u4_foodcourt_S251",
         "question": "Âm 'ou' trong 'court' phát âm giống từ nào?",
         "options": [
           "door",
@@ -20868,7 +20424,7 @@
         ]
       },
       {
-        "id": "e81u2_fresh_P201",
+        "id": "e81u2_fresh_S251",
         "question": "Âm 'sh' trong 'fresh' phát âm là:",
         "options": [
           "/ʃ/",
@@ -20970,7 +20526,7 @@
         ]
       },
       {
-        "id": "e81u5_frustrated_P201",
+        "id": "e81u5_frustrated_S251",
         "question": "Đuôi '-ed' trong 'frustrated' phát âm là:",
         "options": [
           "/ɪd/",
@@ -21072,7 +20628,7 @@
         ]
       },
       {
-        "id": "e81u5_gaining_P201",
+        "id": "e81u5_gaining_S251",
         "question": "Âm 'ai' trong 'gain' phát âm là:",
         "options": [
           "/eɪ/",
@@ -21174,7 +20730,7 @@
         ]
       },
       {
-        "id": "e81u5_gap_P201",
+        "id": "e81u5_gap_S251",
         "question": "Âm 'a' trong 'gap' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -21276,7 +20832,7 @@
         ]
       },
       {
-        "id": "e81u1_gardening_P201",
+        "id": "e81u1_gardening_S251",
         "question": "Âm 'ar' trong 'garden' phát âm giống từ nào?",
         "options": [
           "car",
@@ -21378,7 +20934,7 @@
         ]
       },
       {
-        "id": "e81u4_gathering_P201",
+        "id": "e81u4_gathering_S251",
         "question": "Âm 'a' trong 'gather' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -21470,7 +21026,7 @@
         ]
       },
       {
-        "id": "e81u5_generational_P201",
+        "id": "e81u5_generational_S251",
         "question": "Âm 'a' trong 'generation' phát âm là:",
         "options": [
           "/eɪ/",
@@ -21487,16 +21043,6 @@
           "1",
           "2",
           "4"
-        ]
-      },
-      {
-        "id": "e81u5_generational_S101",
-        "question": "Trọng âm của từ 'generational' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ ba",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -21582,7 +21128,7 @@
         ]
       },
       {
-        "id": "e81u4_generosity_P201",
+        "id": "e81u4_generosity_S251",
         "question": "Âm 'g' đầu tiên trong 'generosity' phát âm là:",
         "options": [
           "/dʒ/",
@@ -21684,7 +21230,7 @@
         ]
       },
       {
-        "id": "e81u1_gift_P201",
+        "id": "e81u1_gift_S251",
         "question": "Âm 'i' trong 'gift' phát âm giống từ nào?",
         "options": [
           "lift",
@@ -21786,7 +21332,7 @@
         ]
       },
       {
-        "id": "e81u4_giving_P201",
+        "id": "e81u4_giving_S251",
         "question": "Âm 'g' đầu tiên trong 'giving' phát âm là:",
         "options": [
           "/ɡ/",
@@ -21888,7 +21434,7 @@
         ]
       },
       {
-        "id": "e81u4_god_P201",
+        "id": "e81u4_god_S251",
         "question": "Âm 'o' trong 'god' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -21990,7 +21536,7 @@
         ]
       },
       {
-        "id": "e81u4_greeting_P201",
+        "id": "e81u4_greeting_S251",
         "question": "Âm 'ee' trong 'greeting' phát âm là:",
         "options": [
           "/iː/",
@@ -22092,7 +21638,7 @@
         ]
       },
       {
-        "id": "e81u5_group_P201",
+        "id": "e81u5_group_S251",
         "question": "Âm 'ou' trong 'group' phát âm giống từ nào?",
         "options": [
           "soup",
@@ -22194,7 +21740,7 @@
         ]
       },
       {
-        "id": "e81u4_habit_P201",
+        "id": "e81u4_habit_S251",
         "question": "Âm 'a' trong 'habit' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -22296,7 +21842,7 @@
         ]
       },
       {
-        "id": "e81u1_handball_P201",
+        "id": "e81u1_handball_S251",
         "question": "Âm 'a' trong 'hand' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -22398,7 +21944,7 @@
         ]
       },
       {
-        "id": "e81u1_handmade_P201",
+        "id": "e81u1_handmade_S251",
         "question": "Âm 'a' trong 'hand' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -22500,7 +22046,7 @@
         ]
       },
       {
-        "id": "e81u1_hangout_P201",
+        "id": "e81u1_hangout_S251",
         "question": "Cách nối âm của 'hang out' là:",
         "options": [
           "/hæŋ/ + /aʊt/ thành /hæŋaʊt/",
@@ -22592,7 +22138,7 @@
         ]
       },
       {
-        "id": "e81u3_harm_P201",
+        "id": "e81u3_harm_S251",
         "question": "Âm 'ar' trong 'harm' phát âm là:",
         "options": [
           "/ɑːr/",
@@ -22609,16 +22155,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u3_harm_S101",
-        "question": "Từ 'harm' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -22704,7 +22240,7 @@
         ]
       },
       {
-        "id": "e81u3_harmful_P201",
+        "id": "e81u3_harmful_S251",
         "question": "Đuôi '-ful' trong 'harmful' phát âm là:",
         "options": [
           "/fəl/",
@@ -22806,7 +22342,7 @@
         ]
       },
       {
-        "id": "e81u1_hat_P201",
+        "id": "e81u1_hat_S251",
         "question": "Âm 'a' trong 'hat' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -22898,7 +22434,7 @@
         ]
       },
       {
-        "id": "e81u4_header_P201",
+        "id": "e81u4_header_S251",
         "question": "Âm 'ea' trong 'header' phát âm giống từ nào?",
         "options": [
           "bread",
@@ -22915,16 +22451,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_header_S101",
-        "question": "Trọng âm của từ 'header' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -23010,7 +22536,7 @@
         ]
       },
       {
-        "id": "e81u3_health_P201",
+        "id": "e81u3_health_S251",
         "question": "Âm 'ea' trong 'health' phát âm là:",
         "options": [
           "/e/",
@@ -23112,7 +22638,7 @@
         ]
       },
       {
-        "id": "e81u3_healthy_P201",
+        "id": "e81u3_healthy_S251",
         "question": "Đuôi '-y' trong 'healthy' phát âm là:",
         "options": [
           "/i/",
@@ -23214,7 +22740,7 @@
         ]
       },
       {
-        "id": "e81u3_heart_P201",
+        "id": "e81u3_heart_S251",
         "question": "Âm 'ear' trong 'heart' phát âm giống từ nào?",
         "options": [
           "car",
@@ -23316,7 +22842,7 @@
         ]
       },
       {
-        "id": "e81u4_heatwave_P201",
+        "id": "e81u4_heatwave_S251",
         "question": "Âm 'ea' trong 'heat' phát âm là:",
         "options": [
           "/iː/",
@@ -23408,7 +22934,7 @@
         ]
       },
       {
-        "id": "e80u2_herd_P201",
+        "id": "e80u2_herd_S251",
         "question": "Âm 'er' trong 'herd' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -23425,16 +22951,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e80u2_herd_S101",
-        "question": "Từ 'herd' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -23520,7 +23036,7 @@
         ]
       },
       {
-        "id": "e81u5_highschool_P201",
+        "id": "e81u5_highschool_S251",
         "question": "Âm 'igh' trong 'high' phát âm là:",
         "options": [
           "/aɪ/",
@@ -23622,7 +23138,7 @@
         ]
       },
       {
-        "id": "e81u5_hired_P201",
+        "id": "e81u5_hired_S251",
         "question": "Đuôi '-ed' trong 'hired' phát âm là:",
         "options": [
           "/d/",
@@ -23724,7 +23240,7 @@
         ]
       },
       {
-        "id": "e81u1_hobby_P201",
+        "id": "e81u1_hobby_S251",
         "question": "Âm 'o' trong 'hobby' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -23826,7 +23342,7 @@
         ]
       },
       {
-        "id": "e81u4_hometown_P201",
+        "id": "e81u4_hometown_S251",
         "question": "Âm 'ow' trong 'town' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -23928,7 +23444,7 @@
         ]
       },
       {
-        "id": "e81u5_honesty_P201",
+        "id": "e81u5_honesty_S251",
         "question": "Âm 'h' trong 'honest' phát âm là:",
         "options": [
           "Âm câm (không phát âm)",
@@ -24020,7 +23536,7 @@
         ]
       },
       {
-        "id": "e81u4_honoring_P201",
+        "id": "e81u4_honoring_S251",
         "question": "Âm 'h' trong 'honor' phát âm là:",
         "options": [
           "Âm câm (không phát âm)",
@@ -24037,16 +23553,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_honoring_S101",
-        "question": "Trọng âm của từ 'honoring' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -24132,7 +23638,7 @@
         ]
       },
       {
-        "id": "e81u1_hooked_P201",
+        "id": "e81u1_hooked_S251",
         "question": "Đuôi '-ed' trong 'hooked' phát âm là:",
         "options": [
           "/t/",
@@ -24234,7 +23740,7 @@
         ]
       },
       {
-        "id": "e81u4_hospitable_P201",
+        "id": "e81u4_hospitable_S251",
         "question": "Phiên âm của 'hospitable' là gì?",
         "options": [
           "/hɑːˈspɪt.ə.bəl/",
@@ -24336,7 +23842,7 @@
         ]
       },
       {
-        "id": "e81u4_hospitality_P201",
+        "id": "e81u4_hospitality_S251",
         "question": "Âm 'o' trong 'hospital' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -24438,7 +23944,7 @@
         ]
       },
       {
-        "id": "e81u4_huge_P201",
+        "id": "e81u4_huge_S251",
         "question": "Âm 'u' trong 'huge' phát âm là:",
         "options": [
           "/juː/",
@@ -24540,7 +24046,7 @@
         ]
       },
       {
-        "id": "e81u4_iconic_P201",
+        "id": "e81u4_iconic_S251",
         "question": "Âm 'i' đầu tiên trong 'iconic' phát âm là:",
         "options": [
           "/aɪ/",
@@ -24642,7 +24148,7 @@
         ]
       },
       {
-        "id": "e81u5_ideal_P201",
+        "id": "e81u5_ideal_S251",
         "question": "Âm 'i' đầu tiên trong 'ideal' phát âm là:",
         "options": [
           "/aɪ/",
@@ -24744,7 +24250,7 @@
         ]
       },
       {
-        "id": "e81u4_identification_P201",
+        "id": "e81u4_identification_S251",
         "question": "Âm 'ti' trong 'identification' phát âm là:",
         "options": [
           "/fə/",
@@ -24846,7 +24352,7 @@
         ]
       },
       {
-        "id": "e81u4_identify_P201",
+        "id": "e81u4_identify_S251",
         "question": "Âm 'i' đầu tiên trong 'identify' phát âm là:",
         "options": [
           "/aɪ/",
@@ -24948,7 +24454,7 @@
         ]
       },
       {
-        "id": "e81u4_ignore_P201",
+        "id": "e81u4_ignore_S251",
         "question": "Âm 'i' trong 'ignore' phát âm giống từ nào?",
         "options": [
           "if",
@@ -25040,7 +24546,7 @@
         ]
       },
       {
-        "id": "e81u4_illustrate_P201",
+        "id": "e81u4_illustrate_S251",
         "question": "Âm 'i' trong 'illustrate' phát âm giống từ nào?",
         "options": [
           "if",
@@ -25057,16 +24563,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_illustrate_S101",
-        "question": "Trọng âm của từ 'illustrate' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -25152,7 +24648,7 @@
         ]
       },
       {
-        "id": "e81u1_imagination_P201",
+        "id": "e81u1_imagination_S251",
         "question": "Âm 'g' trong 'imagination' phát âm là:",
         "options": [
           "/dʒ/",
@@ -25254,7 +24750,7 @@
         ]
       },
       {
-        "id": "e81u5_impact_P201",
+        "id": "e81u5_impact_S251",
         "question": "Âm 'i' trong 'impact' phát âm giống từ nào?",
         "options": [
           "if",
@@ -25356,7 +24852,7 @@
         ]
       },
       {
-        "id": "e81u3_importance_P201",
+        "id": "e81u3_importance_S251",
         "question": "Đuôi '-ance' trong 'importance' phát âm là:",
         "options": [
           "/əns/",
@@ -25458,7 +24954,7 @@
         ]
       },
       {
-        "id": "e81u3_important_P201",
+        "id": "e81u3_important_S251",
         "question": "Âm 'o' trong 'important' phát âm là:",
         "options": [
           "/ɔːr/",
@@ -25560,7 +25056,7 @@
         ]
       },
       {
-        "id": "e81u4_impressed_P201",
+        "id": "e81u4_impressed_S251",
         "question": "Đuôi '-ed' trong 'impressed' phát âm là:",
         "options": [
           "/t/",
@@ -25662,7 +25158,7 @@
         ]
       },
       {
-        "id": "e81u4_impression_P201",
+        "id": "e81u4_impression_S251",
         "question": "Âm 'ssion' trong 'impression' phát âm là:",
         "options": [
           "/ʃən/",
@@ -25764,7 +25260,7 @@
         ]
       },
       {
-        "id": "e81u4_improvement_P201",
+        "id": "e81u4_improvement_S251",
         "question": "Âm 'oo' trong 'improve' phát âm là:",
         "options": [
           "/uː/",
@@ -25866,7 +25362,7 @@
         ]
       },
       {
-        "id": "e81u4_incense_P201",
+        "id": "e81u4_incense_S251",
         "question": "Âm 'c' đầu tiên trong 'incense' phát âm là:",
         "options": [
           "/s/",
@@ -25968,7 +25464,7 @@
         ]
       },
       {
-        "id": "e81u1_individual_P201",
+        "id": "e81u1_individual_S251",
         "question": "Âm 'du' trong 'individual' phát âm là:",
         "options": [
           "/vɪdʒ.u/",
@@ -26060,7 +25556,7 @@
         ]
       },
       {
-        "id": "e81u5_inner_P201",
+        "id": "e81u5_inner_S251",
         "question": "Âm 'i' trong 'inner' phát âm giống từ nào?",
         "options": [
           "if",
@@ -26077,16 +25573,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_inner_S101",
-        "question": "Trọng âm của từ 'inner' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -26162,7 +25648,7 @@
         ]
       },
       {
-        "id": "e81u5_install_P201",
+        "id": "e81u5_install_S251",
         "question": "Âm 'a' trong 'install' phát âm là:",
         "options": [
           "/ɔː/",
@@ -26179,16 +25665,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_install_S101",
-        "question": "Trọng âm của động từ 'install' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -26274,7 +25750,7 @@
         ]
       },
       {
-        "id": "e81u5_installation_P201",
+        "id": "e81u5_installation_S251",
         "question": "Đuôi '-tion' trong 'installation' phát âm là:",
         "options": [
           "/ʃən/",
@@ -26376,7 +25852,7 @@
         ]
       },
       {
-        "id": "e81u5_instantly_P201",
+        "id": "e81u5_instantly_S251",
         "question": "Phiên âm của 'instantly' là gì?",
         "options": [
           "/ˈɪn.stənt.li/",
@@ -26478,7 +25954,7 @@
         ]
       },
       {
-        "id": "e81u4_instruction_P201",
+        "id": "e81u4_instruction_S251",
         "question": "Đuôi '-tion' trong 'instruction' phát âm là:",
         "options": [
           "/ʃən/",
@@ -26580,7 +26056,7 @@
         ]
       },
       {
-        "id": "e81u5_interactive_P201",
+        "id": "e81u5_interactive_S251",
         "question": "Âm 'a' trong 'interactive' phát âm là:",
         "options": [
           "/æ/",
@@ -26672,7 +26148,7 @@
         ]
       },
       {
-        "id": "e81u5_interpersonal_P201",
+        "id": "e81u5_interpersonal_S251",
         "question": "Âm 'er' đầu tiên trong 'interpersonal' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -26689,16 +26165,6 @@
           "1",
           "2",
           "5"
-        ]
-      },
-      {
-        "id": "e81u5_interpersonal_S101",
-        "question": "Trọng âm của từ 'interpersonal' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ tư",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ năm",
-          "Âm tiết thứ hai"
         ]
       },
       {
@@ -26784,7 +26250,7 @@
         ]
       },
       {
-        "id": "e81u4_invader_P201",
+        "id": "e81u4_invader_S251",
         "question": "Âm 'a' trong 'invade' phát âm là:",
         "options": [
           "/eɪ/",
@@ -26886,7 +26352,7 @@
         ]
       },
       {
-        "id": "e81u4_islander_P201",
+        "id": "e81u4_islander_S251",
         "question": "Âm 's' trong 'island' phát âm là:",
         "options": [
           "Âm câm (không phát âm)",
@@ -26988,7 +26454,7 @@
         ]
       },
       {
-        "id": "e81u3_issue_P201",
+        "id": "e81u3_issue_S251",
         "question": "Phiên âm của 'issue' là gì?",
         "options": [
           "/ˈɪʃ.uː/",
@@ -27090,7 +26556,7 @@
         ]
       },
       {
-        "id": "e81u1_item_P201",
+        "id": "e81u1_item_S251",
         "question": "Âm 'i' trong 'item' phát âm là:",
         "options": [
           "/aɪ/",
@@ -27192,7 +26658,7 @@
         ]
       },
       {
-        "id": "e81u4_jacket_P201",
+        "id": "e81u4_jacket_S251",
         "question": "Âm 'a' trong 'jacket' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -27294,7 +26760,7 @@
         ]
       },
       {
-        "id": "e81u4_jetlag_P201",
+        "id": "e81u4_jetlag_S251",
         "question": "Âm 'g' trong 'lag' phát âm là:",
         "options": [
           "/ɡ/",
@@ -27396,7 +26862,7 @@
         ]
       },
       {
-        "id": "e81u1_jewelry_P201",
+        "id": "e81u1_jewelry_S251",
         "question": "Phiên âm đúng của 'jewelry' là:",
         "options": [
           "/ˈdʒuː.əl.ri/",
@@ -27498,7 +26964,7 @@
         ]
       },
       {
-        "id": "e81u1_jogging_P201",
+        "id": "e81u1_jogging_S251",
         "question": "Phát âm âm 'j' trong 'jogging' giống từ nào?",
         "options": [
           "job",
@@ -27600,7 +27066,7 @@
         ]
       },
       {
-        "id": "e81u4_journey_P201",
+        "id": "e81u4_journey_S251",
         "question": "Âm 'our' trong 'journey' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -27702,7 +27168,7 @@
         ]
       },
       {
-        "id": "e81u5_judging_P201",
+        "id": "e81u5_judging_S251",
         "question": "Âm 'j' trong 'judge' phát âm là:",
         "options": [
           "/dʒ/",
@@ -27804,7 +27270,7 @@
         ]
       },
       {
-        "id": "e81u2_jumprope_P201",
+        "id": "e81u2_jumprope_S251",
         "question": "Âm 'u' trong 'jump' phát âm là:",
         "options": [
           "/ʌ/",
@@ -27906,7 +27372,7 @@
         ]
       },
       {
-        "id": "e81u1_karate_P201",
+        "id": "e81u1_karate_S251",
         "question": "Phiên âm của 'karate' là gì?",
         "options": [
           "/kəˈrɑː.t̬i/",
@@ -28008,7 +27474,7 @@
         ]
       },
       {
-        "id": "e81u4_kindness_P201",
+        "id": "e81u4_kindness_S251",
         "question": "Âm 'i' trong 'kind' phát âm là:",
         "options": [
           "/aɪ/",
@@ -28100,7 +27566,7 @@
         ]
       },
       {
-        "id": "e81u1_knit_P201",
+        "id": "e81u1_knit_S251",
         "question": "Phiên âm của 'knit' là gì?",
         "options": [
           "/nɪt/",
@@ -28117,16 +27583,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u1_knit_S101",
-        "question": "Từ 'knit' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -28212,7 +27668,7 @@
         ]
       },
       {
-        "id": "e81u1_knitting_P201",
+        "id": "e81u1_knitting_S251",
         "question": "Âm 'k' trong 'knitting' phát âm thế nào?",
         "options": [
           "Âm câm (không phát âm)",
@@ -28314,7 +27770,7 @@
         ]
       },
       {
-        "id": "e81u3_land_P201",
+        "id": "e81u3_land_S251",
         "question": "Âm 'a' trong 'land' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -28416,7 +27872,7 @@
         ]
       },
       {
-        "id": "e81u4_landscape_P201",
+        "id": "e81u4_landscape_S251",
         "question": "Âm 'a' đầu tiên trong 'landscape' phát âm là:",
         "options": [
           "/æ/",
@@ -28518,7 +27974,7 @@
         ]
       },
       {
-        "id": "e80u4_landslide_P201",
+        "id": "e80u4_landslide_S251",
         "question": "Âm 'i' trong 'slide' phát âm là:",
         "options": [
           "/aɪ/",
@@ -28620,7 +28076,7 @@
         ]
       },
       {
-        "id": "e81u4_lantern_P201",
+        "id": "e81u4_lantern_S251",
         "question": "Âm 'er' trong 'lantern' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -28722,7 +28178,7 @@
         ]
       },
       {
-        "id": "e81u4_legend_P201",
+        "id": "e81u4_legend_S251",
         "question": "Âm 'g' trong 'legend' phát âm là:",
         "options": [
           "/dʒ/",
@@ -28814,7 +28270,7 @@
         ]
       },
       {
-        "id": "e81u5_lifelong_P201",
+        "id": "e81u5_lifelong_S251",
         "question": "Âm 'i' trong 'life' phát âm là:",
         "options": [
           "/aɪ/",
@@ -28831,16 +28287,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_lifelong_S101",
-        "question": "Trọng âm của từ 'lifelong' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -28926,7 +28372,7 @@
         ]
       },
       {
-        "id": "e81u4_lifestyle_P201",
+        "id": "e81u4_lifestyle_S251",
         "question": "Âm 'i' trong 'style' phát âm là:",
         "options": [
           "/aɪ/",
@@ -29028,7 +28474,7 @@
         ]
       },
       {
-        "id": "e81u4_light_P201",
+        "id": "e81u4_light_S251",
         "question": "Âm 'igh' trong 'light' phát âm là:",
         "options": [
           "/aɪ/",
@@ -29130,7 +28576,7 @@
         ]
       },
       {
-        "id": "e81u5_limit_P201",
+        "id": "e81u5_limit_S251",
         "question": "Âm 'i' đầu tiên trong 'limit' phát âm giống từ nào?",
         "options": [
           "if",
@@ -29232,7 +28678,7 @@
         ]
       },
       {
-        "id": "e81u4_liquid_P201",
+        "id": "e81u4_liquid_S251",
         "question": "Âm 'qu' trong 'liquid' phát âm là:",
         "options": [
           "/kw/",
@@ -29334,7 +28780,7 @@
         ]
       },
       {
-        "id": "e81u4_locally_P201",
+        "id": "e81u4_locally_S251",
         "question": "Âm 'o' trong 'local' phát âm là:",
         "options": [
           "/oʊ/",
@@ -29436,7 +28882,7 @@
         ]
       },
       {
-        "id": "e81u5_logon_P201",
+        "id": "e81u5_logon_S251",
         "question": "Âm 'o' trong 'log' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -29538,7 +28984,7 @@
         ]
       },
       {
-        "id": "e81u5_look_P201",
+        "id": "e81u5_look_S251",
         "question": "Âm 'oo' trong 'look' phát âm giống từ nào?",
         "options": [
           "book",
@@ -29630,7 +29076,7 @@
         ]
       },
       {
-        "id": "e81u5_loose_P201",
+        "id": "e81u5_loose_S251",
         "question": "Âm 's' trong 'loose' phát âm là:",
         "options": [
           "/s/",
@@ -29742,7 +29188,7 @@
         ]
       },
       {
-        "id": "e81u5_loving_P201",
+        "id": "e81u5_loving_S251",
         "question": "Âm 'o' trong 'love' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -29844,7 +29290,7 @@
         ]
       },
       {
-        "id": "e81u5_low_P201",
+        "id": "e81u5_low_S251",
         "question": "Âm 'ow' trong 'low' phát âm giống từ nào?",
         "options": [
           "coat",
@@ -29946,7 +29392,7 @@
         ]
       },
       {
-        "id": "e81u4_luckymoney_P201",
+        "id": "e81u4_luckymoney_S251",
         "question": "Âm 'u' trong 'lucky' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -30048,7 +29494,7 @@
         ]
       },
       {
-        "id": "e81u3_lung_P201",
+        "id": "e81u3_lung_S251",
         "question": "Âm 'u' trong 'lung' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -30150,7 +29596,7 @@
         ]
       },
       {
-        "id": "e81u4_maintain_P201",
+        "id": "e81u4_maintain_S251",
         "question": "Âm 'ai' trong 'maintain' phát âm là:",
         "options": [
           "/eɪ/",
@@ -30252,7 +29698,7 @@
         ]
       },
       {
-        "id": "e81u4_majority_P201",
+        "id": "e81u4_majority_S251",
         "question": "Âm 'o' trong 'majority' phát âm là:",
         "options": [
           "/ɑː/",
@@ -30354,7 +29800,7 @@
         ]
       },
       {
-        "id": "e81u1_makingmodels_P201",
+        "id": "e81u1_makingmodels_S251",
         "question": "Âm 'o' trong 'model' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -30456,7 +29902,7 @@
         ]
       },
       {
-        "id": "e81u5_manner_P201",
+        "id": "e81u5_manner_S251",
         "question": "Âm 'a' trong 'manner' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -30558,7 +30004,7 @@
         ]
       },
       {
-        "id": "e81u4_marriage_P201",
+        "id": "e81u4_marriage_S251",
         "question": "Âm 'ia' trong 'marriage' phát âm là:",
         "options": [
           "/ɪ/",
@@ -30660,7 +30106,7 @@
         ]
       },
       {
-        "id": "e81u4_martialarts_P201",
+        "id": "e81u4_martialarts_S251",
         "question": "Âm 'tial' trong 'martial' phát âm là:",
         "options": [
           "/ʃəl/",
@@ -30762,7 +30208,7 @@
         ]
       },
       {
-        "id": "e81u5_massmedia_P201",
+        "id": "e81u5_massmedia_S251",
         "question": "Âm 'a' trong 'mass' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -30864,7 +30310,7 @@
         ]
       },
       {
-        "id": "e81u4_match_P201",
+        "id": "e81u4_match_S251",
         "question": "Âm 'tch' trong 'match' phát âm giống từ nào?",
         "options": [
           "chair",
@@ -30966,7 +30412,7 @@
         ]
       },
       {
-        "id": "e81u5_meaningful_P201",
+        "id": "e81u5_meaningful_S251",
         "question": "Âm 'ea' trong 'mean' phát âm giống từ nào?",
         "options": [
           "see",
@@ -31068,7 +30514,7 @@
         ]
       },
       {
-        "id": "e81u4_memorial_P201",
+        "id": "e81u4_memorial_S251",
         "question": "Âm 'o' trong 'memorial' phát âm là:",
         "options": [
           "/ɔː/",
@@ -31170,7 +30616,7 @@
         ]
       },
       {
-        "id": "e81u5_message_P201",
+        "id": "e81u5_message_S251",
         "question": "Âm 'g' trong 'message' phát âm là:",
         "options": [
           "/dʒ/",
@@ -31272,7 +30718,7 @@
         ]
       },
       {
-        "id": "e81u4_minority_P201",
+        "id": "e81u4_minority_S251",
         "question": "Âm 'i' đầu tiên trong 'minority' phát âm là:",
         "options": [
           "/maɪ/",
@@ -31374,7 +30820,7 @@
         ]
       },
       {
-        "id": "e81u4_missing_P201",
+        "id": "e81u4_missing_S251",
         "question": "Âm 'i' đầu tiên trong 'missing' phát âm là:",
         "options": [
           "/ɪ/",
@@ -31476,7 +30922,7 @@
         ]
       },
       {
-        "id": "e81u4_modern_P201",
+        "id": "e81u4_modern_S251",
         "question": "Âm 'o' trong 'modern' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -31578,7 +31024,7 @@
         ]
       },
       {
-        "id": "e81u4_monastery_P201",
+        "id": "e81u4_monastery_S251",
         "question": "Âm 'o' đầu tiên trong 'monastery' phát âm là:",
         "options": [
           "/ɑː/",
@@ -31680,7 +31126,7 @@
         ]
       },
       {
-        "id": "e81u4_monument_P201",
+        "id": "e81u4_monument_S251",
         "question": "Âm 'u' trong 'monument' phát âm là:",
         "options": [
           "/jə/",
@@ -31782,7 +31228,7 @@
         ]
       },
       {
-        "id": "e81u5_motivated_P201",
+        "id": "e81u5_motivated_S251",
         "question": "Đuôi '-ed' trong 'motivated' phát âm là:",
         "options": [
           "/ɪd/",
@@ -31884,7 +31330,7 @@
         ]
       },
       {
-        "id": "e81u5_motivation_P201",
+        "id": "e81u5_motivation_S251",
         "question": "Âm 'tion' trong 'motivation' phát âm là:",
         "options": [
           "/ʃən/",
@@ -31986,7 +31432,7 @@
         ]
       },
       {
-        "id": "e81u4_mountainous_P201",
+        "id": "e81u4_mountainous_S251",
         "question": "Âm 'ou' trong 'mountain' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -32088,7 +31534,7 @@
         ]
       },
       {
-        "id": "e81u4_multicultural_P201",
+        "id": "e81u4_multicultural_S251",
         "question": "Âm 'u' trong 'multi' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -32190,7 +31636,7 @@
         ]
       },
       {
-        "id": "e81u5_multimedia_P201",
+        "id": "e81u5_multimedia_S251",
         "question": "Tiền tố 'multi-' trong 'multimedia' phát âm là:",
         "options": [
           "/mʌl.ti/",
@@ -32292,7 +31738,7 @@
         ]
       },
       {
-        "id": "e81u4_museum_P201",
+        "id": "e81u4_museum_S251",
         "question": "Phiên âm của 'museum' là gì?",
         "options": [
           "/mjuːˈziː.əm/",
@@ -32394,7 +31840,7 @@
         ]
       },
       {
-        "id": "e81u4_mysterious_P201",
+        "id": "e81u4_mysterious_S251",
         "question": "Âm 'y' trong 'mystery' phát âm là:",
         "options": [
           "/ɪ/",
@@ -32496,7 +31942,7 @@
         ]
       },
       {
-        "id": "e81u5_nailbiting_P201",
+        "id": "e81u5_nailbiting_S251",
         "question": "Âm 'i' trong 'bite' phát âm là:",
         "options": [
           "/aɪ/",
@@ -32598,7 +32044,7 @@
         ]
       },
       {
-        "id": "e81u5_narrowminded_P201",
+        "id": "e81u5_narrowminded_S251",
         "question": "Âm 'ow' trong 'narrow' phát âm giống từ nào?",
         "options": [
           "coat",
@@ -32700,7 +32146,7 @@
         ]
       },
       {
-        "id": "e81u2_natural_P201",
+        "id": "e81u2_natural_S251",
         "question": "Âm 'a' đầu tiên trong 'natural' phát âm là:",
         "options": [
           "/æ/",
@@ -32802,7 +32248,7 @@
         ]
       },
       {
-        "id": "e81u4_nature_P201",
+        "id": "e81u4_nature_S251",
         "question": "Âm 'a' trong 'nature' phát âm là:",
         "options": [
           "/eɪ/",
@@ -32904,7 +32350,7 @@
         ]
       },
       {
-        "id": "e81u1_needle_P201",
+        "id": "e81u1_needle_S251",
         "question": "Âm 'ee' trong 'needle' phát âm là:",
         "options": [
           "/iː/",
@@ -33006,7 +32452,7 @@
         ]
       },
       {
-        "id": "e81u5_network_P201",
+        "id": "e81u5_network_S251",
         "question": "Âm 'e' trong 'network' phát âm là:",
         "options": [
           "/e/",
@@ -33108,7 +32554,7 @@
         ]
       },
       {
-        "id": "e81u2_noise_P201",
+        "id": "e81u2_noise_S251",
         "question": "Âm 'oi' trong 'noise' phát âm là:",
         "options": [
           "/ɔɪ/",
@@ -33210,7 +32656,7 @@
         ]
       },
       {
-        "id": "e81u2_noisy_P201",
+        "id": "e81u2_noisy_S251",
         "question": "Đuôi '-y' trong 'noisy' phát âm là:",
         "options": [
           "/i/",
@@ -33302,7 +32748,7 @@
         ]
       },
       {
-        "id": "e81u4_nomadic_P201",
+        "id": "e81u4_nomadic_S251",
         "question": "Âm 'o' trong 'nomad' phát âm là:",
         "options": [
           "/oʊ/",
@@ -33319,16 +32765,6 @@
           "1",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_nomadic_S101",
-        "question": "Trọng âm của từ 'nomadic' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -33414,7 +32850,7 @@
         ]
       },
       {
-        "id": "e81u4_nomads_P201",
+        "id": "e81u4_nomads_S251",
         "question": "Âm 'o' trong 'nomad' phát âm là:",
         "options": [
           "/oʊ/",
@@ -33516,7 +32952,7 @@
         ]
       },
       {
-        "id": "e81u5_norm_P201",
+        "id": "e81u5_norm_S251",
         "question": "Âm 'o' trong 'norm' phát âm giống từ nào?",
         "options": [
           "door",
@@ -33618,7 +33054,7 @@
         ]
       },
       {
-        "id": "e81u5_notification_P201",
+        "id": "e81u5_notification_S251",
         "question": "Đuôi '-tion' trong 'notification' phát âm là:",
         "options": [
           "/ʃən/",
@@ -33720,7 +33156,7 @@
         ]
       },
       {
-        "id": "e81u5_obey_P201",
+        "id": "e81u5_obey_S251",
         "question": "Âm 'ey' trong 'obey' phát âm giống từ nào?",
         "options": [
           "they",
@@ -33822,7 +33258,7 @@
         ]
       },
       {
-        "id": "e81u5_obstacle_P201",
+        "id": "e81u5_obstacle_S251",
         "question": "Âm 'o' trong 'obstacle' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -33924,7 +33360,7 @@
         ]
       },
       {
-        "id": "e81u4_offer_P201",
+        "id": "e81u4_offer_S251",
         "question": "Âm 'o' trong 'offer' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -34026,7 +33462,7 @@
         ]
       },
       {
-        "id": "e81u5_online_P201",
+        "id": "e81u5_online_S251",
         "question": "Âm 'i' trong 'online' phát âm là:",
         "options": [
           "/aɪ/",
@@ -34128,7 +33564,7 @@
         ]
       },
       {
-        "id": "e81u5_openminded_P201",
+        "id": "e81u5_openminded_S251",
         "question": "Âm 'o' trong 'open' phát âm là:",
         "options": [
           "/oʊ/",
@@ -34230,7 +33666,7 @@
         ]
       },
       {
-        "id": "e81u3_organization_P201",
+        "id": "e81u3_organization_S251",
         "question": "Đuôi '-tion' trong 'organization' phát âm là:",
         "options": [
           "/ʃən/",
@@ -34322,7 +33758,7 @@
         ]
       },
       {
-        "id": "e81u3_organize_P201",
+        "id": "e81u3_organize_S251",
         "question": "Âm 'i' trong 'organize' phát âm là:",
         "options": [
           "/aɪ/",
@@ -34339,16 +33775,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_organize_S101",
-        "question": "Trọng âm của từ 'organize' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -34434,7 +33860,7 @@
         ]
       },
       {
-        "id": "e81u3_organizer_P201",
+        "id": "e81u3_organizer_S251",
         "question": "Đuôi '-er' trong 'organizer' phát âm là:",
         "options": [
           "/ər/",
@@ -34536,7 +33962,7 @@
         ]
       },
       {
-        "id": "e81u1_origami_P201",
+        "id": "e81u1_origami_S251",
         "question": "Phiên âm của 'origami' là gì?",
         "options": [
           "/ˌɔːr.ɪˈɡɑː.mi/",
@@ -34638,7 +34064,7 @@
         ]
       },
       {
-        "id": "e81u4_ornament_P201",
+        "id": "e81u4_ornament_S251",
         "question": "Âm 'o' trong 'ornament' phát âm là:",
         "options": [
           "/ɔː/",
@@ -34740,7 +34166,7 @@
         ]
       },
       {
-        "id": "e81u5_outcome_P201",
+        "id": "e81u5_outcome_S251",
         "question": "Âm 'ou' trong 'outcome' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -34832,7 +34258,7 @@
         ]
       },
       {
-        "id": "e81u5_outweigh_P201",
+        "id": "e81u5_outweigh_S251",
         "question": "Âm 'eigh' trong 'outweigh' phát âm giống từ nào?",
         "options": [
           "eight",
@@ -34849,16 +34275,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_outweigh_S101",
-        "question": "Trọng âm của từ 'outweigh' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -34934,7 +34350,7 @@
         ]
       },
       {
-        "id": "e81u5_overprotective_P201",
+        "id": "e81u5_overprotective_S251",
         "question": "Âm 'o' đầu tiên trong 'over' phát âm là:",
         "options": [
           "/oʊ/",
@@ -34951,16 +34367,6 @@
           "1",
           "2",
           "3"
-        ]
-      },
-      {
-        "id": "e81u5_overprotective_S101",
-        "question": "Trọng âm của từ 'overprotective' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ tư",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ năm",
-          "Âm tiết thứ hai"
         ]
       },
       {
@@ -35046,7 +34452,7 @@
         ]
       },
       {
-        "id": "e81u4_pagoda_P201",
+        "id": "e81u4_pagoda_S251",
         "question": "Âm 'o' trong 'pagoda' phát âm là:",
         "options": [
           "/oʊ/",
@@ -35148,7 +34554,7 @@
         ]
       },
       {
-        "id": "e81u1_painting_P201",
+        "id": "e81u1_painting_S251",
         "question": "Âm 'ai' trong 'painting' phát âm là:",
         "options": [
           "/eɪ/",
@@ -35250,7 +34656,7 @@
         ]
       },
       {
-        "id": "e81u1_paper_P201",
+        "id": "e81u1_paper_S251",
         "question": "Âm 'a' trong 'paper' phát âm là:",
         "options": [
           "/eɪ/",
@@ -35352,7 +34758,7 @@
         ]
       },
       {
-        "id": "e81u4_parade_P201",
+        "id": "e81u4_parade_S251",
         "question": "Âm 'a' thứ hai trong 'parade' phát âm là:",
         "options": [
           "/eɪ/",
@@ -35454,7 +34860,7 @@
         ]
       },
       {
-        "id": "e81u1_pattern_P201",
+        "id": "e81u1_pattern_S251",
         "question": "Âm 'a' trong 'pattern' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -35556,7 +34962,7 @@
         ]
       },
       {
-        "id": "e81u2_peace_P201",
+        "id": "e81u2_peace_S251",
         "question": "Phiên âm của 'peace' giống từ nào sau đây?",
         "options": [
           "piece",
@@ -35658,7 +35064,7 @@
         ]
       },
       {
-        "id": "e81u2_peaceful_P201",
+        "id": "e81u2_peaceful_S251",
         "question": "Đuôi '-ful' trong 'peaceful' phát âm là:",
         "options": [
           "/fəl/",
@@ -35760,7 +35166,7 @@
         ]
       },
       {
-        "id": "e81u5_peerpressure_P201",
+        "id": "e81u5_peerpressure_S251",
         "question": "Âm 'ee' trong 'peer' phát âm là:",
         "options": [
           "/ɪr/",
@@ -35862,7 +35268,7 @@
         ]
       },
       {
-        "id": "e81u2_peoplescommittee_P201",
+        "id": "e81u2_peoplescommittee_S251",
         "question": "Âm 'ee' trong 'committee' phát âm là:",
         "options": [
           "/i/",
@@ -35964,7 +35370,7 @@
         ]
       },
       {
-        "id": "e81u4_performing_P201",
+        "id": "e81u4_performing_S251",
         "question": "Âm 'er' trong 'perform' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -36066,7 +35472,7 @@
         ]
       },
       {
-        "id": "e81u5_permission_P201",
+        "id": "e81u5_permission_S251",
         "question": "Âm 'ssion' trong 'permission' phát âm là:",
         "options": [
           "/ʃən/",
@@ -36158,7 +35564,7 @@
         ]
       },
       {
-        "id": "e81u1_persisting_P201",
+        "id": "e81u1_persisting_S251",
         "question": "Âm 'er' trong 'persist' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -36175,16 +35581,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u1_persisting_S101",
-        "question": "Trọng âm của từ 'persisting' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -36260,7 +35656,7 @@
         ]
       },
       {
-        "id": "e81u2_pick_P201",
+        "id": "e81u2_pick_S251",
         "question": "Phiên âm của 'pick' giống từ nào?",
         "options": [
           "sick",
@@ -36277,16 +35673,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u2_pick_S101",
-        "question": "Từ 'pick' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -36372,7 +35758,7 @@
         ]
       },
       {
-        "id": "e81u2_picky_P201",
+        "id": "e81u2_picky_S251",
         "question": "Âm 'y' trong 'picky' phát âm là:",
         "options": [
           "/i/",
@@ -36474,7 +35860,7 @@
         ]
       },
       {
-        "id": "e81u4_picturesque_P201",
+        "id": "e81u4_picturesque_S251",
         "question": "Âm 'que' cuối trong 'picturesque' phát âm là:",
         "options": [
           "/sk/",
@@ -36576,7 +35962,7 @@
         ]
       },
       {
-        "id": "e81u5_piercing_P201",
+        "id": "e81u5_piercing_S251",
         "question": "Âm 'ie' trong 'pierce' phát âm là:",
         "options": [
           "/ɪr/",
@@ -36678,7 +36064,7 @@
         ]
       },
       {
-        "id": "e81u4_pilgrimage_P201",
+        "id": "e81u4_pilgrimage_S251",
         "question": "Âm 'i' đầu tiên trong 'pilgrim' phát âm là:",
         "options": [
           "/ɪ/",
@@ -36780,7 +36166,7 @@
         ]
       },
       {
-        "id": "e81u1_playingboardgames_P201",
+        "id": "e81u1_playingboardgames_S251",
         "question": "Âm 'oa' trong 'board' phát âm giống từ nào?",
         "options": [
           "door",
@@ -36882,7 +36268,7 @@
         ]
       },
       {
-        "id": "e81u1_playingcomputergames_P201",
+        "id": "e81u1_playingcomputergames_S251",
         "question": "Âm 'u' trong 'computer' phát âm là:",
         "options": [
           "/juː/",
@@ -36984,7 +36370,7 @@
         ]
       },
       {
-        "id": "e81u1_playingtheguitar_P201",
+        "id": "e81u1_playingtheguitar_S251",
         "question": "Âm 'ui' trong 'guitar' phát âm là:",
         "options": [
           "/ɪ/",
@@ -37076,7 +36462,7 @@
         ]
       },
       {
-        "id": "e81u3_poison_P201",
+        "id": "e81u3_poison_S251",
         "question": "Âm 'oi' trong 'poison' phát âm là:",
         "options": [
           "/ɔɪ/",
@@ -37093,16 +36479,6 @@
           "Âm tiết 2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_poison_S101",
-        "question": "Trọng âm của từ 'poison' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -37188,7 +36564,7 @@
         ]
       },
       {
-        "id": "e81u3_poisonous_P201",
+        "id": "e81u3_poisonous_S251",
         "question": "Đuôi '-ous' trong 'poisonous' phát âm là:",
         "options": [
           "/əs/",
@@ -37290,7 +36666,7 @@
         ]
       },
       {
-        "id": "e81u3_pollutant_P201",
+        "id": "e81u3_pollutant_S251",
         "question": "Âm 'a' trong 'pollutant' phát âm là:",
         "options": [
           "/ə/",
@@ -37382,7 +36758,7 @@
         ]
       },
       {
-        "id": "e81u3_pollute_P201",
+        "id": "e81u3_pollute_S251",
         "question": "Âm 'u' trong 'pollute' phát âm là:",
         "options": [
           "/uː/",
@@ -37399,16 +36775,6 @@
           "Âm tiết 1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_pollute_S101",
-        "question": "Trọng âm của từ 'pollute' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -37494,7 +36860,7 @@
         ]
       },
       {
-        "id": "e81u3_polluted_P201",
+        "id": "e81u3_polluted_S251",
         "question": "Đuôi '-ed' trong 'polluted' phát âm là:",
         "options": [
           "/ɪd/",
@@ -37596,7 +36962,7 @@
         ]
       },
       {
-        "id": "e81u3_pollution_P201",
+        "id": "e81u3_pollution_S251",
         "question": "Đuôi '-tion' trong 'pollution' phát âm là:",
         "options": [
           "/ʃən/",
@@ -37698,7 +37064,7 @@
         ]
       },
       {
-        "id": "e81u5_post_P201",
+        "id": "e81u5_post_S251",
         "question": "Âm 'o' trong 'post' phát âm giống từ nào?",
         "options": [
           "ghost",
@@ -37800,7 +37166,7 @@
         ]
       },
       {
-        "id": "e81u5_potential_P201",
+        "id": "e81u5_potential_S251",
         "question": "Âm 'tial' trong 'potential' phát âm là:",
         "options": [
           "/ʃəl/",
@@ -37892,7 +37258,7 @@
         ]
       },
       {
-        "id": "e81u4_pour_P201",
+        "id": "e81u4_pour_S251",
         "question": "Âm 'our' trong 'pour' phát âm giống từ nào?",
         "options": [
           "door",
@@ -37909,16 +37275,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u4_pour_S101",
-        "question": "Từ 'pour' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -38004,7 +37360,7 @@
         ]
       },
       {
-        "id": "e81u1_practice_P201",
+        "id": "e81u1_practice_S251",
         "question": "Âm 'c' trong 'practice' phát âm là:",
         "options": [
           "/s/",
@@ -38106,7 +37462,7 @@
         ]
       },
       {
-        "id": "e81u4_pray_P201",
+        "id": "e81u4_pray_S251",
         "question": "Âm 'ay' trong 'pray' phát âm giống từ nào?",
         "options": [
           "day",
@@ -38208,7 +37564,7 @@
         ]
       },
       {
-        "id": "e81u4_preparation_P201",
+        "id": "e81u4_preparation_S251",
         "question": "Âm 'a' trong 'prepare' phát âm giống từ nào?",
         "options": [
           "bear",
@@ -38310,7 +37666,7 @@
         ]
       },
       {
-        "id": "e81u1_prepare_P201",
+        "id": "e81u1_prepare_S251",
         "question": "Âm 'e' đầu tiên trong 'prepare' phát âm là:",
         "options": [
           "/ɪ/",
@@ -38412,7 +37768,7 @@
         ]
       },
       {
-        "id": "e81u1_prepared_P201",
+        "id": "e81u1_prepared_S251",
         "question": "Đuôi '-ed' trong 'prepared' phát âm là:",
         "options": [
           "/d/",
@@ -38514,7 +37870,7 @@
         ]
       },
       {
-        "id": "e81u4_present_P201",
+        "id": "e81u4_present_S251",
         "question": "Âm 's' trong 'present' phát âm là:",
         "options": [
           "/z/",
@@ -38616,7 +37972,7 @@
         ]
       },
       {
-        "id": "e81u4_preserve_P201",
+        "id": "e81u4_preserve_S251",
         "question": "Âm 's' trong 'preserve' phát âm là:",
         "options": [
           "/z/",
@@ -38708,7 +38064,7 @@
         ]
       },
       {
-        "id": "e81u3_prevent_P201",
+        "id": "e81u3_prevent_S251",
         "question": "Âm 'e' đầu tiên trong 'prevent' phát âm là:",
         "options": [
           "/ɪ/",
@@ -38725,16 +38081,6 @@
           "Âm tiết 1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_prevent_S101",
-        "question": "Trọng âm của động từ 'prevent' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -38820,7 +38166,7 @@
         ]
       },
       {
-        "id": "e81u3_prevention_P201",
+        "id": "e81u3_prevention_S251",
         "question": "Đuôi '-tion' trong 'prevention' phát âm là:",
         "options": [
           "/ʃən/",
@@ -38922,7 +38268,7 @@
         ]
       },
       {
-        "id": "e81u5_privacy_P201",
+        "id": "e81u5_privacy_S251",
         "question": "Âm 'i' trong 'privacy' phát âm là:",
         "options": [
           "/aɪ/",
@@ -39024,7 +38370,7 @@
         ]
       },
       {
-        "id": "e81u4_procession_P201",
+        "id": "e81u4_procession_S251",
         "question": "Âm 'ssion' trong 'procession' phát âm là:",
         "options": [
           "/ʃən/",
@@ -39126,7 +38472,7 @@
         ]
       },
       {
-        "id": "e81u4_property_P201",
+        "id": "e81u4_property_S251",
         "question": "Âm 'o' trong 'property' phát âm là:",
         "options": [
           "/ɑː/",
@@ -39228,7 +38574,7 @@
         ]
       },
       {
-        "id": "e81u4_prosperous_P201",
+        "id": "e81u4_prosperous_S251",
         "question": "Âm 'o' đầu tiên trong 'prosperous' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -39330,7 +38676,7 @@
         ]
       },
       {
-        "id": "e80u3_protect_P201",
+        "id": "e80u3_protect_S251",
         "question": "Âm 'o' trong 'protect' phát âm là:",
         "options": [
           "/ə/",
@@ -39432,7 +38778,7 @@
         ]
       },
       {
-        "id": "e81u3_protection_P201",
+        "id": "e81u3_protection_S251",
         "question": "Đuôi '-tion' trong 'protection' phát âm là:",
         "options": [
           "/ʃən/",
@@ -39534,7 +38880,7 @@
         ]
       },
       {
-        "id": "e81u3_protective_P201",
+        "id": "e81u3_protective_S251",
         "question": "Đuôi '-ive' trong 'protective' phát âm là:",
         "options": [
           "/ɪv/",
@@ -39636,7 +38982,7 @@
         ]
       },
       {
-        "id": "e81u3_protector_P201",
+        "id": "e81u3_protector_S251",
         "question": "Đuôi '-or' trong 'protector' phát âm là:",
         "options": [
           "/ər/",
@@ -39728,7 +39074,7 @@
         ]
       },
       {
-        "id": "e81u3_provide_P201",
+        "id": "e81u3_provide_S251",
         "question": "Âm 'i' trong 'provide' phát âm là:",
         "options": [
           "/aɪ/",
@@ -39745,16 +39091,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_provide_S101",
-        "question": "Trọng âm của động từ 'provide' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -39840,7 +39176,7 @@
         ]
       },
       {
-        "id": "e81u3_provider_P201",
+        "id": "e81u3_provider_S251",
         "question": "Đuôi '-er' trong 'provider' phát âm là:",
         "options": [
           "/ər/",
@@ -39942,7 +39278,7 @@
         ]
       },
       {
-        "id": "e81u3_provision_P201",
+        "id": "e81u3_provision_S251",
         "question": "Đuôi '-sion' trong 'provision' phát âm là:",
         "options": [
           "/ʒən/",
@@ -40044,7 +39380,7 @@
         ]
       },
       {
-        "id": "e81u1_puzzle_P201",
+        "id": "e81u1_puzzle_S251",
         "question": "Âm 'u' trong 'puzzle' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -40146,7 +39482,7 @@
         ]
       },
       {
-        "id": "e81u2_quiet_P201",
+        "id": "e81u2_quiet_S251",
         "question": "Phiên âm đúng của 'quiet' là gì?",
         "options": [
           "/ˈkwaɪ.ət/",
@@ -40248,7 +39584,7 @@
         ]
       },
       {
-        "id": "e81u1_quilt_P201",
+        "id": "e81u1_quilt_S251",
         "question": "Âm 'qu' trong 'quilt' phát âm là:",
         "options": [
           "/kw/",
@@ -40340,7 +39676,7 @@
         ]
       },
       {
-        "id": "e81u5_rebel_P201",
+        "id": "e81u5_rebel_S251",
         "question": "Phiên âm của danh từ 'rebel' là gì?",
         "options": [
           "/ˈreb.əl/",
@@ -40357,16 +39693,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_rebel_S101",
-        "question": "Trọng âm của danh từ 'rebel' (người nổi loạn) rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -40452,7 +39778,7 @@
         ]
       },
       {
-        "id": "e81u1_recipe_P201",
+        "id": "e81u1_recipe_S251",
         "question": "Phiên âm đúng của 'recipe' là gì?",
         "options": [
           "/ˈres.ə.pi/",
@@ -40554,7 +39880,7 @@
         ]
       },
       {
-        "id": "e81u3_recyclable_P201",
+        "id": "e81u3_recyclable_S251",
         "question": "Đuôi '-able' trong 'recyclable' phát âm là:",
         "options": [
           "/ə.bəl/",
@@ -40646,7 +39972,7 @@
         ]
       },
       {
-        "id": "e81u3_recycle_P201",
+        "id": "e81u3_recycle_S251",
         "question": "Âm 'c' đầu tiên trong 'recycle' phát âm là:",
         "options": [
           "/s/",
@@ -40663,16 +39989,6 @@
           "1",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_recycle_S101",
-        "question": "Trọng âm của động từ 'recycle' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -40748,7 +40064,7 @@
         ]
       },
       {
-        "id": "e81u3_reduce_P201",
+        "id": "e81u3_reduce_S251",
         "question": "Âm 'u' trong 'reduce' phát âm là:",
         "options": [
           "/uː/",
@@ -40765,16 +40081,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_reduce_S101",
-        "question": "Trọng âm của động từ 'reduce' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -40860,7 +40166,7 @@
         ]
       },
       {
-        "id": "e81u3_reduction_P201",
+        "id": "e81u3_reduction_S251",
         "question": "Đuôi '-tion' trong 'reduction' phát âm là:",
         "options": [
           "/ʃən/",
@@ -40962,7 +40268,7 @@
         ]
       },
       {
-        "id": "e81u1_relax_P201",
+        "id": "e81u1_relax_S251",
         "question": "Âm 'a' trong 'relax' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -41064,7 +40370,7 @@
         ]
       },
       {
-        "id": "e81u5_relaxed_P201",
+        "id": "e81u5_relaxed_S251",
         "question": "Đuôi '-ed' trong 'relaxed' phát âm là:",
         "options": [
           "/t/",
@@ -41166,7 +40472,7 @@
         ]
       },
       {
-        "id": "e81u4_relic_P201",
+        "id": "e81u4_relic_S251",
         "question": "Âm 'e' trong 'relic' phát âm giống từ nào?",
         "options": [
           "desk",
@@ -41268,7 +40574,7 @@
         ]
       },
       {
-        "id": "e81u4_religion_P201",
+        "id": "e81u4_religion_S251",
         "question": "Âm 'g' trong 'religion' phát âm là:",
         "options": [
           "/dʒ/",
@@ -41370,7 +40676,7 @@
         ]
       },
       {
-        "id": "e81u4_rescueworker_P201",
+        "id": "e81u4_rescueworker_S251",
         "question": "Âm 'sc' trong 'rescue' phát âm là:",
         "options": [
           "/sk/",
@@ -41472,7 +40778,7 @@
         ]
       },
       {
-        "id": "e81u5_responsibility_P201",
+        "id": "e81u5_responsibility_S251",
         "question": "Âm 'o' trong 'responsible' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -41564,7 +40870,7 @@
         ]
       },
       {
-        "id": "e81u5_restricted_P201",
+        "id": "e81u5_restricted_S251",
         "question": "Đuôi '-ed' trong 'restricted' phát âm là:",
         "options": [
           "/ɪd/",
@@ -41581,16 +40887,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_restricted_S101",
-        "question": "Trọng âm của từ 'restricted' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -41676,7 +40972,7 @@
         ]
       },
       {
-        "id": "e81u5_restriction_P201",
+        "id": "e81u5_restriction_S251",
         "question": "Âm 'tion' trong 'restriction' phát âm là:",
         "options": [
           "/ʃən/",
@@ -41778,7 +41074,7 @@
         ]
       },
       {
-        "id": "e81u4_reunion_P201",
+        "id": "e81u4_reunion_S251",
         "question": "Âm 'u' trong 'reunion' phát âm là:",
         "options": [
           "/juː/",
@@ -41870,7 +41166,7 @@
         ]
       },
       {
-        "id": "e81u4_reunite_P201",
+        "id": "e81u4_reunite_S251",
         "question": "Âm 'u' trong 'unite' phát âm là:",
         "options": [
           "/juː/",
@@ -41887,16 +41183,6 @@
           "1",
           "2",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_reunite_S101",
-        "question": "Trọng âm của động từ 'reunite' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ ba",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Không có trọng âm"
         ]
       },
       {
@@ -41982,7 +41268,7 @@
         ]
       },
       {
-        "id": "e81u3_reusable_P201",
+        "id": "e81u3_reusable_S251",
         "question": "Đuôi '-able' trong 'reusable' phát âm là:",
         "options": [
           "/ə.bəl/",
@@ -42074,7 +41360,7 @@
         ]
       },
       {
-        "id": "e81u3_reuse_P201",
+        "id": "e81u3_reuse_S251",
         "question": "Âm 's' trong 'reuse' phát âm là:",
         "options": [
           "/z/",
@@ -42091,16 +41377,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u3_reuse_S101",
-        "question": "Trọng âm của động từ 'reuse' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -42186,7 +41462,7 @@
         ]
       },
       {
-        "id": "e81u4_ritual_P201",
+        "id": "e81u4_ritual_S251",
         "question": "Âm 'u' trong 'ritual' phát âm là:",
         "options": [
           "/tʃu/",
@@ -42288,7 +41564,7 @@
         ]
       },
       {
-        "id": "e81u1_rockclimbing_P201",
+        "id": "e81u1_rockclimbing_S251",
         "question": "Âm 'i' trong 'climbing' phát âm là:",
         "options": [
           "/aɪ/",
@@ -42390,7 +41666,7 @@
         ]
       },
       {
-        "id": "e81u1_rollerskating_P201",
+        "id": "e81u1_rollerskating_S251",
         "question": "Âm 'a' trong 'skating' phát âm là:",
         "options": [
           "/eɪ/",
@@ -42492,7 +41768,7 @@
         ]
       },
       {
-        "id": "e81u2_room_P201",
+        "id": "e81u2_room_S251",
         "question": "Âm 'oo' trong 'room' phát âm là:",
         "options": [
           "/uː/",
@@ -42594,7 +41870,7 @@
         ]
       },
       {
-        "id": "e81u5_rude_P201",
+        "id": "e81u5_rude_S251",
         "question": "Âm 'u' trong 'rude' phát âm giống từ nào?",
         "options": [
           "soon",
@@ -42696,7 +41972,7 @@
         ]
       },
       {
-        "id": "e81u4_sacred_P201",
+        "id": "e81u4_sacred_S251",
         "question": "Âm 'a' trong 'sacred' phát âm là:",
         "options": [
           "/eɪ/",
@@ -42798,7 +42074,7 @@
         ]
       },
       {
-        "id": "e81u5_safety_P201",
+        "id": "e81u5_safety_S251",
         "question": "Âm 'a' trong 'safe' phát âm là:",
         "options": [
           "/eɪ/",
@@ -42900,7 +42176,7 @@
         ]
       },
       {
-        "id": "e81u3_save_P201",
+        "id": "e81u3_save_S251",
         "question": "Âm 'a' trong 'save' phát âm là:",
         "options": [
           "/eɪ/",
@@ -43002,7 +42278,7 @@
         ]
       },
       {
-        "id": "e81u1_scarf_P201",
+        "id": "e81u1_scarf_S251",
         "question": "Âm 'ar' trong 'scarf' phát âm giống từ nào?",
         "options": [
           "car",
@@ -43104,7 +42380,7 @@
         ]
       },
       {
-        "id": "e81u4_scenery_P201",
+        "id": "e81u4_scenery_S251",
         "question": "Âm 'sc' trong 'scenery' phát âm là:",
         "options": [
           "/s/",
@@ -43196,7 +42472,7 @@
         ]
       },
       {
-        "id": "e81u4_schooling_P201",
+        "id": "e81u4_schooling_S251",
         "question": "Âm 'ch' trong 'school' phát âm là:",
         "options": [
           "/k/",
@@ -43213,16 +42489,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_schooling_S101",
-        "question": "Trọng âm của từ 'schooling' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -43308,7 +42574,7 @@
         ]
       },
       {
-        "id": "e81u1_scissors_P201",
+        "id": "e81u1_scissors_S251",
         "question": "Âm 'sc' trong 'scissors' phát âm là:",
         "options": [
           "/s/",
@@ -43410,7 +42676,7 @@
         ]
       },
       {
-        "id": "e81u5_scold_P201",
+        "id": "e81u5_scold_S251",
         "question": "Âm 'o' trong 'scold' phát âm giống từ nào?",
         "options": [
           "coat",
@@ -43512,7 +42778,7 @@
         ]
       },
       {
-        "id": "e81u5_screentime_P201",
+        "id": "e81u5_screentime_S251",
         "question": "Âm 'ee' trong 'screen' phát âm là:",
         "options": [
           "/iː/",
@@ -43614,7 +42880,7 @@
         ]
       },
       {
-        "id": "e81u4_searchandrescue_P201",
+        "id": "e81u4_searchandrescue_S251",
         "question": "Âm 'ea' trong 'search' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -43716,7 +42982,7 @@
         ]
       },
       {
-        "id": "e81u5_searchfor_P201",
+        "id": "e81u5_searchfor_S251",
         "question": "Âm 'ear' trong 'search' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -43818,7 +43084,7 @@
         ]
       },
       {
-        "id": "e81u5_search_P201",
+        "id": "e81u5_search_S251",
         "question": "Âm 'ea' trong 'search' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -43920,7 +43186,7 @@
         ]
       },
       {
-        "id": "e81u5_serious_P201",
+        "id": "e81u5_serious_S251",
         "question": "Âm 'e' trong 'serious' phát âm là:",
         "options": [
           "/ɪ/",
@@ -44022,7 +43288,7 @@
         ]
       },
       {
-        "id": "e81u5_set_P201",
+        "id": "e81u5_set_S251",
         "question": "Âm 'e' trong 'set' phát âm giống từ nào?",
         "options": [
           "desk",
@@ -44114,7 +43380,7 @@
         ]
       },
       {
-        "id": "e81u1_sew_P201",
+        "id": "e81u1_sew_S251",
         "question": "Phiên âm của 'sew' giống từ nào sau đây?",
         "options": [
           "so",
@@ -44131,16 +43397,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u1_sew_S101",
-        "question": "Từ 'sew' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -44226,7 +43482,7 @@
         ]
       },
       {
-        "id": "e81u1_sewingmachine_P201",
+        "id": "e81u1_sewingmachine_S251",
         "question": "Âm 'ch' trong 'machine' phát âm là:",
         "options": [
           "/ʃ/",
@@ -44328,7 +43584,7 @@
         ]
       },
       {
-        "id": "e81u1_sewing_P201",
+        "id": "e81u1_sewing_S251",
         "question": "Âm 'ew' trong 'sew' phát âm giống từ nào?",
         "options": [
           "know",
@@ -44430,7 +43686,7 @@
         ]
       },
       {
-        "id": "e81u4_shelter_P201",
+        "id": "e81u4_shelter_S251",
         "question": "Âm 'e' đầu tiên trong 'shelter' phát âm là:",
         "options": [
           "/e/",
@@ -44532,7 +43788,7 @@
         ]
       },
       {
-        "id": "e81u5_shouting_P201",
+        "id": "e81u5_shouting_S251",
         "question": "Âm 'ou' trong 'shout' phát âm giống từ nào?",
         "options": [
           "mouse",
@@ -44634,7 +43890,7 @@
         ]
       },
       {
-        "id": "e81u4_shrine_P201",
+        "id": "e81u4_shrine_S251",
         "question": "Âm 'i' trong 'shrine' phát âm là:",
         "options": [
           "/aɪ/",
@@ -44736,7 +43992,7 @@
         ]
       },
       {
-        "id": "e81u1_shuttlecock_P201",
+        "id": "e81u1_shuttlecock_S251",
         "question": "Âm 'u' trong 'shuttlecock' phát âm là:",
         "options": [
           "/ʌ/",
@@ -44838,7 +44094,7 @@
         ]
       },
       {
-        "id": "e81u1_silk_P201",
+        "id": "e81u1_silk_S251",
         "question": "Âm 'i' trong 'silk' phát âm giống từ nào?",
         "options": [
           "milk",
@@ -44940,7 +44196,7 @@
         ]
       },
       {
-        "id": "e81u4_sincere_P201",
+        "id": "e81u4_sincere_S251",
         "question": "Âm 'i' trong 'sincere' phát âm là:",
         "options": [
           "/ɪ/",
@@ -45042,7 +44298,7 @@
         ]
       },
       {
-        "id": "e81u5_site_P201",
+        "id": "e81u5_site_S251",
         "question": "Phiên âm của 'site' giống từ nào?",
         "options": [
           "sight",
@@ -45144,7 +44400,7 @@
         ]
       },
       {
-        "id": "e81u1_skirt_P201",
+        "id": "e81u1_skirt_S251",
         "question": "Âm 'ir' trong 'skirt' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -45246,7 +44502,7 @@
         ]
       },
       {
-        "id": "e81u5_smartphone_P201",
+        "id": "e81u5_smartphone_S251",
         "question": "Âm 'ph' trong 'phone' phát âm là:",
         "options": [
           "/f/",
@@ -45348,7 +44604,7 @@
         ]
       },
       {
-        "id": "e81u1_sneakers_P201",
+        "id": "e81u1_sneakers_S251",
         "question": "Âm 'ea' trong 'sneakers' phát âm là:",
         "options": [
           "/iː/",
@@ -45450,7 +44706,7 @@
         ]
       },
       {
-        "id": "e81u5_socialmedia_P201",
+        "id": "e81u5_socialmedia_S251",
         "question": "Âm 'c' trong 'social' phát âm là:",
         "options": [
           "/ʃ/",
@@ -45552,7 +44808,7 @@
         ]
       },
       {
-        "id": "e81u5_socialnetwork_P201",
+        "id": "e81u5_socialnetwork_S251",
         "question": "Âm 't' trong 'network' phát âm là:",
         "options": [
           "/t/",
@@ -45654,7 +44910,7 @@
         ]
       },
       {
-        "id": "e81u5_social_P201",
+        "id": "e81u5_social_S251",
         "question": "Âm 'c' trong 'social' phát âm là:",
         "options": [
           "/ʃ/",
@@ -45756,7 +45012,7 @@
         ]
       },
       {
-        "id": "e81u1_socializing_P201",
+        "id": "e81u1_socializing_S251",
         "question": "Âm 'c' trong 'social' phát âm là:",
         "options": [
           "/ʃ/",
@@ -45858,7 +45114,7 @@
         ]
       },
       {
-        "id": "e80u3_soil_P201",
+        "id": "e80u3_soil_S251",
         "question": "Âm 'oi' trong 'soil' phát âm giống từ nào?",
         "options": [
           "boy",
@@ -45960,7 +45216,7 @@
         ]
       },
       {
-        "id": "e81u4_specialty_P201",
+        "id": "e81u4_specialty_S251",
         "question": "Âm 'cia' trong 'special' phát âm là:",
         "options": [
           "/ʃə/",
@@ -46062,7 +45318,7 @@
         ]
       },
       {
-        "id": "e81u2_spinningtop_P101",
+        "id": "e81u2_spinningtop_S151",
         "question": "Phát âm IPA của 'spinning top' là gì?",
         "options": [
           "/ˈspɪnɪŋ tɒp/",
@@ -46099,108 +45355,6 @@
           "expectation",
           "socializing",
           "martialarts"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "e81u1_spinningtop",
-    "hint": {
-      "word": "spinningtop",
-      "phonetics": "/ˈspɪn.ɪŋ tɑːp/",
-      "type": "Noun",
-      "meaning": "Con quay (trò chơi)",
-      "example": "I used to play with a spinning top when I was a child. (Tôi từng chơi quay khi còn là một đứa trẻ.)"
-    },
-    "questions": [
-      {
-        "id": "e81u1_spinningtop_C101",
-        "question": "The boys are playing with a ____ in the yard.",
-        "options": [
-          "spinning top",
-          "jewelry",
-          "recipe",
-          "tablet"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_C201",
-        "question": "A ____ can spin for a long time if you pull the string correctly.",
-        "options": [
-          "spinning top",
-          "electrician",
-          "mansion",
-          "wildlife"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_C301",
-        "question": "Traditional wooden ____ are rare to find nowadays.",
-        "options": [
-          "spinning tops",
-          "helicopters",
-          "jet jets",
-          "space stations"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_C401",
-        "question": "He watched the ____ spin until it eventually wobbled and fell.",
-        "options": [
-          "spinning top",
-          "handball",
-          "extreme sport",
-          "vehicle"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_P201",
-        "question": "Âm 'i' trong 'spinning' phát âm là:",
-        "options": [
-          "/ɪ/",
-          "/aɪ/",
-          "/iː/",
-          "/e/"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_S301",
-        "question": "Trọng âm của 'spinning'?",
-        "options": [
-          "Âm tiết 1",
-          "Âm tiết 2",
-          "Cả hai",
-          "Không có"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_S101",
-        "question": "Trọng âm chính của từ 'spinning' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_M102",
-        "question": "Từ 'Con quay (trò chơi)' viết tiếng Anh đúng là:",
-        "options": [
-          "spinningtop",
-          "spiningtop",
-          "spynningtop",
-          "spinningto"
-        ]
-      },
-      {
-        "id": "e81u1_spinningtop_M103",
-        "question": "Từ tiếng Anh nào có nghĩa là 'Con quay (trò chơi)'?",
-        "options": [
-          "spinningtop",
-          "expectation",
-          "electrician",
-          "preparation"
         ]
       }
     ]
@@ -46256,7 +45410,7 @@
         ]
       },
       {
-        "id": "e81u4_spiritual_P201",
+        "id": "e81u4_spiritual_S251",
         "question": "Âm 'i' đầu tiên trong 'spirit' phát âm là:",
         "options": [
           "/ɪ/",
@@ -46273,16 +45427,6 @@
           "2",
           "3",
           "4"
-        ]
-      },
-      {
-        "id": "e81u4_spiritual_S101",
-        "question": "Trọng âm của từ 'spiritual' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -46368,7 +45512,7 @@
         ]
       },
       {
-        "id": "e81u4_stable_P201",
+        "id": "e81u4_stable_S251",
         "question": "Âm 'a' trong 'stable' phát âm giống từ nào?",
         "options": [
           "cake",
@@ -46470,7 +45614,7 @@
         ]
       },
       {
-        "id": "e81u4_stilthouse_P201",
+        "id": "e81u4_stilthouse_S251",
         "question": "Âm 'i' trong 'stilt' phát âm là:",
         "options": [
           "/ɪ/",
@@ -46572,7 +45716,7 @@
         ]
       },
       {
-        "id": "e81u5_struggle_P201",
+        "id": "e81u5_struggle_S251",
         "question": "Âm 'u' trong 'struggle' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -46674,7 +45818,7 @@
         ]
       },
       {
-        "id": "e81u5_stuff_P201",
+        "id": "e81u5_stuff_S251",
         "question": "Âm 'u' trong 'stuff' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -46776,7 +45920,7 @@
         ]
       },
       {
-        "id": "e81u1_stuffedanimal_P201",
+        "id": "e81u1_stuffedanimal_S251",
         "question": "Âm 'u' trong 'stuffed' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -46878,7 +46022,7 @@
         ]
       },
       {
-        "id": "e81u5_stupid_P201",
+        "id": "e81u5_stupid_S251",
         "question": "Âm 'u' trong 'stupid' phát âm là:",
         "options": [
           "/uː/",
@@ -46980,7 +46124,7 @@
         ]
       },
       {
-        "id": "e81u1_suit_P201",
+        "id": "e81u1_suit_S251",
         "question": "Âm 'ui' trong 'suit' phát âm giống từ nào?",
         "options": [
           "too",
@@ -47082,7 +46226,7 @@
         ]
       },
       {
-        "id": "e81u5_supplement_P201",
+        "id": "e81u5_supplement_S251",
         "question": "Âm 'u' trong 'supplement' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -47174,7 +46318,7 @@
         ]
       },
       {
-        "id": "e81u5_surf_P201",
+        "id": "e81u5_surf_S251",
         "question": "Âm 'ur' trong 'surf' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -47191,16 +46335,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u5_surf_S101",
-        "question": "Từ 'surf' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -47286,7 +46420,7 @@
         ]
       },
       {
-        "id": "e81u4_surface_P201",
+        "id": "e81u4_surface_S251",
         "question": "Âm 'u' trong 'surface' phát âm là:",
         "options": [
           "/ɝː/",
@@ -47388,7 +46522,7 @@
         ]
       },
       {
-        "id": "e81u5_surfing_P201",
+        "id": "e81u5_surfing_S251",
         "question": "Đuôi '-ing' trong 'surfing' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -47490,7 +46624,7 @@
         ]
       },
       {
-        "id": "e81u1_surfingthenet_P201",
+        "id": "e81u1_surfingthenet_S251",
         "question": "Âm 'u' trong 'surf' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -47592,7 +46726,7 @@
         ]
       },
       {
-        "id": "e81u4_survivor_P201",
+        "id": "e81u4_survivor_S251",
         "question": "Âm 'ur' trong 'survivor' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -47694,7 +46828,7 @@
         ]
       },
       {
-        "id": "e81u1_sweater_P201",
+        "id": "e81u1_sweater_S251",
         "question": "Âm 'ea' trong 'sweater' phát âm giống từ nào?",
         "options": [
           "bread",
@@ -47796,7 +46930,7 @@
         ]
       },
       {
-        "id": "e81u5_sympathy_P201",
+        "id": "e81u5_sympathy_S251",
         "question": "Âm 'y' đầu tiên trong 'sympathy' phát âm giống từ nào?",
         "options": [
           "sit",
@@ -47898,7 +47032,7 @@
         ]
       },
       {
-        "id": "e81u1_tabletennis_P201",
+        "id": "e81u1_tabletennis_S251",
         "question": "Từ 'tennis' nhấn vào âm tiết mấy?",
         "options": [
           "1",
@@ -47990,7 +47124,7 @@
         ]
       },
       {
-        "id": "e81u2_takeplace_P201",
+        "id": "e81u2_takeplace_S251",
         "question": "Âm 'a' trong 'take' phát âm là:",
         "options": [
           "/eɪ/",
@@ -48007,16 +47141,6 @@
           "take",
           "Cả hai bằng nhau",
           "Không từ nào"
-        ]
-      },
-      {
-        "id": "e81u2_takeplace_S101",
-        "question": "Trọng âm của cụm từ 'take place' thường nhấn vào từ nào?",
-        "options": [
-          "Từ thứ hai (place)",
-          "Từ đầu tiên (take)",
-          "Cả hai từ",
-          "Không nhấn trọng âm"
         ]
       },
       {
@@ -48102,7 +47226,7 @@
         ]
       },
       {
-        "id": "e81u5_take_P201",
+        "id": "e81u5_take_S251",
         "question": "Âm 'a' trong 'take' phát âm giống từ nào?",
         "options": [
           "cake",
@@ -48204,7 +47328,7 @@
         ]
       },
       {
-        "id": "e81u5_technological_P201",
+        "id": "e81u5_technological_S251",
         "question": "Âm 'ch' trong 'technological' phát âm là:",
         "options": [
           "/k/",
@@ -48306,7 +47430,7 @@
         ]
       },
       {
-        "id": "e81u5_technology_P201",
+        "id": "e81u5_technology_S251",
         "question": "Phiên âm của 'technology' là gì?",
         "options": [
           "/tekˈnɑː.lə.dʒi/",
@@ -48398,7 +47522,7 @@
         ]
       },
       {
-        "id": "e81u5_temptation_P201",
+        "id": "e81u5_temptation_S251",
         "question": "Âm 'tion' trong 'temptation' phát âm là:",
         "options": [
           "/ʃən/",
@@ -48415,16 +47539,6 @@
           "1",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_temptation_S101",
-        "question": "Trọng âm của từ 'temptation' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -48510,7 +47624,7 @@
         ]
       },
       {
-        "id": "e81u5_tension_P201",
+        "id": "e81u5_tension_S251",
         "question": "Âm 'sion' trong 'tension' phát âm là:",
         "options": [
           "/ʃən/",
@@ -48612,7 +47726,7 @@
         ]
       },
       {
-        "id": "e81u4_terracedfields_P201",
+        "id": "e81u4_terracedfields_S251",
         "question": "Âm 'e' đầu tiên trong 'terraced' phát âm là:",
         "options": [
           "/e/",
@@ -48714,7 +47828,7 @@
         ]
       },
       {
-        "id": "e81u4_theme_P201",
+        "id": "e81u4_theme_S251",
         "question": "Âm 'th' trong 'theme' phát âm giống từ nào?",
         "options": [
           "thank",
@@ -48816,7 +47930,7 @@
         ]
       },
       {
-        "id": "e81u1_thread_P201",
+        "id": "e81u1_thread_S251",
         "question": "Âm 'th' trong 'thread' phát âm là:",
         "options": [
           "/θ/",
@@ -48918,7 +48032,7 @@
         ]
       },
       {
-        "id": "e81u5_tight_P201",
+        "id": "e81u5_tight_S251",
         "question": "Âm 'igh' trong 'tight' phát âm giống từ nào?",
         "options": [
           "sky",
@@ -49020,7 +48134,7 @@
         ]
       },
       {
-        "id": "e81u1_toolkit_P201",
+        "id": "e81u1_toolkit_S251",
         "question": "Âm 'oo' trong 'tool' phát âm là:",
         "options": [
           "/uː/",
@@ -49122,7 +48236,7 @@
         ]
       },
       {
-        "id": "e81u5_topic_P201",
+        "id": "e81u5_topic_S251",
         "question": "Âm 'o' trong 'topic' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -49224,7 +48338,7 @@
         ]
       },
       {
-        "id": "e81u3_tourism_P201",
+        "id": "e81u3_tourism_S251",
         "question": "Phiên âm của 'tourism' là gì?",
         "options": [
           "/ˈtʊr.ɪ.zəm/",
@@ -49326,7 +48440,7 @@
         ]
       },
       {
-        "id": "e81u4_touristattraction_P201",
+        "id": "e81u4_touristattraction_S251",
         "question": "Âm 'ou' trong 'tourist' phát âm giống từ nào?",
         "options": [
           "poor",
@@ -49428,7 +48542,7 @@
         ]
       },
       {
-        "id": "e81u3_tourist_P201",
+        "id": "e81u3_tourist_S251",
         "question": "Âm 'ou' trong 'tourist' phát âm là:",
         "options": [
           "/ʊ/",
@@ -49530,7 +48644,7 @@
         ]
       },
       {
-        "id": "e81u1_toy_P201",
+        "id": "e81u1_toy_S251",
         "question": "Âm 'oy' trong 'toy' phát âm giống từ nào?",
         "options": [
           "boy",
@@ -49632,7 +48746,7 @@
         ]
       },
       {
-        "id": "e81u4_traditional_P201",
+        "id": "e81u4_traditional_S251",
         "question": "Âm 'tion' trong 'tradition' phát âm là:",
         "options": [
           "/ʃən/",
@@ -49734,7 +48848,7 @@
         ]
       },
       {
-        "id": "e81u4_traditionally_P201",
+        "id": "e81u4_traditionally_S251",
         "question": "Âm 'a' thứ hai trong 'traditionally' phát âm là:",
         "options": [
           "/ə/",
@@ -49836,7 +48950,7 @@
         ]
       },
       {
-        "id": "e81u1_training_P201",
+        "id": "e81u1_training_S251",
         "question": "Âm 'ai' trong 'train' phát âm là:",
         "options": [
           "/eɪ/",
@@ -49938,7 +49052,7 @@
         ]
       },
       {
-        "id": "e81u5_treat_P201",
+        "id": "e81u5_treat_S251",
         "question": "Âm 'ea' trong 'treat' phát âm giống từ nào?",
         "options": [
           "see",
@@ -50040,7 +49154,7 @@
         ]
       },
       {
-        "id": "e80u4_tsunami_P201",
+        "id": "e80u4_tsunami_S251",
         "question": "Âm 'ts' trong 'tsunami' phát âm là:",
         "options": [
           "/ts/",
@@ -50142,7 +49256,7 @@
         ]
       },
       {
-        "id": "e81u2_tugofwar_P201",
+        "id": "e81u2_tugofwar_S251",
         "question": "Âm 'u' trong 'tug' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -50244,7 +49358,7 @@
         ]
       },
       {
-        "id": "e81u4_typhoon_P201",
+        "id": "e81u4_typhoon_S251",
         "question": "Âm 'oo' trong 'typhoon' phát âm là:",
         "options": [
           "/uː/",
@@ -50346,7 +49460,7 @@
         ]
       },
       {
-        "id": "e81u3_unhealthy_P201",
+        "id": "e81u3_unhealthy_S251",
         "question": "Tiền tố 'un-' trong 'unhealthy' phát âm là:",
         "options": [
           "/ʌn/",
@@ -50448,7 +49562,7 @@
         ]
       },
       {
-        "id": "e81u1_unique_P201",
+        "id": "e81u1_unique_S251",
         "question": "Âm 'u' trong 'unique' phát âm là:",
         "options": [
           "/juː/",
@@ -50540,7 +49654,7 @@
         ]
       },
       {
-        "id": "e81u5_update_P201",
+        "id": "e81u5_update_S251",
         "question": "Âm 'u' trong 'update' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -50557,16 +49671,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_update_S101",
-        "question": "Trọng âm của động từ 'update' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -50652,7 +49756,7 @@
         ]
       },
       {
-        "id": "e81u5_upset_P201",
+        "id": "e81u5_upset_S251",
         "question": "Âm 'u' trong 'upset' phát âm giống từ nào?",
         "options": [
           "cup",
@@ -50754,7 +49858,7 @@
         ]
       },
       {
-        "id": "e81u4_valley_P201",
+        "id": "e81u4_valley_S251",
         "question": "Âm 'ey' trong 'valley' phát âm giống từ nào?",
         "options": [
           "me",
@@ -50856,7 +49960,7 @@
         ]
       },
       {
-        "id": "e81u5_value_P201",
+        "id": "e81u5_value_S251",
         "question": "Âm 'u' trong 'value' phát âm là:",
         "options": [
           "/juː/",
@@ -50958,7 +50062,7 @@
         ]
       },
       {
-        "id": "e81u4_vast_P201",
+        "id": "e81u4_vast_S251",
         "question": "Âm 'a' trong 'vast' phát âm giống từ nào?",
         "options": [
           "cat",
@@ -51060,7 +50164,7 @@
         ]
       },
       {
-        "id": "e81u2_vehicle_P201",
+        "id": "e81u2_vehicle_S251",
         "question": "Âm 'h' trong 'vehicle' phát âm thế nào?",
         "options": [
           "Âm câm (không phát âm)",
@@ -51162,7 +50266,7 @@
         ]
       },
       {
-        "id": "e81u4_victim_P201",
+        "id": "e81u4_victim_S251",
         "question": "Âm 'i' trong 'victim' phát âm là:",
         "options": [
           "/ɪ/",
@@ -51264,7 +50368,7 @@
         ]
       },
       {
-        "id": "e81u5_videocall_P201",
+        "id": "e81u5_videocall_S251",
         "question": "Âm 'i' trong 'video' phát âm là:",
         "options": [
           "/ɪ/",
@@ -51356,7 +50460,7 @@
         ]
       },
       {
-        "id": "e81u5_viewpoint_P201",
+        "id": "e81u5_viewpoint_S251",
         "question": "Âm 'ie' trong 'view' phát âm giống từ nào?",
         "options": [
           "you",
@@ -51373,16 +50477,6 @@
           "2",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_viewpoint_S101",
-        "question": "Trọng âm của từ 'viewpoint' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -51458,7 +50552,7 @@
         ]
       },
       {
-        "id": "e81u4_vigorous_P201",
+        "id": "e81u4_vigorous_S251",
         "question": "Âm 'ou' trong 'vigorous' phát âm là:",
         "options": [
           "/ə/",
@@ -51475,16 +50569,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u4_vigorous_S101",
-        "question": "Trọng âm của từ 'vigorous' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -51560,7 +50644,7 @@
         ]
       },
       {
-        "id": "e81u5_violate_P201",
+        "id": "e81u5_violate_S251",
         "question": "Âm 'i' đầu tiên trong 'violate' phát âm là:",
         "options": [
           "/aɪ/",
@@ -51577,16 +50661,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_violate_S101",
-        "question": "Trọng âm của từ 'violate' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -51672,7 +50746,7 @@
         ]
       },
       {
-        "id": "e81u4_vivid_P201",
+        "id": "e81u4_vivid_S251",
         "question": "Âm 'i' trong 'vivid' phát âm là:",
         "options": [
           "/ɪ/",
@@ -51764,7 +50838,7 @@
         ]
       },
       {
-        "id": "e81u5_vlog_P201",
+        "id": "e81u5_vlog_S251",
         "question": "Âm 'v' trong 'vlog' phát âm là:",
         "options": [
           "/v/",
@@ -51781,16 +50855,6 @@
           "Âm tiết 1",
           "Âm tiết 2",
           "Âm cuối"
-        ]
-      },
-      {
-        "id": "e81u5_vlog_S101",
-        "question": "Từ 'vlog' có bao nhiêu âm tiết?",
-        "options": [
-          "1 âm tiết",
-          "2 âm tiết",
-          "3 âm tiết",
-          "4 âm tiết"
         ]
       },
       {
@@ -51876,7 +50940,7 @@
         ]
       },
       {
-        "id": "e81u5_vlogger_P201",
+        "id": "e81u5_vlogger_S251",
         "question": "Âm 'o' trong 'vlogger' phát âm giống từ nào?",
         "options": [
           "dog",
@@ -51978,7 +51042,7 @@
         ]
       },
       {
-        "id": "e81u4_warning_P201",
+        "id": "e81u4_warning_S251",
         "question": "Âm 'ar' trong 'warning' phát âm là:",
         "options": [
           "/ɔːr/",
@@ -52080,7 +51144,7 @@
         ]
       },
       {
-        "id": "e81u3_waste_P201",
+        "id": "e81u3_waste_S251",
         "question": "Âm 'a' trong 'waste' phát âm giống từ nào?",
         "options": [
           "taste",
@@ -52182,7 +51246,7 @@
         ]
       },
       {
-        "id": "e81u3_wasteful_P201",
+        "id": "e81u3_wasteful_S251",
         "question": "Đuôi '-ful' trong 'wasteful' phát âm là:",
         "options": [
           "/fəl/",
@@ -52284,7 +51348,7 @@
         ]
       },
       {
-        "id": "e81u1_watchingTV_P201",
+        "id": "e81u1_watchingTV_S251",
         "question": "Âm 'ch' trong 'watch' phát âm giống từ nào?",
         "options": [
           "chair",
@@ -52386,7 +51450,7 @@
         ]
       },
       {
-        "id": "e81u4_weave_P201",
+        "id": "e81u4_weave_S251",
         "question": "Âm 'ea' trong 'weave' phát âm giống từ nào?",
         "options": [
           "see",
@@ -52488,7 +51552,7 @@
         ]
       },
       {
-        "id": "e81u4_weaving_P201",
+        "id": "e81u4_weaving_S251",
         "question": "Đuôi '-ing' trong 'weaving' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -52590,7 +51654,7 @@
         ]
       },
       {
-        "id": "e81u5_weight_P201",
+        "id": "e81u5_weight_S251",
         "question": "Âm 'eigh' trong 'weight' phát âm giống từ nào?",
         "options": [
           "cake",
@@ -52692,7 +51756,7 @@
         ]
       },
       {
-        "id": "e81u4_wellknown_P201",
+        "id": "e81u4_wellknown_S251",
         "question": "Âm 'k' trong 'know' phát âm là:",
         "options": [
           "Âm câm (không phát âm)",
@@ -52794,7 +51858,7 @@
         ]
       },
       {
-        "id": "e81u4_whistle_P201",
+        "id": "e81u4_whistle_S251",
         "question": "Âm 't' trong 'whistle' phát âm thế nào?",
         "options": [
           "Âm câm (không phát âm)",
@@ -52896,7 +51960,7 @@
         ]
       },
       {
-        "id": "e81u4_wildfire_P201",
+        "id": "e81u4_wildfire_S251",
         "question": "Âm 'i' trong 'wild' phát âm là:",
         "options": [
           "/aɪ/",
@@ -52998,7 +52062,7 @@
         ]
       },
       {
-        "id": "e81u3_wildlife_P201",
+        "id": "e81u3_wildlife_S251",
         "question": "Từ 'wildlife' được ghép từ 'wild' và 'life'. Âm 'i' trong 'wild' phát âm là:",
         "options": [
           "/aɪ/",
@@ -53100,7 +52164,7 @@
         ]
       },
       {
-        "id": "e81u5_wireless_P201",
+        "id": "e81u5_wireless_S251",
         "question": "Âm 'i' trong 'wireless' phát âm là:",
         "options": [
           "/aɪ/",
@@ -53202,7 +52266,7 @@
         ]
       },
       {
-        "id": "e81u1_wool_P201",
+        "id": "e81u1_wool_S251",
         "question": "Âm 'oo' trong 'wool' phát âm giống từ nào?",
         "options": [
           "book",
@@ -53304,7 +52368,7 @@
         ]
       },
       {
-        "id": "e81u1_woolen_P201",
+        "id": "e81u1_woolen_S251",
         "question": "Âm 'oo' trong 'woolen' phát âm giống từ nào?",
         "options": [
           "book",
@@ -53406,7 +52470,7 @@
         ]
       },
       {
-        "id": "e81u1_workingout_P201",
+        "id": "e81u1_workingout_S251",
         "question": "Âm 'ur' trong 'work' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -53508,7 +52572,7 @@
         ]
       },
       {
-        "id": "e81u5_workload_P201",
+        "id": "e81u5_workload_S251",
         "question": "Âm 'oa' trong 'load' phát âm giống từ nào?",
         "options": [
           "coat",
@@ -53610,7 +52674,7 @@
         ]
       },
       {
-        "id": "e81u5_worried_P201",
+        "id": "e81u5_worried_S251",
         "question": "Âm 'o' trong 'worry' phát âm giống từ nào?",
         "options": [
           "bird",
@@ -53702,7 +52766,7 @@
         ]
       },
       {
-        "id": "e81u5_worrying_P201",
+        "id": "e81u5_worrying_S251",
         "question": "Đuôi '-ing' trong 'worrying' phát âm là:",
         "options": [
           "/ɪŋ/",
@@ -53719,16 +52783,6 @@
           "2",
           "3",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_worrying_S101",
-        "question": "Trọng âm của từ 'worrying' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ hai",
-          "Âm tiết thứ ba",
-          "Âm tiết thứ tư"
         ]
       },
       {
@@ -53814,7 +52868,7 @@
         ]
       },
       {
-        "id": "e81u5_worth_P201",
+        "id": "e81u5_worth_S251",
         "question": "Âm 'th' trong 'worth' phát âm giống từ nào?",
         "options": [
           "thank",
@@ -53906,7 +52960,7 @@
         ]
       },
       {
-        "id": "e81u5_worthwhile_P201",
+        "id": "e81u5_worthwhile_S251",
         "question": "Âm 'th' trong 'worth' phát âm là:",
         "options": [
           "/θ/",
@@ -53923,16 +52977,6 @@
           "1",
           "Cả hai",
           "Không có"
-        ]
-      },
-      {
-        "id": "e81u5_worthwhile_S101",
-        "question": "Trọng âm của từ 'worthwhile' rơi vào âm tiết thứ mấy?",
-        "options": [
-          "Âm tiết thứ hai",
-          "Âm tiết thứ nhất",
-          "Âm tiết thứ ba",
-          "Không có trọng âm"
         ]
       },
       {
@@ -54018,7 +53062,7 @@
         ]
       },
       {
-        "id": "e81u1_writing_P201",
+        "id": "e81u1_writing_S251",
         "question": "Âm 'w' trong 'writing' phát âm thế nào?",
         "options": [
           "Âm câm (không phát âm)",
@@ -54120,7 +53164,7 @@
         ]
       },
       {
-        "id": "e81u5_youth_P201",
+        "id": "e81u5_youth_S251",
         "question": "Âm 'ou' trong 'youth' phát âm là:",
         "options": [
           "/uː/",
@@ -54222,7 +53266,7 @@
         ]
       },
       {
-        "id": "e81u5_youthful_P201",
+        "id": "e81u5_youthful_S251",
         "question": "Âm 'ou' trong 'youth' phát âm là:",
         "options": [
           "/uː/",
@@ -54324,7 +53368,7 @@
         ]
       },
       {
-        "id": "e81u5_zone_P201",
+        "id": "e81u5_zone_S251",
         "question": "Âm 'o' trong 'zone' phát âm giống từ nào?",
         "options": [
           "coat",
