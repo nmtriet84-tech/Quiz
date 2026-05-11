@@ -1,18 +1,62 @@
 {
   "id": "English9Vocabulary",
-  "title": "Từ vựng tiếng anh 9 Global Success",
-  "description": "Bộ từ vựng chuẩn chương trình lớp 9 mới. Chinh phục 1800+ câu hỏi trắc nghiệm chuyên sâu.",
+  "title": "Từ vựng tiếng Anh 9 Global Success",
+  "description": "Chinh phục 269 từ vựng trọng tâm lớp 9 qua 2.421 câu hỏi trắc nghiệm chuyên sâu, giúp ôn thi vào 10 hiệu quả.",
+  "category": "Vocabulary",
+  "icon": "🎓",
   "units": [
-    { "id": "Unit 1", "title": "Local Community" },
-    { "id": "Unit 2", "title": "City Life" },
-    { "id": "Unit 3", "title": "Healthy Living for Teens" },
-    { "id": "Unit 4", "title": "Remembering the Past" },
-    { "id": "Unit 5", "title": "Our Experiences" },
-    { "id": "Unit 6", "title": "Lifestyles" }
+    {
+      "id": "e9u1",
+      "title": "Unit 1: Local Community"
+    },
+    {
+      "id": "e9u2",
+      "title": "Unit 2: City Life"
+    },
+    {
+      "id": "e9u3",
+      "title": "Unit 3: Teen Stress and Pressure"
+    },
+    {
+      "id": "e9u4",
+      "title": "Unit 4: Life in the Past"
+    },
+    {
+      "id": "e9u5",
+      "title": "Unit 5: Wonders of Viet Nam"
+    },
+    {
+      "id": "e9u6",
+      "title": "Unit 6: Viet Nam: Then and Now"
+    },
+    {
+      "id": "e9u7",
+      "title": "Unit 7: Recipes and Eating Habits"
+    },
+    {
+      "id": "e9u8",
+      "title": "Unit 8: Tourism"
+    },
+    {
+      "id": "e9u9",
+      "title": "Unit 9: English in the World"
+    },
+    {
+      "id": "e9u10",
+      "title": "Unit 10: Space Travel"
+    },
+    {
+      "id": "e9u11",
+      "title": "Unit 11: Changing Roles in Society"
+    },
+    {
+      "id": "e9u12",
+      "title": "Unit 12: My Future Career"
+    }
   ],
   "stats": {
     "lessons": 269,
-    "questions": 1883,
-    "units": 6
+    "questions": 2421,
+    "units": 12
   }
 }

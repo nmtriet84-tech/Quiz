@@ -78,6 +78,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_artisan_M102",
+        "question": "Từ 'thợ thủ công' viết tiếng Anh đúng là:",
+        "options": [
+          "artisan",
+          "artissan",
+          "artisen",
+          "artisa"
+        ]
+      },
+      {
+        "id": "e9u1_artisan_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thợ thủ công'?",
+        "options": [
+          "artisan",
+          "Session",
+          "give up",
+          "marbles"
+        ]
       }
     ]
   },
@@ -159,6 +179,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_city_centre_M102",
+        "question": "Từ 'trung tâm thành phố' viết tiếng Anh đúng là:",
+        "options": [
+          "city centre",
+          "city centrre",
+          "city centr",
+          "city centtre"
+        ]
+      },
+      {
+        "id": "e9u1_city_centre_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trung tâm thành phố'?",
+        "options": [
+          "city centre",
+          "bring about",
+          "packed with",
+          "Sore throat"
         ]
       }
     ]
@@ -242,6 +282,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u1_community_M102",
+        "question": "Từ 'cộng đồng' viết tiếng Anh đúng là:",
+        "options": [
+          "community",
+          "communnity",
+          "communit",
+          "commonity"
+        ]
+      },
+      {
+        "id": "e9u1_community_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cộng đồng'?",
+        "options": [
+          "community",
+          "Connect",
+          "concentrate on",
+          "come down with"
+        ]
       }
     ]
   },
@@ -323,6 +383,26 @@
           "2 âm tiết",
           "3 âm tiết",
           "4 âm tiết"
+        ]
+      },
+      {
+        "id": "e9u1_craft_M102",
+        "question": "Từ 'thủ công mỹ nghệ' viết tiếng Anh đúng là:",
+        "options": [
+          "craft",
+          "creft",
+          "crraft",
+          "craf"
+        ]
+      },
+      {
+        "id": "e9u1_craft_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thủ công mỹ nghệ'?",
+        "options": [
+          "craft",
+          "found",
+          "flora",
+          "local"
         ]
       }
     ]
@@ -406,6 +486,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u1_delivery_person_M102",
+        "question": "Từ 'người giao hàng' viết tiếng Anh đúng là:",
+        "options": [
+          "delivery person",
+          "delivery parson",
+          "delivery personn",
+          "deliveri person"
+        ]
+      },
+      {
+        "id": "e9u1_delivery_person_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'người giao hàng'?",
+        "options": [
+          "delivery person",
+          "deep-rooted",
+          "democracy",
+          "dependence"
+        ]
       }
     ]
   },
@@ -487,6 +587,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u1_electrical_wires_M102",
+        "question": "Từ 'dây điện' viết tiếng Anh đúng là:",
+        "options": [
+          "electrical wires",
+          "electrical wiress",
+          "electrycal wires",
+          "electricall wires"
+        ]
+      },
+      {
+        "id": "e9u1_electrical_wires_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'dây điện'?",
+        "options": [
+          "electrical wires",
+          "living condition",
+          "public amenities",
+          "go/ study abroad"
         ]
       }
     ]
@@ -570,6 +690,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u1_electrician_M102",
+        "question": "Từ 'thợ điện' viết tiếng Anh đúng là:",
+        "options": [
+          "electrician",
+          "electtrician",
+          "ellectrician",
+          "electriciann"
+        ]
+      },
+      {
+        "id": "e9u1_electrician_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thợ điện'?",
+        "options": [
+          "electrician",
+          "prehistoric",
+          "give advice",
+          "look around"
+        ]
       }
     ]
   },
@@ -651,6 +791,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u1_facilities_M102",
+        "question": "Từ 'cơ sở vật chất' viết tiếng Anh đúng là:",
+        "options": [
+          "facilities",
+          "facilitiess",
+          "facilitties",
+          "facilityes"
+        ]
+      },
+      {
+        "id": "e9u1_facilities_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cơ sở vật chất'?",
+        "options": [
+          "facilities",
+          "Fattening",
+          "fauna",
+          "face to face"
         ]
       }
     ]
@@ -734,6 +894,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u1_firefighter_M102",
+        "question": "Từ 'lính cứu hỏa' viết tiếng Anh đúng là:",
+        "options": [
+          "firefighter",
+          "firefightar",
+          "firafighter",
+          "fyrefighter"
+        ]
+      },
+      {
+        "id": "e9u1_firefighter_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'lính cứu hỏa'?",
+        "options": [
+          "firefighter",
+          "fish and chips",
+          "deep-rooted",
+          "Effectively"
+        ]
       }
     ]
   },
@@ -815,6 +995,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_fragrance_M102",
+        "question": "Từ 'hương thơm' viết tiếng Anh đúng là:",
+        "options": [
+          "fragrance",
+          "fragrrance",
+          "fragrence",
+          "fregrance"
+        ]
+      },
+      {
+        "id": "e9u1_fragrance_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hương thơm'?",
+        "options": [
+          "fragrance",
+          "frightening",
+          "freedom",
+          "free"
         ]
       }
     ]
@@ -898,6 +1098,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_function_M102",
+        "question": "Từ 'chức năng' viết tiếng Anh đúng là:",
+        "options": [
+          "function",
+          "functtion",
+          "functionn",
+          "functio"
+        ]
+      },
+      {
+        "id": "e9u1_function_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chức năng'?",
+        "options": [
+          "function",
+          "Overcome",
+          "go blank",
+          "liveable"
+        ]
       }
     ]
   },
@@ -979,6 +1199,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_garbage_collector_M102",
+        "question": "Từ 'người thu gom rác' viết tiếng Anh đúng là:",
+        "options": [
+          "garbage collector",
+          "garbage collectorr",
+          "garbage collecto",
+          "gerbage collector"
+        ]
+      },
+      {
+        "id": "e9u1_garbage_collector_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'người thu gom rác'?",
+        "options": [
+          "garbage collector",
+          "electronic device",
+          "Gain weight",
+          "construction site"
         ]
       }
     ]
@@ -1062,6 +1302,26 @@
           "Phần sau",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_hand__craft_M102",
+        "question": "Từ 'làm thủ công' viết tiếng Anh đúng là:",
+        "options": [
+          "hand-craft",
+          "hannd-craft",
+          "hand-craftt",
+          "hend-craft"
+        ]
+      },
+      {
+        "id": "e9u1_hand__craft_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'làm thủ công'?",
+        "options": [
+          "hand-craft",
+          "hand down/ pass down",
+          "hang out with",
+          "handicraft"
+        ]
       }
     ]
   },
@@ -1144,6 +1404,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_handicraft_M102",
+        "question": "Từ 'đồ thủ công' viết tiếng Anh đúng là:",
+        "options": [
+          "handicraft",
+          "handicrraft",
+          "handicraf",
+          "handicraftt"
+        ]
+      },
+      {
+        "id": "e9u1_handicraft_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đồ thủ công'?",
+        "options": [
+          "handicraft",
+          "hang out with",
+          "hand-craft",
+          "hand down/ pass down"
+        ]
       }
     ]
   },
@@ -1224,6 +1504,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_instruct_M102",
+        "question": "Từ 'hướng dẫn' viết tiếng Anh đúng là:",
+        "options": [
+          "instruct",
+          "instrruct",
+          "instruc",
+          "insstruct"
+        ]
+      },
+      {
+        "id": "e9u1_instruct_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hướng dẫn'?",
+        "options": [
+          "instruct",
+          "Ingredient",
+          "inconvenient",
+          "Instruction"
         ]
       }
     ]
@@ -1306,6 +1606,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_local_M102",
+        "question": "Từ 'địa phương' viết tiếng Anh đúng là:",
+        "options": [
+          "local",
+          "lucal",
+          "locel",
+          "locall"
+        ]
+      },
+      {
+        "id": "e9u1_local_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'địa phương'?",
+        "options": [
+          "local",
+          "Look after",
+          "lose weight",
+          "look for"
+        ]
       }
     ]
   },
@@ -1387,6 +1707,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u1_neighbourhood_M102",
+        "question": "Từ 'khu vực lân cận' viết tiếng Anh đúng là:",
+        "options": [
+          "neighbourhood",
+          "neighbourhoo",
+          "naighbourhood",
+          "neighbourhuod"
+        ]
+      },
+      {
+        "id": "e9u1_neighbourhood_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khu vực lân cận'?",
+        "options": [
+          "neighbourhood",
+          "world- famous",
+          "Pay attention",
+          "hang out with"
+        ]
       }
     ]
   },
@@ -1467,6 +1807,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u1_occasion_M102",
+        "question": "Từ 'dịp, cơ hội' viết tiếng Anh đúng là:",
+        "options": [
+          "occasion",
+          "occasiun",
+          "occasionn",
+          "uccasion"
+        ]
+      },
+      {
+        "id": "e9u1_occasion_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'dịp, cơ hội'?",
+        "options": [
+          "occasion",
+          "personal",
+          "occupied",
+          "campsite"
         ]
       }
     ]
@@ -1550,6 +1910,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u1_original_M102",
+        "question": "Từ 'nguyên bản' viết tiếng Anh đúng là:",
+        "options": [
+          "original",
+          "oryginal",
+          "originnal",
+          "originall"
+        ]
+      },
+      {
+        "id": "e9u1_original_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nguyên bản'?",
+        "options": [
+          "original",
+          "conflict",
+          "eco-tour",
+          "touching"
+        ]
       }
     ]
   },
@@ -1630,6 +2010,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_police_officer_M102",
+        "question": "Từ 'cảnh sát' viết tiếng Anh đúng là:",
+        "options": [
+          "police officer",
+          "police ufficer",
+          "pollice officer",
+          "polica officer"
+        ]
+      },
+      {
+        "id": "e9u1_police_officer_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cảnh sát'?",
+        "options": [
+          "police officer",
+          "Concentrate on",
+          "generation gap",
+          "concentrate on"
         ]
       }
     ]
@@ -1713,6 +2113,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_pottery_M102",
+        "question": "Từ 'đồ gốm' viết tiếng Anh đúng là:",
+        "options": [
+          "pottery",
+          "potter",
+          "potttery",
+          "potteri"
+        ]
+      },
+      {
+        "id": "e9u1_pottery_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đồ gốm'?",
+        "options": [
+          "pottery",
+          "display",
+          "promote",
+          "leisure"
+        ]
       }
     ]
   },
@@ -1793,6 +2213,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_preserve_M102",
+        "question": "Từ 'bảo tồn' viết tiếng Anh đúng là:",
+        "options": [
+          "preserve",
+          "ppreserve",
+          "prreserve",
+          "preserva"
+        ]
+      },
+      {
+        "id": "e9u1_preserve_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bảo tồn'?",
+        "options": [
+          "preserve",
+          "process",
+          "pricey",
+          "prehistoric"
         ]
       }
     ]
@@ -1875,6 +2315,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u1_property_M102",
+        "question": "Từ 'tài sản' viết tiếng Anh đúng là:",
+        "options": [
+          "property",
+          "propperty",
+          "prroperty",
+          "properti"
+        ]
+      },
+      {
+        "id": "e9u1_property_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tài sản'?",
+        "options": [
+          "property",
+          "provide sth for/to sb",
+          "preserve",
+          "promote"
+        ]
       }
     ]
   },
@@ -1956,6 +2416,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_shopping_malls_M102",
+        "question": "Từ 'trung tâm mua sắm' viết tiếng Anh đúng là:",
+        "options": [
+          "shopping malls",
+          "shopping mallss",
+          "shopping mall",
+          "shoppinng malls"
+        ]
+      },
+      {
+        "id": "e9u1_shopping_malls_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trung tâm mua sắm'?",
+        "options": [
+          "shopping malls",
+          "Concentrate on",
+          "well-preserved",
+          "concentrate on"
+        ]
       }
     ]
   },
@@ -2036,6 +2516,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_shorten_M102",
+        "question": "Từ 'rút ngắn' viết tiếng Anh đúng là:",
+        "options": [
+          "shorten",
+          "sshorten",
+          "shorrten",
+          "shortan"
+        ]
+      },
+      {
+        "id": "e9u1_shorten_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'rút ngắn'?",
+        "options": [
+          "shorten",
+          "promote",
+          "give up",
+          "leisure"
         ]
       }
     ]
@@ -2119,6 +2619,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u1_sort_M102",
+        "question": "Từ 'phân loại' viết tiếng Anh đúng là:",
+        "options": [
+          "sort",
+          "sortt",
+          "ssort",
+          "sorrt"
+        ]
+      },
+      {
+        "id": "e9u1_sort_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'phân loại'?",
+        "options": [
+          "sort",
+          "gong",
+          "Mood",
+          "vary"
+        ]
       }
     ]
   },
@@ -2201,6 +2721,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u1_speciality_food_M102",
+        "question": "Từ 'đặc sản' viết tiếng Anh đúng là:",
+        "options": [
+          "speciality food",
+          "spaciality food",
+          "sspeciality food",
+          "specielity food"
+        ]
+      },
+      {
+        "id": "e9u1_speciality_food_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đặc sản'?",
+        "options": [
+          "speciality food",
+          "family-oriented",
+          "delivery person",
+          "living standard"
+        ]
       }
     ]
   },
@@ -2281,6 +2821,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_suburb_M102",
+        "question": "Từ 'ngoại ô' viết tiếng Anh đúng là:",
+        "options": [
+          "suburb",
+          "soburb",
+          "suborb",
+          "suburrb"
+        ]
+      },
+      {
+        "id": "e9u1_suburb_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ngoại ô'?",
+        "options": [
+          "suburb",
+          "depend",
+          "Mental",
+          "pricey"
         ]
       }
     ]
@@ -2364,6 +2924,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u1_tourist_attraction_M102",
+        "question": "Từ 'điểm thu hút khách du lịch' viết tiếng Anh đúng là:",
+        "options": [
+          "tourist attraction",
+          "tourist attracttion",
+          "tourisst attraction",
+          "touristt attraction"
+        ]
+      },
+      {
+        "id": "e9u1_tourist_attraction_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'điểm thu hút khách du lịch'?",
+        "options": [
+          "tourist attraction",
+          "give a performance",
+          "touching",
+          "traffic congestion"
+        ]
       }
     ]
   },
@@ -2444,6 +3024,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_world__famous_M102",
+        "question": "Từ 'nổi tiếng thế giới' viết tiếng Anh đúng là:",
+        "options": [
+          "world- famous",
+          "world- femous",
+          "world- famouss",
+          "worlld- famous"
+        ]
+      },
+      {
+        "id": "e9u1_world__famous_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nổi tiếng thế giới'?",
+        "options": [
+          "world- famous",
+          "hang out with",
+          "Encouragement",
+          "neighbourhood"
         ]
       }
     ]
@@ -2527,6 +3127,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_come_back_M102",
+        "question": "Từ 'trở lại' viết tiếng Anh đúng là:",
+        "options": [
+          "come back",
+          "cume back",
+          "come bac",
+          "comme back"
+        ]
+      },
+      {
+        "id": "e9u1_come_back_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trở lại'?",
+        "options": [
+          "come back",
+          "communal",
+          "complex",
+          "Consult"
+        ]
       }
     ]
   },
@@ -2608,6 +3228,26 @@
           "Phần giữa (down)",
           "Phần cuối (on)",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_cut_down_on_M102",
+        "question": "Từ 'giảm bớt' viết tiếng Anh đúng là:",
+        "options": [
+          "cut down on",
+          "cut down un",
+          "cutt down on",
+          "cut down onn"
+        ]
+      },
+      {
+        "id": "e9u1_cut_down_on_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giảm bớt'?",
+        "options": [
+          "cut down on",
+          "Get through",
+          "Distraction",
+          "firefighter"
         ]
       }
     ]
@@ -2691,6 +3331,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_find_out_M102",
+        "question": "Từ 'tìm ra' viết tiếng Anh đúng là:",
+        "options": [
+          "find out",
+          "find outt",
+          "fynd out",
+          "find oot"
+        ]
+      },
+      {
+        "id": "e9u1_find_out_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tìm ra'?",
+        "options": [
+          "find out",
+          "Priority",
+          "negative",
+          "pleasant"
+        ]
       }
     ]
   },
@@ -2772,6 +3432,26 @@
           "Phần giữa (on)",
           "Phần cuối (with)",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_get_on_with_M102",
+        "question": "Từ 'hòa thuận với' viết tiếng Anh đúng là:",
+        "options": [
+          "get on with",
+          "gat on with",
+          "gett on with",
+          "get un with"
+        ]
+      },
+      {
+        "id": "e9u1_get_on_with_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hòa thuận với'?",
+        "options": [
+          "get on with",
+          "get around",
+          "generator",
+          "get burnt"
         ]
       }
     ]
@@ -2855,6 +3535,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_go_out_M102",
+        "question": "Từ 'đi ra ngoài' viết tiếng Anh đúng là:",
+        "options": [
+          "go out",
+          "gu out",
+          "go ou",
+          "go uut"
+        ]
+      },
+      {
+        "id": "e9u1_go_out_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đi ra ngoài'?",
+        "options": [
+          "go out",
+          "gong",
+          "go snorkeling",
+          "go/ study abroad"
+        ]
       }
     ]
   },
@@ -2935,6 +3635,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_give_advice_M102",
+        "question": "Từ 'đưa ra lời khuyên' viết tiếng Anh đúng là:",
+        "options": [
+          "give advice",
+          "give edvice",
+          "give advyce",
+          "giva advice"
+        ]
+      },
+      {
+        "id": "e9u1_give_advice_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đưa ra lời khuyên'?",
+        "options": [
+          "give advice",
+          "packed with",
+          "firefighter",
+          "anniversary"
         ]
       }
     ]
@@ -3018,6 +3738,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_hand_down__pass_M102",
+        "question": "Từ 'truyền lại' viết tiếng Anh đúng là:",
+        "options": [
+          "hand down/ pass down",
+          "hand down/ pass dow",
+          "hand down/ pass duwn",
+          "hand down/ pess down"
+        ]
+      },
+      {
+        "id": "e9u1_hand_down__pass_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'truyền lại'?",
+        "options": [
+          "hand down/ pass down",
+          "hang out with",
+          "hand-craft",
+          "handicraft"
+        ]
       }
     ]
   },
@@ -3098,6 +3838,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_look_around_M102",
+        "question": "Từ 'nhìn xung quanh' viết tiếng Anh đúng là:",
+        "options": [
+          "look around",
+          "look aroun",
+          "luok around",
+          "louk around"
+        ]
+      },
+      {
+        "id": "e9u1_look_around_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nhìn xung quanh'?",
+        "options": [
+          "look around",
+          "look for",
+          "look after",
+          "lose weight"
         ]
       }
     ]
@@ -3181,6 +3941,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_look_for_M102",
+        "question": "Từ 'tìm kiếm' viết tiếng Anh đúng là:",
+        "options": [
+          "look for",
+          "llook for",
+          "luok for",
+          "look fur"
+        ]
+      },
+      {
+        "id": "e9u1_look_for_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tìm kiếm'?",
+        "options": [
+          "look for",
+          "look after",
+          "look around",
+          "local"
+        ]
       }
     ]
   },
@@ -3262,6 +4042,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_obey_the_law_M102",
+        "question": "Từ 'tuân thủ pháp luật' viết tiếng Anh đúng là:",
+        "options": [
+          "obey the law",
+          "obey the llaw",
+          "obei the law",
+          "obay the law"
+        ]
+      },
+      {
+        "id": "e9u1_obey_the_law_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tuân thủ pháp luật'?",
+        "options": [
+          "obey the law",
+          "embarrassing",
+          "tribal dance",
+          "ethnic group"
+        ]
       }
     ]
   },
@@ -3342,6 +4142,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u1_remind_of_M102",
+        "question": "Từ 'nhắc nhở' viết tiếng Anh đúng là:",
+        "options": [
+          "remind of",
+          "remynd of",
+          "rremind of",
+          "ramind of"
+        ]
+      },
+      {
+        "id": "e9u1_remind_of_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nhắc nhở'?",
+        "options": [
+          "remind of",
+          "Regularly",
+          "Reduce",
+          "replace"
         ]
       }
     ]
@@ -3425,6 +4245,26 @@
           "Phần cuối (of)",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u1_take_care_of_M102",
+        "question": "Từ 'chăm sóc' viết tiếng Anh đúng là:",
+        "options": [
+          "take care of",
+          "take cere of",
+          "take cara of",
+          "ttake care of"
+        ]
+      },
+      {
+        "id": "e9u1_take_care_of_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chăm sóc'?",
+        "options": [
+          "take care of",
+          "take notes",
+          "Take a break",
+          "take a break"
+        ]
       }
     ]
   },
@@ -3505,6 +4345,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_bustling_M102",
+        "question": "Từ 'hối hả, nhộn nhịp' viết tiếng Anh đúng là:",
+        "options": [
+          "bustling",
+          "busttling",
+          "bustlyng",
+          "bustlin"
+        ]
+      },
+      {
+        "id": "e9u2_bustling_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hối hả, nhộn nhịp'?",
+        "options": [
+          "bustling",
+          "property",
+          "Obstacle",
+          "Minimize"
         ]
       }
     ]
@@ -3588,6 +4448,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_carry_out_M102",
+        "question": "Từ 'tiến hành, thực hiện' viết tiếng Anh đúng là:",
+        "options": [
+          "carry out",
+          "carry uut",
+          "carry outt",
+          "carrry out"
+        ]
+      },
+      {
+        "id": "e9u2_carry_out_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tiến hành, thực hiện'?",
+        "options": [
+          "carry out",
+          "different",
+          "associate",
+          "enjoyable"
+        ]
       }
     ]
   },
@@ -3670,6 +4550,26 @@
           "Phần cuối (with)",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_come_down_with_M102",
+        "question": "Từ 'bị ốm, mắc bệnh' viết tiếng Anh đúng là:",
+        "options": [
+          "come down with",
+          "come down wyth",
+          "coma down with",
+          "cume down with"
+        ]
+      },
+      {
+        "id": "e9u2_come_down_with_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bị ốm, mắc bệnh'?",
+        "options": [
+          "come down with",
+          "competition",
+          "convenient",
+          "complex"
+        ]
       }
     ]
   },
@@ -3751,6 +4651,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_cut_down_on_M102",
+        "question": "Từ 'cắt giảm' viết tiếng Anh đúng là:",
+        "options": [
+          "cut down on",
+          "cut down o",
+          "cot down on",
+          "cutt down on"
+        ]
+      },
+      {
+        "id": "e9u2_cut_down_on_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cắt giảm'?",
+        "options": [
+          "cut down on",
+          "Bring about",
+          "firefighter",
+          "Instruction"
+        ]
       }
     ]
   },
@@ -3831,6 +4751,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_concrete_jungle_M102",
+        "question": "Từ 'rừng bê tông' viết tiếng Anh đúng là:",
+        "options": [
+          "concrete jungle",
+          "concrete junngle",
+          "concrrete jungle",
+          "conncrete jungle"
+        ]
+      },
+      {
+        "id": "e9u2_concrete_jungle_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'rừng bê tông'?",
+        "options": [
+          "concrete jungle",
+          "Counsellor",
+          "Consult",
+          "community"
         ]
       }
     ]
@@ -3914,6 +4854,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u2_congested_M102",
+        "question": "Từ 'tắc nghẽn' viết tiếng Anh đúng là:",
+        "options": [
+          "congested",
+          "congeste",
+          "cungested",
+          "congasted"
+        ]
+      },
+      {
+        "id": "e9u2_congested_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tắc nghẽn'?",
+        "options": [
+          "congested",
+          "Counsellor",
+          "Consult",
+          "coral reef"
+        ]
       }
     ]
   },
@@ -3996,6 +4956,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u2_construction_site_M102",
+        "question": "Từ 'công trường xây dựng' viết tiếng Anh đúng là:",
+        "options": [
+          "construction site",
+          "constructtion site",
+          "constrruction site",
+          "construction sita"
+        ]
+      },
+      {
+        "id": "e9u2_construction_site_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'công trường xây dựng'?",
+        "options": [
+          "construction site",
+          "conversation",
+          "communicate",
+          "Counsellor"
+        ]
       }
     ]
   },
@@ -4076,6 +5056,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_downtown_M102",
+        "question": "Từ 'khu trung tâm thành phố' viết tiếng Anh đúng là:",
+        "options": [
+          "downtown",
+          "duwntown",
+          "downttown",
+          "downntown"
+        ]
+      },
+      {
+        "id": "e9u2_downtown_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khu trung tâm thành phố'?",
+        "options": [
+          "downtown",
+          "eco-tour",
+          "leftover",
+          "positive"
         ]
       }
     ]
@@ -4159,6 +5159,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u2_entertainment_centre_M102",
+        "question": "Từ 'trung tâm giải trí' viết tiếng Anh đúng là:",
+        "options": [
+          "entertainment centre",
+          "entertainment cantre",
+          "enterteinment centre",
+          "enntertainment centre"
+        ]
+      },
+      {
+        "id": "e9u2_entertainment_centre_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trung tâm giải trí'?",
+        "options": [
+          "entertainment centre",
+          "enjoyable",
+          "hand down/ pass down",
+          "Encouragement"
+        ]
       }
     ]
   },
@@ -4240,6 +5260,26 @@
           "Phần đầu (get)",
           "Cả hai phần",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_get_around_M102",
+        "question": "Từ 'đi xung quanh' viết tiếng Anh đúng là:",
+        "options": [
+          "get around",
+          "get eround",
+          "get arround",
+          "get aroond"
+        ]
+      },
+      {
+        "id": "e9u2_get_around_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đi xung quanh'?",
+        "options": [
+          "get around",
+          "Get burnt",
+          "generator",
+          "Get through"
         ]
       }
     ]
@@ -4323,6 +5363,26 @@
           "Phần cuối (with)",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_hang_out_with_M102",
+        "question": "Từ 'đi chơi (cùng ai)' viết tiếng Anh đúng là:",
+        "options": [
+          "hang out with",
+          "hang out wyth",
+          "heng out with",
+          "hang oot with"
+        ]
+      },
+      {
+        "id": "e9u2_hang_out_with_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đi chơi (cùng ai)'?",
+        "options": [
+          "hang out with",
+          "hand-craft",
+          "hand down/ pass down",
+          "handicraft"
+        ]
       }
     ]
   },
@@ -4403,6 +5463,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_hygiene_M102",
+        "question": "Từ 'vệ sinh' viết tiếng Anh đúng là:",
+        "options": [
+          "hygiene",
+          "higiene",
+          "hygyene",
+          "hygiane"
+        ]
+      },
+      {
+        "id": "e9u2_hygiene_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'vệ sinh'?",
+        "options": [
+          "hygiene",
+          "Session",
+          "privacy",
+          "ancient"
         ]
       }
     ]
@@ -4485,6 +5565,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_itchy_M102",
+        "question": "Từ 'ngứa' viết tiếng Anh đúng là:",
+        "options": [
+          "itchy",
+          "itchi",
+          "ytchy",
+          "ittchy"
+        ]
+      },
+      {
+        "id": "e9u2_itchy_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ngứa'?",
+        "options": [
+          "itchy",
+          "theme",
+          "peers",
+          "craft"
+        ]
       }
     ]
   },
@@ -4565,6 +5665,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u2_leftover_M102",
+        "question": "Từ 'thức ăn thừa' viết tiếng Anh đúng là:",
+        "options": [
+          "leftover",
+          "laftover",
+          "leftovar",
+          "leftuver"
+        ]
+      },
+      {
+        "id": "e9u2_leftover_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thức ăn thừa'?",
+        "options": [
+          "leftover",
+          "leisure",
+          "learn by rote",
+          "learning facilities"
         ]
       }
     ]
@@ -4647,6 +5767,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_liveable_M102",
+        "question": "Từ 'đáng sống' viết tiếng Anh đúng là:",
+        "options": [
+          "liveable",
+          "liveabla",
+          "lliveable",
+          "liveeble"
+        ]
+      },
+      {
+        "id": "e9u2_liveable_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đáng sống'?",
+        "options": [
+          "liveable",
+          "touching",
+          "downtown",
+          "monument"
+        ]
       }
     ]
   },
@@ -4727,6 +5867,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_metro_M102",
+        "question": "Từ 'tàu điện ngầm' viết tiếng Anh đúng là:",
+        "options": [
+          "metro",
+          "metru",
+          "metrro",
+          "mmetro"
+        ]
+      },
+      {
+        "id": "e9u2_metro_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tàu điện ngầm'?",
+        "options": [
+          "metro",
+          "metroer",
+          "metroing",
+          "metrion"
         ]
       }
     ]
@@ -4810,6 +5970,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_packed_with_M102",
+        "question": "Từ 'đông đúc' viết tiếng Anh đúng là:",
+        "options": [
+          "packed with",
+          "packed wyth",
+          "packed wit",
+          "packed witth"
+        ]
+      },
+      {
+        "id": "e9u2_packed_with_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đông đúc'?",
+        "options": [
+          "packed with",
+          "parachute",
+          "pay attention",
+          "Pay attention"
+        ]
       }
     ]
   },
@@ -4891,6 +6071,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_pricey_M102",
+        "question": "Từ 'đắt đỏ' viết tiếng Anh đúng là:",
+        "options": [
+          "pricey",
+          "pricei",
+          "price",
+          "ppricey"
+        ]
+      },
+      {
+        "id": "e9u2_pricey_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đắt đỏ'?",
+        "options": [
+          "pricey",
+          "privacy",
+          "promote",
+          "process"
+        ]
       }
     ]
   },
@@ -4971,6 +6171,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_process_M102",
+        "question": "Từ 'xử lý, quá trình' viết tiếng Anh đúng là:",
+        "options": [
+          "process",
+          "pprocess",
+          "prucess",
+          "prrocess"
+        ]
+      },
+      {
+        "id": "e9u2_process_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xử lý, quá trình'?",
+        "options": [
+          "process",
+          "privacy",
+          "pricey",
+          "preserve"
         ]
       }
     ]
@@ -5054,6 +6274,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u2_public_amenities_M102",
+        "question": "Từ 'tiện ích công cộng' viết tiếng Anh đúng là:",
+        "options": [
+          "public amenities",
+          "publlic amenities",
+          "poblic amenities",
+          "public ammenities"
+        ]
+      },
+      {
+        "id": "e9u2_public_amenities_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tiện ích công cộng'?",
+        "options": [
+          "public amenities",
+          "Punish",
+          "Put on",
+          "put up tents"
+        ]
       }
     ]
   },
@@ -5135,6 +6375,26 @@
           "Phần sau (hour)",
           "Cả hai phần",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_rush_hour_M102",
+        "question": "Từ 'giờ cao điểm' viết tiếng Anh đúng là:",
+        "options": [
+          "rush hour",
+          "russh hour",
+          "rush hou",
+          "rrush hour"
+        ]
+      },
+      {
+        "id": "e9u2_rush_hour_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giờ cao điểm'?",
+        "options": [
+          "rush hour",
+          "brilliant",
+          "thanks to",
+          "structure"
         ]
       }
     ]
@@ -5218,6 +6478,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u2_sky_train_M102",
+        "question": "Từ 'tàu điện trên không' viết tiếng Anh đúng là:",
+        "options": [
+          "sky train",
+          "sky trrain",
+          "sky trayn",
+          "sky trai"
+        ]
+      },
+      {
+        "id": "e9u2_sky_train_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tàu điện trên không'?",
+        "options": [
+          "sky train",
+          "enjoyable",
+          "by chance",
+          "different"
+        ]
       }
     ]
   },
@@ -5299,6 +6579,26 @@
           "Phần sau (jam)",
           "Cả hai phần",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u2_traffic_jam_M102",
+        "question": "Từ 'kẹt xe' viết tiếng Anh đúng là:",
+        "options": [
+          "traffic jam",
+          "traffyc jam",
+          "traffic jem",
+          "traffic ja"
+        ]
+      },
+      {
+        "id": "e9u2_traffic_jam_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'kẹt xe'?",
+        "options": [
+          "traffic jam",
+          "tram",
+          "traffic congestion",
+          "tribal dance"
         ]
       }
     ]
@@ -5382,6 +6682,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u2__traffic_congestion_M102",
+        "question": "Từ 'ùn tắc giao thông' viết tiếng Anh đúng là:",
+        "options": [
+          "traffic congestion",
+          "traffic congestio",
+          "traffic congestionn",
+          "treffic congestion"
+        ]
+      },
+      {
+        "id": "e9u2__traffic_congestion_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ùn tắc giao thông'?",
+        "options": [
+          "traffic congestion",
+          "tribal dance",
+          "tram",
+          "tradition"
+        ]
       }
     ]
   },
@@ -5463,6 +6783,26 @@
           "2 âm tiết",
           "3 âm tiết",
           "4 âm tiết"
+        ]
+      },
+      {
+        "id": "e9u2_tram_M102",
+        "question": "Từ 'xe điện' viết tiếng Anh đúng là:",
+        "options": [
+          "tram",
+          "trram",
+          "trem",
+          "ttram"
+        ]
+      },
+      {
+        "id": "e9u2_tram_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xe điện'?",
+        "options": [
+          "tram",
+          "traffic congestion",
+          "traffic jam",
+          "tribal dance"
         ]
       }
     ]
@@ -5546,6 +6886,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Counsellor_M102",
+        "question": "Từ 'Cố vấn' viết tiếng Anh đúng là:",
+        "options": [
+          "Counsellor",
+          "Counsello",
+          "Counssellor",
+          "Counnsellor"
+        ]
+      },
+      {
+        "id": "e9u3_Counsellor_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'Cố vấn'?",
+        "options": [
+          "Counsellor",
+          "convenient",
+          "come back",
+          "coral reef"
+        ]
       }
     ]
   },
@@ -5626,6 +6986,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Session_M102",
+        "question": "Từ 'buổi họp, phiên họp' viết tiếng Anh đúng là:",
+        "options": [
+          "Session",
+          "Sassion",
+          "Sesssion",
+          "Sessiun"
+        ]
+      },
+      {
+        "id": "e9u3_Session_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'buổi họp, phiên họp'?",
+        "options": [
+          "Session",
+          "display",
+          "complex",
+          "worship"
         ]
       }
     ]
@@ -5709,6 +7089,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Physical_health_M102",
+        "question": "Từ 'sức khỏe thể chất' viết tiếng Anh đúng là:",
+        "options": [
+          "Physical health",
+          "Phisical health",
+          "Physical healtth",
+          "Physical heelth"
+        ]
+      },
+      {
+        "id": "e9u3_Physical_health_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sức khỏe thể chất'?",
+        "options": [
+          "Physical health",
+          "delivery person",
+          "concrete jungle",
+          "extended family"
+        ]
       }
     ]
   },
@@ -5791,6 +7191,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Regularly_M102",
+        "question": "Từ 'thường xuyên' viết tiếng Anh đúng là:",
+        "options": [
+          "Regularly",
+          "Regularrly",
+          "Regularlly",
+          "Ragularly"
+        ]
+      },
+      {
+        "id": "e9u3_Regularly_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thường xuyên'?",
+        "options": [
+          "Regularly",
+          "reflect",
+          "recognize",
+          "remind of"
+        ]
       }
     ]
   },
@@ -5871,6 +7291,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Advice_M102",
+        "question": "Từ 'lời khuyên' viết tiếng Anh đúng là:",
+        "options": [
+          "Advice",
+          "Advyce",
+          "Advica",
+          "Advic"
+        ]
+      },
+      {
+        "id": "e9u3_Advice_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'lời khuyên'?",
+        "options": [
+          "Advice",
+          "Urgent",
+          "Punish",
+          "put on"
         ]
       }
     ]
@@ -5954,6 +7394,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Bring_about_M102",
+        "question": "Từ 'mang lại, dẫn đến' viết tiếng Anh đúng là:",
+        "options": [
+          "Bring about",
+          "Bring abuut",
+          "Brring about",
+          "Bring aboutt"
+        ]
+      },
+      {
+        "id": "e9u3_Bring_about_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'mang lại, dẫn đến'?",
+        "options": [
+          "Bring about",
+          "Gain weight",
+          "Instruction",
+          "convenience"
+        ]
       }
     ]
   },
@@ -6034,6 +7494,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Reduce_M102",
+        "question": "Từ 'giảm' viết tiếng Anh đúng là:",
+        "options": [
+          "Reduce",
+          "Raduce",
+          "Reduc",
+          "Redoce"
+        ]
+      },
+      {
+        "id": "e9u3_Reduce_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giảm'?",
+        "options": [
+          "Reduce",
+          "recognize",
+          "religious",
+          "Require"
         ]
       }
     ]
@@ -6116,6 +7596,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Look_after_M102",
+        "question": "Từ 'chăm sóc' viết tiếng Anh đúng là:",
+        "options": [
+          "Look after",
+          "Louk after",
+          "Luok after",
+          "Look afte"
+        ]
+      },
+      {
+        "id": "e9u3_Look_after_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chăm sóc'?",
+        "options": [
+          "Look after",
+          "local",
+          "Lose weight",
+          "lose weight"
+        ]
       }
     ]
   },
@@ -6196,6 +7696,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Well__balanced_M102",
+        "question": "Từ 'cân đối, hợp lý' viết tiếng Anh đúng là:",
+        "options": [
+          "Well- balanced",
+          "Well- balannced",
+          "Well- ballanced",
+          "Well- belanced"
+        ]
+      },
+      {
+        "id": "e9u3_Well__balanced_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cân đối, hợp lý'?",
+        "options": [
+          "Well- balanced",
+          "come down with",
+          "shopping malls",
+          "well-preserved"
         ]
       }
     ]
@@ -6279,6 +7799,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Priority_M102",
+        "question": "Từ 'sự ưu tiên' viết tiếng Anh đúng là:",
+        "options": [
+          "Priority",
+          "Pryority",
+          "Prioritty",
+          "Priurity"
+        ]
+      },
+      {
+        "id": "e9u3_Priority_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự ưu tiên'?",
+        "options": [
+          "Priority",
+          "prehistoric",
+          "preserve",
+          "property"
+        ]
       }
     ]
   },
@@ -6359,6 +7899,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Connect_M102",
+        "question": "Từ 'kết nối' viết tiếng Anh đúng là:",
+        "options": [
+          "Connect",
+          "Cunnect",
+          "Connact",
+          "Connec"
+        ]
+      },
+      {
+        "id": "e9u3_Connect_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'kết nối'?",
+        "options": [
+          "Connect",
+          "competition",
+          "Concentrate on",
+          "construction site"
         ]
       }
     ]
@@ -6442,6 +8002,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Dealt_with_M102",
+        "question": "Từ 'xử lý, giải quyết' viết tiếng Anh đúng là:",
+        "options": [
+          "Dealt with",
+          "Dealt witth",
+          "Daalt with",
+          "Dealt wyth"
+        ]
+      },
+      {
+        "id": "e9u3_Dealt_with_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xử lý, giải quyết'?",
+        "options": [
+          "Dealt with",
+          "dependence",
+          "deep-rooted",
+          "delivery person"
+        ]
       }
     ]
   },
@@ -6522,6 +8102,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Mental_M102",
+        "question": "Từ 'tinh thần' viết tiếng Anh đúng là:",
+        "options": [
+          "Mental",
+          "Mentel",
+          "Mantal",
+          "Menntal"
+        ]
+      },
+      {
+        "id": "e9u3_Mental_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tinh thần'?",
+        "options": [
+          "Mental",
+          "mentaler",
+          "mentaling",
+          "mentaion"
         ]
       }
     ]
@@ -6605,6 +8205,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Appearance_M102",
+        "question": "Từ 'ngoại hình' viết tiếng Anh đúng là:",
+        "options": [
+          "Appearance",
+          "Appearannce",
+          "Appearrance",
+          "Appeerance"
+        ]
+      },
+      {
+        "id": "e9u3_Appearance_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ngoại hình'?",
+        "options": [
+          "Appearance",
+          "Assignment",
+          "facilities",
+          "look after"
+        ]
       }
     ]
   },
@@ -6686,6 +8306,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u3_Additional_M102",
+        "question": "Từ 'bổ sung' viết tiếng Anh đúng là:",
+        "options": [
+          "Additional",
+          "Addittional",
+          "Additionnal",
+          "Additionel"
+        ]
+      },
+      {
+        "id": "e9u3_Additional_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bổ sung'?",
+        "options": [
+          "Additional",
+          "look after",
+          "convenient",
+          "difference"
         ]
       }
     ]
@@ -6769,6 +8409,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Take_a_break_M102",
+        "question": "Từ 'nghỉ ngơi' viết tiếng Anh đúng là:",
+        "options": [
+          "Take a break",
+          "Take a breek",
+          "Take a braak",
+          "Take a brreak"
+        ]
+      },
+      {
+        "id": "e9u3_Take_a_break_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nghỉ ngơi'?",
+        "options": [
+          "Take a break",
+          "takeaway",
+          "take notes",
+          "take care of"
+        ]
       }
     ]
   },
@@ -6850,6 +8510,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Achieve_M102",
+        "question": "Từ 'đạt được' viết tiếng Anh đúng là:",
+        "options": [
+          "Achieve",
+          "Achiev",
+          "Achieva",
+          "Achyeve"
+        ]
+      },
+      {
+        "id": "e9u3_Achieve_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đạt được'?",
+        "options": [
+          "Achieve",
+          "act",
+          "action",
+          "active"
+        ]
       }
     ]
   },
@@ -6930,6 +8610,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u3_Organising_M102",
+        "question": "Từ 'tổ chức' viết tiếng Anh đúng là:",
+        "options": [
+          "Organising",
+          "Organisyng",
+          "Orgenising",
+          "Organissing"
+        ]
+      },
+      {
+        "id": "e9u3_Organising_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tổ chức'?",
+        "options": [
+          "Organising",
+          "convenient",
+          "Counsellor",
+          "tug of war"
         ]
       }
     ]
@@ -7013,6 +8713,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Accomplish_M102",
+        "question": "Từ 'hoàn thành' viết tiếng Anh đúng là:",
+        "options": [
+          "Accomplish",
+          "Accomplis",
+          "Accompllish",
+          "Accomplissh"
+        ]
+      },
+      {
+        "id": "e9u3_Accomplish_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hoàn thành'?",
+        "options": [
+          "Accomplish",
+          "action",
+          "active",
+          "activity"
+        ]
       }
     ]
   },
@@ -7094,6 +8814,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Require_M102",
+        "question": "Từ 'yêu cầu' viết tiếng Anh đúng là:",
+        "options": [
+          "Require",
+          "Requira",
+          "Raquire",
+          "Requir"
+        ]
+      },
+      {
+        "id": "e9u3_Require_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'yêu cầu'?",
+        "options": [
+          "Require",
+          "recognize",
+          "remind of",
+          "religious"
+        ]
       }
     ]
   },
@@ -7174,6 +8914,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Due_date___Deadline_M102",
+        "question": "Từ 'hạn chót' viết tiếng Anh đúng là:",
+        "options": [
+          "Due date = Deadline",
+          "Due date = Deadlyne",
+          "Dua date = Deadline",
+          "Due date = Deadlline"
+        ]
+      },
+      {
+        "id": "e9u3_Due_date___Deadline_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hạn chót'?",
+        "options": [
+          "Due date = Deadline",
+          "due date = deadlineer",
+          "due date = deadlineing",
+          "due date = deadlinion"
         ]
       }
     ]
@@ -7257,6 +9017,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Stressed_out_M102",
+        "question": "Từ 'căng thẳng' viết tiếng Anh đúng là:",
+        "options": [
+          "Stressed out",
+          "Stressed ou",
+          "Stressed oot",
+          "Stresssed out"
+        ]
+      },
+      {
+        "id": "e9u3_Stressed_out_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'căng thẳng'?",
+        "options": [
+          "Stressed out",
+          "birdwatching",
+          "tribal dance",
+          "exhilarating"
+        ]
       }
     ]
   },
@@ -7338,6 +9118,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u3_Pay_attention_M102",
+        "question": "Từ 'chú ý' viết tiếng Anh đúng là:",
+        "options": [
+          "Pay attention",
+          "Pay attantion",
+          "Pay attenttion",
+          "Pay atention"
+        ]
+      },
+      {
+        "id": "e9u3_Pay_attention_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chú ý'?",
+        "options": [
+          "Pay attention",
+          "team building",
+          "hide-and-seek",
+          "Appropriately"
         ]
       }
     ]
@@ -7421,6 +9221,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Distraction_M102",
+        "question": "Từ 'sự xao lãng' viết tiếng Anh đúng là:",
+        "options": [
+          "Distraction",
+          "Distractyon",
+          "Distractiun",
+          "Dystraction"
+        ]
+      },
+      {
+        "id": "e9u3_Distraction_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự xao lãng'?",
+        "options": [
+          "Distraction",
+          "different",
+          "differ",
+          "difference"
+        ]
       }
     ]
   },
@@ -7502,6 +9322,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Assignment_M102",
+        "question": "Từ 'bài tập, nhiệm vụ' viết tiếng Anh đúng là:",
+        "options": [
+          "Assignment",
+          "Asignment",
+          "Assignmant",
+          "Assygnment"
+        ]
+      },
+      {
+        "id": "e9u3_Assignment_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bài tập, nhiệm vụ'?",
+        "options": [
+          "Assignment",
+          "get around",
+          "difference",
+          "on purpose"
         ]
       }
     ]
@@ -7585,6 +9425,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u3_Gain_weight_M102",
+        "question": "Từ 'tăng cân' viết tiếng Anh đúng là:",
+        "options": [
+          "Gain weight",
+          "Gain weightt",
+          "Gain waight",
+          "Gainn weight"
+        ]
+      },
+      {
+        "id": "e9u3_Gain_weight_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tăng cân'?",
+        "options": [
+          "Gain weight",
+          "Bring about",
+          "Get through",
+          "frightening"
+        ]
       }
     ]
   },
@@ -7667,6 +9527,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u3_Get_burnt_M102",
+        "question": "Từ 'bị bỏng, bị cháy nắng' viết tiếng Anh đúng là:",
+        "options": [
+          "Get burnt",
+          "Gett burnt",
+          "Get burrnt",
+          "Gat burnt"
+        ]
+      },
+      {
+        "id": "e9u3_Get_burnt_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bị bỏng, bị cháy nắng'?",
+        "options": [
+          "Get burnt",
+          "get around",
+          "generation",
+          "generator"
+        ]
       }
     ]
   },
@@ -7747,6 +9627,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Punish_M102",
+        "question": "Từ 'trừng phạt' viết tiếng Anh đúng là:",
+        "options": [
+          "Punish",
+          "Ponish",
+          "Punissh",
+          "Punnish"
+        ]
+      },
+      {
+        "id": "e9u3_Punish_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trừng phạt'?",
+        "options": [
+          "Punish",
+          "public amenities",
+          "put up tents",
+          "Put on"
         ]
       }
     ]
@@ -7830,6 +9730,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Get_through_M102",
+        "question": "Từ 'vượt qua, hoàn thành' viết tiếng Anh đúng là:",
+        "options": [
+          "Get through",
+          "Get thrrough",
+          "Gett through",
+          "Get throogh"
+        ]
+      },
+      {
+        "id": "e9u3_Get_through_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'vượt qua, hoàn thành'?",
+        "options": [
+          "Get through",
+          "get on with",
+          "generational",
+          "get burnt"
+        ]
       }
     ]
   },
@@ -7910,6 +9830,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Manage_M102",
+        "question": "Từ 'quản lý, xoay sở' viết tiếng Anh đúng là:",
+        "options": [
+          "Manage",
+          "Manege",
+          "Managa",
+          "Mannage"
+        ]
+      },
+      {
+        "id": "e9u3_Manage_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'quản lý, xoay sở'?",
+        "options": [
+          "Manage",
+          "Reduce",
+          "put on",
+          "differ"
         ]
       }
     ]
@@ -7993,6 +9933,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Effectively_M102",
+        "question": "Từ 'hiệu quả' viết tiếng Anh đúng là:",
+        "options": [
+          "Effectively",
+          "Effectiveli",
+          "Effecttively",
+          "Effectyvely"
+        ]
+      },
+      {
+        "id": "e9u3_Effectively_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hiệu quả'?",
+        "options": [
+          "Effectively",
+          "anniversary",
+          "competition",
+          "get on with"
+        ]
       }
     ]
   },
@@ -8074,6 +10034,26 @@
           "Phần đầu (put)",
           "Cả hai phần",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Put_on_M102",
+        "question": "Từ 'mặc vào, tăng cân' viết tiếng Anh đúng là:",
+        "options": [
+          "Put on",
+          "Pot on",
+          "Putt on",
+          "Put un"
+        ]
+      },
+      {
+        "id": "e9u3_Put_on_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'mặc vào, tăng cân'?",
+        "options": [
+          "Put on",
+          "put up tents",
+          "pursue one’s own interest",
+          "public amenities"
         ]
       }
     ]
@@ -8157,6 +10137,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u3_Mood_M102",
+        "question": "Từ 'tâm trạng' viết tiếng Anh đúng là:",
+        "options": [
+          "Mood",
+          "Moud",
+          "Muod",
+          "Modo"
+        ]
+      },
+      {
+        "id": "e9u3_Mood_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tâm trạng'?",
+        "options": [
+          "Mood",
+          "gong",
+          "sort",
+          "monument"
+        ]
       }
     ]
   },
@@ -8239,6 +10239,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u3_Lose_weight_M102",
+        "question": "Từ 'giảm cân' viết tiếng Anh đúng là:",
+        "options": [
+          "Lose weight",
+          "Lose waight",
+          "Lose weightt",
+          "Losa weight"
+        ]
+      },
+      {
+        "id": "e9u3_Lose_weight_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giảm cân'?",
+        "options": [
+          "Lose weight",
+          "local",
+          "look for",
+          "look after"
+        ]
       }
     ]
   },
@@ -8319,6 +10339,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Advise_M102",
+        "question": "Từ 'khuyên bảo' viết tiếng Anh đúng là:",
+        "options": [
+          "Advise",
+          "Advisse",
+          "Advis",
+          "Advyse"
+        ]
+      },
+      {
+        "id": "e9u3_Advise_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khuyên bảo'?",
+        "options": [
+          "Advise",
+          "custom",
+          "Manage",
+          "seabed"
         ]
       }
     ]
@@ -8402,6 +10442,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u3_Sore_throat_M102",
+        "question": "Từ 'viêm họng, đau họng' viết tiếng Anh đúng là:",
+        "options": [
+          "Sore throat",
+          "Sore thrroat",
+          "Sore throet",
+          "Sore thruat"
+        ]
+      },
+      {
+        "id": "e9u3_Sore_throat_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'viêm họng, đau họng'?",
+        "options": [
+          "Sore throat",
+          "Get through",
+          "Distraction",
+          "convenience"
+        ]
       }
     ]
   },
@@ -8484,6 +10544,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Minimize_M102",
+        "question": "Từ 'giảm thiểu' viết tiếng Anh đúng là:",
+        "options": [
+          "Minimize",
+          "Minimiza",
+          "Minimmize",
+          "Minimyze"
+        ]
+      },
+      {
+        "id": "e9u3_Minimize_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giảm thiểu'?",
+        "options": [
+          "Minimize",
+          "occasion",
+          "eco-tour",
+          "instruct"
+        ]
       }
     ]
   },
@@ -8564,6 +10644,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Suffer_M102",
+        "question": "Từ 'chịu đựng, đau khổ' viết tiếng Anh đúng là:",
+        "options": [
+          "Suffer",
+          "Suffe",
+          "Soffer",
+          "Suffar"
+        ]
+      },
+      {
+        "id": "e9u3_Suffer_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chịu đựng, đau khổ'?",
+        "options": [
+          "Suffer",
+          "active",
+          "go out",
+          "action"
         ]
       }
     ]
@@ -8647,6 +10747,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Ingredient_M102",
+        "question": "Từ 'nguyên liệu, thành phần' viết tiếng Anh đúng là:",
+        "options": [
+          "Ingredient",
+          "Inngredient",
+          "Ingrediant",
+          "Ingredientt"
+        ]
+      },
+      {
+        "id": "e9u3_Ingredient_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nguyên liệu, thành phần'?",
+        "options": [
+          "Ingredient",
+          "independence",
+          "independent",
+          "instruct"
+        ]
       }
     ]
   },
@@ -8729,6 +10849,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Optimistic_M102",
+        "question": "Từ 'lạc quan' viết tiếng Anh đúng là:",
+        "options": [
+          "Optimistic",
+          "Optimisti",
+          "Optimmistic",
+          "Opptimistic"
+        ]
+      },
+      {
+        "id": "e9u3_Optimistic_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'lạc quan'?",
+        "options": [
+          "Optimistic",
+          "Counsellor",
+          "Look after",
+          "convenient"
+        ]
       }
     ]
   },
@@ -8809,6 +10949,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai"
+        ]
+      },
+      {
+        "id": "e9u3_Overcome_M102",
+        "question": "Từ 'vượt qua' viết tiếng Anh đúng là:",
+        "options": [
+          "Overcome",
+          "Ovarcome",
+          "Overcom",
+          "Overcomme"
+        ]
+      },
+      {
+        "id": "e9u3_Overcome_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'vượt qua'?",
+        "options": [
+          "Overcome",
+          "heritage",
+          "instruct",
+          "bustling"
         ]
       }
     ]
@@ -8892,6 +11052,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Encouragement_M102",
+        "question": "Từ 'sự khuyến khích' viết tiếng Anh đúng là:",
+        "options": [
+          "Encouragement",
+          "Encouragementt",
+          "Encouregement",
+          "Encouragament"
+        ]
+      },
+      {
+        "id": "e9u3_Encouragement_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự khuyến khích'?",
+        "options": [
+          "Encouragement",
+          "world- famous",
+          "learn by rote",
+          "hang out with"
+        ]
       }
     ]
   },
@@ -8973,6 +11153,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u3_Anxiety_M102",
+        "question": "Từ 'sự lo lắng' viết tiếng Anh đúng là:",
+        "options": [
+          "Anxiety",
+          "Anxieti",
+          "Anxiet",
+          "Anxiaty"
+        ]
+      },
+      {
+        "id": "e9u3_Anxiety_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự lo lắng'?",
+        "options": [
+          "Anxiety",
+          "display",
+          "observe",
+          "Achieve"
         ]
       }
     ]
@@ -9056,6 +11256,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Concentrate_on_M102",
+        "question": "Từ 'tập trung vào' viết tiếng Anh đúng là:",
+        "options": [
+          "Concentrate on",
+          "Concantrate on",
+          "Concentrrate on",
+          "Concentrate o"
+        ]
+      },
+      {
+        "id": "e9u3_Concentrate_on_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tập trung vào'?",
+        "options": [
+          "Concentrate on",
+          "communal",
+          "congested",
+          "community"
+        ]
       }
     ]
   },
@@ -9138,6 +11358,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Appropriately_M102",
+        "question": "Từ 'thích hợp' viết tiếng Anh đúng là:",
+        "options": [
+          "Appropriately",
+          "Appropriatel",
+          "Apprropriately",
+          "Apprupriately"
+        ]
+      },
+      {
+        "id": "e9u3_Appropriately_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thích hợp'?",
+        "options": [
+          "Appropriately",
+          "world- famous",
+          "tour a campus",
+          "hang out with"
+        ]
       }
     ]
   },
@@ -9219,6 +11459,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u3_Fattening_M102",
+        "question": "Từ 'gây béo' viết tiếng Anh đúng là:",
+        "options": [
+          "Fattening",
+          "Fatening",
+          "Fattenyng",
+          "Fattenning"
+        ]
+      },
+      {
+        "id": "e9u3_Fattening_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'gây béo'?",
+        "options": [
+          "Fattening",
+          "face to face",
+          "family values",
+          "family-oriented"
+        ]
       }
     ]
   },
@@ -9299,6 +11559,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Urgent_M102",
+        "question": "Từ 'khẩn cấp' viết tiếng Anh đúng là:",
+        "options": [
+          "Urgent",
+          "Urrgent",
+          "Urgennt",
+          "Urgant"
+        ]
+      },
+      {
+        "id": "e9u3_Urgent_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khẩn cấp'?",
+        "options": [
+          "Urgent",
+          "castle",
+          "Put on",
+          "effort"
         ]
       }
     ]
@@ -9382,6 +11662,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_Obstacle_M102",
+        "question": "Từ 'chướng ngại vật' viết tiếng Anh đúng là:",
+        "options": [
+          "Obstacle",
+          "Obstaclle",
+          "Obstecle",
+          "Obstacl"
+        ]
+      },
+      {
+        "id": "e9u3_Obstacle_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chướng ngại vật'?",
+        "options": [
+          "Obstacle",
+          "liveable",
+          "leftover",
+          "negative"
+        ]
       }
     ]
   },
@@ -9463,6 +11763,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Omission_M102",
+        "question": "Từ 'sự bỏ sót' viết tiếng Anh đúng là:",
+        "options": [
+          "Omission",
+          "Omyssion",
+          "Omissiun",
+          "Omisssion"
+        ]
+      },
+      {
+        "id": "e9u3_Omission_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự bỏ sót'?",
+        "options": [
+          "Omission",
+          "liveable",
+          "eco-tour",
+          "Obstacle"
         ]
       }
     ]
@@ -9546,6 +11866,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u3_Instruction_M102",
+        "question": "Từ 'hướng dẫn' viết tiếng Anh đúng là:",
+        "options": [
+          "Instruction",
+          "Insstruction",
+          "Instructtion",
+          "Instructyon"
+        ]
+      },
+      {
+        "id": "e9u3_Instruction_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hướng dẫn'?",
+        "options": [
+          "Instruction",
+          "independent",
+          "ingredient",
+          "independence"
+        ]
       }
     ]
   },
@@ -9626,6 +11966,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_Consult_M102",
+        "question": "Từ 'tham khảo, hỏi ý kiến' viết tiếng Anh đúng là:",
+        "options": [
+          "Consult",
+          "Conssult",
+          "Consultt",
+          "Consullt"
+        ]
+      },
+      {
+        "id": "e9u3_Consult_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tham khảo, hỏi ý kiến'?",
+        "options": [
+          "Consult",
+          "complex",
+          "come down with",
+          "come back"
         ]
       }
     ]
@@ -9709,6 +12069,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_1__bring_about_M102",
+        "question": "Từ 'mang lại, gây ra' viết tiếng Anh đúng là:",
+        "options": [
+          "bring about",
+          "bryng about",
+          "bring abou",
+          "bring abuut"
+        ]
+      },
+      {
+        "id": "e9u3_1__bring_about_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'mang lại, gây ra'?",
+        "options": [
+          "bring about",
+          "Lose weight",
+          "opportunity",
+          "look around"
+        ]
       }
     ]
   },
@@ -9790,6 +12170,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_2__concentrate_M102",
+        "question": "Từ 'tập trung vào' viết tiếng Anh đúng là:",
+        "options": [
+          "concentrate on",
+          "concenntrate on",
+          "concentrate onn",
+          "concentrete on"
+        ]
+      },
+      {
+        "id": "e9u3_2__concentrate_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tập trung vào'?",
+        "options": [
+          "concentrate on",
+          "conversation",
+          "conflict",
+          "concrete jungle"
         ]
       }
     ]
@@ -9873,6 +12273,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_3__dealt_with_M102",
+        "question": "Từ 'xử lý, giải quyết' viết tiếng Anh đúng là:",
+        "options": [
+          "dealt with",
+          "daalt with",
+          "dealt wit",
+          "dealt witth"
+        ]
+      },
+      {
+        "id": "e9u3_3__dealt_with_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xử lý, giải quyết'?",
+        "options": [
+          "dealt with",
+          "depend on sb/ sth",
+          "dependence",
+          "democracy"
+        ]
       }
     ]
   },
@@ -9954,6 +12374,26 @@
           "2 âm tiết",
           "3 âm tiết",
           "4 âm tiết"
+        ]
+      },
+      {
+        "id": "e9u3_4__gain_weight_M102",
+        "question": "Từ 'tăng cân' viết tiếng Anh đúng là:",
+        "options": [
+          "gain weight",
+          "gain weyght",
+          "gain waight",
+          "gayn weight"
+        ]
+      },
+      {
+        "id": "e9u3_4__gain_weight_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tăng cân'?",
+        "options": [
+          "gain weight",
+          "Get through",
+          "city centre",
+          "packed with"
         ]
       }
     ]
@@ -10037,6 +12477,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u3_5__get_burnt_M102",
+        "question": "Từ 'bị cháy nắng, bị bỏng' viết tiếng Anh đúng là:",
+        "options": [
+          "get burnt",
+          "gett burnt",
+          "get burrnt",
+          "get burn"
+        ]
+      },
+      {
+        "id": "e9u3_5__get_burnt_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bị cháy nắng, bị bỏng'?",
+        "options": [
+          "get burnt",
+          "get around",
+          "Get through",
+          "get through"
+        ]
       }
     ]
   },
@@ -10119,6 +12579,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_6__get_through_M102",
+        "question": "Từ 'vượt qua, hoàn thành' viết tiếng Anh đúng là:",
+        "options": [
+          "get through",
+          "gett through",
+          "gat through",
+          "get tthrough"
+        ]
+      },
+      {
+        "id": "e9u3_6__get_through_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'vượt qua, hoàn thành'?",
+        "options": [
+          "get through",
+          "Get burnt",
+          "generate",
+          "generation"
+        ]
       }
     ]
   },
@@ -10199,6 +12679,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u3_7__look_after_M102",
+        "question": "Từ 'chăm sóc' viết tiếng Anh đúng là:",
+        "options": [
+          "look after",
+          "look afte",
+          "look aftar",
+          "look aftter"
+        ]
+      },
+      {
+        "id": "e9u3_7__look_after_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chăm sóc'?",
+        "options": [
+          "look after",
+          "lose weight",
+          "local",
+          "Lose weight"
         ]
       }
     ]
@@ -10282,6 +12782,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u3_8__lose_weight_M102",
+        "question": "Từ 'giảm cân' viết tiếng Anh đúng là:",
+        "options": [
+          "lose weight",
+          "lose waight",
+          "luse weight",
+          "losse weight"
+        ]
+      },
+      {
+        "id": "e9u3_8__lose_weight_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giảm cân'?",
+        "options": [
+          "lose weight",
+          "look around",
+          "look for",
+          "local"
+        ]
       }
     ]
   },
@@ -10363,6 +12883,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u3_9__pay_attentio_M102",
+        "question": "Từ 'chú ý' viết tiếng Anh đúng là:",
+        "options": [
+          "pay attention",
+          "ppay attention",
+          "pay attentyon",
+          "pay attenntion"
+        ]
+      },
+      {
+        "id": "e9u3_9__pay_attentio_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chú ý'?",
+        "options": [
+          "pay attention",
+          "unforgettable",
+          "hide-and-seek",
+          "world- famous"
         ]
       }
     ]
@@ -10446,6 +12986,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_10__put_on_M102",
+        "question": "Từ 'mặc vào, tăng cân' viết tiếng Anh đúng là:",
+        "options": [
+          "put on",
+          "put o",
+          "pput on",
+          "put un"
+        ]
+      },
+      {
+        "id": "e9u3_10__put_on_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'mặc vào, tăng cân'?",
+        "options": [
+          "put on",
+          "put up tents",
+          "Punish",
+          "public amenities"
+        ]
       }
     ]
   },
@@ -10528,6 +13088,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u3_11__take_a_brea_M102",
+        "question": "Từ 'nghỉ ngơi' viết tiếng Anh đúng là:",
+        "options": [
+          "take a break",
+          "taka a break",
+          "take e break",
+          "teke a break"
+        ]
+      },
+      {
+        "id": "e9u3_11__take_a_brea_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nghỉ ngơi'?",
+        "options": [
+          "take a break",
+          "take care of",
+          "take notes",
+          "takeaway"
+        ]
       }
     ]
   },
@@ -10608,6 +13188,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_ancient_M102",
+        "question": "Từ 'cổ kính, lâu đời' viết tiếng Anh đúng là:",
+        "options": [
+          "ancient",
+          "encient",
+          "anciennt",
+          "ancientt"
+        ]
+      },
+      {
+        "id": "e9u4_ancient_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cổ kính, lâu đời'?",
+        "options": [
+          "ancient",
+          "give up",
+          "process",
+          "privacy"
         ]
       }
     ]
@@ -10691,6 +13291,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u4_anniversary_M102",
+        "question": "Từ 'lễ kỷ niệm' viết tiếng Anh đúng là:",
+        "options": [
+          "anniversary",
+          "anniverrsary",
+          "annniversary",
+          "annyversary"
+        ]
+      },
+      {
+        "id": "e9u4_anniversary_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'lễ kỷ niệm'?",
+        "options": [
+          "anniversary",
+          "lose weight",
+          "firefighter",
+          "electrician"
+        ]
       }
     ]
   },
@@ -10771,6 +13391,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_appear_M102",
+        "question": "Từ 'xuất hiện' viết tiếng Anh đúng là:",
+        "options": [
+          "appear",
+          "appeer",
+          "apear",
+          "appaar"
+        ]
+      },
+      {
+        "id": "e9u4_appear_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xuất hiện'?",
+        "options": [
+          "appear",
+          "pricey",
+          "action",
+          "Mental"
         ]
       }
     ]
@@ -10854,6 +13494,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u4_associate_M102",
+        "question": "Từ 'liên kết, liên tưởng' viết tiếng Anh đúng là:",
+        "options": [
+          "associate",
+          "associete",
+          "associat",
+          "assocyate"
+        ]
+      },
+      {
+        "id": "e9u4_associate_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'liên kết, liên tưởng'?",
+        "options": [
+          "associate",
+          "remind of",
+          "structure",
+          "brilliant"
+        ]
       }
     ]
   },
@@ -10935,6 +13595,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_barefoot_M102",
+        "question": "Từ 'chân trần' viết tiếng Anh đúng là:",
+        "options": [
+          "barefoot",
+          "barefoo",
+          "barefuot",
+          "berefoot"
+        ]
+      },
+      {
+        "id": "e9u4_barefoot_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chân trần'?",
+        "options": [
+          "barefoot",
+          "function",
+          "go blank",
+          "Overcome"
+        ]
       }
     ]
   },
@@ -11015,6 +13695,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_basic_M102",
+        "question": "Từ 'cơ bản' viết tiếng Anh đúng là:",
+        "options": [
+          "basic",
+          "basyc",
+          "besic",
+          "bassic"
+        ]
+      },
+      {
+        "id": "e9u4_basic_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cơ bản'?",
+        "options": [
+          "basic",
+          "theme",
+          "fauna",
+          "local"
         ]
       }
     ]
@@ -11098,6 +13798,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u4_castle_M102",
+        "question": "Từ 'lâu đài' viết tiếng Anh đúng là:",
+        "options": [
+          "castle",
+          "castla",
+          "castlle",
+          "casstle"
+        ]
+      },
+      {
+        "id": "e9u4_castle_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'lâu đài'?",
+        "options": [
+          "castle",
+          "occupy",
+          "custom",
+          "depend"
+        ]
       }
     ]
   },
@@ -11180,6 +13900,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_communal_M102",
+        "question": "Từ 'chung, cộng đồng' viết tiếng Anh đúng là:",
+        "options": [
+          "communal",
+          "communa",
+          "communel",
+          "communall"
+        ]
+      },
+      {
+        "id": "e9u4_communal_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chung, cộng đồng'?",
+        "options": [
+          "communal",
+          "concentrate on",
+          "complex",
+          "Counsellor"
+        ]
       }
     ]
   },
@@ -11260,6 +14000,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_complex_M102",
+        "question": "Từ 'khu phức hợp, phức tạp' viết tiếng Anh đúng là:",
+        "options": [
+          "complex",
+          "compplex",
+          "cumplex",
+          "comple"
+        ]
+      },
+      {
+        "id": "e9u4_complex_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khu phức hợp, phức tạp'?",
+        "options": [
+          "complex",
+          "Connect",
+          "come down with",
+          "conversation"
         ]
       }
     ]
@@ -11343,6 +14103,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_contribute_M102",
+        "question": "Từ 'đóng góp' viết tiếng Anh đúng là:",
+        "options": [
+          "contribute",
+          "conttribute",
+          "contributte",
+          "contrribute"
+        ]
+      },
+      {
+        "id": "e9u4_contribute_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đóng góp'?",
+        "options": [
+          "contribute",
+          "coral reef",
+          "congested",
+          "Consult"
+        ]
       }
     ]
   },
@@ -11423,6 +14203,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_custom_M102",
+        "question": "Từ 'phong tục' viết tiếng Anh đúng là:",
+        "options": [
+          "custom",
+          "custum",
+          "cusstom",
+          "costom"
+        ]
+      },
+      {
+        "id": "e9u4_custom_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'phong tục'?",
+        "options": [
+          "custom",
+          "action",
+          "depend",
+          "Advice"
         ]
       }
     ]
@@ -11506,6 +14306,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_deep_rooted_M102",
+        "question": "Từ 'lâu đời, ăn sâu' viết tiếng Anh đúng là:",
+        "options": [
+          "deep-rooted",
+          "daep-rooted",
+          "deep-ruoted",
+          "deep-routed"
+        ]
+      },
+      {
+        "id": "e9u4_deep_rooted_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'lâu đời, ăn sâu'?",
+        "options": [
+          "deep-rooted",
+          "delivery person",
+          "depend on sb/ sth",
+          "democratic"
+        ]
       }
     ]
   },
@@ -11586,6 +14406,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_effort_M102",
+        "question": "Từ 'nỗ lực' viết tiếng Anh đúng là:",
+        "options": [
+          "effort",
+          "effortt",
+          "effurt",
+          "affort"
+        ]
+      },
+      {
+        "id": "e9u4_effort_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nỗ lực'?",
+        "options": [
+          "effort",
+          "Effectively",
+          "depend",
+          "Suffer"
         ]
       }
     ]
@@ -11669,6 +14509,26 @@
           "Chỉ từ 'face' đầu",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_face_to_face_M102",
+        "question": "Từ 'trực tiếp, đối mặt' viết tiếng Anh đúng là:",
+        "options": [
+          "face to face",
+          "face to fece",
+          "faca to face",
+          "face tto face"
+        ]
+      },
+      {
+        "id": "e9u4_face_to_face_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trực tiếp, đối mặt'?",
+        "options": [
+          "face to face",
+          "family values",
+          "family-oriented",
+          "facilities"
+        ]
       }
     ]
   },
@@ -11750,6 +14610,26 @@
           "fish",
           "and",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_fish_and_chips_M102",
+        "question": "Từ 'cá và khoai tây chiên' viết tiếng Anh đúng là:",
+        "options": [
+          "fish and chips",
+          "fissh and chips",
+          "fish annd chips",
+          "fish end chips"
+        ]
+      },
+      {
+        "id": "e9u4_fish_and_chips_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cá và khoai tây chiên'?",
+        "options": [
+          "fish and chips",
+          "Concentrate on",
+          "come down with",
+          "well-preserved"
         ]
       }
     ]
@@ -11833,6 +14713,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u4_found_M102",
+        "question": "Từ 'thành lập' viết tiếng Anh đúng là:",
+        "options": [
+          "found",
+          "foun",
+          "fuund",
+          "foond"
+        ]
+      },
+      {
+        "id": "e9u4_found_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thành lập'?",
+        "options": [
+          "found",
+          "theme",
+          "basic",
+          "peers"
+        ]
       }
     ]
   },
@@ -11915,6 +14815,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u4_generation_M102",
+        "question": "Từ 'thế hệ' viết tiếng Anh đúng là:",
+        "options": [
+          "generation",
+          "generatio",
+          "generration",
+          "genaration"
+        ]
+      },
+      {
+        "id": "e9u4_generation_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thế hệ'?",
+        "options": [
+          "generation",
+          "get on with",
+          "generational",
+          "get around"
+        ]
       }
     ]
   },
@@ -11995,6 +14915,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u4_heritage_M102",
+        "question": "Từ 'di sản' viết tiếng Anh đúng là:",
+        "options": [
+          "heritage",
+          "heritaga",
+          "herittage",
+          "haritage"
+        ]
+      },
+      {
+        "id": "e9u4_heritage_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'di sản'?",
+        "options": [
+          "heritage",
+          "instruct",
+          "negative",
+          "property"
         ]
       }
     ]
@@ -12078,6 +15018,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u4_ingredient_M102",
+        "question": "Từ 'nguyên liệu' viết tiếng Anh đúng là:",
+        "options": [
+          "ingredient",
+          "ingredyent",
+          "yngredient",
+          "ingredien"
+        ]
+      },
+      {
+        "id": "e9u4_ingredient_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nguyên liệu'?",
+        "options": [
+          "ingredient",
+          "independent",
+          "inconvenient",
+          "instructor"
+        ]
       }
     ]
   },
@@ -12160,6 +15120,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u4_magnificent_M102",
+        "question": "Từ 'tráng lệ, lộng lẫy' viết tiếng Anh đúng là:",
+        "options": [
+          "magnificent",
+          "megnificent",
+          "magnificant",
+          "magnifycent"
+        ]
+      },
+      {
+        "id": "e9u4_magnificent_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tráng lệ, lộng lẫy'?",
+        "options": [
+          "magnificent",
+          "marbles",
+          "Sore throat",
+          "traffic jam"
+        ]
       }
     ]
   },
@@ -12240,6 +15220,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u4_monument_M102",
+        "question": "Từ 'đài tưởng niệm, di tích' viết tiếng Anh đúng là:",
+        "options": [
+          "monument",
+          "monumentt",
+          "monnument",
+          "munument"
+        ]
+      },
+      {
+        "id": "e9u4_monument_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đài tưởng niệm, di tích'?",
+        "options": [
+          "monument",
+          "bullying",
+          "communal",
+          "generate"
         ]
       }
     ]
@@ -12322,6 +15322,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_observe_M102",
+        "question": "Từ 'quan sát, tuân thủ' viết tiếng Anh đúng là:",
+        "options": [
+          "observe",
+          "observ",
+          "observa",
+          "obsserve"
+        ]
+      },
+      {
+        "id": "e9u4_observe_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'quan sát, tuân thủ'?",
+        "options": [
+          "observe",
+          "grilled",
+          "Session",
+          "variety"
+        ]
       }
     ]
   },
@@ -12402,6 +15422,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u4_occupied_M102",
+        "question": "Từ 'đang sử dụng, bận rộn' viết tiếng Anh đúng là:",
+        "options": [
+          "occupied",
+          "occupyed",
+          "uccupied",
+          "occupiad"
+        ]
+      },
+      {
+        "id": "e9u4_occupied_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đang sử dụng, bận rộn'?",
+        "options": [
+          "occupied",
+          "bullying",
+          "find out",
+          "occupy"
         ]
       }
     ]
@@ -12484,6 +15524,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u4_occupy_M102",
+        "question": "Từ 'chiếm giữ, ở trong' viết tiếng Anh đúng là:",
+        "options": [
+          "occupy",
+          "uccupy",
+          "occup",
+          "occupi"
+        ]
+      },
+      {
+        "id": "e9u4_occupy_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chiếm giữ, ở trong'?",
+        "options": [
+          "occupy",
+          "Punish",
+          "Put on",
+          "Advise"
+        ]
       }
     ]
   },
@@ -12564,6 +15624,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_preserve_M102",
+        "question": "Từ 'bảo tồn' viết tiếng Anh đúng là:",
+        "options": [
+          "preserve",
+          "preserrve",
+          "preserv",
+          "prreserve"
+        ]
+      },
+      {
+        "id": "e9u4_preserve_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bảo tồn'?",
+        "options": [
+          "preserve",
+          "Priority",
+          "provide sth for/to sb",
+          "property"
         ]
       }
     ]
@@ -12646,6 +15726,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_promote_M102",
+        "question": "Từ 'thúc đẩy, quảng bá' viết tiếng Anh đúng là:",
+        "options": [
+          "promote",
+          "promot",
+          "prumote",
+          "promota"
+        ]
+      },
+      {
+        "id": "e9u4_promote_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thúc đẩy, quảng bá'?",
+        "options": [
+          "promote",
+          "process",
+          "Priority",
+          "prehistoric"
+        ]
       }
     ]
   },
@@ -12726,6 +15826,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u4_recognize_M102",
+        "question": "Từ 'nhận ra, công nhận' viết tiếng Anh đúng là:",
+        "options": [
+          "recognize",
+          "rrecognize",
+          "racognize",
+          "recogniza"
+        ]
+      },
+      {
+        "id": "e9u4_recognize_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nhận ra, công nhận'?",
+        "options": [
+          "recognize",
+          "Regularly",
+          "religious",
+          "reflect"
         ]
       }
     ]
@@ -12809,6 +15929,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_religious_M102",
+        "question": "Từ 'thuộc tôn giáo' viết tiếng Anh đúng là:",
+        "options": [
+          "religious",
+          "relygious",
+          "rreligious",
+          "religioos"
+        ]
+      },
+      {
+        "id": "e9u4_religious_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thuộc tôn giáo'?",
+        "options": [
+          "religious",
+          "replace",
+          "Regularly",
+          "Require"
+        ]
       }
     ]
   },
@@ -12890,6 +16030,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_structure_M102",
+        "question": "Từ 'cấu trúc' viết tiếng Anh đúng là:",
+        "options": [
+          "structure",
+          "structura",
+          "structture",
+          "strructure"
+        ]
+      },
+      {
+        "id": "e9u4_structure_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cấu trúc'?",
+        "options": [
+          "structure",
+          "recognize",
+          "generator",
+          "Stressed out"
+        ]
       }
     ]
   },
@@ -12970,6 +16130,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u4_takeaway_M102",
+        "question": "Từ 'đồ bán sẵn, bài học rút ra' viết tiếng Anh đúng là:",
+        "options": [
+          "takeaway",
+          "ttakeaway",
+          "takeeway",
+          "takeawey"
+        ]
+      },
+      {
+        "id": "e9u4_takeaway_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đồ bán sẵn, bài học rút ra'?",
+        "options": [
+          "takeaway",
+          "take notes",
+          "take a break",
+          "Take a break"
         ]
       }
     ]
@@ -13053,6 +16233,26 @@
           "Cả hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_thanks_to_M102",
+        "question": "Từ 'nhờ có' viết tiếng Anh đúng là:",
+        "options": [
+          "thanks to",
+          "thanks tu",
+          "thanks tto",
+          "thanks t"
+        ]
+      },
+      {
+        "id": "e9u4_thanks_to_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nhờ có'?",
+        "options": [
+          "thanks to",
+          "generator",
+          "Get burnt",
+          "Fattening"
+        ]
       }
     ]
   },
@@ -13134,6 +16334,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_tradition_M102",
+        "question": "Từ 'truyền thống' viết tiếng Anh đúng là:",
+        "options": [
+          "tradition",
+          "traditio",
+          "tradityon",
+          "traditiun"
+        ]
+      },
+      {
+        "id": "e9u4_tradition_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'truyền thống'?",
+        "options": [
+          "tradition",
+          "tram",
+          "traffic jam",
+          "traffic congestion"
         ]
       }
     ]
@@ -13217,6 +16437,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u4_well_preserved_M102",
+        "question": "Từ 'được bảo tồn tốt' viết tiếng Anh đúng là:",
+        "options": [
+          "well-preserved",
+          "welll-preserved",
+          "wel-preserved",
+          "well-ppreserved"
+        ]
+      },
+      {
+        "id": "e9u4_well_preserved_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'được bảo tồn tốt'?",
+        "options": [
+          "well-preserved",
+          "come down with",
+          "fish and chips",
+          "generation gap"
+        ]
       }
     ]
   },
@@ -13297,6 +16537,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u4_worship_M102",
+        "question": "Từ 'thờ cúng' viết tiếng Anh đúng là:",
+        "options": [
+          "worship",
+          "worshipp",
+          "wurship",
+          "worshi"
+        ]
+      },
+      {
+        "id": "e9u4_worship_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thờ cúng'?",
+        "options": [
+          "worship",
+          "freedom",
+          "promote",
+          "hygiene"
         ]
       }
     ]
@@ -13379,6 +16639,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_outskirt_M102",
+        "question": "Từ 'ngoại ô' viết tiếng Anh đúng là:",
+        "options": [
+          "outskirt",
+          "uutskirt",
+          "ootskirt",
+          "outskyrt"
+        ]
+      },
+      {
+        "id": "e9u5_outskirt_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ngoại ô'?",
+        "options": [
+          "outskirt",
+          "negative",
+          "Priority",
+          "function"
+        ]
       }
     ]
   },
@@ -13459,6 +16739,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_army_like_M102",
+        "question": "Từ 'giống quân đội' viết tiếng Anh đúng là:",
+        "options": [
+          "army-like",
+          "army-lyke",
+          "arrmy-like",
+          "army-llike"
+        ]
+      },
+      {
+        "id": "e9u5_army_like_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giống quân đội'?",
+        "options": [
+          "army-like",
+          "structure",
+          "community",
+          "enjoyable"
         ]
       }
     ]
@@ -13542,6 +16842,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_birdwatching_M102",
+        "question": "Từ 'quan sát chim' viết tiếng Anh đúng là:",
+        "options": [
+          "birdwatching",
+          "birdwatchyng",
+          "birdwatchinng",
+          "birdwatchin"
+        ]
+      },
+      {
+        "id": "e9u5_birdwatching_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'quan sát chim'?",
+        "options": [
+          "birdwatching",
+          "generational",
+          "tribal dance",
+          "conversation"
+        ]
       }
     ]
   },
@@ -13622,6 +16942,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u5_brilliant_M102",
+        "question": "Từ 'xuất sắc, tài giỏi' viết tiếng Anh đúng là:",
+        "options": [
+          "brilliant",
+          "briliant",
+          "brylliant",
+          "brillliant"
+        ]
+      },
+      {
+        "id": "e9u5_brilliant_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xuất sắc, tài giỏi'?",
+        "options": [
+          "brilliant",
+          "Regularly",
+          "religious",
+          "bring about"
         ]
       }
     ]
@@ -13704,6 +17044,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u5_bullying_M102",
+        "question": "Từ 'bắt nạt' viết tiếng Anh đúng là:",
+        "options": [
+          "bullying",
+          "bollying",
+          "bulliing",
+          "bullyyng"
+        ]
+      },
+      {
+        "id": "e9u5_bullying_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bắt nạt'?",
+        "options": [
+          "bullying",
+          "communal",
+          "negative",
+          "downtown"
+        ]
       }
     ]
   },
@@ -13784,6 +17144,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_campsite_M102",
+        "question": "Từ 'khu cắm trại' viết tiếng Anh đúng là:",
+        "options": [
+          "campsite",
+          "campsyte",
+          "campssite",
+          "campsita"
+        ]
+      },
+      {
+        "id": "e9u5_campsite_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khu cắm trại'?",
+        "options": [
+          "campsite",
+          "instruct",
+          "occupied",
+          "bustling"
         ]
       }
     ]
@@ -13867,6 +17247,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_communicate_M102",
+        "question": "Từ 'giao tiếp' viết tiếng Anh đúng là:",
+        "options": [
+          "communicate",
+          "commonicate",
+          "cummunicate",
+          "comunicate"
+        ]
+      },
+      {
+        "id": "e9u5_communicate_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giao tiếp'?",
+        "options": [
+          "communicate",
+          "congested",
+          "Consult",
+          "concentrate on"
+        ]
       }
     ]
   },
@@ -13949,6 +17349,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_competition_M102",
+        "question": "Từ 'cuộc thi' viết tiếng Anh đúng là:",
+        "options": [
+          "competition",
+          "compatition",
+          "competitionn",
+          "competitio"
+        ]
+      },
+      {
+        "id": "e9u5_competition_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cuộc thi'?",
+        "options": [
+          "competition",
+          "convenience",
+          "Consult",
+          "confidence"
+        ]
       }
     ]
   },
@@ -14029,6 +17449,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u5_confidence_M102",
+        "question": "Từ 'sự tự tin' viết tiếng Anh đúng là:",
+        "options": [
+          "confidence",
+          "confydence",
+          "confidennce",
+          "cunfidence"
+        ]
+      },
+      {
+        "id": "e9u5_confidence_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự tự tin'?",
+        "options": [
+          "confidence",
+          "complex",
+          "coral reef",
+          "community"
         ]
       }
     ]
@@ -14111,6 +17551,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_coral_reef_M102",
+        "question": "Từ 'rạn san hô' viết tiếng Anh đúng là:",
+        "options": [
+          "coral reef",
+          "corel reef",
+          "coral raef",
+          "coral ree"
+        ]
+      },
+      {
+        "id": "e9u5_coral_reef_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'rạn san hô'?",
+        "options": [
+          "coral reef",
+          "come back",
+          "Counsellor",
+          "come down with"
+        ]
       }
     ]
   },
@@ -14192,6 +17652,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_team_building_M102",
+        "question": "Từ 'xây dựng đội nhóm' viết tiếng Anh đúng là:",
+        "options": [
+          "team building",
+          "team buillding",
+          "team buildyng",
+          "teamm building"
+        ]
+      },
+      {
+        "id": "e9u5_team_building_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xây dựng đội nhóm'?",
+        "options": [
+          "team building",
+          "world- famous",
+          "tour a campus",
+          "learn by rote"
+        ]
       }
     ]
   },
@@ -14272,6 +17752,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_eco__tour_M102",
+        "question": "Từ 'du lịch sinh thái' viết tiếng Anh đúng là:",
+        "options": [
+          "eco-tour",
+          "eco-tou",
+          "eco-tourr",
+          "ecu-tour"
+        ]
+      },
+      {
+        "id": "e9u5_eco__tour_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'du lịch sinh thái'?",
+        "options": [
+          "eco-tour",
+          "conflict",
+          "look for",
+          "bustling"
         ]
       }
     ]
@@ -14355,6 +17855,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_embarrassing_M102",
+        "question": "Từ 'ngượng ngùng, xấu hổ' viết tiếng Anh đúng là:",
+        "options": [
+          "embarrassing",
+          "embarrassyng",
+          "ambarrassing",
+          "emberrassing"
+        ]
+      },
+      {
+        "id": "e9u5_embarrassing_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ngượng ngùng, xấu hổ'?",
+        "options": [
+          "embarrassing",
+          "obey the law",
+          "conversation",
+          "exhilarating"
+        ]
       }
     ]
   },
@@ -14437,6 +17957,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_enjoyable_M102",
+        "question": "Từ 'thú vị, đáng hưởng thụ' viết tiếng Anh đúng là:",
+        "options": [
+          "enjoyable",
+          "enjoyabl",
+          "anjoyable",
+          "enjoiable"
+        ]
+      },
+      {
+        "id": "e9u5_enjoyable_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thú vị, đáng hưởng thụ'?",
+        "options": [
+          "enjoyable",
+          "community",
+          "sky train",
+          "Get burnt"
+        ]
       }
     ]
   },
@@ -14517,6 +18057,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_ethnic_group_M102",
+        "question": "Từ 'nhóm dân tộc' viết tiếng Anh đúng là:",
+        "options": [
+          "ethnic group",
+          "ethnic gruup",
+          "ethnic grou",
+          "ethnic groupp"
+        ]
+      },
+      {
+        "id": "e9u5_ethnic_group_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nhóm dân tộc'?",
+        "options": [
+          "ethnic group",
+          "Take a break",
+          "put up tents",
+          "face to face"
         ]
       }
     ]
@@ -14600,6 +18160,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_exhilarating_M102",
+        "question": "Từ 'phấn khởi, hồ hởi' viết tiếng Anh đúng là:",
+        "options": [
+          "exhilarating",
+          "exhilaratinng",
+          "axhilarating",
+          "exhilaratyng"
+        ]
+      },
+      {
+        "id": "e9u5_exhilarating_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'phấn khởi, hồ hởi'?",
+        "options": [
+          "exhilarating",
+          "face to face",
+          "birdwatching",
+          "Stressed out"
+        ]
       }
     ]
   },
@@ -14680,6 +18260,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_explore_M102",
+        "question": "Từ 'khám phá' viết tiếng Anh đúng là:",
+        "options": [
+          "explore",
+          "axplore",
+          "expplore",
+          "expllore"
+        ]
+      },
+      {
+        "id": "e9u5_explore_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khám phá'?",
+        "options": [
+          "explore",
+          "Session",
+          "hygiene",
+          "Require"
         ]
       }
     ]
@@ -14763,6 +18363,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_memorable_M102",
+        "question": "Từ 'đáng nhớ' viết tiếng Anh đúng là:",
+        "options": [
+          "memorable",
+          "memorabla",
+          "memoreble",
+          "mmemorable"
+        ]
+      },
+      {
+        "id": "e9u5_memorable_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đáng nhớ'?",
+        "options": [
+          "memorable",
+          "dependent",
+          "enjoyable",
+          "metro"
+        ]
       }
     ]
   },
@@ -14844,6 +18464,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_fauna_M102",
+        "question": "Từ 'hệ động vật' viết tiếng Anh đúng là:",
+        "options": [
+          "fauna",
+          "feuna",
+          "faona",
+          "faune"
+        ]
+      },
+      {
+        "id": "e9u5_fauna_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hệ động vật'?",
+        "options": [
+          "fauna",
+          "family-oriented",
+          "Fattening",
+          "facilities"
+        ]
       }
     ]
   },
@@ -14924,6 +18564,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_flora_M102",
+        "question": "Từ 'hệ thực vật' viết tiếng Anh đúng là:",
+        "options": [
+          "flora",
+          "flura",
+          "flor",
+          "fllora"
+        ]
+      },
+      {
+        "id": "e9u5_flora_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hệ thực vật'?",
+        "options": [
+          "flora",
+          "fauna",
+          "theme",
+          "local"
         ]
       }
     ]
@@ -15007,6 +18667,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u5_gong_M102",
+        "question": "Từ 'cồng chiêng' viết tiếng Anh đúng là:",
+        "options": [
+          "gong",
+          "gung",
+          "gonng",
+          "gogn"
+        ]
+      },
+      {
+        "id": "e9u5_gong_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cồng chiêng'?",
+        "options": [
+          "gong",
+          "go/ study abroad",
+          "go snorkeling",
+          "go blank"
+        ]
       }
     ]
   },
@@ -15089,6 +18769,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u5_grilled_M102",
+        "question": "Từ 'nướng' viết tiếng Anh đúng là:",
+        "options": [
+          "grilled",
+          "grrilled",
+          "griled",
+          "grillled"
+        ]
+      },
+      {
+        "id": "e9u5_grilled_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nướng'?",
+        "options": [
+          "grilled",
+          "shorten",
+          "leisure",
+          "Connect"
+        ]
       }
     ]
   },
@@ -15169,6 +18869,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_touching_M102",
+        "question": "Từ 'cảm động' viết tiếng Anh đúng là:",
+        "options": [
+          "touching",
+          "touchyng",
+          "touchinng",
+          "touchin"
+        ]
+      },
+      {
+        "id": "e9u5_touching_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cảm động'?",
+        "options": [
+          "touching",
+          "Priority",
+          "Omission",
+          "bullying"
         ]
       }
     ]
@@ -15252,6 +18972,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_instructor_M102",
+        "question": "Từ 'người hướng dẫn' viết tiếng Anh đúng là:",
+        "options": [
+          "instructor",
+          "instroctor",
+          "ynstructor",
+          "innstructor"
+        ]
+      },
+      {
+        "id": "e9u5_instructor_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'người hướng dẫn'?",
+        "options": [
+          "instructor",
+          "Ingredient",
+          "independence",
+          "ingredient"
+        ]
       }
     ]
   },
@@ -15333,6 +19073,26 @@
           "2 âm tiết",
           "3 âm tiết",
           "4 âm tiết"
+        ]
+      },
+      {
+        "id": "e9u5_theme_M102",
+        "question": "Từ 'chủ đề' viết tiếng Anh đúng là:",
+        "options": [
+          "theme",
+          "them",
+          "thema",
+          "thame"
+        ]
+      },
+      {
+        "id": "e9u5_theme_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'chủ đề'?",
+        "options": [
+          "theme",
+          "craft",
+          "itchy",
+          "thanks to"
         ]
       }
     ]
@@ -15416,6 +19176,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u5_lack_M102",
+        "question": "Từ 'thiếu' viết tiếng Anh đúng là:",
+        "options": [
+          "lack",
+          "lakc",
+          "llack",
+          "leck"
+        ]
+      },
+      {
+        "id": "e9u5_lack_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thiếu'?",
+        "options": [
+          "lack",
+          "tram",
+          "vary",
+          "gong"
+        ]
       }
     ]
   },
@@ -15496,6 +19276,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_local_people_M102",
+        "question": "Từ 'người dân địa phương' viết tiếng Anh đúng là:",
+        "options": [
+          "local people",
+          "local peopple",
+          "local ppeople",
+          "local paople"
+        ]
+      },
+      {
+        "id": "e9u5_local_people_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'người dân địa phương'?",
+        "options": [
+          "local people",
+          "look around",
+          "Lose weight",
+          "look after"
         ]
       }
     ]
@@ -15579,6 +19379,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_unforgettable_M102",
+        "question": "Từ 'không thể quên' viết tiếng Anh đúng là:",
+        "options": [
+          "unforgettable",
+          "unforgettablle",
+          "unforgettabla",
+          "onforgettable"
+        ]
+      },
+      {
+        "id": "e9u5_unforgettable_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'không thể quên'?",
+        "options": [
+          "unforgettable",
+          "world- famous",
+          "unpleasant",
+          "neighbourhood"
+        ]
       }
     ]
   },
@@ -15659,6 +19479,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u5_memorable_v2_M102",
+        "question": "Từ 'đáng nhớ' viết tiếng Anh đúng là:",
+        "options": [
+          "memorable",
+          "memorrable",
+          "memorabla",
+          "mamorable"
+        ]
+      },
+      {
+        "id": "e9u5_memorable_v2_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đáng nhớ'?",
+        "options": [
+          "memorable",
+          "Mental",
+          "community",
+          "sky train"
         ]
       }
     ]
@@ -15741,6 +19581,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_tribal_dance_M102",
+        "question": "Từ 'điệu múa bộ tộc' viết tiếng Anh đúng là:",
+        "options": [
+          "tribal dance",
+          "tribal dannce",
+          "triball dance",
+          "tribal danc"
+        ]
+      },
+      {
+        "id": "e9u5_tribal_dance_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'điệu múa bộ tộc'?",
+        "options": [
+          "tribal dance",
+          "traffic congestion",
+          "tram",
+          "tradition"
+        ]
       }
     ]
   },
@@ -15822,6 +19682,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_outskirt_v2_M102",
+        "question": "Từ 'ngoại ô' viết tiếng Anh đúng là:",
+        "options": [
+          "outskirt",
+          "ootskirt",
+          "outsskirt",
+          "outtskirt"
+        ]
+      },
+      {
+        "id": "e9u5_outskirt_v2_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ngoại ô'?",
+        "options": [
+          "outskirt",
+          "campsite",
+          "preserve",
+          "negative"
+        ]
       }
     ]
   },
@@ -15902,6 +19782,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ hai"
+        ]
+      },
+      {
+        "id": "e9u5_parachute_M102",
+        "question": "Từ 'cái dù, nhảy dù' viết tiếng Anh đúng là:",
+        "options": [
+          "parachute",
+          "parachutte",
+          "parechute",
+          "parachuta"
+        ]
+      },
+      {
+        "id": "e9u5_parachute_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cái dù, nhảy dù'?",
+        "options": [
+          "parachute",
+          "packed with",
+          "Pay attention",
+          "pay attention"
         ]
       }
     ]
@@ -15985,6 +19885,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u5_peers_M102",
+        "question": "Từ 'bạn cùng lứa' viết tiếng Anh đúng là:",
+        "options": [
+          "peers",
+          "peerrs",
+          "peerss",
+          "pears"
+        ]
+      },
+      {
+        "id": "e9u5_peers_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bạn cùng lứa'?",
+        "options": [
+          "peers",
+          "metro",
+          "theme",
+          "itchy"
+        ]
       }
     ]
   },
@@ -16065,6 +19985,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_pleasant_M102",
+        "question": "Từ 'dễ chịu' viết tiếng Anh đúng là:",
+        "options": [
+          "pleasant",
+          "pleasent",
+          "pleesant",
+          "plleasant"
+        ]
+      },
+      {
+        "id": "e9u5_pleasant_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'dễ chịu'?",
+        "options": [
+          "pleasant",
+          "go blank",
+          "liveable",
+          "personal"
         ]
       }
     ]
@@ -16148,6 +20088,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u5_prehistoric_M102",
+        "question": "Từ 'tiền sử' viết tiếng Anh đúng là:",
+        "options": [
+          "prehistoric",
+          "prehistori",
+          "prehistorric",
+          "prehisttoric"
+        ]
+      },
+      {
+        "id": "e9u5_prehistoric_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tiền sử'?",
+        "options": [
+          "prehistoric",
+          "Priority",
+          "process",
+          "promote"
+        ]
       }
     ]
   },
@@ -16228,6 +20188,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u5_unpleasant_M102",
+        "question": "Từ 'khó chịu' viết tiếng Anh đúng là:",
+        "options": [
+          "unpleasant",
+          "unppleasant",
+          "unnpleasant",
+          "unpleasantt"
+        ]
+      },
+      {
+        "id": "e9u5_unpleasant_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khó chịu'?",
+        "options": [
+          "unpleasant",
+          "instructor",
+          "contribute",
+          "Look after"
         ]
       }
     ]
@@ -16310,6 +20290,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_seabed_M102",
+        "question": "Từ 'đáy biển' viết tiếng Anh đúng là:",
+        "options": [
+          "seabed",
+          "seabad",
+          "sseabed",
+          "saabed"
+        ]
+      },
+      {
+        "id": "e9u5_seabed_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đáy biển'?",
+        "options": [
+          "seabed",
+          "occupy",
+          "Advice",
+          "custom"
+        ]
       }
     ]
   },
@@ -16390,6 +20390,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_thrilling_M102",
+        "question": "Từ 'hồi hộp, kịch tính' viết tiếng Anh đúng là:",
+        "options": [
+          "thrilling",
+          "thriling",
+          "thrillling",
+          "thrillyng"
+        ]
+      },
+      {
+        "id": "e9u5_thrilling_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hồi hộp, kịch tính'?",
+        "options": [
+          "thrilling",
+          "memorable",
+          "Fattening",
+          "tradition"
         ]
       }
     ]
@@ -16473,6 +20493,26 @@
           "Cả hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_by_chance_M102",
+        "question": "Từ 'tình cờ' viết tiếng Anh đúng là:",
+        "options": [
+          "by chance",
+          "by chanc",
+          "by chence",
+          "bi chance"
+        ]
+      },
+      {
+        "id": "e9u5_by_chance_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tình cờ'?",
+        "options": [
+          "by chance",
+          "different",
+          "memorable",
+          "Fattening"
+        ]
       }
     ]
   },
@@ -16555,6 +20595,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u5_go_blank_M102",
+        "question": "Từ 'trống rỗng (đầu óc)' viết tiếng Anh đúng là:",
+        "options": [
+          "go blank",
+          "go bllank",
+          "go blenk",
+          "go blan"
+        ]
+      },
+      {
+        "id": "e9u5_go_blank_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trống rỗng (đầu óc)'?",
+        "options": [
+          "go blank",
+          "gong",
+          "go out",
+          "go/ study abroad"
+        ]
       }
     ]
   },
@@ -16635,6 +20695,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u5_go_snorkeling_M102",
+        "question": "Từ 'đi lặn ống thở' viết tiếng Anh đúng là:",
+        "options": [
+          "go snorkeling",
+          "go snorkaling",
+          "gu snorkeling",
+          "go snorkelinng"
+        ]
+      },
+      {
+        "id": "e9u5_go_snorkeling_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đi lặn ống thở'?",
+        "options": [
+          "go snorkeling",
+          "gong",
+          "go/ study abroad",
+          "go blank"
         ]
       }
     ]
@@ -16718,6 +20798,26 @@
           "Âm tiết thứ ba",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_give_a_performa_M102",
+        "question": "Từ 'biểu diễn' viết tiếng Anh đúng là:",
+        "options": [
+          "give a performance",
+          "give a performence",
+          "give a pperformance",
+          "give a performmance"
+        ]
+      },
+      {
+        "id": "e9u5_give_a_performa_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'biểu diễn'?",
+        "options": [
+          "give a performance",
+          "traffic congestion",
+          "give up",
+          "give advice"
+        ]
       }
     ]
   },
@@ -16800,6 +20900,26 @@
           "by",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u5_learn_by_rote_M102",
+        "question": "Từ 'học vẹt' viết tiếng Anh đúng là:",
+        "options": [
+          "learn by rote",
+          "learn by rute",
+          "learn bi rote",
+          "learn by rota"
+        ]
+      },
+      {
+        "id": "e9u5_learn_by_rote_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'học vẹt'?",
+        "options": [
+          "learn by rote",
+          "learning facilities",
+          "leisure",
+          "leftover"
+        ]
       }
     ]
   },
@@ -16880,6 +21000,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_on_purpose_M102",
+        "question": "Từ 'cố ý' viết tiếng Anh đúng là:",
+        "options": [
+          "on purpose",
+          "on purposa",
+          "on purrpose",
+          "on purppose"
+        ]
+      },
+      {
+        "id": "e9u5_on_purpose_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cố ý'?",
+        "options": [
+          "on purpose",
+          "democratic",
+          "get around",
+          "hand-craft"
         ]
       }
     ]
@@ -16963,6 +21103,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u5_put_up_tents_M102",
+        "question": "Từ 'dựng lều' viết tiếng Anh đúng là:",
+        "options": [
+          "put up tents",
+          "put up tentts",
+          "pput up tents",
+          "put up tennts"
+        ]
+      },
+      {
+        "id": "e9u5_put_up_tents_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'dựng lều'?",
+        "options": [
+          "put up tents",
+          "Put on",
+          "put on",
+          "Punish"
+        ]
       }
     ]
   },
@@ -17043,6 +21203,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u5_tour_a_campus_M102",
+        "question": "Từ 'tham quan khuôn viên trường' viết tiếng Anh đúng là:",
+        "options": [
+          "tour a campus",
+          "tour a campos",
+          "tour a campu",
+          "tour a campuss"
+        ]
+      },
+      {
+        "id": "e9u5_tour_a_campus_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tham quan khuôn viên trường'?",
+        "options": [
+          "tour a campus",
+          "hide-and-seek",
+          "go snorkeling",
+          "team building"
         ]
       }
     ]
@@ -17126,6 +21306,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_democratic_M102",
+        "question": "Từ 'dân chủ' viết tiếng Anh đúng là:",
+        "options": [
+          "democratic",
+          "demmocratic",
+          "damocratic",
+          "democrati"
+        ]
+      },
+      {
+        "id": "e9u6_democratic_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'dân chủ'?",
+        "options": [
+          "democratic",
+          "depend",
+          "depend on sb/ sth",
+          "Dealt with"
+        ]
       }
     ]
   },
@@ -17208,6 +21408,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_democracy_M102",
+        "question": "Từ 'nền dân chủ' viết tiếng Anh đúng là:",
+        "options": [
+          "democracy",
+          "demucracy",
+          "damocracy",
+          "democrracy"
+        ]
+      },
+      {
+        "id": "e9u6_democracy_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nền dân chủ'?",
+        "options": [
+          "democracy",
+          "democratic",
+          "Dealt with",
+          "deep-rooted"
+        ]
       }
     ]
   },
@@ -17288,6 +21508,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_various_M102",
+        "question": "Từ 'đa dạng, nhiều' viết tiếng Anh đúng là:",
+        "options": [
+          "various",
+          "variouss",
+          "verious",
+          "variuus"
+        ]
+      },
+      {
+        "id": "e9u6_various_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đa dạng, nhiều'?",
+        "options": [
+          "various",
+          "promote",
+          "Achieve",
+          "observe"
         ]
       }
     ]
@@ -17371,6 +21611,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_variety_M102",
+        "question": "Từ 'sự đa dạng' viết tiếng Anh đúng là:",
+        "options": [
+          "variety",
+          "varyety",
+          "varieti",
+          "variaty"
+        ]
+      },
+      {
+        "id": "e9u6_variety_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự đa dạng'?",
+        "options": [
+          "variety",
+          "shorten",
+          "ancient",
+          "replace"
+        ]
       }
     ]
   },
@@ -17451,6 +21711,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_vary_M102",
+        "question": "Từ 'thay đổi, khác nhau' viết tiếng Anh đúng là:",
+        "options": [
+          "vary",
+          "varry",
+          "vari",
+          "very"
+        ]
+      },
+      {
+        "id": "e9u6_vary_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thay đổi, khác nhau'?",
+        "options": [
+          "vary",
+          "lack",
+          "Mood",
+          "variety"
         ]
       }
     ]
@@ -17534,6 +21814,26 @@
           "Cả hai phần",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_family_oriented_M102",
+        "question": "Từ 'hướng về gia đình' viết tiếng Anh đúng là:",
+        "options": [
+          "family-oriented",
+          "famili-oriented",
+          "femily-oriented",
+          "fammily-oriented"
+        ]
+      },
+      {
+        "id": "e9u6_family_oriented_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hướng về gia đình'?",
+        "options": [
+          "family-oriented",
+          "facilities",
+          "family values",
+          "Fattening"
+        ]
       }
     ]
   },
@@ -17615,6 +21915,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u6_personal_M102",
+        "question": "Từ 'riêng tư, cá nhân' viết tiếng Anh đúng là:",
+        "options": [
+          "personal",
+          "ppersonal",
+          "personel",
+          "personall"
+        ]
+      },
+      {
+        "id": "e9u6_personal_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'riêng tư, cá nhân'?",
+        "options": [
+          "personal",
+          "activity",
+          "Obstacle",
+          "leftover"
+        ]
       }
     ]
   },
@@ -17695,6 +22015,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_extended_family_M102",
+        "question": "Từ 'đại gia đình (3 thế hệ trở lên)' viết tiếng Anh đúng là:",
+        "options": [
+          "extended family",
+          "extendad family",
+          "axtended family",
+          "extanded family"
+        ]
+      },
+      {
+        "id": "e9u6_extended_family_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đại gia đình (3 thế hệ trở lên)'?",
+        "options": [
+          "extended family",
+          "concrete jungle",
+          "delivery person",
+          "exhilarating"
         ]
       }
     ]
@@ -17778,6 +22118,26 @@
           "Chỉ từ 'hide'",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_hide_and_seek_M102",
+        "question": "Từ 'trò chơi trốn tìm' viết tiếng Anh đúng là:",
+        "options": [
+          "hide-and-seek",
+          "hide-end-seek",
+          "hide-and-seak",
+          "hide-annd-seek"
+        ]
+      },
+      {
+        "id": "e9u6_hide_and_seek_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trò chơi trốn tìm'?",
+        "options": [
+          "hide-and-seek",
+          "neighbourhood",
+          "pay attention",
+          "team building"
+        ]
       }
     ]
   },
@@ -17860,6 +22220,26 @@
           "of",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_tug_of_war_M102",
+        "question": "Từ 'trò chơi kéo co' viết tiếng Anh đúng là:",
+        "options": [
+          "tug of war",
+          "tug uf war",
+          "tug of wa",
+          "tug of warr"
+        ]
+      },
+      {
+        "id": "e9u6_tug_of_war_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trò chơi kéo co'?",
+        "options": [
+          "tug of war",
+          "Dealt with",
+          "Counsellor",
+          "look after"
+        ]
       }
     ]
   },
@@ -17940,6 +22320,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_marbles_M102",
+        "question": "Từ 'trò chơi bi' viết tiếng Anh đúng là:",
+        "options": [
+          "marbles",
+          "marrbles",
+          "marblas",
+          "marblles"
+        ]
+      },
+      {
+        "id": "e9u6_marbles_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trò chơi bi'?",
+        "options": [
+          "marbles",
+          "Connect",
+          "freedom",
+          "ancient"
         ]
       }
     ]
@@ -18022,6 +22422,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u6_privacy_M102",
+        "question": "Từ 'sự riêng tư' viết tiếng Anh đúng là:",
+        "options": [
+          "privacy",
+          "pryvacy",
+          "privac",
+          "prrivacy"
+        ]
+      },
+      {
+        "id": "e9u6_privacy_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự riêng tư'?",
+        "options": [
+          "privacy",
+          "property",
+          "Priority",
+          "preserve"
+        ]
       }
     ]
   },
@@ -18102,6 +22522,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_conflict_M102",
+        "question": "Từ 'xung đột, mâu thuẫn' viết tiếng Anh đúng là:",
+        "options": [
+          "conflict",
+          "conflictt",
+          "conflic",
+          "connflict"
+        ]
+      },
+      {
+        "id": "e9u6_conflict_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'xung đột, mâu thuẫn'?",
+        "options": [
+          "conflict",
+          "Connect",
+          "coral reef",
+          "communal"
         ]
       }
     ]
@@ -18184,6 +22624,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_reflect_M102",
+        "question": "Từ 'phản ánh, phản chiếu' viết tiếng Anh đúng là:",
+        "options": [
+          "reflect",
+          "reflectt",
+          "raflect",
+          "refllect"
+        ]
+      },
+      {
+        "id": "e9u6_reflect_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'phản ánh, phản chiếu'?",
+        "options": [
+          "reflect",
+          "Regularly",
+          "remind of",
+          "recognize"
+        ]
       }
     ]
   },
@@ -18265,6 +22725,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u6_frightening_M102",
+        "question": "Từ 'đáng sợ' viết tiếng Anh đúng là:",
+        "options": [
+          "frightening",
+          "frightenin",
+          "frightaning",
+          "frrightening"
+        ]
+      },
+      {
+        "id": "e9u6_frightening_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đáng sợ'?",
+        "options": [
+          "frightening",
+          "free",
+          "fragrance",
+          "freedom"
+        ]
       }
     ]
   },
@@ -18345,6 +22825,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_display_M102",
+        "question": "Từ 'trưng bày, hiển thị' viết tiếng Anh đúng là:",
+        "options": [
+          "display",
+          "displey",
+          "displa",
+          "dissplay"
+        ]
+      },
+      {
+        "id": "e9u6_display_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trưng bày, hiển thị'?",
+        "options": [
+          "display",
+          "difference",
+          "Distraction",
+          "different"
         ]
       }
     ]
@@ -18428,6 +22928,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_independent_M102",
+        "question": "Từ 'độc lập' viết tiếng Anh đúng là:",
+        "options": [
+          "independent",
+          "independennt",
+          "indeppendent",
+          "yndependent"
+        ]
+      },
+      {
+        "id": "e9u6_independent_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'độc lập'?",
+        "options": [
+          "independent",
+          "Instruction",
+          "independence",
+          "inconvenient"
+        ]
       }
     ]
   },
@@ -18510,6 +23030,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_independence_M102",
+        "question": "Từ 'sự độc lập' viết tiếng Anh đúng là:",
+        "options": [
+          "independence",
+          "independenc",
+          "yndependence",
+          "indepenndence"
+        ]
+      },
+      {
+        "id": "e9u6_independence_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự độc lập'?",
+        "options": [
+          "independence",
+          "Ingredient",
+          "instruct",
+          "independent"
+        ]
       }
     ]
   },
@@ -18590,6 +23130,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_depend_M102",
+        "question": "Từ 'phụ thuộc' viết tiếng Anh đúng là:",
+        "options": [
+          "depend",
+          "dapend",
+          "deppend",
+          "depen"
+        ]
+      },
+      {
+        "id": "e9u6_depend_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'phụ thuộc'?",
+        "options": [
+          "depend",
+          "depend on sb/ sth",
+          "dependence",
+          "Dealt with"
         ]
       }
     ]
@@ -18672,6 +23232,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u6_dependence_M102",
+        "question": "Từ 'sự phụ thuộc' viết tiếng Anh đúng là:",
+        "options": [
+          "dependence",
+          "depenndence",
+          "dependance",
+          "dependennce"
+        ]
+      },
+      {
+        "id": "e9u6_dependence_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự phụ thuộc'?",
+        "options": [
+          "dependence",
+          "democracy",
+          "Dealt with",
+          "dependent"
+        ]
       }
     ]
   },
@@ -18752,6 +23332,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_dependent_M102",
+        "question": "Từ 'phụ thuộc' viết tiếng Anh đúng là:",
+        "options": [
+          "dependent",
+          "dependant",
+          "dependen",
+          "deppendent"
+        ]
+      },
+      {
+        "id": "e9u6_dependent_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'phụ thuộc'?",
+        "options": [
+          "dependent",
+          "dependence",
+          "democratic",
+          "dealt with"
         ]
       }
     ]
@@ -18835,6 +23435,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u6_act_M102",
+        "question": "Từ 'hành động, diễn xuất' viết tiếng Anh đúng là:",
+        "options": [
+          "act",
+          "atc",
+          "actt",
+          "ect"
+        ]
+      },
+      {
+        "id": "e9u6_act_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hành động, diễn xuất'?",
+        "options": [
+          "act",
+          "activity",
+          "Achieve",
+          "Accomplish"
+        ]
       }
     ]
   },
@@ -18915,6 +23535,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_action_M102",
+        "question": "Từ 'hành động' viết tiếng Anh đúng là:",
+        "options": [
+          "action",
+          "actiun",
+          "actionn",
+          "acttion"
+        ]
+      },
+      {
+        "id": "e9u6_action_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hành động'?",
+        "options": [
+          "action",
+          "act",
+          "activity",
+          "active"
         ]
       }
     ]
@@ -18998,6 +23638,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_activity_M102",
+        "question": "Từ 'hoạt động' viết tiếng Anh đúng là:",
+        "options": [
+          "activity",
+          "activyty",
+          "ectivity",
+          "activitty"
+        ]
+      },
+      {
+        "id": "e9u6_activity_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'hoạt động'?",
+        "options": [
+          "activity",
+          "Accomplish",
+          "action",
+          "act"
+        ]
       }
     ]
   },
@@ -19078,6 +23738,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_active_M102",
+        "question": "Từ 'năng động, đang hoạt động' viết tiếng Anh đúng là:",
+        "options": [
+          "active",
+          "acttive",
+          "actyve",
+          "ective"
+        ]
+      },
+      {
+        "id": "e9u6_active_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'năng động, đang hoạt động'?",
+        "options": [
+          "active",
+          "activity",
+          "act",
+          "action"
         ]
       }
     ]
@@ -19161,6 +23841,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_convenient_M102",
+        "question": "Từ 'thuận tiện' viết tiếng Anh đúng là:",
+        "options": [
+          "convenient",
+          "convennient",
+          "convanient",
+          "cunvenient"
+        ]
+      },
+      {
+        "id": "e9u6_convenient_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thuận tiện'?",
+        "options": [
+          "convenient",
+          "congested",
+          "Counsellor",
+          "community"
+        ]
       }
     ]
   },
@@ -19242,6 +23942,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u6_convenience_M102",
+        "question": "Từ 'sự tiện lợi' viết tiếng Anh đúng là:",
+        "options": [
+          "convenience",
+          "convenienca",
+          "conveniance",
+          "convennience"
+        ]
+      },
+      {
+        "id": "e9u6_convenience_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự tiện lợi'?",
+        "options": [
+          "convenience",
+          "communicate",
+          "confidence",
+          "Concentrate on"
         ]
       }
     ]
@@ -19325,6 +24045,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u6_inconvenient_M102",
+        "question": "Từ 'bất tiện' viết tiếng Anh đúng là:",
+        "options": [
+          "inconvenient",
+          "ynconvenient",
+          "inconvennient",
+          "inconvenien"
+        ]
+      },
+      {
+        "id": "e9u6_inconvenient_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bất tiện'?",
+        "options": [
+          "inconvenient",
+          "independent",
+          "instructor",
+          "instruct"
+        ]
       }
     ]
   },
@@ -19407,6 +24147,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_learning_facilities_M102",
+        "question": "Từ 'trang thiết bị học tập' viết tiếng Anh đúng là:",
+        "options": [
+          "learning facilities",
+          "learnning facilities",
+          "learning facilitties",
+          "learning facillities"
+        ]
+      },
+      {
+        "id": "e9u6_learning_facilities_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'trang thiết bị học tập'?",
+        "options": [
+          "learning facilities",
+          "leisure",
+          "learn by rote",
+          "leftover"
+        ]
       }
     ]
   },
@@ -19487,6 +24247,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_replace_M102",
+        "question": "Từ 'thay thế' viết tiếng Anh đúng là:",
+        "options": [
+          "replace",
+          "replaca",
+          "repplace",
+          "replac"
+        ]
+      },
+      {
+        "id": "e9u6_replace_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thay thế'?",
+        "options": [
+          "replace",
+          "Reduce",
+          "Require",
+          "Regularly"
         ]
       }
     ]
@@ -19570,6 +24350,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_natural_material_M102",
+        "question": "Từ 'nguyên liệu tự nhiên' viết tiếng Anh đúng là:",
+        "options": [
+          "natural material",
+          "natural materyal",
+          "natural materiall",
+          "natural materrial"
+        ]
+      },
+      {
+        "id": "e9u6_natural_material_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nguyên liệu tự nhiên'?",
+        "options": [
+          "natural material",
+          "public amenities",
+          "living condition",
+          "electrical wires"
+        ]
       }
     ]
   },
@@ -19652,6 +24452,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_opportunity_M102",
+        "question": "Từ 'cơ hội' viết tiếng Anh đúng là:",
+        "options": [
+          "opportunity",
+          "opportonity",
+          "opporrtunity",
+          "oppportunity"
+        ]
+      },
+      {
+        "id": "e9u6_opportunity_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cơ hội'?",
+        "options": [
+          "opportunity",
+          "city centre",
+          "firefighter",
+          "Bring about"
+        ]
       }
     ]
   },
@@ -19732,6 +24552,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_necessary_M102",
+        "question": "Từ 'cần thiết' viết tiếng Anh đúng là:",
+        "options": [
+          "necessary",
+          "necesssary",
+          "necassary",
+          "necessar"
+        ]
+      },
+      {
+        "id": "e9u6_necessary_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cần thiết'?",
+        "options": [
+          "necessary",
+          "army-like",
+          "get burnt",
+          "structure"
         ]
       }
     ]
@@ -19814,6 +24654,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u6_negative_M102",
+        "question": "Từ 'tiêu cực' viết tiếng Anh đúng là:",
+        "options": [
+          "negative",
+          "negattive",
+          "negativ",
+          "negatyve"
+        ]
+      },
+      {
+        "id": "e9u6_negative_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tiêu cực'?",
+        "options": [
+          "negative",
+          "Priority",
+          "bullying",
+          "bustling"
+        ]
       }
     ]
   },
@@ -19894,6 +24754,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_positive_M102",
+        "question": "Từ 'tích cực' viết tiếng Anh đúng là:",
+        "options": [
+          "positive",
+          "ppositive",
+          "positiva",
+          "posittive"
+        ]
+      },
+      {
+        "id": "e9u6_positive_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tích cực'?",
+        "options": [
+          "positive",
+          "communal",
+          "touching",
+          "Omission"
         ]
       }
     ]
@@ -19976,6 +24856,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba"
         ]
+      },
+      {
+        "id": "e9u6_living_condition_M102",
+        "question": "Từ 'điều kiện sống' viết tiếng Anh đúng là:",
+        "options": [
+          "living condition",
+          "living condityon",
+          "living condittion",
+          "livinng condition"
+        ]
+      },
+      {
+        "id": "e9u6_living_condition_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'điều kiện sống'?",
+        "options": [
+          "living condition",
+          "electrical wires",
+          "public amenities",
+          "natural material"
+        ]
       }
     ]
   },
@@ -20057,6 +24957,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_living_standard_M102",
+        "question": "Từ 'mức sống, chất lượng cuộc sống' viết tiếng Anh đúng là:",
+        "options": [
+          "living standard",
+          "livyng standard",
+          "living stendard",
+          "living stanndard"
+        ]
+      },
+      {
+        "id": "e9u6_living_standard_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'mức sống, chất lượng cuộc sống'?",
+        "options": [
+          "living standard",
+          "concrete jungle",
+          "family-oriented",
+          "delivery person"
+        ]
       }
     ]
   },
@@ -20137,6 +25057,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_generate_M102",
+        "question": "Từ 'tạo ra, phát ra' viết tiếng Anh đúng là:",
+        "options": [
+          "generate",
+          "generete",
+          "generat",
+          "generrate"
+        ]
+      },
+      {
+        "id": "e9u6_generate_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tạo ra, phát ra'?",
+        "options": [
+          "generate",
+          "get on with",
+          "generational",
+          "get burnt"
         ]
       }
     ]
@@ -20220,6 +25160,26 @@
           "Âm tiết thứ ba",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_generator_M102",
+        "question": "Từ 'máy phát điện' viết tiếng Anh đúng là:",
+        "options": [
+          "generator",
+          "ganerator",
+          "generato",
+          "generattor"
+        ]
+      },
+      {
+        "id": "e9u6_generator_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'máy phát điện'?",
+        "options": [
+          "generator",
+          "get burnt",
+          "generational",
+          "get around"
+        ]
       }
     ]
   },
@@ -20301,6 +25261,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
+        ]
+      },
+      {
+        "id": "e9u6_generation_v2_M102",
+        "question": "Từ 'thế hệ, sự tạo ra' viết tiếng Anh đúng là:",
+        "options": [
+          "generation",
+          "ganeration",
+          "generattion",
+          "generatio"
+        ]
+      },
+      {
+        "id": "e9u6_generation_v2_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thế hệ, sự tạo ra'?",
+        "options": [
+          "generation",
+          "get burnt",
+          "generational",
+          "generation gap"
         ]
       }
     ]
@@ -20384,6 +25364,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_generational_M102",
+        "question": "Từ 'thuộc về thế hệ' viết tiếng Anh đúng là:",
+        "options": [
+          "generational",
+          "generationall",
+          "generrational",
+          "generattional"
+        ]
+      },
+      {
+        "id": "e9u6_generational_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thuộc về thế hệ'?",
+        "options": [
+          "generational",
+          "generate",
+          "get around",
+          "generation gap"
+        ]
       }
     ]
   },
@@ -20466,6 +25466,26 @@
           "/3 âm tiết",
           "/4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u6_dye_M102",
+        "question": "Từ 'nhuộm, thuốc nhuộm' viết tiếng Anh đúng là:",
+        "options": [
+          "dye",
+          "dey",
+          "dya",
+          "die"
+        ]
+      },
+      {
+        "id": "e9u6_dye_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'nhuộm, thuốc nhuộm'?",
+        "options": [
+          "dye",
+          "dyeer",
+          "dyeing",
+          "dyion"
+        ]
       }
     ]
   },
@@ -20546,6 +25566,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_freedom_M102",
+        "question": "Từ 'sự tự do' viết tiếng Anh đúng là:",
+        "options": [
+          "freedom",
+          "freedo",
+          "freadom",
+          "freedomm"
+        ]
+      },
+      {
+        "id": "e9u6_freedom_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự tự do'?",
+        "options": [
+          "freedom",
+          "fragrance",
+          "frightening",
+          "free"
         ]
       }
     ]
@@ -20629,6 +25669,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u6_free_M102",
+        "question": "Từ 'tự do, miễn phí' viết tiếng Anh đúng là:",
+        "options": [
+          "free",
+          "frree",
+          "frea",
+          "frae"
+        ]
+      },
+      {
+        "id": "e9u6_free_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'tự do, miễn phí'?",
+        "options": [
+          "free",
+          "frightening",
+          "fragrance",
+          "freedom"
+        ]
       }
     ]
   },
@@ -20709,6 +25769,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_electronic_device_M102",
+        "question": "Từ 'thiết bị điện tử' viết tiếng Anh đúng là:",
+        "options": [
+          "electronic device",
+          "elactronic device",
+          "electtronic device",
+          "electronnic device"
+        ]
+      },
+      {
+        "id": "e9u6_electronic_device_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thiết bị điện tử'?",
+        "options": [
+          "electronic device",
+          "construction site",
+          "electrical wires",
+          "garbage collector"
         ]
       }
     ]
@@ -20791,6 +25871,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_leisure_M102",
+        "question": "Từ 'thời gian rảnh rỗi' viết tiếng Anh đúng là:",
+        "options": [
+          "leisure",
+          "leysure",
+          "leissure",
+          "leisura"
+        ]
+      },
+      {
+        "id": "e9u6_leisure_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'thời gian rảnh rỗi'?",
+        "options": [
+          "leisure",
+          "learning facilities",
+          "learn by rote",
+          "leftover"
+        ]
       }
     ]
   },
@@ -20871,6 +25971,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_different_M102",
+        "question": "Từ 'khác nhau' viết tiếng Anh đúng là:",
+        "options": [
+          "different",
+          "differennt",
+          "differentt",
+          "differant"
+        ]
+      },
+      {
+        "id": "e9u6_different_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khác nhau'?",
+        "options": [
+          "different",
+          "differ",
+          "difference",
+          "display"
         ]
       }
     ]
@@ -20953,6 +26073,26 @@
           "Âm tiết thứ hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_differ_M102",
+        "question": "Từ 'khác nhau' viết tiếng Anh đúng là:",
+        "options": [
+          "differ",
+          "diffe",
+          "diffar",
+          "dyffer"
+        ]
+      },
+      {
+        "id": "e9u6_differ_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khác nhau'?",
+        "options": [
+          "differ",
+          "Distraction",
+          "different",
+          "display"
+        ]
       }
     ]
   },
@@ -21033,6 +26173,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_difference_M102",
+        "question": "Từ 'sự khác biệt' viết tiếng Anh đúng là:",
+        "options": [
+          "difference",
+          "differance",
+          "differenc",
+          "differrence"
+        ]
+      },
+      {
+        "id": "e9u6_difference_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'sự khác biệt'?",
+        "options": [
+          "difference",
+          "display",
+          "differ",
+          "Distraction"
         ]
       }
     ]
@@ -21116,6 +26276,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u6_generation_gap_M102",
+        "question": "Từ 'khoảng cách thế hệ' viết tiếng Anh đúng là:",
+        "options": [
+          "generation gap",
+          "generatiun gap",
+          "generration gap",
+          "generationn gap"
+        ]
+      },
+      {
+        "id": "e9u6_generation_gap_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'khoảng cách thế hệ'?",
+        "options": [
+          "generation gap",
+          "generation",
+          "get on with",
+          "get through"
+        ]
       }
     ]
   },
@@ -21196,6 +26376,26 @@
           "Âm tiết thứ nhất",
           "Âm tiết thứ hai",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_family_values_M102",
+        "question": "Từ 'giá trị gia đình' viết tiếng Anh đúng là:",
+        "options": [
+          "family values",
+          "family valuas",
+          "family value",
+          "femily values"
+        ]
+      },
+      {
+        "id": "e9u6_family_values_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'giá trị gia đình'?",
+        "options": [
+          "family values",
+          "face to face",
+          "family-oriented",
+          "Fattening"
         ]
       }
     ]
@@ -21279,6 +26479,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ tư"
         ]
+      },
+      {
+        "id": "e9u6_conversation_M102",
+        "question": "Từ 'cuộc hội thoại' viết tiếng Anh đúng là:",
+        "options": [
+          "conversation",
+          "conversatyon",
+          "convarsation",
+          "conversationn"
+        ]
+      },
+      {
+        "id": "e9u6_conversation_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cuộc hội thoại'?",
+        "options": [
+          "conversation",
+          "coral reef",
+          "complex",
+          "Concentrate on"
+        ]
       }
     ]
   },
@@ -21359,6 +26579,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_depend_on_sb__s_M102",
+        "question": "Từ 'phụ thuộc vào ai/cái gì' viết tiếng Anh đúng là:",
+        "options": [
+          "depend on sb/ sth",
+          "depand on sb/ sth",
+          "depend on sb/ ssth",
+          "depend onn sb/ sth"
+        ]
+      },
+      {
+        "id": "e9u6_depend_on_sb__s_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'phụ thuộc vào ai/cái gì'?",
+        "options": [
+          "depend on sb/ sth",
+          "dependence",
+          "dealt with",
+          "depend"
         ]
       }
     ]
@@ -21441,6 +26681,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_pursue_one_s_ow_M102",
+        "question": "Từ 'theo đuổi sở thích riêng' viết tiếng Anh đúng là:",
+        "options": [
+          "pursue one’s own interest",
+          "pursue ona’s own interest",
+          "purrsue one’s own interest",
+          "ppursue one’s own interest"
+        ]
+      },
+      {
+        "id": "e9u6_pursue_one_s_ow_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'theo đuổi sở thích riêng'?",
+        "options": [
+          "pursue one’s own interest",
+          "Punish",
+          "Put on",
+          "put up tents"
+        ]
       }
     ]
   },
@@ -21521,6 +26781,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_go__study_abroa_M102",
+        "question": "Từ 'đi du học/ra nước ngoài' viết tiếng Anh đúng là:",
+        "options": [
+          "go/ study abroad",
+          "go/ stody abroad",
+          "go/ study ebroad",
+          "go/ study abruad"
+        ]
+      },
+      {
+        "id": "e9u6_go__study_abroa_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đi du học/ra nước ngoài'?",
+        "options": [
+          "go/ study abroad",
+          "gong",
+          "go blank",
+          "go snorkeling"
         ]
       }
     ]
@@ -21604,6 +26884,26 @@
           "3 âm tiết",
           "4 âm tiết"
         ]
+      },
+      {
+        "id": "e9u6_take_notes_M102",
+        "question": "Từ 'ghi chép bài' viết tiếng Anh đúng là:",
+        "options": [
+          "take notes",
+          "take notess",
+          "take nottes",
+          "taka notes"
+        ]
+      },
+      {
+        "id": "e9u6_take_notes_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'ghi chép bài'?",
+        "options": [
+          "take notes",
+          "takeaway",
+          "take care of",
+          "Take a break"
+        ]
       }
     ]
   },
@@ -21686,6 +26986,26 @@
           "Cả hai",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_give_up_M102",
+        "question": "Từ 'bỏ cuộc, từ bỏ' viết tiếng Anh đúng là:",
+        "options": [
+          "give up",
+          "give op",
+          "giva up",
+          "give upp"
+        ]
+      },
+      {
+        "id": "e9u6_give_up_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'bỏ cuộc, từ bỏ'?",
+        "options": [
+          "give up",
+          "process",
+          "grilled",
+          "Connect"
+        ]
       }
     ]
   },
@@ -21766,6 +27086,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Âm tiết thứ ba"
+        ]
+      },
+      {
+        "id": "e9u6_play_an_importa_M102",
+        "question": "Từ 'đóng vai trò quan trọng' viết tiếng Anh đúng là:",
+        "options": [
+          "play an important role/ part in sth",
+          "play an important role/ part yn sth",
+          "play an importtant role/ part in sth",
+          "play an important role/ part in stth"
+        ]
+      },
+      {
+        "id": "e9u6_play_an_importa_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'đóng vai trò quan trọng'?",
+        "options": [
+          "play an important role/ part in sth",
+          "play an important role/ part in sther",
+          "play an important role/ part in sthing",
+          "play an important role/ part in stion"
         ]
       }
     ]
@@ -21848,6 +27188,26 @@
           "Âm tiết thứ nhất",
           "Không có trọng âm"
         ]
+      },
+      {
+        "id": "e9u6_provide_sb_with_M102",
+        "question": "Từ 'cung cấp cho ai cái gì' viết tiếng Anh đúng là:",
+        "options": [
+          "provide sb with sth",
+          "pprovide sb with sth",
+          "provide ssb with sth",
+          "provide sb with ssth"
+        ]
+      },
+      {
+        "id": "e9u6_provide_sb_with_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cung cấp cho ai cái gì'?",
+        "options": [
+          "provide sb with sth",
+          "prehistoric",
+          "Priority",
+          "property"
+        ]
       }
     ]
   },
@@ -21928,6 +27288,26 @@
           "Âm tiết thứ hai",
           "Âm tiết thứ nhất",
           "Không có trọng âm"
+        ]
+      },
+      {
+        "id": "e9u6_provide_sth_for_M102",
+        "question": "Từ 'cung cấp cái gì cho ai' viết tiếng Anh đúng là:",
+        "options": [
+          "provide sth for/to sb",
+          "provida sth for/to sb",
+          "provyde sth for/to sb",
+          "provide sth for/tu sb"
+        ]
+      },
+      {
+        "id": "e9u6_provide_sth_for_M103",
+        "question": "Từ tiếng Anh nào có nghĩa là 'cung cấp cái gì cho ai'?",
+        "options": [
+          "provide sth for/to sb",
+          "pricey",
+          "Priority",
+          "privacy"
         ]
       }
     ]
