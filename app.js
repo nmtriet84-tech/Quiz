@@ -1,7 +1,7 @@
 // QuizGame App Logic
 let manifest = [
-    createFallbackManifestItem("English8Vocabulary", "Từ vựng tiếng Anh 8 Global Success", "📘", 3731, 533, 8),
-    createFallbackManifestItem("English9Vocabulary", "Từ vựng tiếng Anh 9 Global Success", "🎓", 1883, 269, 6)
+    createFallbackManifestItem("English8Vocabulary", "Từ vựng tiếng Anh 8", "📘", 3731, 533, 8),
+    createFallbackManifestItem("English9Vocabulary", "Từ vựng tiếng Anh 9", "🎓", 1883, 269, 6)
 ];
 
 let userData = { name: "" };
