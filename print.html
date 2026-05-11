@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizGame - In đề</title>
+  <style>
+    :root {
+      --ink: #111827;
+      --muted: #5b6472;
+      --line: #cfd6df;
+      --soft: #f5f7fa;
+      --accent: #1f5f8b;
+      --print-font-size: 10pt;
+      --ui-font: "Segoe UI", Arial, sans-serif;
+      --paper-font: "Times New Roman", "Segoe UI", serif;
+      --paper-sans: "Segoe UI", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #e9edf2;
+      font-family: var(--paper-font);
+    }
+
+    button, input, select { font: inherit; }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: end;
+      gap: 10px;
+      padding: 12px;
+      background: #182536;
+      color: #fff;
+      font-family: var(--ui-font);
+      box-shadow: 0 10px 28px rgba(0,0,0,.18);
+    }
+
+    .field {
+      display: grid;
+      gap: 4px;
+      min-width: 120px;
+    }
+
+    .field.wide { min-width: 280px; }
+
+    .field span {
+      color: #dbe5ef;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .field input,
+    .field select {
+      min-height: 36px;
+      padding: 6px 8px;
+      border: 1px solid #6f7f91;
+      border-radius: 4px;
+      color: #111827;
+      background: #fff;
+    }
+
+    .toolbar button,
+    .toolbar a {
+      min-height: 36px;
+      padding: 7px 10px;
+      border: 1px solid #a9bfd4;
+      border-radius: 4px;
+      background: #fff;
+      color: #182536;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .toolbar button.primary {
+      border-color: #2f6f9c;
+      background: #2f6f9c;
+      color: #fff;
+    }
+
+    .filter-panel {
+      width: min(980px, calc(100% - 24px));
+      margin: 12px auto;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      font-family: var(--ui-font);
+    }
+
+    .filter-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .filter-card {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 8px;
+      align-items: center;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: var(--soft);
+    }
+
+    .filter-card small {
+      display: block;
+      color: var(--muted);
+    }
+
+    .notice {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .page-wrap {
+      width: 210mm;
+      margin: 14px auto 30px;
+    }
+
+    .exam-page,
+    .answer-page {
+      position: relative;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto 12px;
+      padding: 12mm 12mm 14mm;
+      background: #fff;
+      box-shadow: 0 8px 28px rgba(0,0,0,.18);
+      font-size: var(--print-font-size);
+      line-height: 1.28;
+    }
+
+    .exam-page { break-after: page; page-break-after: always; }
+    .answer-page { break-after: auto; page-break-after: auto; }
+
+    .exam-header {
+      display: grid;
+      grid-template-columns: 1fr 38mm;
+      gap: 8mm;
+      align-items: start;
+      margin-bottom: 4mm;
+      padding-bottom: 3mm;
+      border-bottom: 1px solid #000;
+    }
+
+    .exam-header h1 {
+      margin: 0 0 2mm;
+      font-size: 15pt;
+      text-transform: uppercase;
+    }
+
+    .info-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8mm;
+      font: 700 9.5pt var(--paper-sans);
+    }
+
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr auto 22mm;
+      gap: 1.5mm 2mm;
+      align-items: end;
+      max-width: 132mm;
+      margin-top: 2.5mm;
+      font-weight: 700;
+    }
+
+    .line {
+      min-height: 4mm;
+      border-bottom: 1px dotted #000;
+    }
+
+    .code-score-box {
+      display: grid;
+      border: 1.2px solid #000;
+      text-align: center;
+      font-family: var(--paper-sans);
+      font-weight: 800;
+    }
+
+    .code-score-row {
+      display: grid;
+      grid-template-columns: 14mm 1fr;
+      min-height: 13mm;
+    }
+
+    .code-score-row + .code-score-row { border-top: 1px solid #000; }
+
+    .code-score-label,
+    .code-score-value {
+      display: grid;
+      place-items: center;
+      padding: 1mm;
+    }
+
+    .code-score-label {
+      border-right: 1px solid #000;
+      font-size: 8pt;
+    }
+
+    .code-score-value {
+      font-size: 13pt;
+      letter-spacing: .8px;
+    }
+
+    .answer-sheet {
+      position: relative;
+      margin: 4mm 0;
+      padding: 7mm 8mm 8mm;
+      border: 1.2px solid #000;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .answer-sheet-title {
+      margin: 0 0 2mm;
+      text-align: center;
+      font: 800 9.5pt var(--paper-sans);
+    }
+
+    .bubble-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1.2mm 2mm;
+    }
+
+    .bubble-column {
+      display: grid;
+      gap: 1.2mm;
+    }
+
+    .bubble-item {
+      display: grid;
+      grid-template-columns: 8mm repeat(4, 5.3mm);
+      gap: 1.1mm;
+      align-items: center;
+      font: 8pt var(--paper-sans);
+    }
+
+    .bubble-num {
+      text-align: right;
+      font-weight: 700;
+    }
+
+    .bubble {
+      display: grid;
+      place-items: center;
+      width: 4.4mm;
+      height: 4.4mm;
+      border: 1px solid #000;
+      border-radius: 50%;
+      font-size: 2.1mm;
+      line-height: 1;
+    }
+
+    .bubble.correct {
+      background: #111;
+      color: #fff;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+
+    .questions {
+      column-count: 2;
+      column-gap: 6mm;
+      column-rule: 1px solid #d9d9d9;
+    }
+
+    .question {
+      margin: 0 0 2.4mm;
+      padding-bottom: 1mm;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .q-text {
+      margin: 0 0 1mm;
+      font-weight: 700;
+    }
+
+    .option {
+      margin: .5mm 0;
+    }
+
+    .end-note {
+      margin: 4mm 0 0;
+      text-align: center;
+      font-weight: 800;
+    }
+
+    .page-footer {
+      position: absolute;
+      left: 12mm;
+      right: 12mm;
+      bottom: 6mm;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1.5mm;
+      border-top: 1px solid #000;
+      font: 8pt var(--paper-sans);
+    }
+
+    .answer-page h1 {
+      margin: 0 0 4mm;
+      text-align: center;
+      font-size: 15pt;
+    }
+
+    .readable-key {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1.2mm 4mm;
+      margin: 3mm 0 5mm;
+      font: 9pt var(--paper-sans);
+    }
+
+    .stats-section {
+      margin-top: 4mm;
+      padding-top: 3mm;
+      border-top: 1px solid #000;
+      font-family: var(--paper-sans);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3mm;
+    }
+
+    .stats-box {
+      border: 1px solid #000;
+      padding: 2mm;
+    }
+
+    .stats-box h3 {
+      margin: 0 0 1.5mm;
+      font-size: 9.5pt;
+    }
+
+    .stats-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8pt;
+    }
+
+    .stats-table th,
+    .stats-table td {
+      border: 1px solid #000;
+      padding: 1mm;
+    }
+
+    .empty {
+      padding: 12mm;
+      border: 1px dashed var(--line);
+      background: #fff;
+      color: var(--muted);
+      text-align: center;
+      font-family: var(--paper-sans);
+    }
+
+    @media print {
+      @page { size: A4; margin: 0; }
+      body { background: #fff; }
+      .toolbar, .filter-panel { display: none; }
+      .page-wrap { width: auto; margin: 0; }
+      .exam-page, .answer-page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <form id="controlForm" class="toolbar">
+    <label class="field">
+      <span>Mã đề</span>
+      <input id="examCodeInput" maxlength="4" placeholder="Tự tạo nếu trống">
+    </label>
+    <label class="field wide">
+      <span>Bộ đề</span>
+      <select id="datasetInput"></select>
+    </label>
+    <label class="field">
+      <span>Số câu</span>
+      <input id="questionCountInput" type="number" min="1" value="40">
+    </label>
+    <label class="field">
+      <span>Thời gian</span>
+      <input id="timeLimitInput" type="number" min="1" value="45">
+    </label>
+    <label class="field">
+      <span>Font</span>
+      <select id="fontSizeInput">
+        <option value="9pt">9pt</option>
+        <option value="10pt" selected>10pt</option>
+        <option value="11pt">11pt</option>
+      </select>
+    </label>
+    <button class="primary" type="submit">Tạo đề</button>
+    <button id="printBtn" type="button">In</button>
+    <a href="index.html">Về trang luyện</a>
+  </form>
+
+  <section class="filter-panel">
+    <div class="filter-actions">
+      <button id="selectAllUnitsBtn" type="button">Chọn tất cả Unit</button>
+      <button id="clearUnitsBtn" type="button">Bỏ chọn Unit</button>
+      <span id="notice" class="notice"></span>
+    </div>
+    <h3>Unit</h3>
+    <div id="unitChoices" class="filter-grid"></div>
+    <h3>Loại câu hỏi</h3>
+    <div id="typeChoices" class="filter-grid"></div>
+    <h3>Độ khó</h3>
+    <div id="levelChoices" class="filter-grid"></div>
+  </section>
+
+  <main class="page-wrap">
+    <section id="exam"></section>
+  </main>
+
+  <script>
+    const LETTERS = ["A", "B", "C", "D"];
+    const TYPE_LABELS = { M: "Nghĩa", C: "Ngữ cảnh", P: "Phát âm", S: "Trọng âm" };
+    const $ = (id) => document.getElementById(id);
+
+    const state = {
+      manifest: [],
+      set: null,
+      info: null,
+      allQuestions: [],
+      filtered: [],
+      units: {},
+      types: {},
+      levels: {},
+      paper: null
+    };
+
+    init();
+
+    async function init() {
+      bindEvents();
+      readParams();
+      document.documentElement.style.setProperty("--print-font-size", $("fontSizeInput").value);
+
+      try {
+        state.manifest = await fetchJson("manifest.json");
+        renderDatasetOptions();
+        const initialSet = resolveDataset();
+        await loadDataset(initialSet);
+        applyParamsAfterDatasetLoad();
+        await generatePaper();
+      } catch (error) {
+        console.error(error);
+        $("exam").innerHTML = `<div class="empty">Không đọc được manifest.json hoặc dữ liệu bộ đề.</div>`;
+      }
+    }
+
+    function bindEvents() {
+      $("controlForm").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        await generatePaper();
+      });
+      $("printBtn").addEventListener("click", () => window.print());
+      $("datasetInput").addEventListener("change", async () => {
+        const next = state.manifest.find((set) => set.id === $("datasetInput").value);
+        if (!next) return;
+        await loadDataset(next);
+        $("examCodeInput").value = "";
+        await generatePaper();
+      });
+      $("selectAllUnitsBtn").addEventListener("click", () => {
+        document.querySelectorAll("input[name='printUnit']").forEach((input) => input.checked = true);
+        generatePaper();
+      });
+      $("clearUnitsBtn").addEventListener("click", () => {
+        document.querySelectorAll("input[name='printUnit']").forEach((input) => input.checked = false);
+        generatePaper();
+      });
+      $("unitChoices").addEventListener("change", () => generatePaper());
+      $("typeChoices").addEventListener("change", () => generatePaper());
+      $("levelChoices").addEventListener("change", () => generatePaper());
+      $("fontSizeInput").addEventListener("change", () => {
+        document.documentElement.style.setProperty("--print-font-size", $("fontSizeInput").value);
+        renderPaper();
+      });
+    }
+
+    function readParams() {
+      const params = new URLSearchParams(location.search);
+      if (params.get("code")) $("examCodeInput").value = params.get("code");
+      if (params.get("count")) $("questionCountInput").value = params.get("count");
+      if (params.get("font")) $("fontSizeInput").value = params.get("font");
+      if (params.get("time")) $("timeLimitInput").value = params.get("time");
+    }
+
+    function applyParamsAfterDatasetLoad() {
+      applyMultiParam("units", "printUnit");
+      applyMultiParam("types", "printType");
+      applyMultiParam("levels", "printLevel");
+    }
+
+    function applyMultiParam(paramName, inputName) {
+      const raw = new URLSearchParams(location.search).get(paramName);
+      if (!raw) return;
+      const selected = raw.split(",").map((item) => item.trim()).filter(Boolean);
+      document.querySelectorAll(`input[name='${inputName}']`).forEach((input) => {
+        input.checked = selected.includes(input.value);
+      });
+    }
+
+    async function fetchJson(url) {
+      const response = await fetch(url, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Cannot load ${url}`);
+      return response.json();
+    }
+
+    function renderDatasetOptions() {
+      $("datasetInput").innerHTML = state.manifest.map((set) => `
+        <option value="${escapeAttr(set.id)}">${escapeHtml(set.title || set.id)}</option>
+      `).join("");
+    }
+
+    function resolveDataset() {
+      const params = new URLSearchParams(location.search);
+      const requested = params.get("quiz") || params.get("set") || params.get("bank");
+      return state.manifest.find((set) => set.id === requested) || state.manifest[0];
+    }
+
+    async function loadDataset(set) {
+      state.set = set;
+      $("datasetInput").value = set.id;
+
+      const basePath = set.path || `data/${set.id}`;
+      const [info, rawQuiz] = await Promise.all([
+        fetchJson(`${basePath}/${set.id}_info.json`),
+        fetchJson(`${basePath}/${set.id}_quiz.json`)
+      ]);
+
+      state.info = info;
+      normalizeQuiz(rawQuiz);
+      renderFilters();
+      document.title = `${set.title || set.id} - In đề`;
+    }
+
+    function normalizeQuiz(rawQuiz) {
+      state.allQuestions = [];
+      state.units = {};
+      state.types = {};
+      state.levels = {};
+
+      if (Array.isArray(rawQuiz) && rawQuiz[0]?.questions) {
+        rawQuiz.forEach((item) => {
+          const unitCode = unitCodeFromId(item.id);
+          ensureUnit(unitCode);
+          item.questions.forEach((question) => addQuestion(question, item, unitCode));
+        });
+      } else {
+        const questions = Array.isArray(rawQuiz) ? rawQuiz : rawQuiz.questions || [];
+        questions.forEach((question) => {
+          const unitCode = unitCodeFromId(question.id);
+          ensureUnit(unitCode);
+          addQuestion(question, null, unitCode);
+        });
+      }
+
+      applyInfoUnitLabels();
+    }
+
+    function addQuestion(question, vocabItem, unitCode) {
+      if (!question?.question || !Array.isArray(question.options) || question.options.length < 2) return;
+      const meta = questionMeta(question.id);
+      const wordId = vocabItem?.id || wordIdFromQuestionId(question.id);
+      const word = vocabItem?.hint?.word || wordId.replace(/^.*?_/, "").replace(/_/g, " ");
+      const normalized = {
+        ...question,
+        correctAnswer: question.options[0],
+        unitCode,
+        type: meta.type,
+        level: meta.level,
+        wordId,
+        word
+      };
+
+      state.allQuestions.push(normalized);
+      state.units[unitCode].questionCount += 1;
+      state.units[unitCode].words.add(wordId);
+      state.types[meta.type] = (state.types[meta.type] || 0) + 1;
+      state.levels[meta.level] = (state.levels[meta.level] || 0) + 1;
+    }
+
+    function ensureUnit(unitCode) {
+      if (!state.units[unitCode]) {
+        state.units[unitCode] = {
+          code: unitCode,
+          label: unitLabelFromCode(unitCode),
+          questionCount: 0,
+          words: new Set()
+        };
+      }
+    }
+
+    function applyInfoUnitLabels() {
+      const units = Array.isArray(state.info?.units) ? state.info.units : [];
+      units.forEach((unit) => {
+        const rawId = typeof unit === "object" ? unit.id : unit;
+        const title = typeof unit === "object" ? unit.title : String(unit);
+        const explicitCode = /^e\d+u\d+$/i.test(String(rawId)) ? String(rawId).toLowerCase() : "";
+        const unitNumber = title.match(/unit\s*(\d+)/i)?.[1] || String(rawId).match(/unit\s*(\d+)/i)?.[1];
+        const inferredCode = Object.keys(state.units).find((code) => code.match(/u(\d+)$/i)?.[1] === String(unitNumber));
+        const unitCode = explicitCode || inferredCode;
+        if (unitCode && state.units[unitCode]) {
+          state.units[unitCode].label = /^unit\s*\d+/i.test(title)
+            ? title
+            : `${unitLabelFromCode(unitCode)} - ${title}`;
+        }
+      });
+    }
+
+    function renderFilters() {
+      renderUnitChoices();
+      renderTypeChoices();
+      renderLevelChoices();
+      updateFilteredQuestions();
+    }
+
+    function renderUnitChoices() {
+      const units = getUnits();
+      $("unitChoices").innerHTML = units.map((unit) => `
+        <label class="filter-card">
+          <input type="checkbox" name="printUnit" value="${escapeAttr(unit.code)}" checked>
+          <span><strong>${escapeHtml(unit.label)}</strong><small>${unit.words.size} từ, ${unit.questionCount} câu</small></span>
+        </label>
+      `).join("");
+    }
+
+    function renderTypeChoices() {
+      $("typeChoices").innerHTML = Object.keys(state.types).sort().map((type) => `
+        <label class="filter-card">
+          <input type="checkbox" name="printType" value="${escapeAttr(type)}" checked>
+          <span><strong>${escapeHtml(TYPE_LABELS[type] || type)}</strong><small>${state.types[type]} câu</small></span>
+        </label>
+      `).join("");
+    }
+
+    function renderLevelChoices() {
+      $("levelChoices").innerHTML = Object.keys(state.levels).sort((a, b) => Number(a) - Number(b)).map((level) => `
+        <label class="filter-card">
+          <input type="checkbox" name="printLevel" value="${escapeAttr(level)}" checked>
+          <span><strong>Level ${escapeHtml(level)}</strong><small>${state.levels[level]} câu</small></span>
+        </label>
+      `).join("");
+    }
+
+    function getUnits() {
+      return Object.values(state.units).sort((a, b) => a.label.localeCompare(b.label, "vi", { numeric: true }));
+    }
+
+    function selectedValues(name) {
+      return [...document.querySelectorAll(`input[name='${name}']:checked`)].map((input) => input.value);
+    }
+
+    function activeUnits() {
+      const selected = selectedValues("printUnit");
+      return selected.length ? selected : getUnits().map((unit) => unit.code);
+    }
+
+    function activeTypes() {
+      const selected = selectedValues("printType");
+      return selected.length ? selected : Object.keys(state.types);
+    }
+
+    function activeLevels() {
+      const selected = selectedValues("printLevel");
+      return selected.length ? selected.map(Number) : Object.keys(state.levels).map(Number);
+    }
+
+    function updateFilteredQuestions() {
+      const units = activeUnits();
+      const types = activeTypes();
+      const levels = activeLevels();
+      state.filtered = state.allQuestions.filter((question) => {
+        return units.includes(question.unitCode) &&
+          types.includes(question.type) &&
+          levels.includes(question.level);
+      });
+
+      $("questionCountInput").max = Math.max(1, state.filtered.length);
+      $("notice").textContent = `${state.filtered.length} câu hỏi khả dụng.`;
+    }
+
+    async function generatePaper() {
+      updateFilteredQuestions();
+      if (!state.filtered.length) {
+        $("exam").innerHTML = `<div class="empty">Không có câu hỏi phù hợp.</div>`;
+        return;
+      }
+
+      let code = normalizeExamCode($("examCodeInput").value);
+      if (!code) code = makeExamCode();
+      $("examCodeInput").value = code;
+
+      const count = clamp(Number($("questionCountInput").value || 40), 1, state.filtered.length);
+      $("questionCountInput").value = count;
+
+      const seed = hashString(`${code}|${count}|${activeUnits().join(",")}|${activeTypes().join(",")}|${activeLevels().join(",")}|${state.set.id}`);
+      const random = seededRandom(seed);
+      const selected = selectBalancedQuestions(count, random).map((question, index) => {
+        const options = shuffleWithRandom([...question.options], random).slice(0, 4);
+        if (!options.includes(question.correctAnswer)) {
+          options[options.length - 1] = question.correctAnswer;
+          shuffleWithRandom(options, random);
+        }
+        return { ...question, printNumber: index + 1, printOptions: options };
+      });
+
+      state.paper = { code, count, questions: selected };
+      renderPaper();
+      updateUrl(code, count);
+    }
+
+    function selectBalancedQuestions(count, random) {
+      const selected = [];
+      const usedIds = new Set();
+      const units = activeUnits();
+      const plan = allocateEvenly(count, units, random);
+
+      units.forEach((unitCode) => {
+        const need = plan.get(unitCode) || 0;
+        const pool = state.filtered.filter((question) => question.unitCode === unitCode);
+        selected.push(...pickByWordsAndTypes(pool, need, random, usedIds));
+      });
+
+      if (selected.length < count) {
+        selected.push(...takeFallbackQuestions(state.filtered, count - selected.length, random, usedIds));
+      }
+
+      return shuffleWithRandom(selected, random).slice(0, count);
+    }
+
+    function pickByWordsAndTypes(pool, count, random, usedIds) {
+      const picked = [];
+      const types = activeTypes();
+      const typePlan = expandPlan(allocateEvenly(count, types, random));
+      const words = shuffleWithRandom([...new Set(pool.map((question) => question.wordId))], random);
+
+      for (const type of typePlan) {
+        if (picked.length >= count) break;
+        const word = words.find((wordId) => pool.some((question) =>
+          !usedIds.has(question.id) && question.wordId === wordId && question.type === type
+        ));
+        const fallbackWord = word || words.find((wordId) => pool.some((question) =>
+          !usedIds.has(question.id) && question.wordId === wordId
+        ));
+        if (!fallbackWord) break;
+
+        const candidates = pool.filter((question) =>
+          !usedIds.has(question.id) &&
+          question.wordId === fallbackWord &&
+          (question.type === type || !word)
+        );
+        const chosen = shuffleWithRandom(candidates, random)[0];
+        if (!chosen) continue;
+        usedIds.add(chosen.id);
+        picked.push(chosen);
+        words.splice(words.indexOf(fallbackWord), 1);
+      }
+
+      if (picked.length < count) {
+        picked.push(...takeFallbackQuestions(pool, count - picked.length, random, usedIds));
+      }
+
+      return picked;
+    }
+
+    function takeFallbackQuestions(pool, count, random, usedIds) {
+      const picked = [];
+      const candidates = shuffleWithRandom(pool.filter((question) => !usedIds.has(question.id)), random);
+      for (const question of candidates) {
+        usedIds.add(question.id);
+        picked.push(question);
+        if (picked.length >= count) break;
+      }
+      return picked;
+    }
+
+    function allocateEvenly(total, keys, random) {
+      const plan = new Map(keys.map((key) => [key, 0]));
+      if (!keys.length || total <= 0) return plan;
+      const base = Math.floor(total / keys.length);
+      keys.forEach((key) => plan.set(key, base));
+      shuffleWithRandom([...keys], random).slice(0, total - base * keys.length).forEach((key) => {
+        plan.set(key, (plan.get(key) || 0) + 1);
+      });
+      return plan;
+    }
+
+    function expandPlan(plan) {
+      const values = [];
+      plan.forEach((count, key) => {
+        for (let index = 0; index < count; index += 1) values.push(key);
+      });
+      return values;
+    }
+
+    function renderPaper() {
+      if (!state.paper) return;
+      const pages = buildExamPages();
+      const pageCount = pages.length;
+      $("exam").innerHTML = `
+        ${pages.map((questions, index) => renderExamPage(questions, index + 1, pageCount)).join("")}
+        ${renderAnswerPage()}
+      `;
+    }
+
+    function renderExamPage(questions, pageNumber, pageCount) {
+      const isFirstPage = pageNumber === 1;
+      const isLastPage = pageNumber === pageCount;
+      return `
+        <section class="exam-page">
+          ${isFirstPage ? renderHeader(pageCount) : ""}
+          ${isFirstPage ? renderAnswerSheet(false) : ""}
+          <section class="questions">
+            ${questions.map(renderQuestion).join("")}
+          </section>
+          ${isLastPage ? `<p class="end-note">--- Hết ---</p>` : ""}
+          ${renderFooter(pageNumber, pageCount)}
+        </section>
+      `;
+    }
+
+    function renderHeader(pageCount) {
+      return `
+        <header class="exam-header">
+          <div>
+            <h1>Đề kiểm tra: ${escapeHtml(state.set.title || state.set.id)}</h1>
+            <div class="info-line">
+              <span>Thời gian làm bài: ${escapeHtml($("timeLimitInput").value)} phút</span>
+              <span>Đề có ${pageCount} trang, ${state.paper.count} câu hỏi</span>
+            </div>
+            <div class="student-info">
+              <span>Họ và tên:</span><span class="line"></span>
+              <span>Lớp:</span><span class="line"></span>
+              <span>STT/SBD:</span><span class="line"></span>
+              <span>Ngày:</span><span class="line"></span>
+            </div>
+          </div>
+          <div class="code-score-box">
+            <div class="code-score-row"><span class="code-score-label">Mã đề</span><span class="code-score-value">${escapeHtml(state.paper.code)}</span></div>
+            <div class="code-score-row"><span class="code-score-label">Điểm</span><span class="code-score-value"></span></div>
+          </div>
+        </header>
+      `;
+    }
+
+    function renderFooter(pageNumber, pageCount) {
+      return `<footer class="page-footer"><span>Trang ${pageNumber}/${pageCount}</span><span>Mã đề: ${escapeHtml(state.paper.code)}</span></footer>`;
+    }
+
+    function renderAnswerSheet(withKey) {
+      const columns = makeColumns(state.paper.questions, 5);
+      return `
+        <section class="answer-sheet">
+          <p class="answer-sheet-title">${withKey ? "BẢNG ĐÁP ÁN" : "BẢNG ĐIỀN CÂU TRẢ LỜI"}</p>
+          <div class="bubble-grid">
+            ${columns.map((column) => `
+              <div class="bubble-column">
+                ${column.map((question) => {
+                  const correctIndex = question.printOptions.indexOf(question.correctAnswer);
+                  return `
+                    <div class="bubble-item">
+                      <span class="bubble-num">${question.printNumber}.</span>
+                      ${LETTERS.map((letter, index) => `<span class="bubble ${withKey && index === correctIndex ? "correct" : ""}">${letter}</span>`).join("")}
+                    </div>
+                  `;
+                }).join("")}
+              </div>
+            `).join("")}
+          </div>
+        </section>
+      `;
+    }
+
+    function renderQuestion(question) {
+      return `
+        <article class="question">
+          <p class="q-text">${question.printNumber}. ${escapeHtml(question.question)}</p>
+          ${question.printOptions.map((option, index) => `
+            <div class="option">${LETTERS[index]}. ${escapeHtml(option)}</div>
+          `).join("")}
+        </article>
+      `;
+    }
+
+    function renderAnswerPage() {
+      return `
+        <section class="answer-page">
+          <h1>BẢNG ĐÁP ÁN ĐỀ ${escapeHtml(state.paper.code)}</h1>
+          ${renderAnswerSheet(true)}
+          <div class="readable-key">
+            ${state.paper.questions.map((question) => {
+              const letter = LETTERS[question.printOptions.indexOf(question.correctAnswer)] || "?";
+              return `<div>Câu ${question.printNumber}: ${letter}</div>`;
+            }).join("")}
+          </div>
+          ${renderStatsSection()}
+        </section>
+      `;
+    }
+
+    function renderStatsSection() {
+      const questions = state.paper.questions;
+      return `
+        <section class="stats-section">
+          <h2>Thống kê đề: Tổng ${questions.length} câu hỏi</h2>
+          <div class="stats-grid">
+            ${renderStatsTable("Theo Unit", countBy(questions, (q) => state.units[q.unitCode]?.label || q.unitCode))}
+            ${renderStatsTable("Theo loại câu", countBy(questions, (q) => TYPE_LABELS[q.type] || q.type))}
+            ${renderStatsTable("Theo Level", countBy(questions, (q) => `Level ${q.level}`))}
+          </div>
+        </section>
+      `;
+    }
+
+    function renderStatsTable(title, rows) {
+      const total = state.paper.questions.length || 1;
+      const ordered = [...rows.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "vi"));
+      return `
+        <div class="stats-box">
+          <h3>${escapeHtml(title)}</h3>
+          <table class="stats-table">
+            <thead><tr><th>Mức</th><th>Số câu</th><th>%</th></tr></thead>
+            <tbody>
+              ${ordered.map(([label, count]) => `<tr><td>${escapeHtml(label)}</td><td>${count}</td><td>${((count / total) * 100).toFixed(1)}%</td></tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function countBy(items, getLabel) {
+      return items.reduce((map, item) => {
+        const label = getLabel(item) || "Không rõ";
+        map.set(label, (map.get(label) || 0) + 1);
+        return map;
+      }, new Map());
+    }
+
+    function buildExamPages() {
+      const pages = [];
+      const remaining = [...state.paper.questions];
+      pages.push(remaining.splice(0, 22));
+      while (remaining.length) pages.push(remaining.splice(0, 30));
+      return pages.filter((page) => page.length);
+    }
+
+    function makeColumns(items, columnCount) {
+      const size = Math.ceil(items.length / columnCount);
+      return Array.from({ length: columnCount }, (_, index) => items.slice(index * size, index * size + size)).filter((col) => col.length);
+    }
+
+    function questionMeta(questionId) {
+      const match = String(questionId || "").match(/_([A-Z])(\d)(\d{2})$/);
+      return { type: match?.[1] || "C", level: Number(match?.[2] || 1) };
+    }
+
+    function unitCodeFromId(id) {
+      return String(id || "").match(/^(e\d+u\d+)/i)?.[1].toLowerCase() || String(id || "").split("_")[0].toLowerCase();
+    }
+
+    function unitLabelFromCode(code) {
+      const unitMatch = String(code || "").match(/u(\d+)$/i);
+      return unitMatch ? `Unit ${unitMatch[1]}` : code;
+    }
+
+    function wordIdFromQuestionId(questionId) {
+      return String(questionId || "").split("_").slice(0, -1).join("_");
+    }
+
+    function makeExamCode() {
+      const alphabet = "ABCDEFGHIJKLMNPQRSTUVWXYZ123456789";
+      const random = new Uint32Array(4);
+      crypto.getRandomValues(random);
+      return Array.from(random, (value) => alphabet[value % alphabet.length]).join("");
+    }
+
+    function normalizeExamCode(value) {
+      return String(value || "").trim().toUpperCase().replace(/[O0]/g, "").replace(/[^A-Z1-9]/g, "").slice(0, 4);
+    }
+
+    function updateUrl(code, count) {
+      const params = new URLSearchParams(location.search);
+      params.set("code", code);
+      params.set("count", count);
+      params.set("font", $("fontSizeInput").value);
+      params.set("time", $("timeLimitInput").value);
+      params.set("set", $("datasetInput").value);
+      params.set("units", selectedValues("printUnit").join(","));
+      params.set("types", selectedValues("printType").join(","));
+      params.set("levels", selectedValues("printLevel").join(","));
+      history.replaceState(null, "", `${location.pathname}?${params.toString()}`);
+    }
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function hashString(value) {
+      let hash = 2166136261;
+      for (let i = 0; i < value.length; i++) {
+        hash ^= value.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+      }
+      return hash >>> 0;
+    }
+
+    function seededRandom(seed) {
+      let value = seed >>> 0;
+      return () => {
+        value += 0x6D2B79F5;
+        let t = value;
+        t = Math.imul(t ^ (t >>> 15), t | 1);
+        t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    }
+
+    function shuffleWithRandom(array, random) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      }[char]));
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replace(/`/g, "&#096;");
+    }
+  </script>
+</body>
+</html>
