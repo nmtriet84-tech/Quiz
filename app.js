@@ -312,12 +312,15 @@ function pickBalancedQuestions(units, total) {
     const selected = [];
     const selectedIds = new Set();
     const selectedWords = new Set();
+    const selectedMeaningWords = new Set();
 
     const takeQuestion = question => {
         if (!question || selectedIds.has(question.id)) return false;
+        if (question.type === "M" && selectedMeaningWords.has(question.wordId)) return false;
         selected.push(question);
         selectedIds.add(question.id);
         selectedWords.add(question.wordId);
+        if (question.type === "M") selectedMeaningWords.add(question.wordId);
         return true;
     };
 
@@ -452,10 +455,14 @@ function updateProgress() {
 
 function addExtraQuestions(failedQuestion) {
     const existingIds = new Set(filteredQuestions.map(q => q.id));
+    const existingMeaningWords = new Set(filteredQuestions
+        .filter(q => q.type === "M")
+        .map(q => q.wordId));
     const pool = currentQuizData.filter(q => {
         return q.unitCode === failedQuestion.unitCode
             && q.level >= failedQuestion.level
-            && !existingIds.has(q.id);
+            && !existingIds.has(q.id)
+            && (q.type !== "M" || !existingMeaningWords.has(q.wordId));
     });
 
     const extras = shuffle(pool).slice(0, 2);

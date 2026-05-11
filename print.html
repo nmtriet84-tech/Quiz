@@ -165,8 +165,25 @@
 
     .exam-header h1 {
       margin: 0 0 2mm;
+      display: flex;
+      align-items: baseline;
+      gap: 3mm;
       font-size: 15pt;
       text-transform: uppercase;
+    }
+
+    .title-line {
+      display: inline-block;
+      width: 82mm;
+      border-bottom: 1px dotted #000;
+      transform: translateY(-1px);
+    }
+
+    .time-line {
+      display: inline-block;
+      width: 20mm;
+      border-bottom: 1px dotted #000;
+      transform: translateY(-1px);
     }
 
     .info-line {
@@ -233,6 +250,20 @@
       page-break-inside: avoid;
     }
 
+    .scan-marker {
+      position: absolute;
+      width: 5mm;
+      height: 5mm;
+      background: #000;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+
+    .scan-marker.tl { top: 1.5mm; left: 1.5mm; }
+    .scan-marker.tr { top: 1.5mm; right: 1.5mm; }
+    .scan-marker.bl { bottom: 1.5mm; left: 1.5mm; }
+    .scan-marker.br { bottom: 1.5mm; right: 1.5mm; }
+
     .answer-sheet-title {
       margin: 0 0 2mm;
       text-align: center;
@@ -241,19 +272,21 @@
 
     .bubble-grid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 1.2mm 2mm;
+      grid-template-columns: repeat(5, max-content);
+      justify-content: space-between;
+      gap: 1.2mm 1.5mm;
     }
 
     .bubble-column {
       display: grid;
       gap: 1.2mm;
+      justify-items: center;
     }
 
     .bubble-item {
       display: grid;
-      grid-template-columns: 8mm repeat(4, 5.3mm);
-      gap: 1.1mm;
+      grid-template-columns: 7mm repeat(4, 5mm);
+      gap: .9mm;
       align-items: center;
       font: 8pt var(--paper-sans);
     }
@@ -264,10 +297,10 @@
     }
 
     .bubble {
-      display: grid;
-      place-items: center;
       width: 4.4mm;
       height: 4.4mm;
+      display: grid;
+      place-items: center;
       border: 1px solid #000;
       border-radius: 50%;
       font-size: 2.1mm;
@@ -287,6 +320,20 @@
       column-rule: 1px solid #d9d9d9;
     }
 
+    .questions.continued {
+      padding-top: 2mm;
+    }
+
+    .continued-header {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8mm;
+      margin-bottom: 4mm;
+      padding-bottom: 2mm;
+      border-bottom: 1px solid #000;
+      font: 800 9pt var(--paper-sans);
+    }
+
     .question {
       margin: 0 0 2.4mm;
       padding-bottom: 1mm;
@@ -301,6 +348,19 @@
 
     .option {
       margin: .5mm 0;
+    }
+
+    .option-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 4mm;
+      row-gap: .4mm;
+    }
+
+    .option-grid .option {
+      min-width: 0;
+      margin: 0;
+      overflow-wrap: anywhere;
     }
 
     .end-note {
@@ -445,6 +505,26 @@
   <script>
     const LETTERS = ["A", "B", "C", "D"];
     const TYPE_LABELS = { M: "Nghĩa", C: "Ngữ cảnh", P: "Phát âm", S: "Trọng âm" };
+    const FALLBACK_MANIFEST = [
+      {
+        id: "English8Vocabulary",
+        title: "Từ vựng tiếng Anh 8 Global Success",
+        description: "Chinh phục 533 từ vựng trọng tâm lớp 8 qua 4.797 câu hỏi trắc nghiệm thông minh.",
+        category: "Vocabulary",
+        icon: "📘",
+        stats: { lessons: 533, questions: 4797, units: 12 },
+        path: "data/English8Vocabulary"
+      },
+      {
+        id: "English9Vocabulary",
+        title: "Từ vựng tiếng Anh 9 Global Success",
+        description: "Chinh phục 269 từ vựng trọng tâm lớp 9 qua 2.421 câu hỏi trắc nghiệm chuyên sâu.",
+        category: "Vocabulary",
+        icon: "🎓",
+        stats: { lessons: 269, questions: 2421, units: 12 },
+        path: "data/English9Vocabulary"
+      }
+    ];
     const $ = (id) => document.getElementById(id);
 
     const state = {
@@ -467,7 +547,7 @@
       document.documentElement.style.setProperty("--print-font-size", $("fontSizeInput").value);
 
       try {
-        state.manifest = await fetchJson("manifest.json");
+        state.manifest = await loadManifest();
         renderDatasetOptions();
         const initialSet = resolveDataset();
         await loadDataset(initialSet);
@@ -475,7 +555,7 @@
         await generatePaper();
       } catch (error) {
         console.error(error);
-        $("exam").innerHTML = `<div class="empty">Không đọc được manifest.json hoặc dữ liệu bộ đề.</div>`;
+        $("exam").innerHTML = `<div class="empty">${escapeHtml(getLoadErrorMessage(error))}</div>`;
       }
     }
 
@@ -536,6 +616,23 @@
       const response = await fetch(url, { cache: "no-store" });
       if (!response.ok) throw new Error(`Cannot load ${url}`);
       return response.json();
+    }
+
+    async function loadManifest() {
+      try {
+        return await fetchJson("manifest.json");
+      } catch (error) {
+        console.warn("Không đọc được manifest.json, dùng manifest dự phòng.", error);
+        return FALLBACK_MANIFEST;
+      }
+    }
+
+    function getLoadErrorMessage(error) {
+      if (location.protocol === "file:") {
+        return "Trình duyệt đang mở bằng file:// nên không đọc được dữ liệu JSON. Hãy chạy Chay_Quiz.bat rồi mở http://localhost:8010/print.html";
+      }
+
+      return `Không đọc được dữ liệu bộ đề. Chi tiết: ${error?.message || error}`;
     }
 
     function renderDatasetOptions() {
@@ -745,23 +842,24 @@
     function selectBalancedQuestions(count, random) {
       const selected = [];
       const usedIds = new Set();
+      const usedMeaningWords = new Set();
       const units = activeUnits();
       const plan = allocateEvenly(count, units, random);
 
       units.forEach((unitCode) => {
         const need = plan.get(unitCode) || 0;
         const pool = state.filtered.filter((question) => question.unitCode === unitCode);
-        selected.push(...pickByWordsAndTypes(pool, need, random, usedIds));
+        selected.push(...pickByWordsAndTypes(pool, need, random, usedIds, usedMeaningWords));
       });
 
       if (selected.length < count) {
-        selected.push(...takeFallbackQuestions(state.filtered, count - selected.length, random, usedIds));
+        selected.push(...takeFallbackQuestions(state.filtered, count - selected.length, random, usedIds, usedMeaningWords));
       }
 
       return shuffleWithRandom(selected, random).slice(0, count);
     }
 
-    function pickByWordsAndTypes(pool, count, random, usedIds) {
+    function pickByWordsAndTypes(pool, count, random, usedIds, usedMeaningWords) {
       const picked = [];
       const types = activeTypes();
       const typePlan = expandPlan(allocateEvenly(count, types, random));
@@ -785,22 +883,25 @@
         const chosen = shuffleWithRandom(candidates, random)[0];
         if (!chosen) continue;
         usedIds.add(chosen.id);
+        if (chosen.type === "M") usedMeaningWords.add(chosen.wordId);
         picked.push(chosen);
         words.splice(words.indexOf(fallbackWord), 1);
       }
 
       if (picked.length < count) {
-        picked.push(...takeFallbackQuestions(pool, count - picked.length, random, usedIds));
+        picked.push(...takeFallbackQuestions(pool, count - picked.length, random, usedIds, usedMeaningWords));
       }
 
       return picked;
     }
 
-    function takeFallbackQuestions(pool, count, random, usedIds) {
+    function takeFallbackQuestions(pool, count, random, usedIds, usedMeaningWords) {
       const picked = [];
       const candidates = shuffleWithRandom(pool.filter((question) => !usedIds.has(question.id)), random);
       for (const question of candidates) {
+        if (question.type === "M" && usedMeaningWords.has(question.wordId)) continue;
         usedIds.add(question.id);
+        if (question.type === "M") usedMeaningWords.add(question.wordId);
         picked.push(question);
         if (picked.length >= count) break;
       }
@@ -842,8 +943,9 @@
       return `
         <section class="exam-page">
           ${isFirstPage ? renderHeader(pageCount) : ""}
+          ${isFirstPage ? "" : renderContinuedHeader(pageNumber, pageCount)}
           ${isFirstPage ? renderAnswerSheet(false) : ""}
-          <section class="questions">
+          <section class="questions ${isFirstPage ? "" : "continued"}">
             ${questions.map(renderQuestion).join("")}
           </section>
           ${isLastPage ? `<p class="end-note">--- Hết ---</p>` : ""}
@@ -852,13 +954,21 @@
       `;
     }
 
+    function renderContinuedHeader(pageNumber, pageCount) {
+      return `
+        <header class="continued-header">
+          <span>Mã đề: ${escapeHtml(state.paper.code)} | Trang ${pageNumber}/${pageCount}</span>
+        </header>
+      `;
+    }
+
     function renderHeader(pageCount) {
       return `
         <header class="exam-header">
           <div>
-            <h1>Đề kiểm tra: ${escapeHtml(state.set.title || state.set.id)}</h1>
+            <h1>Đề kiểm tra <span class="title-line"></span></h1>
             <div class="info-line">
-              <span>Thời gian làm bài: ${escapeHtml($("timeLimitInput").value)} phút</span>
+              <span>Thời gian làm bài: <span class="time-line"></span> phút</span>
               <span>Đề có ${pageCount} trang, ${state.paper.count} câu hỏi</span>
             </div>
             <div class="student-info">
@@ -884,6 +994,7 @@
       const columns = makeColumns(state.paper.questions, 5);
       return `
         <section class="answer-sheet">
+          ${renderScanMarkers()}
           <p class="answer-sheet-title">${withKey ? "BẢNG ĐÁP ÁN" : "BẢNG ĐIỀN CÂU TRẢ LỜI"}</p>
           <div class="bubble-grid">
             ${columns.map((column) => `
@@ -904,13 +1015,24 @@
       `;
     }
 
+    function renderScanMarkers() {
+      return `
+        <i class="scan-marker tl" aria-hidden="true"></i>
+        <i class="scan-marker tr" aria-hidden="true"></i>
+        <i class="scan-marker bl" aria-hidden="true"></i>
+        <i class="scan-marker br" aria-hidden="true"></i>
+      `;
+    }
+
     function renderQuestion(question) {
       return `
         <article class="question">
           <p class="q-text">${question.printNumber}. ${escapeHtml(question.question)}</p>
-          ${question.printOptions.map((option, index) => `
-            <div class="option">${LETTERS[index]}. ${escapeHtml(option)}</div>
-          `).join("")}
+          <div class="option-grid">
+            ${question.printOptions.map((option, index) => `
+              <div class="option">${LETTERS[index]}. ${escapeHtml(option)}</div>
+            `).join("")}
+          </div>
         </article>
       `;
     }
@@ -972,8 +1094,8 @@
     function buildExamPages() {
       const pages = [];
       const remaining = [...state.paper.questions];
-      pages.push(remaining.splice(0, 22));
-      while (remaining.length) pages.push(remaining.splice(0, 30));
+      pages.push(remaining.splice(0, 16));
+      while (remaining.length) pages.push(remaining.splice(0, 24));
       return pages.filter((page) => page.length);
     }
 
