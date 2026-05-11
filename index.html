@@ -33,29 +33,27 @@
             <div id="intro-screen" class="screen hidden">
                 <div id="intro-info">
                     <button class="btn-back">← Quay lại</button>
-                    <h2 id="current-quiz-title">Tên bộ đề</h2>
+                    
                     <p id="current-quiz-desc">Mô tả</p>
 
                     <div class="setup-grid">
-                        <div class="setup-item">
-                            <label>Mức đề:</label>
-                            <div class="mode-choice-group">
-                                <label class="mode-choice">
-                                    <input type="radio" name="quiz-mode" value="normal" checked>
-                                    <span>Đề thường</span>
-                                    <small>70% M, 20% C, 10% S</small>
-                                </label>
-                                <label class="mode-choice">
-                                    <input type="radio" name="quiz-mode" value="hard">
-                                    <span>Đề khó</span>
-                                    <small>20% M, 60% C, 20% S</small>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="setup-item">
+                        <div class="setup-item full-width">
                             <label>Chọn các bài học (Unit):</label>
                             <div id="unit-checkboxes" class="checkbox-group"></div>
                         </div>
+                    </div>
+
+                    <div class="start-actions-group">
+                        <button id="btn-start-normal" class="btn-start btn-normal">
+                            <span class="btn-icon">🌊</span>
+                            <span class="btn-text">BẮT ĐẦU ĐỀ THƯỜNG</span>
+                            <small>Dành cho luyện tập cơ bản</small>
+                        </button>
+                        <button id="btn-start-hard" class="btn-start btn-hard">
+                            <span class="btn-icon">🔥</span>
+                            <span class="btn-text">BẮT ĐẦU ĐỀ KHÓ</span>
+                            <small>Thử thách tư duy & Phản xạ</small>
+                        </button>
                     </div>
 
                     <section class="leaderboard-panel" aria-labelledby="leaderboard-title">
@@ -84,8 +82,6 @@
                             </table>
                         </div>
                     </section>
-
-                    <button id="btn-start-game" class="btn-primary">BẮT ĐẦU CHƠI! 🚀</button>
                 </div>
             </div>
 

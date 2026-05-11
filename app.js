@@ -272,10 +272,8 @@ function setupIntroScreen(set) {
     currentQuizSet = set;
     currentQuizMode = "normal";
     currentLeaderboardMode = "normal";
-    document.querySelector('input[name="quiz-mode"][value="normal"]')?.click();
     updateLeaderboardTabs();
     updateSlogan(`${userData.name} - ${set.title}`);
-    document.getElementById("current-quiz-title").innerText = set.title;
     document.getElementById("current-quiz-desc").innerText = set.description;
 
     const checkboxGroup = document.getElementById("unit-checkboxes");
@@ -326,9 +324,8 @@ function findUnitCodeByNumber(unitNumber) {
     }) || "";
 }
 
-document.getElementById("btn-start-game").onclick = () => {
+function handleStartClick(mode) {
     const selectedUnits = Array.from(document.querySelectorAll('input[name="unit"]:checked')).map(cb => cb.value);
-    const mode = document.querySelector('input[name="quiz-mode"]:checked')?.value || "normal";
 
     if (selectedUnits.length === 0) {
         alert("Vui lòng chọn ít nhất một Unit để bắt đầu!");
@@ -351,7 +348,10 @@ document.getElementById("btn-start-game").onclick = () => {
 
     selectedUnitsForGame = selectedUnits;
     startGame();
-};
+}
+
+document.getElementById("btn-start-normal").onclick = () => handleStartClick("normal");
+document.getElementById("btn-start-hard").onclick = () => handleStartClick("hard");
 
 function startGame() {
     currentQuestionIndex = 0;
