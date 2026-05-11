@@ -147,6 +147,30 @@ button:active {
     margin: 20px 0;
 }
 
+.mode-choice-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 10px;
+    margin: 12px 0 18px;
+}
+
+.mode-choice {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4px 8px;
+    align-items: center;
+    padding: 12px;
+    border: 2px solid var(--text-color);
+    border-radius: 12px;
+    background: #F7FFF7;
+    cursor: pointer;
+}
+
+.mode-choice small {
+    grid-column: 2;
+    color: #666;
+}
+
 /* User Config Input */
 .user-config-box {
     margin-bottom: 30px;

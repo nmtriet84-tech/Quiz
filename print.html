@@ -464,6 +464,13 @@
       <select id="datasetInput"></select>
     </label>
     <label class="field">
+      <span>Mức đề</span>
+      <select id="modeInput">
+        <option value="normal" selected>Đề thường</option>
+        <option value="hard">Đề khó</option>
+      </select>
+    </label>
+    <label class="field">
       <span>Số câu</span>
       <input id="questionCountInput" type="number" min="1" value="40">
     </label>
@@ -502,9 +509,10 @@
     <section id="exam"></section>
   </main>
 
+  <script src="quiz-engine.js?v=1.0"></script>
   <script>
     const LETTERS = ["A", "B", "C", "D"];
-    const TYPE_LABELS = { M: "Nghĩa", C: "Ngữ cảnh", P: "Phát âm", S: "Trọng âm" };
+    const TYPE_LABELS = { M: "Nghĩa", C: "Ngữ cảnh", S: "Âm / trọng âm" };
     const FALLBACK_MANIFEST = [
       {
         id: "English8Vocabulary",
@@ -583,6 +591,7 @@
       $("unitChoices").addEventListener("change", () => generatePaper());
       $("typeChoices").addEventListener("change", () => generatePaper());
       $("levelChoices").addEventListener("change", () => generatePaper());
+      $("modeInput").addEventListener("change", () => generatePaper());
       $("fontSizeInput").addEventListener("change", () => {
         document.documentElement.style.setProperty("--print-font-size", $("fontSizeInput").value);
         renderPaper();
@@ -595,6 +604,7 @@
       if (params.get("count")) $("questionCountInput").value = params.get("count");
       if (params.get("font")) $("fontSizeInput").value = params.get("font");
       if (params.get("time")) $("timeLimitInput").value = params.get("time");
+      if (params.get("mode")) $("modeInput").value = params.get("mode");
     }
 
     function applyParamsAfterDatasetLoad() {
@@ -823,9 +833,15 @@
       const count = clamp(Number($("questionCountInput").value || 40), 1, state.filtered.length);
       $("questionCountInput").value = count;
 
-      const seed = hashString(`${code}|${count}|${activeUnits().join(",")}|${activeTypes().join(",")}|${activeLevels().join(",")}|${state.set.id}`);
-      const random = seededRandom(seed);
-      const selected = selectBalancedQuestions(count, random).map((question, index) => {
+      const seed = `${code}|${count}|${activeUnits().join(",")}|${activeTypes().join(",")}|${activeLevels().join(",")}|${$("modeInput").value}|${state.set.id}`;
+      const random = QuizEngine.seededRandom(QuizEngine.hashString(seed));
+      const selected = QuizEngine.generateQuiz({
+        questions: state.filtered,
+        selectedUnits: activeUnits(),
+        totalQuestions: count,
+        mode: $("modeInput").value,
+        seed
+      }).map((question, index) => {
         const options = shuffleWithRandom([...question.options], random).slice(0, 4);
         if (!options.includes(question.correctAnswer)) {
           options[options.length - 1] = question.correctAnswer;
@@ -837,94 +853,6 @@
       state.paper = { code, count, questions: selected };
       renderPaper();
       updateUrl(code, count);
-    }
-
-    function selectBalancedQuestions(count, random) {
-      const selected = [];
-      const usedIds = new Set();
-      const usedMeaningWords = new Set();
-      const units = activeUnits();
-      const plan = allocateEvenly(count, units, random);
-
-      units.forEach((unitCode) => {
-        const need = plan.get(unitCode) || 0;
-        const pool = state.filtered.filter((question) => question.unitCode === unitCode);
-        selected.push(...pickByWordsAndTypes(pool, need, random, usedIds, usedMeaningWords));
-      });
-
-      if (selected.length < count) {
-        selected.push(...takeFallbackQuestions(state.filtered, count - selected.length, random, usedIds, usedMeaningWords));
-      }
-
-      return shuffleWithRandom(selected, random).slice(0, count);
-    }
-
-    function pickByWordsAndTypes(pool, count, random, usedIds, usedMeaningWords) {
-      const picked = [];
-      const types = activeTypes();
-      const typePlan = expandPlan(allocateEvenly(count, types, random));
-      const words = shuffleWithRandom([...new Set(pool.map((question) => question.wordId))], random);
-
-      for (const type of typePlan) {
-        if (picked.length >= count) break;
-        const word = words.find((wordId) => pool.some((question) =>
-          !usedIds.has(question.id) && question.wordId === wordId && question.type === type
-        ));
-        const fallbackWord = word || words.find((wordId) => pool.some((question) =>
-          !usedIds.has(question.id) && question.wordId === wordId
-        ));
-        if (!fallbackWord) break;
-
-        const candidates = pool.filter((question) =>
-          !usedIds.has(question.id) &&
-          question.wordId === fallbackWord &&
-          (question.type === type || !word)
-        );
-        const chosen = shuffleWithRandom(candidates, random)[0];
-        if (!chosen) continue;
-        usedIds.add(chosen.id);
-        if (chosen.type === "M") usedMeaningWords.add(chosen.wordId);
-        picked.push(chosen);
-        words.splice(words.indexOf(fallbackWord), 1);
-      }
-
-      if (picked.length < count) {
-        picked.push(...takeFallbackQuestions(pool, count - picked.length, random, usedIds, usedMeaningWords));
-      }
-
-      return picked;
-    }
-
-    function takeFallbackQuestions(pool, count, random, usedIds, usedMeaningWords) {
-      const picked = [];
-      const candidates = shuffleWithRandom(pool.filter((question) => !usedIds.has(question.id)), random);
-      for (const question of candidates) {
-        if (question.type === "M" && usedMeaningWords.has(question.wordId)) continue;
-        usedIds.add(question.id);
-        if (question.type === "M") usedMeaningWords.add(question.wordId);
-        picked.push(question);
-        if (picked.length >= count) break;
-      }
-      return picked;
-    }
-
-    function allocateEvenly(total, keys, random) {
-      const plan = new Map(keys.map((key) => [key, 0]));
-      if (!keys.length || total <= 0) return plan;
-      const base = Math.floor(total / keys.length);
-      keys.forEach((key) => plan.set(key, base));
-      shuffleWithRandom([...keys], random).slice(0, total - base * keys.length).forEach((key) => {
-        plan.set(key, (plan.get(key) || 0) + 1);
-      });
-      return plan;
-    }
-
-    function expandPlan(plan) {
-      const values = [];
-      plan.forEach((count, key) => {
-        for (let index = 0; index < count; index += 1) values.push(key);
-      });
-      return values;
     }
 
     function renderPaper() {
@@ -1106,7 +1034,11 @@
 
     function questionMeta(questionId) {
       const match = String(questionId || "").match(/_([A-Z])(\d)(\d{2})$/);
-      return { type: match?.[1] || "C", level: Number(match?.[2] || 1) };
+      return { type: normalizeQuestionType(match?.[1] || "C"), level: Number(match?.[2] || 1) };
+    }
+
+    function normalizeQuestionType(type) {
+      return type === "P" ? "S" : type;
     }
 
     function unitCodeFromId(id) {
@@ -1139,6 +1071,7 @@
       params.set("count", count);
       params.set("font", $("fontSizeInput").value);
       params.set("time", $("timeLimitInput").value);
+      params.set("mode", $("modeInput").value);
       params.set("set", $("datasetInput").value);
       params.set("units", selectedValues("printUnit").join(","));
       params.set("types", selectedValues("printType").join(","));

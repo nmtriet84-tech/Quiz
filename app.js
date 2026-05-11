@@ -16,7 +16,6 @@ let timerInterval;
 let timeLeft = 60;
 
 const QUESTIONS_PER_GAME = 20;
-const QUESTION_TYPES = ["M", "C", "P", "S"];
 const LEADERBOARD_URL = "https://script.google.com/macros/s/AKfycbxwb3BJGz73Tx8sEb-ihuI5rFmXbuFmSXmP1GfGCKulV5lrfJCNGxzbE4XDdCqTEk6yVw/exec";
 
 let currentQuizSet = null;
@@ -113,9 +112,13 @@ function unitLabelFromCode(code) {
 function questionMeta(questionId) {
     const match = questionId.match(/_([A-Z])(\d)(\d{2})$/);
     return {
-        type: match?.[1] || "C",
+        type: normalizeQuestionType(match?.[1] || "C"),
         level: Number(match?.[2] || 1)
     };
+}
+
+function normalizeQuestionType(type) {
+    return type === "P" ? "S" : type;
 }
 
 function wordIdFromQuestionId(questionId) {
@@ -289,13 +292,19 @@ function findUnitCodeByNumber(unitNumber) {
 
 document.getElementById("btn-start-game").onclick = () => {
     const selectedUnits = Array.from(document.querySelectorAll('input[name="unit"]:checked')).map(cb => cb.value);
+    const mode = document.querySelector('input[name="quiz-mode"]:checked')?.value || "normal";
 
     if (selectedUnits.length === 0) {
         alert("Vui lòng chọn ít nhất một Unit để bắt đầu!");
         return;
     }
 
-    filteredQuestions = pickBalancedQuestions(selectedUnits, QUESTIONS_PER_GAME);
+    filteredQuestions = QuizEngine.generateQuiz({
+        questions: currentQuizData,
+        selectedUnits,
+        totalQuestions: QUESTIONS_PER_GAME,
+        mode
+    });
 
     if (filteredQuestions.length < QUESTIONS_PER_GAME) {
         alert(`Không đủ câu hỏi để tạo đề ${QUESTIONS_PER_GAME} câu. Hãy chọn thêm Unit!`);
@@ -305,57 +314,6 @@ document.getElementById("btn-start-game").onclick = () => {
     selectedUnitsForGame = selectedUnits;
     startGame();
 };
-
-function pickBalancedQuestions(units, total) {
-    const selectedUnitSet = new Set(units.map(unitCodeFromLabel));
-    const pool = currentQuizData.filter(q => selectedUnitSet.has(q.unitCode));
-    const selected = [];
-    const selectedIds = new Set();
-    const selectedWords = new Set();
-    const selectedMeaningWords = new Set();
-
-    const takeQuestion = question => {
-        if (!question || selectedIds.has(question.id)) return false;
-        if (question.type === "M" && selectedMeaningWords.has(question.wordId)) return false;
-        selected.push(question);
-        selectedIds.add(question.id);
-        selectedWords.add(question.wordId);
-        if (question.type === "M") selectedMeaningWords.add(question.wordId);
-        return true;
-    };
-
-    const uniqueWordPool = shuffle(pool).filter(q => !selectedWords.has(q.wordId));
-    const perTypeTarget = Math.floor(total / QUESTION_TYPES.length);
-
-    QUESTION_TYPES.forEach(type => {
-        const typePool = uniqueWordPool.filter(q => q.type === type);
-        shuffle(units).forEach(unit => {
-            if (selected.filter(q => q.type === type).length >= perTypeTarget) return;
-            const candidate = typePool.find(q => q.unitCode === unitCodeFromLabel(unit) && !selectedWords.has(q.wordId));
-            takeQuestion(candidate);
-        });
-
-        shuffle(typePool).forEach(question => {
-            if (selected.filter(q => q.type === type).length < perTypeTarget && !selectedWords.has(question.wordId)) {
-                takeQuestion(question);
-            }
-        });
-    });
-
-    shuffle(pool).forEach(question => {
-        if (selected.length < total && !selectedWords.has(question.wordId)) {
-            takeQuestion(question);
-        }
-    });
-
-    shuffle(pool).forEach(question => {
-        if (selected.length < total) {
-            takeQuestion(question);
-        }
-    });
-
-    return shuffle(selected).slice(0, total);
-}
 
 function startGame() {
     currentQuestionIndex = 0;
@@ -455,14 +413,16 @@ function updateProgress() {
 
 function addExtraQuestions(failedQuestion) {
     const existingIds = new Set(filteredQuestions.map(q => q.id));
-    const existingMeaningWords = new Set(filteredQuestions
-        .filter(q => q.type === "M")
-        .map(q => q.wordId));
+    const existingTypeWords = {
+        M: new Set(filteredQuestions.filter(q => q.type === "M").map(q => q.wordId)),
+        S: new Set(filteredQuestions.filter(q => q.type === "S").map(q => q.wordId))
+    };
     const pool = currentQuizData.filter(q => {
         return q.unitCode === failedQuestion.unitCode
             && q.level >= failedQuestion.level
             && !existingIds.has(q.id)
-            && (q.type !== "M" || !existingMeaningWords.has(q.wordId));
+            && (q.type !== "M" || !existingTypeWords.M.has(q.wordId))
+            && (q.type !== "S" || !existingTypeWords.S.has(q.wordId));
     });
 
     const extras = shuffle(pool).slice(0, 2);

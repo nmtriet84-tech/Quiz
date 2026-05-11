@@ -2,19 +2,19 @@
   {
     "id": "English8Vocabulary",
     "title": "Từ vựng tiếng Anh 8",
-    "description": "Chinh phục 533 từ vựng trọng tâm lớp 8 qua 4.797 câu hỏi trắc nghiệm thông minh, đầy đủ ví dụ và phiên âm.",
+    "description": "Chinh ph?c 530 t? v?ng tr?ng t?m l?p 8 qua 4.705 c?u h?i tr?c nghi?m th?ng minh, ??y ?? v? d? v? ?m thanh.",
     "category": "Vocabulary",
     "icon": "📘",
     "stats": {
-      "lessons": 533,
-      "questions": 4797,
+      "lessons": 530,
+      "questions": 4705,
       "units": 12
     },
     "path": "data/English8Vocabulary"
   },
   {
     "id": "English9Vocabulary",
-    "title": "Từ vựng tiếng Anh 9",
+    "title": "Từ vựng tiếng Anh 9s",
     "description": "Chinh phục 269 từ vựng trọng tâm lớp 9 qua 2.421 câu hỏi trắc nghiệm chuyên sâu, giúp ôn thi vào 10 hiệu quả.",
     "category": "Vocabulary",
     "icon": "🎓",

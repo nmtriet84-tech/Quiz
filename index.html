@@ -38,6 +38,21 @@
 
                     <div class="setup-grid">
                         <div class="setup-item">
+                            <label>Mức đề:</label>
+                            <div class="mode-choice-group">
+                                <label class="mode-choice">
+                                    <input type="radio" name="quiz-mode" value="normal" checked>
+                                    <span>Đề thường</span>
+                                    <small>70% M, 20% C, 10% S</small>
+                                </label>
+                                <label class="mode-choice">
+                                    <input type="radio" name="quiz-mode" value="hard">
+                                    <span>Đề khó</span>
+                                    <small>20% M, 60% C, 20% S</small>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="setup-item">
                             <label>Chọn các bài học (Unit):</label>
                             <div id="unit-checkboxes" class="checkbox-group"></div>
                         </div>
@@ -132,6 +147,7 @@
         </div>
     </div>
 
-    <script src="app.js?v=3.2"></script>
+    <script src="quiz-engine.js?v=1.0"></script>
+    <script src="app.js?v=3.3"></script>
 </body>
 </html>
