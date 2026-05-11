@@ -60,8 +60,12 @@
 
                     <section class="leaderboard-panel" aria-labelledby="leaderboard-title">
                         <div class="leaderboard-heading">
-                            <h3 id="leaderboard-title">🏆 TOP 10</h3>
+                            <h3 id="leaderboard-title">🏆 TOP 10 trong tuần</h3>
                             <button id="btn-refresh-leaderboard" class="btn-mini" type="button">Làm mới</button>
+                        </div>
+                        <div class="leaderboard-tabs" role="tablist" aria-label="Chọn bảng xếp hạng">
+                            <button class="leaderboard-tab active" type="button" data-leaderboard-mode="normal">Đề thường</button>
+                            <button class="leaderboard-tab" type="button" data-leaderboard-mode="hard">Đề khó</button>
                         </div>
                         <div id="leaderboard-status" class="leaderboard-status">Đang tải bảng xếp hạng...</div>
                         <div class="leaderboard-table-wrap">

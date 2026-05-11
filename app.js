@@ -21,6 +21,8 @@ const LEADERBOARD_URL = "https://script.google.com/macros/s/AKfycbxwb3BJGz73Tx8s
 let currentQuizSet = null;
 let selectedUnitsForGame = [];
 let gameStartedAt = 0;
+let currentQuizMode = "normal";
+let currentLeaderboardMode = "normal";
 
 const slogans = [
     "Học hết mình, chơi nhiệt tình - Tự tin chinh phục tiếng Anh!",
@@ -119,6 +121,36 @@ function questionMeta(questionId) {
 
 function normalizeQuestionType(type) {
     return type === "P" ? "S" : type;
+}
+
+function modeSuffix(mode) {
+    return mode === "hard" ? "kho" : "thuong";
+}
+
+function modeLabel(mode) {
+    return mode === "hard" ? "Đề khó" : "Đề thường";
+}
+
+function leaderboardQuizId(baseQuizId, mode) {
+    return `${baseQuizId}_${modeSuffix(mode)}`;
+}
+
+function startOfCurrentWeek(date = new Date()) {
+    const start = new Date(date);
+    const day = start.getDay();
+    const diff = day === 0 ? -6 : 1 - day;
+    start.setDate(start.getDate() + diff);
+    start.setHours(0, 0, 0, 0);
+    return start;
+}
+
+function isInCurrentWeek(value) {
+    const timestamp = new Date(value);
+    if (Number.isNaN(timestamp.getTime())) return false;
+    const start = startOfCurrentWeek();
+    const end = new Date(start);
+    end.setDate(start.getDate() + 7);
+    return timestamp >= start && timestamp < end;
 }
 
 function wordIdFromQuestionId(questionId) {
@@ -238,6 +270,10 @@ function normalizeQuizData(rawData) {
 
 function setupIntroScreen(set) {
     currentQuizSet = set;
+    currentQuizMode = "normal";
+    currentLeaderboardMode = "normal";
+    document.querySelector('input[name="quiz-mode"][value="normal"]')?.click();
+    updateLeaderboardTabs();
     updateSlogan(`${userData.name} - ${set.title}`);
     document.getElementById("current-quiz-title").innerText = set.title;
     document.getElementById("current-quiz-desc").innerText = set.description;
@@ -256,7 +292,7 @@ function setupIntroScreen(set) {
     });
 
     showScreen("intro");
-    loadLeaderboard(set.id);
+    loadLeaderboard(set.id, currentLeaderboardMode);
 }
 
 function getUnitsForIntro() {
@@ -298,6 +334,8 @@ document.getElementById("btn-start-game").onclick = () => {
         alert("Vui lòng chọn ít nhất một Unit để bắt đầu!");
         return;
     }
+
+    currentQuizMode = mode;
 
     filteredQuestions = QuizEngine.generateQuiz({
         questions: currentQuizData,
@@ -462,19 +500,30 @@ function showHint(hint) {
     hintContainer.classList.remove("hidden");
 }
 
-function loadLeaderboard(quizId) {
+function updateLeaderboardTabs() {
+    document.querySelectorAll(".leaderboard-tab").forEach(tab => {
+        tab.classList.toggle("active", tab.dataset.leaderboardMode === currentLeaderboardMode);
+    });
+}
+
+function loadLeaderboard(quizId, mode = currentLeaderboardMode) {
     const status = document.getElementById("leaderboard-status");
     const body = document.getElementById("leaderboard-body");
     if (!status || !body) return;
+
+    currentLeaderboardMode = mode;
+    updateLeaderboardTabs();
 
     const params = new URLSearchParams({
         action: "top",
         quizId,
         bank: quizId,
-        limit: "10",
+        mode,
+        period: "week",
+        limit: "5000",
     });
 
-    status.innerText = "Đang tải bảng xếp hạng...";
+    status.innerText = `Đang tải TOP 10 ${modeLabel(mode).toLowerCase()} trong tuần...`;
     body.innerHTML = "";
 
     fetch(`${LEADERBOARD_URL}?${params.toString()}`, { cache: "no-store" })
@@ -489,7 +538,14 @@ function loadLeaderboard(quizId) {
 function renderLeaderboard(payload) {
     const status = document.getElementById("leaderboard-status");
     const body = document.getElementById("leaderboard-body");
-    const scores = normalizeLeaderboardRows(payload?.scores || payload?.top10 || []);
+    const targetQuizId = currentQuizSet
+        ? leaderboardQuizId(currentQuizSet.id, currentLeaderboardMode)
+        : "";
+    const scores = rankLeaderboardRows(
+        normalizeLeaderboardRows(payload?.scores || payload?.top10 || [])
+            .filter(row => row.quizId === targetQuizId)
+            .filter(row => isInCurrentWeek(row.timestamp))
+    ).slice(0, 10);
 
     body.innerHTML = "";
 
@@ -499,12 +555,12 @@ function renderLeaderboard(payload) {
     }
 
     if (scores.length === 0) {
-        status.innerText = "Chưa có điểm nào. Bạn có thể là người mở bảng!";
+        status.innerText = `Chưa có điểm ${modeLabel(currentLeaderboardMode).toLowerCase()} trong tuần này. Bạn có thể là người mở bảng!`;
         body.innerHTML = `<tr><td class="leaderboard-empty" colspan="6">Chưa có dữ liệu</td></tr>`;
         return;
     }
 
-    status.innerText = `Đang hiển thị ${scores.length} kết quả cao nhất.`;
+    status.innerText = `Đang hiển thị ${scores.length} kết quả cao nhất của ${modeLabel(currentLeaderboardMode).toLowerCase()} trong tuần.`;
     body.innerHTML = scores.map(row => `
         <tr>
             <td>${row.rank || ""}</td>
@@ -525,14 +581,45 @@ function parseLeaderboardResponse(text) {
 
 function normalizeLeaderboardRows(rows) {
     return rows.map((row, index) => ({
-        rank: row.rank ?? row["Hạng"] ?? row.hang ?? row.rankNo ?? index + 1,
-        playerName: row.playerName ?? row["Họ tên"] ?? row.name ?? row.student ?? row.ten ?? "",
-        className: row.className ?? row["Lớp"] ?? row.class ?? row.lop ?? "",
-        score: row.score ?? row["Điểm"] ?? row.point ?? row.diem ?? 0,
-        correct: row.correct ?? row["Số câu đúng"] ?? row.correctCount ?? row.dung ?? 0,
-        total: row.total ?? row["Tổng số câu"] ?? row.totalQuestions ?? row.tong ?? 0,
-        durationSeconds: row.durationSeconds ?? row["Thời gian làm bài (giây)"] ?? row.duration ?? row.time ?? 0
+        rank: row.rank ?? row.hang ?? row.rankNo ?? index + 1,
+        timestamp: row.timestamp ?? row.timeStamp ?? row.createdAt ?? "",
+        quizId: row.quizId ?? row.bank ?? "",
+        playerName: row.playerName ?? row.name ?? row.student ?? row.ten ?? "",
+        className: row.className ?? row.class ?? row.lop ?? "",
+        score: row.score ?? row.point ?? row.diem ?? 0,
+        correct: row.correct ?? row.correctCount ?? row.dung ?? 0,
+        total: row.total ?? row.totalQuestions ?? row.tong ?? 0,
+        percent: row.percent ?? row.rate ?? 0,
+        durationSeconds: row.durationSeconds ?? row.duration ?? row.time ?? 0
     }));
+}
+
+function rankLeaderboardRows(rows) {
+    const sorted = [...rows].sort((a, b) => {
+        return Number(b.score || 0) - Number(a.score || 0)
+            || Number(b.percent || 0) - Number(a.percent || 0)
+            || Number(b.correct || 0) - Number(a.correct || 0)
+            || Number(a.durationSeconds || 0) - Number(b.durationSeconds || 0)
+            || new Date(a.timestamp) - new Date(b.timestamp);
+    });
+
+    let currentRank = 0;
+    let previousKey = "";
+    return sorted.map((row, index) => {
+        const key = [
+            Number(row.score || 0),
+            Number(row.percent || 0),
+            Number(row.correct || 0),
+            Number(row.durationSeconds || 0)
+        ].join("|");
+
+        if (key !== previousKey) {
+            currentRank = index + 1;
+            previousKey = key;
+        }
+
+        return { ...row, rank: currentRank };
+    });
 }
 
 function splitPlayerInfo(value) {
@@ -564,7 +651,10 @@ function buildResultStats(finalScore) {
 
     return {
         timestamp: new Date(),
-        quizId: currentQuizSet?.id || "",
+        quizId: leaderboardQuizId(currentQuizSet?.id || "", currentQuizMode),
+        baseQuizId: currentQuizSet?.id || "",
+        quizMode: currentQuizMode,
+        quizModeLabel: modeLabel(currentQuizMode),
         quizTitle: currentQuizSet?.title || "",
         playerName: player.playerName,
         className: player.className,
@@ -585,8 +675,11 @@ function saveScore(stats) {
     const payload = new URLSearchParams({
         action: "submit",
         quizId: stats.quizId,
-        bank: stats.quizId,
-        quizTitle: stats.quizTitle,
+        bank: stats.baseQuizId,
+        baseQuizId: stats.baseQuizId,
+        mode: stats.quizMode,
+        quizMode: stats.quizMode,
+        quizTitle: `${stats.quizTitle} - ${stats.quizModeLabel}`,
         playerName: stats.playerName,
         className: stats.className,
         units: stats.units,
@@ -610,7 +703,7 @@ function saveScore(stats) {
     })
         .then(() => {
             status.innerText = "Đã gửi điểm lên bảng xếp hạng.";
-            loadLeaderboard(currentQuizSet.id);
+            loadLeaderboard(currentQuizSet.id, stats.quizMode);
         })
         .catch(err => {
             console.warn("Không gửi được điểm:", err);
@@ -718,6 +811,12 @@ document.getElementById("btn-replay").onclick = () => {
 document.getElementById("btn-refresh-leaderboard").onclick = () => {
     if (currentQuizSet) loadLeaderboard(currentQuizSet.id);
 };
+document.querySelectorAll(".leaderboard-tab").forEach(tab => {
+    tab.onclick = () => {
+        if (!currentQuizSet) return;
+        loadLeaderboard(currentQuizSet.id, tab.dataset.leaderboardMode || "normal");
+    };
+});
 document.getElementById("btn-close-summary").onclick = closeSummaryModal;
 document.getElementById("btn-summary-home").onclick = () => {
     closeSummaryModal();
