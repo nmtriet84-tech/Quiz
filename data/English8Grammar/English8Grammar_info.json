@@ -1,0 +1,15 @@
+{
+  "id": "English8Grammar",
+  "title": "Ngữ pháp Tiếng Anh 8 Global Success",
+  "description": "Ngân hàng đề ngữ pháp trọng tâm Học kỳ 1 & 2 (Unit 1 - Unit 8).",
+  "units": [
+    { "id": "e81u1", "title": "Unit 1: Free Time" },
+    { "id": "e81u2", "title": "Unit 2: Life in the Country" },
+    { "id": "e81u3", "title": "Unit 3: Protecting the Environment" },
+    { "id": "e81u4", "title": "Unit 4: Disasters" },
+    { "id": "e81u5", "title": "Unit 5: Science and Technology" },
+    { "id": "e81u6", "title": "Unit 6: Life on other Planets" },
+    { "id": "e81u7", "title": "Unit 7: Teens" },
+    { "id": "e81u8", "title": "Unit 8: Traditions of ethnic groups in Vietnam" }
+  ]
+}

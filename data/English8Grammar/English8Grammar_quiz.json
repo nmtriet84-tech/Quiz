@@ -1,0 +1,2246 @@
+[
+  {
+    "id": "e81u1_g1",
+    "hint": {
+      "word": "Verbs of preference (+ gerund)",
+      "phonetics": "Verb + V-ing / To-V",
+      "type": "Ngữ pháp Unit 1",
+      "meaning": "Dùng để nói về sở thích hoặc sự không thích. Các động từ như fancy, enjoy, detest chỉ đi với V-ing. Like, love, prefer có thể đi với cả V-ing và To-V.",
+      "example": "I fancy making origami in my free time. (Tôi thích làm đồ chơi bằng giấy khi rảnh rỗi.)"
+    },
+    "questions": [
+      {
+        "id": "e81u1_g1_M101",
+        "question": "Sau động từ 'fancy' (mê, thích), chúng ta thường sử dụng dạng động từ nào?",
+        "options": [
+          "V-ing",
+          "To-V",
+          "V-bare",
+          "V-ed"
+        ]
+      },
+      {
+        "id": "e81u1_g1_M102",
+        "question": "Các động từ nào sau đây có thể đi kèm với cả V-ing và To-V mà không đổi nghĩa nhiều?",
+        "options": [
+          "like, love, prefer",
+          "enjoy, fancy, detest",
+          "dislike, enjoy, hate",
+          "fancy, like, detest"
+        ]
+      },
+      {
+        "id": "e81u1_g1_M103",
+        "question": "Dạng phủ định của 'like + V-ing' thường được dùng nhất là gì?",
+        "options": [
+          "dislike + V-ing",
+          "no like + V-ing",
+          "like not + V-ing",
+          "not like + V-ing"
+        ]
+      },
+      {
+        "id": "e81u1_g1_C101",
+        "question": "Duy: 'Do you want to join our football club?' - Nam: 'I'd love to, but I ______ playing sports.'",
+        "options": [
+          "detest",
+          "enjoy",
+          "fancy",
+          "prefer"
+        ]
+      },
+      {
+        "id": "e81u1_g1_C201",
+        "question": "Mary: 'Why don't we go to the cinema?' - Hoa: 'I prefer ______ at home and watching TV today.'",
+        "options": [
+          "staying",
+          "to stay",
+          "stay",
+          "stayed"
+        ]
+      },
+      {
+        "id": "e81u1_g1_C301",
+        "question": "Ba: 'Do you like doing DIY?' - An: 'Yes, I adore ______ my own dollhouse.'",
+        "options": [
+          "making",
+          "making to",
+          "to make",
+          "make"
+        ]
+      },
+      {
+        "id": "e81u1_g1_C401",
+        "question": "In her free time, Lan ______ hanging out with friends to playing computer games.",
+        "options": [
+          "prefers",
+          "likes",
+          "fancies",
+          "enjoys"
+        ]
+      },
+      {
+        "id": "e81u1_g1_S251",
+        "question": "Chọn cách viết đúng chính tả của động từ 'surf' khi thêm đuôi '-ing'?",
+        "options": [
+          "surfing",
+          "surffing",
+          "surfeing",
+          "surfving"
+        ]
+      },
+      {
+        "id": "e81u1_g1_S301",
+        "question": "Cấu trúc nào dùng để diễn đạt 'thích làm việc A hơn việc B'?",
+        "options": [
+          "prefer V-ing to V-ing",
+          "prefer V-ing than V-ing",
+          "like V-ing to V-ing",
+          "fancy V-ing more V-ing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u1_g2",
+    "hint": {
+      "word": "Present Simple for future",
+      "phonetics": "S + V(s/es)",
+      "type": "Ngữ pháp Unit 1",
+      "meaning": "Diễn tả sự việc xảy ra trong tương lai theo thời gian biểu, chương trình hoặc kế hoạch đã được cố định.",
+      "example": "The train leaves at 8 a.m. tomorrow. (Chuyến tàu khởi hành lúc 8 giờ sáng mai.)"
+    },
+    "questions": [
+      {
+        "id": "e81u1_g2_M101",
+        "question": "Thì hiện tại đơn được dùng để nói về tương lai khi nào?",
+        "options": [
+          "Khi nói về thời gian biểu, chương trình cố định",
+          "Khi nói về một dự định cá nhân",
+          "Khi nói về một dự đoán không căn cứ",
+          "Khi nói về một hành động đang xảy ra"
+        ]
+      },
+      {
+        "id": "e81u1_g2_M102",
+        "question": "Công thức thì hiện tại đơn với chủ ngữ số ít (he, she, it) là gì?",
+        "options": [
+          "S + V(s/es)",
+          "S + V-ing",
+          "S + will + V",
+          "S + is/am/are + V"
+        ]
+      },
+      {
+        "id": "e81u1_g2_C101",
+        "question": "Their flight to Da Lat ________ at 6.50 a.m. tomorrow.",
+        "options": [
+          "leaves",
+          "will leave",
+          "leave",
+          "is leaving"
+        ]
+      },
+      {
+        "id": "e81u1_g2_C201",
+        "question": "What time ______ the English club start on Friday?",
+        "options": [
+          "does",
+          "will",
+          "is",
+          "do"
+        ]
+      },
+      {
+        "id": "e81u1_g2_C301",
+        "question": "The summer camp ______ on July 15th and ends on July 30th.",
+        "options": [
+          "starts",
+          "starting",
+          "is starting",
+          "started"
+        ]
+      },
+      {
+        "id": "e81u1_g2_C401",
+        "question": "Our flight ______ at 10 p.m. tonight, so we should head to the airport now.",
+        "options": [
+          "departs",
+          "depart",
+          "is departing",
+          "will depart"
+        ]
+      },
+      {
+        "id": "e81u1_g2_S101",
+        "question": "Chọn câu đúng nhất để nói về lịch thi học kỳ?",
+        "options": [
+          "The exam starts at 7:30 tomorrow.",
+          "The exam will start at 7:30 tomorrow.",
+          "The exam is starting at 7:30 tomorrow.",
+          "The exam going to start at 7:30 tomorrow."
+        ]
+      },
+      {
+        "id": "e81u1_g2_S251",
+        "question": "Cách thêm -s/es nào sau đây là đúng cho động từ 'watch'?",
+        "options": [
+          "watches",
+          "watchs",
+          "watchies",
+          "watch-es"
+        ]
+      },
+      {
+        "id": "e81u1_g2_S301",
+        "question": "Trạng từ chỉ thời gian nào sau đây thường đi cùng Hiện tại đơn mang nghĩa tương lai?",
+        "options": [
+          "at 8 p.m. tonight",
+          "just now",
+          "since yesterday",
+          "at the moment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u1_g3",
+    "hint": {
+      "word": "Prepositions of time",
+      "phonetics": "at, on, in, until",
+      "type": "Ngữ pháp Unit 1",
+      "meaning": "Sử dụng 'at' cho giờ giấc, 'on' cho thứ/ngày, 'in' cho tháng/năm/buổi. 'Until' dùng để chỉ cho đến một thời điểm nào đó.",
+      "example": "He won’t be back home until 10 p.m. (Đến 10 giờ tối anh ấy mới về nhà.)"
+    },
+    "questions": [
+      {
+        "id": "e81u1_g3_M101",
+        "question": "Giới từ nào dùng trước các thứ trong tuần (Monday, Tuesday...)?",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "until"
+        ]
+      },
+      {
+        "id": "e81u1_g3_M102",
+        "question": "Chúng ta dùng 'at' cho trường hợp nào sau đây?",
+        "options": [
+          "Giờ giấc cụ thể",
+          "Tháng trong năm",
+          "Các ngày trong tuần",
+          "Năm"
+        ]
+      },
+      {
+        "id": "e81u1_g3_C101",
+        "question": "We have English classes ________ Tuesday and Thursday.",
+        "options": [
+          "on",
+          "in",
+          "from",
+          "at"
+        ]
+      },
+      {
+        "id": "e81u1_g3_C201",
+        "question": "We usually go to the English club ______ Friday evenings.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "until"
+        ]
+      },
+      {
+        "id": "e81u1_g3_C301",
+        "question": "We won’t leave the movie theater _________ the action movie ends.",
+        "options": [
+          "until",
+          "from",
+          "to",
+          "during"
+        ]
+      },
+      {
+        "id": "e81u1_g3_C401",
+        "question": "My birthday is ______ October.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "until"
+        ]
+      },
+      {
+        "id": "e81u1_g3_S101",
+        "question": "Cụm từ nào sau đây là đúng về cách dùng giới từ?",
+        "options": [
+          "at the weekend",
+          "in Sunday",
+          "on 8 o'clock",
+          "at January"
+        ]
+      },
+      {
+        "id": "e81u1_g3_S251",
+        "question": "Điền vào chỗ trống: 'I'll wait for you ______ you finish your homework.'",
+        "options": [
+          "until",
+          "at",
+          "in",
+          "on"
+        ]
+      },
+      {
+        "id": "e81u1_g3_S301",
+        "question": "Sự khác biệt giữa 'on the weekend' và 'at the weekend' là gì?",
+        "options": [
+          "Cả hai đều đúng (Anh-Anh và Anh-Mỹ)",
+          "On dùng cho giờ, At dùng cho ngày",
+          "On chỉ dùng cho buổi sáng",
+          "At chỉ dùng cho buổi tối"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u2_g1",
+    "hint": {
+      "word": "Quantifiers",
+      "phonetics": "some, many, much, a few, a little",
+      "type": "Ngữ pháp Unit 2",
+      "meaning": "Dùng để chỉ số lượng. 'Many, a few' đi với danh từ đếm được số nhiều. 'Much, a little' đi với danh từ không đếm được. 'Some, a lot of' đi với cả hai.",
+      "example": "There are a few apples in the fridge. (Có một vài quả táo trong tủ lạnh.)"
+    },
+    "questions": [
+      {
+        "id": "e81u2_g1_M101",
+        "question": "Lượng từ nào sau đây đi với danh từ KHÔNG đếm được?",
+        "options": [
+          "a little",
+          "a few",
+          "many",
+          "several"
+        ]
+      },
+      {
+        "id": "e81u2_g1_M102",
+        "question": "Chúng ta dùng 'many' cho loại danh từ nào?",
+        "options": [
+          "Danh từ đếm được số nhiều",
+          "Danh từ không đếm được",
+          "Danh từ số ít",
+          "Tính từ"
+        ]
+      },
+      {
+        "id": "e81u2_g1_C101",
+        "question": "There weren't ________ chairs in the room, so some of us had to stand.",
+        "options": [
+          "enough",
+          "much",
+          "too much",
+          "lots"
+        ]
+      },
+      {
+        "id": "e81u2_g1_C201",
+        "question": "Having too ______ vehicles on the streets causes pollution in the city.",
+        "options": [
+          "many",
+          "much",
+          "some",
+          "any"
+        ]
+      },
+      {
+        "id": "e81u2_g1_C301",
+        "question": "I don't have ______ money left after buying the books.",
+        "options": [
+          "much",
+          "many",
+          "a few",
+          "some"
+        ]
+      },
+      {
+        "id": "e81u2_g1_C401",
+        "question": "We need ______ more information before making a decision.",
+        "options": [
+          "some",
+          "many",
+          "few",
+          "a few"
+        ]
+      },
+      {
+        "id": "e81u2_g1_S101",
+        "question": "Trong câu phủ định và nghi vấn, chúng ta thường dùng cặp lượng từ nào?",
+        "options": [
+          "much / many",
+          "some / a lot of",
+          "a little / a few",
+          "few / little"
+        ]
+      },
+      {
+        "id": "e81u2_g1_S251",
+        "question": "Chọn câu viết đúng ngữ pháp nhất?",
+        "options": [
+          "There isn't much water in the bottle.",
+          "There isn't many water in the bottle.",
+          "There are much water in the bottle.",
+          "There is many water in the bottle."
+        ]
+      },
+      {
+        "id": "e81u2_g1_S301",
+        "question": "Lượng từ 'a lot of' có thể thay thế cho từ nào trong câu khẳng định?",
+        "options": [
+          "Cả much và many",
+          "Chỉ much",
+          "Chỉ many",
+          "Chỉ a few"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u2_g2",
+    "hint": {
+      "word": "Verbs of preference (+ to-infinitives)",
+      "phonetics": "Verb + to-V",
+      "type": "Ngữ pháp Unit 2",
+      "meaning": "Dùng like, love, prefer, hate + to-V để chỉ những hoạt động cụ thể mà bản thân muốn làm. Cấu trúc 'prefer V-ing to V-ing' để so sánh sở thích.",
+      "example": "I prefer living in the countryside to living in the city. (Tôi thích sống ở nông thôn hơn là sống ở thành phố.)"
+    },
+    "questions": [
+      {
+        "id": "e81u2_g2_M101",
+        "question": "Cấu trúc 'prefer A to B' dùng để làm gì?",
+        "options": [
+          "So sánh hai sở thích",
+          "Nói về sở thích duy nhất",
+          "Nói về một kế hoạch",
+          "Nói về một thói quen xấu"
+        ]
+      },
+      {
+        "id": "e81u2_g2_M102",
+        "question": "Sau 'prefer', nếu dùng động từ để so sánh thì vế sau giới từ 'to' phải ở dạng nào?",
+        "options": [
+          "V-ing",
+          "to-V",
+          "V-bare",
+          "V-ed"
+        ]
+      },
+      {
+        "id": "e81u2_g2_C101",
+        "question": "I prefer ______ my homework early to leaving it until the last minute.",
+        "options": [
+          "doing",
+          "to do",
+          "do",
+          "done"
+        ]
+      },
+      {
+        "id": "e81u2_g2_C401",
+        "question": "My sister seldom plays badminton after work; she prefers __________ in the nearby river.",
+        "options": [
+          "to swim",
+          "swims",
+          "to swimming",
+          "swam"
+        ]
+      },
+      {
+        "id": "e81u2_g2_C301",
+        "question": "Many teenagers hate ______ up early on cold winter mornings.",
+        "options": [
+          "to get",
+          "get",
+          "getting",
+          "to getting"
+        ]
+      },
+      {
+        "id": "e81u2_g2_C401",
+        "question": "Does your father prefer ______ tea or coffee in the morning?",
+        "options": [
+          "to drink",
+          "drinking",
+          "drink",
+          "drinks"
+        ]
+      },
+      {
+        "id": "e81u2_g2_S101",
+        "question": "Rewrite: 'My sister likes watching basketball better than playing it.'",
+        "options": [
+          "My sister prefers watching basketball to playing it.",
+          "My sister prefers to watch basketball than playing it.",
+          "My sister likes watch basketball more than play it.",
+          "My sister prefers watching basketball than playing it."
+        ]
+      },
+      {
+        "id": "e81u2_g2_S251",
+        "question": "Cấu trúc 'prefer to do something' thường nhấn mạnh điều gì?",
+        "options": [
+          "Lựa chọn cụ thể trong một tình huống",
+          "Sở thích chung chung",
+          "Thói quen hàng ngày",
+          "Sự việc trong quá khứ"
+        ]
+      },
+      {
+        "id": "e81u2_g2_S301",
+        "question": "Từ trái nghĩa của 'love to-V' trong ngữ cảnh bài này là gì?",
+        "options": [
+          "hate to-V",
+          "dislike to-V",
+          "enjoy to-V",
+          "fancy to-V"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u2_g3",
+    "hint": {
+      "word": "Adverbs of frequency",
+      "phonetics": "always, usually, often, sometimes...",
+      "type": "Ngữ pháp Unit 2",
+      "meaning": "Dùng để nói về mức độ thường xuyên. Đứng trước động từ thường, đứng sau động từ to be hoặc trợ động từ.",
+      "example": "He usually gets up at 6 a.m. (Anh ấy thường thức dậy lúc 6 giờ sáng.)"
+    },
+    "questions": [
+      {
+        "id": "e81u2_g3_M101",
+        "question": "Vị trí của trạng từ chỉ tần suất đối với động từ thường là gì?",
+        "options": [
+          "Đứng trước động từ thường",
+          "Đứng sau động từ thường",
+          "Đứng cuối câu",
+          "Đứng đầu câu luôn luôn"
+        ]
+      },
+      {
+        "id": "e81u2_g3_M102",
+        "question": "Trạng từ nào có nghĩa là 'không bao giờ'?",
+        "options": [
+          "never",
+          "rarely",
+          "seldom",
+          "often"
+        ]
+      },
+      {
+        "id": "e81u2_g3_C101",
+        "question": "I ______ my teeth before going to bed.",
+        "options": [
+          "always brush",
+          "brush always",
+          "always brushes",
+          "am always brush"
+        ]
+      },
+      {
+        "id": "e81u2_g3_C201",
+        "question": "She is ______ late for school because she lives very near.",
+        "options": [
+          "never",
+          "always",
+          "often",
+          "usually"
+        ]
+      },
+      {
+        "id": "e81u2_g3_C301",
+        "question": "Do you ______ go to the library on Sundays?",
+        "options": [
+          "often",
+          "never",
+          "rarely",
+          "seldom"
+        ]
+      },
+      {
+        "id": "e81u2_g3_C401",
+        "question": "They ______ watch TV in the afternoon; they prefer playing outside.",
+        "options": [
+          "seldom",
+          "always",
+          "usually",
+          "often"
+        ]
+      },
+      {
+        "id": "e81u2_g3_S101",
+        "question": "Trạng từ nào sau đây KHÔNG thường dùng trong câu phủ định?",
+        "options": [
+          "sometimes / rarely",
+          "always",
+          "often",
+          "usually"
+        ]
+      },
+      {
+        "id": "e81u2_g3_S251",
+        "question": "Chọn câu đúng vị trí trạng từ với động từ 'to be'?",
+        "options": [
+          "He is always happy.",
+          "He always is happy.",
+          "He is happy always.",
+          "Always he is happy."
+        ]
+      },
+      {
+        "id": "e81u2_g3_S301",
+        "question": "Cặp từ nào có nghĩa tương đương với 'không thường xuyên'?",
+        "options": [
+          "rarely / seldom",
+          "often / usually",
+          "always / never",
+          "sometimes / often"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u3_g1",
+    "hint": {
+      "word": "First Conditional",
+      "phonetics": "If + S + V(s/es), S + will + V",
+      "type": "Ngữ pháp Unit 3",
+      "meaning": "Diễn tả sự việc có thể xảy ra ở hiện tại hoặc tương lai. Dùng Unless thay cho If...not.",
+      "example": "If we recycle more, we will help the environment. (Nếu chúng ta tái chế nhiều hơn, chúng ta sẽ giúp ích cho môi trường.)"
+    },
+    "questions": [
+      {
+        "id": "e81u3_g1_M101",
+        "question": "Câu điều kiện loại 1 dùng để diễn tả điều gì?",
+        "options": [
+          "Sự việc có thể xảy ra ở hiện tại hoặc tương lai",
+          "Sự việc trái với thực tế ở hiện tại",
+          "Sự việc đã xảy ra trong quá khứ",
+          "Một thói quen trong quá khứ"
+        ]
+      },
+      {
+        "id": "e81u3_g1_M102",
+        "question": "Từ nào có thể dùng thay thế cho 'If ... not'?",
+        "options": [
+          "Unless",
+          "Because",
+          "When",
+          "So"
+        ]
+      },
+      {
+        "id": "e81u3_g1_C101",
+        "question": "She won't pass the exam if she ______ hard.",
+        "options": [
+          "doesn't study",
+          "studies",
+          "will study",
+          "won't study"
+        ]
+      },
+      {
+        "id": "e81u3_g1_C201",
+        "question": "We will save a lot of money ______ we turn off the lights when leaving.",
+        "options": [
+          "if",
+          "unless",
+          "but",
+          "so"
+        ]
+      },
+      {
+        "id": "e81u3_g1_C301",
+        "question": "______ we stop burning trash, the air will be polluted.",
+        "options": [
+          "Unless",
+          "If",
+          "When",
+          "Since"
+        ]
+      },
+      {
+        "id": "e81u3_g1_C401",
+        "question": "If you want to protect the environment, you ______ waste water.",
+        "options": [
+          "shouldn't",
+          "will",
+          "can",
+          "should"
+        ]
+      },
+      {
+        "id": "e81u3_g1_S101",
+        "question": "Chọn câu đúng nhất về vị trí dấu phẩy?",
+        "options": [
+          "If it rains, we will stay at home.",
+          "If it rains we will stay at home.",
+          "We will stay at home, if it rains.",
+          "We, stay at home if it rains."
+        ]
+      },
+      {
+        "id": "e81u3_g1_S251",
+        "question": "Khi nào dùng 'when' thay cho 'if' trong câu điều kiện?",
+        "options": [
+          "Khi sự việc chắc chắn sẽ xảy ra",
+          "Khi sự việc không chắc chắn",
+          "Khi nói về quá khứ",
+          "Khi nói về khả năng thấp"
+        ]
+      },
+      {
+        "id": "e81u3_g1_S301",
+        "question": "Nếu khả năng xảy ra của sự việc rất thấp, ta dùng từ gì thay cho 'will'?",
+        "options": [
+          "might",
+          "must",
+          "should",
+          "can"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u3_g2",
+    "hint": {
+      "word": "Compound sentences (and)",
+      "phonetics": "Clause 1, and Clause 2",
+      "type": "Ngữ pháp Unit 3",
+      "meaning": "Câu ghép có tối thiểu hai mệnh đề độc lập nối với nhau bởi liên từ 'and' để thêm thông tin.",
+      "example": "We should recycle bottles, and we should plant trees. (Chúng ta nên tái chế chai lọ và chúng ta nên trồng cây.)"
+    },
+    "questions": [
+      {
+        "id": "e81u3_g2_M101",
+        "question": "Liên từ 'and' trong câu ghép dùng để làm gì?",
+        "options": [
+          "Thêm thông tin",
+          "Chỉ sự đối lập",
+          "Chỉ sự lựa chọn",
+          "Chỉ kết quả"
+        ]
+      },
+      {
+        "id": "e81u3_g2_M102",
+        "question": "Trước liên từ 'and' trong câu ghép thường có dấu gì?",
+        "options": [
+          "Dấu phẩy",
+          "Dấu chấm",
+          "Dấu chấm phẩy",
+          "Không có dấu gì"
+        ]
+      },
+      {
+        "id": "e81u3_g2_C101",
+        "question": "We should save electricity, ______ we shouldn't waste water.",
+        "options": [
+          "and",
+          "but",
+          "or",
+          "so"
+        ]
+      },
+      {
+        "id": "e81u3_g2_C201",
+        "question": "The air is polluted, ______ the water is dirty too.",
+        "options": [
+          "and",
+          "so",
+          "yet",
+          "for"
+        ]
+      },
+      {
+        "id": "e81u3_g2_C301",
+        "question": "You can pick up trash in the park, ______ you can join the green club.",
+        "options": [
+          "and",
+          "but",
+          "nor",
+          "yet"
+        ]
+      },
+      {
+        "id": "e81u3_g2_C401",
+        "question": "Planting trees helps the environment, ______ it makes our city look better.",
+        "options": [
+          "and",
+          "so",
+          "but",
+          "or"
+        ]
+      },
+      {
+        "id": "e81u3_g2_S101",
+        "question": "Câu nào sau đây là câu ghép chuẩn ngữ pháp?",
+        "options": [
+          "We should recycle, and we should reuse.",
+          "We should recycle and reuse.",
+          "We should recycle, we should reuse.",
+          "We should recycle; and reuse."
+        ]
+      },
+      {
+        "id": "e81u3_g2_S251",
+        "question": "Từ nào nằm trong nhóm liên từ FANBOYS?",
+        "options": [
+          "and",
+          "because",
+          "although",
+          "while"
+        ]
+      },
+      {
+        "id": "e81u3_g2_S301",
+        "question": "Tại sao cần dấu phẩy trước 'and' trong câu ghép?",
+        "options": [
+          "Để ngăn cách hai mệnh đề độc lập",
+          "Để nhấn mạnh vế sau",
+          "Để kết thúc câu",
+          "Để thay thế dấu chấm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u3_g3",
+    "hint": {
+      "word": "Complex sentences (so that)",
+      "phonetics": "Clause 1 + so (that) + Clause 2",
+      "type": "Ngữ pháp Unit 3",
+      "meaning": "Dùng để nói về mục đích của một hành động. Không có dấu phẩy trước 'so (that)'.",
+      "example": "We should clean our house so that we can work effectively. (Chúng ta nên dọn dẹp nhà thường xuyên để có thể làm việc hiệu quả.)"
+    },
+    "questions": [
+      {
+        "id": "e81u3_g3_M101",
+        "question": "Cấu trúc 'so (that)' dùng để chỉ điều gì?",
+        "options": [
+          "Mục đích",
+          "Kết quả",
+          "Nguyên nhân",
+          "Sự đối lập"
+        ]
+      },
+      {
+        "id": "e81u3_g3_M102",
+        "question": "Có dùng dấu phẩy trước 'so (that)' chỉ mục đích không?",
+        "options": [
+          "Không bao giờ",
+          "Có",
+          "Tùy trường hợp",
+          "Chỉ khi câu dài"
+        ]
+      },
+      {
+        "id": "e81u3_g3_C101",
+        "question": "People shouldn’t use plastic bags _________ they can reduce land pollution.",
+        "options": [
+          "so that",
+          "but",
+          "that",
+          "although"
+        ]
+      },
+      {
+        "id": "e81u3_g3_C201",
+        "question": "Turn off the tap ______ you don't waste water.",
+        "options": [
+          "so that",
+          "so",
+          "and",
+          "but"
+        ]
+      },
+      {
+        "id": "e81u3_g3_C301",
+        "question": "Water pollution is serious, ______ we shouldn't throw trash into rivers.",
+        "options": [
+          "so",
+          "so that",
+          "because",
+          "and"
+        ]
+      },
+      {
+        "id": "e81u3_g3_C401",
+        "question": "We need to recycle more ______ we can protect natural resources.",
+        "options": [
+          "so that",
+          "in order to",
+          "because",
+          "so"
+        ]
+      },
+      {
+        "id": "e81u3_g3_S101",
+        "question": "Sự khác biệt giữa 'so' và 'so that' trong bài này là gì?",
+        "options": [
+          "'so' chỉ kết quả (có dấu phẩy), 'so that' chỉ mục đích (không dấu phẩy)",
+          "'so' chỉ mục đích, 'so that' chỉ kết quả",
+          "Cả hai đều chỉ mục đích",
+          "Cả hai đều chỉ kết quả"
+        ]
+      },
+      {
+        "id": "e81u3_g3_S251",
+        "question": "Điền vào chỗ trống: 'I study hard ______ I can pass the exam.'",
+        "options": [
+          "so that",
+          "so",
+          "because",
+          "but"
+        ]
+      },
+      {
+        "id": "e81u3_g3_S301",
+        "question": "Chọn câu viết đúng mục đích?",
+        "options": [
+          "She saves money so that she can buy a new bike.",
+          "She saves money, so that she can buy a new bike.",
+          "She saves money, so she can buy a new bike.",
+          "She saves money so she can buy a new bike."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u4_g1",
+    "hint": {
+      "word": "Wh-questions",
+      "phonetics": "Wh-word + aux + S + V?",
+      "type": "Ngữ pháp Unit 4",
+      "meaning": "Sử dụng để hỏi về thông tin chi tiết. Các từ để hỏi: What, Where, When, Why, Who, How...",
+      "example": "Where did the earthquake happen? (Trận động đất đã xảy ra ở đâu?)"
+    },
+    "questions": [
+      {
+        "id": "e81u4_g1_M101",
+        "question": "Từ để hỏi nào dùng để hỏi về vị trí, địa điểm?",
+        "options": [
+          "Where",
+          "When",
+          "Why",
+          "Who"
+        ]
+      },
+      {
+        "id": "e81u4_g1_M102",
+        "question": "Từ 'How long' dùng để hỏi về điều gì?",
+        "options": [
+          "Khoảng thời gian",
+          "Khoảng cách",
+          "Cách thức",
+          "Lý do"
+        ]
+      },
+      {
+        "id": "e81u4_g1_C101",
+        "question": "“_____ damage did the blizzard cause?”",
+        "options": [
+          "How much",
+          "How many",
+          "How long",
+          "How wide"
+        ]
+      },
+      {
+        "id": "e81u4_g1_C201",
+        "question": "______ causes tsunamis? - Underwater earthquakes.",
+        "options": [
+          "What",
+          "Who",
+          "How",
+          "Where"
+        ]
+      },
+      {
+        "id": "e81u4_g1_C301",
+        "question": "______ can we protect ourselves from a storm?",
+        "options": [
+          "How",
+          "What",
+          "Who",
+          "Why"
+        ]
+      },
+      {
+        "id": "e81u4_g1_C401",
+        "question": "______ was the volcano eruption so dangerous?",
+        "options": [
+          "Why",
+          "What",
+          "When",
+          "Who"
+        ]
+      },
+      {
+        "id": "e81u4_g1_S101",
+        "question": "Chọn cấu trúc câu hỏi đúng?",
+        "options": [
+          "When did the storm start?",
+          "When the storm started?",
+          "When did the storm started?",
+          "When starting the storm?"
+        ]
+      },
+      {
+        "id": "e81u4_g1_S251",
+        "question": "Cặp từ để hỏi nào dùng cho 'số lượng'?",
+        "options": [
+          "How many / How much",
+          "How long / How far",
+          "What / Which",
+          "Who / Whom"
+        ]
+      },
+      {
+        "id": "e81u4_g1_S301",
+        "question": "Khi hỏi về chủ ngữ của câu (ai làm việc đó), cấu trúc là gì?",
+        "options": [
+          "Who + V + O?",
+          "Who + did + S + V?",
+          "Who + is + S + V?",
+          "Who + V-ing + O?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u4_g2",
+    "hint": {
+      "word": "Prepositions of place",
+      "phonetics": "in, on, at, opposite, in front of",
+      "type": "Ngữ pháp Unit 4",
+      "meaning": "Dùng để nói về vị trí. Phân biệt 'in front of' (trước/sau) và 'opposite' (đối diện, bị ngăn cách bởi vật khác).",
+      "example": "The hospital is opposite the park. (Bệnh viện đối diện với công viên.)"
+    },
+    "questions": [
+      {
+        "id": "e81u4_g2_M101",
+        "question": "Dùng từ nào khi hai sự vật đối diện và bị ngăn cách bởi một con đường?",
+        "options": [
+          "opposite",
+          "in front of",
+          "behind",
+          "under"
+        ]
+      },
+      {
+        "id": "e81u4_g2_M102",
+        "question": "Giới từ nào dùng để chỉ vị trí bên trong một không gian?",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "above"
+        ]
+      },
+      {
+        "id": "e81u4_g2_C101",
+        "question": "In case of an earthquake, hide _____ a hard object like a table or bed.",
+        "options": [
+          "under",
+          "above",
+          "inside",
+          "near"
+        ]
+      },
+      {
+        "id": "e81u4_g2_C201",
+        "question": "There is a big tree ______ of my school.",
+        "options": [
+          "in front",
+          "opposite",
+          "behind",
+          "beside"
+        ]
+      },
+      {
+        "id": "e81u4_g2_C301",
+        "question": "The cat is hiding ______ the table.",
+        "options": [
+          "under",
+          "on",
+          "at",
+          "between"
+        ]
+      },
+      {
+        "id": "e81u4_g2_C401",
+        "question": "We live ______ the second floor of this building.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ]
+      },
+      {
+        "id": "e81u4_g2_S101",
+        "question": "Cách phát âm giới từ 'to' trước phụ âm là gì?",
+        "options": [
+          "/tə/",
+          "/tu/",
+          "/tʊ/",
+          "/ti/"
+        ]
+      },
+      {
+        "id": "e81u4_g2_S251",
+        "question": "Điền giới từ: 'The car is parked ______ the garage.'",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "to"
+        ]
+      },
+      {
+        "id": "e81u4_g2_S301",
+        "question": "Cụm từ 'next to' có nghĩa là gì?",
+        "options": [
+          "bên cạnh",
+          "đối diện",
+          "phía trước",
+          "phía sau"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u4_g3",
+    "hint": {
+      "word": "Prepositions of movement",
+      "phonetics": "into, out of, through, along, across",
+      "type": "Ngữ pháp Unit 4",
+      "meaning": "Dùng để chỉ sự di chuyển từ nơi này sang nơi khác.",
+      "example": "They walked across the bridge. (Họ đã đi bộ băng qua cây cầu.)"
+    },
+    "questions": [
+      {
+        "id": "e81u4_g3_M101",
+        "question": "Giới từ nào dùng để chỉ hành động băng qua (đường, cầu)?",
+        "options": [
+          "across",
+          "along",
+          "into",
+          "through"
+        ]
+      },
+      {
+        "id": "e81u4_g3_M102",
+        "question": "Dùng từ nào khi di chuyển dọc theo một con đường?",
+        "options": [
+          "along",
+          "across",
+          "out of",
+          "into"
+        ]
+      },
+      {
+        "id": "e81u4_g3_C101",
+        "question": "The students ran ______ the classroom when the bell rang.",
+        "options": [
+          "out of",
+          "into",
+          "along",
+          "through"
+        ]
+      },
+      {
+        "id": "e81u4_g3_C201",
+        "question": "People living near the beach should move _____ a safe place before a typhoon hits.",
+        "options": [
+          "to",
+          "near",
+          "outside",
+          "up"
+        ]
+      },
+      {
+        "id": "e81u4_g3_C301",
+        "question": "She poured some water ______ the glass.",
+        "options": [
+          "into",
+          "out of",
+          "along",
+          "across"
+        ]
+      },
+      {
+        "id": "e81u4_g3_C401",
+        "question": "We should walk ______ the path to stay safe.",
+        "options": [
+          "along",
+          "across",
+          "through",
+          "into"
+        ]
+      },
+      {
+        "id": "e81u4_g3_S101",
+        "question": "Giới từ 'through' thường dùng cho không gian nào?",
+        "options": [
+          "Không gian xuyên thấu (đường hầm, cửa sổ)",
+          "Không gian bề mặt (mặt đất)",
+          "Không gian hẹp",
+          "Không gian cao"
+        ]
+      },
+      {
+        "id": "e81u4_g3_S251",
+        "question": "Điền giới từ: 'The boy jumped ______ the swimming pool.'",
+        "options": [
+          "into",
+          "across",
+          "along",
+          "through"
+        ]
+      },
+      {
+        "id": "e81u4_g3_S301",
+        "question": "Sự khác biệt giữa 'in' và 'into' là gì?",
+        "options": [
+          "In chỉ vị trí, Into chỉ sự chuyển động vào trong",
+          "In chỉ sự chuyển động, Into chỉ vị trí",
+          "Cả hai giống hệt nhau",
+          "Into chỉ dùng cho chất lỏng"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u5_g1",
+    "hint": {
+      "word": "Wh-questions and Yes/No questions",
+      "phonetics": "Aux + S + V?",
+      "type": "Ngữ pháp Unit 5",
+      "meaning": "Dùng để hỏi thông tin (Wh-) hoặc xác nhận đúng/sai (Yes/No).",
+      "example": "Did you enjoy the science fair? - Yes, I did. (Bạn có thích hội chợ khoa học không? - Có, mình có.)"
+    },
+    "questions": [
+      {
+        "id": "e81u5_g1_M101",
+        "question": "Câu hỏi Yes/No bắt đầu bằng gì?",
+        "options": [
+          "Trợ động từ (do, does, did, is, are...)",
+          "Từ để hỏi (What, Where...)",
+          "Chủ ngữ",
+          "Động từ chính"
+        ]
+      },
+      {
+        "id": "e81u5_g1_M102",
+        "question": "Từ để hỏi nào dùng để hỏi về 'lý do'?",
+        "options": [
+          "Why",
+          "When",
+          "Which",
+          "Who"
+        ]
+      },
+      {
+        "id": "e81u5_g1_C101",
+        "question": "______ you ever seen a robot at home? - No, I haven't.",
+        "options": [
+          "Have",
+          "Do",
+          "Did",
+          "Are"
+        ]
+      },
+      {
+        "id": "e81u5_g1_C201",
+        "question": "______ invented the telephone? - Alexander Graham Bell.",
+        "options": [
+          "Who",
+          "What",
+          "Which",
+          "Whom"
+        ]
+      },
+      {
+        "id": "e81u5_g1_C301",
+        "question": "______ is your favorite scientist? - It's Isaac Newton.",
+        "options": [
+          "Who",
+          "Why",
+          "When",
+          "How"
+        ]
+      },
+      {
+        "id": "e81u5_g1_C401",
+        "question": "______ did they use computers in the 1960s? - For big calculations.",
+        "options": [
+          "What",
+          "How",
+          "Why",
+          "Where"
+        ]
+      },
+      {
+        "id": "e81u5_g1_S101",
+        "question": "Chọn câu trả lời ngắn đúng cho 'Does she use a laptop?'",
+        "options": [
+          "Yes, she does.",
+          "Yes, she use.",
+          "Yes, she is.",
+          "No, she don't."
+        ]
+      },
+      {
+        "id": "e81u5_g1_S251",
+        "question": "Cấu trúc đúng của câu hỏi Wh- với động từ thường ở quá khứ?",
+        "options": [
+          "Wh- + did + S + V-bare?",
+          "Wh- + did + S + V-ed?",
+          "Wh- + was + S + V?",
+          "Wh- + S + did + V?"
+        ]
+      },
+      {
+        "id": "e81u5_g1_S301",
+        "question": "Câu nào sau đây là câu hỏi xác nhận thông tin?",
+        "options": [
+          "Are you a scientist?",
+          "What do you do?",
+          "Where do you work?",
+          "How are you?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u5_g2",
+    "hint": {
+      "word": "Comparative adverbs",
+      "phonetics": "more + long adv / short adv + er",
+      "type": "Ngữ pháp Unit 5",
+      "meaning": "Dùng để so sánh hai hành động. Trạng từ ngắn thêm -er, trạng từ dài dùng more.",
+      "example": "He runs faster than me. (Anh ấy chạy nhanh hơn tôi.)"
+    },
+    "questions": [
+      {
+        "id": "e81u5_g2_M101",
+        "question": "Trạng từ dài (2 âm tiết trở lên) khi so sánh hơn dùng cấu trúc nào?",
+        "options": [
+          "more + adv + than",
+          "adv-er + than",
+          "adv-est + than",
+          "most + adv + than"
+        ]
+      },
+      {
+        "id": "e81u5_g2_M102",
+        "question": "Trạng từ 'fast' khi sang so sánh hơn là gì?",
+        "options": [
+          "faster",
+          "more fast",
+          "fastly",
+          "more fastly"
+        ]
+      },
+      {
+        "id": "e81u5_g2_C101",
+        "question": "Robots can search for people after earthquakes ______________ than humans can.",
+        "options": [
+          "faster",
+          "slowly",
+          "slower",
+          "quickly"
+        ]
+      },
+      {
+        "id": "e81u5_g2_C201",
+        "question": "If we check our tests ______________ carefully, we can get higher scores.",
+        "options": [
+          "more",
+          "much",
+          "a lot",
+          "well"
+        ]
+      },
+      {
+        "id": "e81u5_g2_C301",
+        "question": "My mom cleans the floor ______________ than a vacuum cleaner.",
+        "options": [
+          "more slowly",
+          "more fastly",
+          "slowlier",
+          "more faster"
+        ]
+      },
+      {
+        "id": "e81u5_g2_C401",
+        "question": "He designed the robot ______ than his teammate.",
+        "options": [
+          "more carefully",
+          "carefully",
+          "carefullier",
+          "more careful"
+        ]
+      },
+      {
+        "id": "e81u5_g2_S101",
+        "question": "Chọn trạng từ so sánh hơn bất quy tắc của 'well'?",
+        "options": [
+          "better",
+          "gooder",
+          "more well",
+          "best"
+        ]
+      },
+      {
+        "id": "e81u5_g2_S251",
+        "question": "Trạng từ so sánh hơn của 'hard' là gì?",
+        "options": [
+          "harder",
+          "more hard",
+          "hardly",
+          "more hardly"
+        ]
+      },
+      {
+        "id": "e81u5_g2_S301",
+        "question": "Cấu trúc so sánh hơn của trạng từ có 2 âm tiết kết thúc bằng 'y' (ví dụ: early) là gì?",
+        "options": [
+          "earlier",
+          "more early",
+          "more earlier",
+          "earlyer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u6_g1",
+    "hint": {
+      "word": "Past Continuous and Past Simple",
+      "phonetics": "was/were + V-ing vs V2/ed",
+      "type": "Ngữ pháp Unit 6",
+      "meaning": "Quá khứ tiếp diễn (hành động đang xảy ra) bị cắt ngang bởi Quá khứ đơn. Dùng when/while để nối.",
+      "example": "While I was studying, the light went out. (Trong lúc tôi đang học thì đèn tắt.)"
+    },
+    "questions": [
+      {
+        "id": "e81u6_g1_M101",
+        "question": "Thì quá khứ tiếp diễn dùng để làm gì?",
+        "options": [
+          "Diễn tả hành động đang xảy ra tại một thời điểm xác định trong quá khứ",
+          "Diễn tả hành động đã kết thúc hoàn toàn",
+          "Diễn tả hành động lặp lại hàng ngày",
+          "Diễn tả một sự thật hiển nhiên"
+        ]
+      },
+      {
+        "id": "e81u6_g1_M102",
+        "question": "Từ nối 'while' thường đi kèm với thì nào?",
+        "options": [
+          "Quá khứ tiếp diễn",
+          "Quá khứ đơn",
+          "Hiện tại đơn",
+          "Tương lai đơn"
+        ]
+      },
+      {
+        "id": "e81u6_g1_C101",
+        "question": "The farmer ______________ in the field when he saw a UFO.",
+        "options": [
+          "was working",
+          "is working",
+          "worked",
+          "works"
+        ]
+      },
+      {
+        "id": "e81u6_g1_C201",
+        "question": "They ______ dinner when we arrived.",
+        "options": [
+          "were having",
+          "had",
+          "have",
+          "are having"
+        ]
+      },
+      {
+        "id": "e81u6_g1_C301",
+        "question": "While the scientists ______ for life on Mars, they found some ice.",
+        "options": [
+          "were looking",
+          "looked",
+          "look",
+          "are looking"
+        ]
+      },
+      {
+        "id": "e81u6_g1_C401",
+        "question": "What ______ at 9 p.m. last night?",
+        "options": [
+          "were you doing",
+          "did you do",
+          "are you doing",
+          "do you do"
+        ]
+      },
+      {
+        "id": "e81u6_g1_S101",
+        "question": "Chọn câu đúng kết hợp cả hai thì?",
+        "options": [
+          "When I was walking, I saw a UFO.",
+          "When I was walking, I was seeing a UFO.",
+          "When I walked, I was seeing a UFO.",
+          "While I walked, I see a UFO."
+        ]
+      },
+      {
+        "id": "e81u6_g1_S251",
+        "question": "Chia động từ 'not study' ở quá khứ tiếp diễn cho chủ ngữ 'They'?",
+        "options": [
+          "were not studying",
+          "was not studying",
+          "did not study",
+          "not studying"
+        ]
+      },
+      {
+        "id": "e81u6_g1_S301",
+        "question": "Cụm từ 'at this time yesterday' là dấu hiệu của thì nào?",
+        "options": [
+          "Quá khứ tiếp diễn",
+          "Quá khứ đơn",
+          "Hiện tại hoàn thành",
+          "Tương lai đơn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u6_g2",
+    "hint": {
+      "word": "will – be going to – Future forms",
+      "phonetics": "will vs be going to vs Present Continuous",
+      "type": "Ngữ pháp Unit 6",
+      "meaning": "Will: quyết định ngay lúc nói, dự đoán không căn cứ. Be going to: kế hoạch sẵn, dự đoán có căn cứ. Present Continuous: lịch trình cá nhân chắc chắn.",
+      "example": "I'm meeting my friend tomorrow. (Mình sẽ gặp bạn mình vào ngày mai.)"
+    },
+    "questions": [
+      {
+        "id": "e81u6_g2_M101",
+        "question": "Dùng 'be going to' khi nào?",
+        "options": [
+          "Khi có dự định từ trước hoặc có căn cứ",
+          "Khi quyết định ngay lúc nói",
+          "Khi nói về một thói quen",
+          "Khi nói về quá khứ"
+        ]
+      },
+      {
+        "id": "e81u6_g2_M102",
+        "question": "Cấu trúc 'will' thường đi với các từ nào để chỉ dự đoán?",
+        "options": [
+          "think, hope, perhaps",
+          "already, just",
+          "every day",
+          "since, for"
+        ]
+      },
+      {
+        "id": "e81u6_g2_C101",
+        "question": "I think she is sick. She ______________ to school tomorrow.",
+        "options": [
+          "won't go",
+          "will go",
+          "is going",
+          "doesn't go"
+        ]
+      },
+      {
+        "id": "e81u6_g2_C201",
+        "question": "I ______ my dentist at 3 p.m. this afternoon. I've already booked.",
+        "options": [
+          "am seeing",
+          "will see",
+          "see",
+          "am going to see"
+        ]
+      },
+      {
+        "id": "e81u6_g2_C301",
+        "question": "Oh, we ran out of sugar. - I ______ some now.",
+        "options": [
+          "will buy",
+          "am going to buy",
+          "am buying",
+          "buy"
+        ]
+      },
+      {
+        "id": "e81u6_g2_C401",
+        "question": "I ______ a trip to Japan next summer. I've saved enough money.",
+        "options": [
+          "am going to take",
+          "will take",
+          "take",
+          "am taking"
+        ]
+      },
+      {
+        "id": "e81u6_g2_S101",
+        "question": "Chọn câu đúng nhất cho một quyết định đột xuất?",
+        "options": [
+          "I'll help you with that bag.",
+          "I'm going to help you with that bag.",
+          "I help you with that bag.",
+          "I helping you with that bag."
+        ]
+      },
+      {
+        "id": "e81u6_g2_S251",
+        "question": "Cấu trúc phủ định của 'be going to'?",
+        "options": [
+          "S + be + not + going to + V",
+          "S + not + going to + V",
+          "S + be + going to + not + V",
+          "S + won't + going to + V"
+        ]
+      },
+      {
+        "id": "e81u6_g2_S301",
+        "question": "Từ 'will' trong câu nghi vấn dùng để làm gì ngoài việc chỉ tương lai?",
+        "options": [
+          "Yêu cầu hoặc đề nghị",
+          "Hỏi ý kiến về quá khứ",
+          "Nói về sở thích",
+          "Hỏi về vị trí"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u7_g1",
+    "hint": {
+      "word": "Possessive pronouns",
+      "phonetics": "mine, yours, his, hers, ours, theirs",
+      "type": "Ngữ pháp Unit 7",
+      "meaning": "Dùng để thay thế cho tính từ sở hữu + danh từ để tránh lặp từ.",
+      "example": "This is my book, and that one is yours. (Đây là sách của mình, còn cái kia là của bạn.)"
+    },
+    "questions": [
+      {
+        "id": "e81u7_g1_M101",
+        "question": "Đại từ sở hữu thay thế cho cụm từ nào?",
+        "options": [
+          "Tính từ sở hữu + Danh từ",
+          "Chủ ngữ",
+          "Tân ngữ",
+          "Trạng từ"
+        ]
+      },
+      {
+        "id": "e81u7_g1_M102",
+        "question": "Đại từ sở hữu của 'we' là gì?",
+        "options": [
+          "ours",
+          "our",
+          "us",
+          "ourselves"
+        ]
+      },
+      {
+        "id": "e81u7_g1_C101",
+        "question": "Your car is faster than ______. I should buy a new one.",
+        "options": [
+          "mine",
+          "my",
+          "me",
+          "I"
+        ]
+      },
+      {
+        "id": "e81u7_g1_C201",
+        "question": "Our house is bigger, but ______________ has a swimming pool.",
+        "options": [
+          "theirs",
+          "they",
+          "their",
+          "there"
+        ]
+      },
+      {
+        "id": "e81u7_g1_C301",
+        "question": "This pen belongs to her. It is ______.",
+        "options": [
+          "hers",
+          "her",
+          "she",
+          "his"
+        ]
+      },
+      {
+        "id": "e81u7_g1_C401",
+        "question": "We have our own problems, and you have ______.",
+        "options": [
+          "yours",
+          "your",
+          "you",
+          "yourselves"
+        ]
+      },
+      {
+        "id": "e81u7_g1_S101",
+        "question": "Có bao giờ dùng danh từ ngay sau đại từ sở hữu không?",
+        "options": [
+          "Không bao giờ",
+          "Có",
+          "Chỉ trong văn viết",
+          "Chỉ khi nhấn mạnh"
+        ]
+      },
+      {
+        "id": "e81u7_g1_S251",
+        "question": "Đại từ sở hữu của 'it' là gì?",
+        "options": [
+          "its (không có dấu nháy)",
+          "it's",
+          "it",
+          "its'"
+        ]
+      },
+      {
+        "id": "e81u7_g1_S301",
+        "question": "Chọn câu viết đúng ngữ pháp?",
+        "options": [
+          "The laptop is mine.",
+          "The laptop is my.",
+          "The laptop is me.",
+          "Mine is the laptop."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u7_g2",
+    "hint": {
+      "word": "Reported speech for statements",
+      "phonetics": "S + said (that) + S + V(backshifted)",
+      "type": "Ngữ pháp Unit 7",
+      "meaning": "Dùng để thuật lại lời nói của người khác. Cần lùi thì, đổi đại từ và trạng từ chỉ thời gian/địa điểm.",
+      "example": "She said she was sleeping. (Cô ấy nói rằng cô ấy đang ngủ.)"
+    },
+    "questions": [
+      {
+        "id": "e81u7_g2_M101",
+        "question": "Trong câu tường thuật, thì 'Present Simple' lùi thành thì gì?",
+        "options": [
+          "Past Simple",
+          "Present Continuous",
+          "Past Continuous",
+          "Past Perfect"
+        ]
+      },
+      {
+        "id": "e81u7_g2_M102",
+        "question": "Từ 'tomorrow' trong câu trực tiếp chuyển thành gì trong câu tường thuật?",
+        "options": [
+          "the next day / the following day",
+          "the day before",
+          "then",
+          "that day"
+        ]
+      },
+      {
+        "id": "e81u7_g2_C101",
+        "question": "'I am tired,' John said. -> John said that he ______ tired.",
+        "options": [
+          "was",
+          "is",
+          "am",
+          "be"
+        ]
+      },
+      {
+        "id": "e81u7_g2_C201",
+        "question": "He is in a band. He said he ______________ the guitar well.",
+        "options": [
+          "could play",
+          "can play",
+          "could have played",
+          "could be played"
+        ]
+      },
+      {
+        "id": "e81u7_g2_C301",
+        "question": "'I saw him here,' she said. -> She said she had seen him ______.",
+        "options": [
+          "there",
+          "here",
+          "then",
+          "now"
+        ]
+      },
+      {
+        "id": "e81u7_g2_C401",
+        "question": "'I can fix it,' my father said. -> My father said that he ______ fix it.",
+        "options": [
+          "could",
+          "can",
+          "couldn't",
+          "will"
+        ]
+      },
+      {
+        "id": "e81u7_g2_S101",
+        "question": "Sự khác biệt giữa 'say' và 'tell' trong câu tường thuật là gì?",
+        "options": [
+          "Tell phải có tân ngữ (người nghe) trực tiếp theo sau",
+          "Say phải có tân ngữ theo sau",
+          "Cả hai đều giống nhau",
+          "Tell không lùi thì"
+        ]
+      },
+      {
+        "id": "e81u7_g2_S251",
+        "question": "Trạng từ 'now' chuyển thành gì?",
+        "options": [
+          "then",
+          "at that moment",
+          "that time",
+          "there"
+        ]
+      },
+      {
+        "id": "e81u7_g2_S301",
+        "question": "Thì Quá khứ đơn (Past Simple) lùi thành thì gì?",
+        "options": [
+          "Past Perfect",
+          "Past Simple (không đổi)",
+          "Present Perfect",
+          "Past Continuous"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u8_g1",
+    "hint": {
+      "word": "Articles",
+      "phonetics": "a, an, the, zero article",
+      "type": "Ngữ pháp Unit 8",
+      "meaning": "A/An dùng cho danh từ số ít đếm được nhắc đến lần đầu. The dùng cho vật đã biết rõ. Zero article dùng cho địa danh chung hoặc danh từ số nhiều nghĩa chung.",
+      "example": "He is a student at a university. (Anh ấy là sinh viên tại một trường đại học.)"
+    },
+    "questions": [
+      {
+        "id": "e81u8_g1_M101",
+        "question": "Dùng mạo từ 'an' trước các từ bắt đầu bằng gì?",
+        "options": [
+          "Nguyên âm (u, e, o, a, i)",
+          "Phụ âm",
+          "Số nhiều",
+          "Danh từ riêng"
+        ]
+      },
+      {
+        "id": "e81u8_g1_M102",
+        "question": "Trường hợp nào không dùng mạo từ (zero article)?",
+        "options": [
+          "Khi nói về danh từ số nhiều với nghĩa chung",
+          "Khi nhắc đến lần đầu",
+          "Khi vật là duy nhất",
+          "Khi vật đã được nhắc đến"
+        ]
+      },
+      {
+        "id": "e81u8_g1_C101",
+        "question": "I saw ______ elephant at the zoo yesterday. ______ elephant was very big.",
+        "options": [
+          "an / The",
+          "a / The",
+          "the / An",
+          "an / A"
+        ]
+      },
+      {
+        "id": "e81u8_g1_C201",
+        "question": "Every chef in this restaurant has to wear ______ apron while cooking.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "Ø"
+        ]
+      },
+      {
+        "id": "e81u8_g1_C301",
+        "question": "______ sun rises in ______ east.",
+        "options": [
+          "The / the",
+          "A / the",
+          "The / an",
+          "Ø / the"
+        ]
+      },
+      {
+        "id": "e81u8_g1_C401",
+        "question": "My brother goes to ______ school by ______ bike.",
+        "options": [
+          "Ø / Ø",
+          "the / the",
+          "a / a",
+          "the / Ø"
+        ]
+      },
+      {
+        "id": "e81u8_g1_S101",
+        "question": "Tại sao dùng 'a university' mà không phải 'an university'?",
+        "options": [
+          "Vì chữ 'u' ở đây phát âm là phụ âm /j/",
+          "Vì đó là danh từ riêng",
+          "Vì university là danh từ đếm được",
+          "Vì thói quen người dùng"
+        ]
+      },
+      {
+        "id": "e81u8_g1_S251",
+        "question": "Dùng mạo từ gì trước các nhạc cụ (musical instruments)?",
+        "options": [
+          "the",
+          "a",
+          "an",
+          "Ø"
+        ]
+      },
+      {
+        "id": "e81u8_g1_S301",
+        "question": "Chọn câu đúng về mạo từ?",
+        "options": [
+          "I have an umbrella.",
+          "I have a umbrella.",
+          "I have the umbrella (nhắc lần đầu).",
+          "I have Ø umbrella."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u8_g2",
+    "hint": {
+      "word": "Reported speech for questions",
+      "phonetics": "S + asked + (if/whether) + S + V(backshifted)",
+      "type": "Ngữ pháp Unit 8",
+      "meaning": "Tường thuật câu hỏi. Yes/No question dùng if/whether. Wh-question giữ nguyên từ để hỏi. Đổi trật tự câu hỏi thành câu trần thuật (không đảo ngữ).",
+      "example": "I asked Wendy if she was okay. (Tôi đã hỏi Wendy liệu cô ấy có ổn không.)"
+    },
+    "questions": [
+      {
+        "id": "e81u8_g2_M101",
+        "question": "Trong tường thuật câu hỏi Yes/No, từ nào được dùng để kết nối?",
+        "options": [
+          "if / whether",
+          "that",
+          "why",
+          "how"
+        ]
+      },
+      {
+        "id": "e81u8_g2_M102",
+        "question": "Trong câu tường thuật câu hỏi, chúng ta có đảo trợ động từ lên trước chủ ngữ không?",
+        "options": [
+          "Không bao giờ",
+          "Có",
+          "Tùy loại câu hỏi",
+          "Chỉ với câu hỏi Wh-"
+        ]
+      },
+      {
+        "id": "e81u8_g2_C101",
+        "question": "Trang asked me ______________ I was free that afternoon.",
+        "options": [
+          "if",
+          "what",
+          "how often",
+          "did"
+        ]
+      },
+      {
+        "id": "e81u8_g2_C201",
+        "question": "The reporter asked him ______________ best.",
+        "options": [
+          "which team he liked",
+          "which team did he like",
+          "which team he likes",
+          "which team does he like"
+        ]
+      },
+      {
+        "id": "e81u8_g2_C301",
+        "question": "'How are you feeling?' my father asked. -> My father wanted to know how I ______ feeling.",
+        "options": [
+          "was",
+          "am",
+          "were",
+          "did"
+        ]
+      },
+      {
+        "id": "e81u8_g2_C401",
+        "question": "'Were you running?' Mark asked. -> Mark asked ______ I had been running.",
+        "options": [
+          "whether",
+          "if not",
+          "why",
+          "that"
+        ]
+      },
+      {
+        "id": "e81u8_g2_S101",
+        "question": "Khi tường thuật câu hỏi, dấu chấm hỏi ở cuối câu sẽ như thế nào?",
+        "options": [
+          "Bỏ đi, thay bằng dấu chấm",
+          "Giữ nguyên",
+          "Thay bằng dấu chấm than",
+          "Thay bằng dấu phẩy"
+        ]
+      },
+      {
+        "id": "e81u8_g2_S251",
+        "question": "Chọn câu tường thuật đúng cho 'What time is it?'",
+        "options": [
+          "He asked what time it was.",
+          "He asked what time was it.",
+          "He asked that what time it was.",
+          "He asked what time is it."
+        ]
+      },
+      {
+        "id": "e81u8_g2_S301",
+        "question": "Từ nào sau đây KHÔNG dùng để bắt đầu mệnh đề tường thuật câu hỏi?",
+        "options": [
+          "said that",
+          "asked",
+          "wanted to know",
+          "wondered"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u1_g4",
+    "hint": {
+      "word": "Pronunciation of -s/es",
+      "phonetics": "/s/, /z/, /ɪz/",
+      "type": "Ngữ pháp Unit 1",
+      "meaning": "Quy tắc phát âm đuôi -s/es của danh từ số nhiều hoặc động từ ngôi thứ 3 số ít. /ɪz/ sau âm gió (s, ss, ch, sh, x, z, ge, ce), /s/ sau âm vô thanh (p, t, k, f, th), /z/ cho các trường hợp còn lại.",
+      "example": "He watches (/ɪz/) TV, but he likes (/s/) books and plays (/z/) games."
+    },
+    "questions": [
+      {
+        "id": "e81u1_g4_M101",
+        "question": "Đuôi '-es' được phát âm là /ɪz/ khi từ tận cùng bằng các âm nào?",
+        "options": [
+          "s, ss, ch, sh, x, z",
+          "p, t, k, f",
+          "b, d, g, l",
+          "m, n, r, y"
+        ]
+      },
+      {
+        "id": "e81u1_g4_M102",
+        "question": "Từ 'books' có đuôi '-s' được phát âm là gì?",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/",
+          "/ə/"
+        ]
+      },
+      {
+        "id": "e81u1_g4_C101",
+        "question": "Chọn từ có phần gạch chân phát âm khác với các từ còn lại: books, cups, cats, pens",
+        "options": [
+          "pens",
+          "books",
+          "cups",
+          "cats"
+        ]
+      },
+      {
+        "id": "e81u1_g4_C201",
+        "question": "Chọn từ có phần gạch chân phát âm là /ɪz/: laughs, misses, cooks, helps",
+        "options": [
+          "misses",
+          "laughs",
+          "cooks",
+          "helps"
+        ]
+      },
+      {
+        "id": "e81u1_g4_C301",
+        "question": "Chọn từ có phần gạch chân phát âm là /z/: roof<u>s</u>, bath<u>s</u>, tree<u>s</u>, desk<u>s</u>",
+        "options": [
+          "trees",
+          "roofs",
+          "baths",
+          "desks"
+        ]
+      },
+      {
+        "id": "e81u1_g4_C401",
+        "question": "Trong các từ sau, từ nào có âm cuối phát âm giống 'watches' (/ɪz/)?",
+        "options": [
+          "boxes",
+          "takes",
+          "gives",
+          "calls"
+        ]
+      },
+      {
+        "id": "e81u1_g4_S101",
+        "question": "Quy tắc 'P-T-K-F-Th' đi với âm nào?",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/",
+          "/d/"
+        ]
+      },
+      {
+        "id": "e81u1_g4_S251",
+        "question": "Chọn cách phát âm đúng cho 'changes'?",
+        "options": [
+          "/ˈtʃeɪndʒɪz/",
+          "/ˈtʃeɪndʒs/",
+          "/ˈtʃeɪndʒz/",
+          "/ˈtʃeɪndʒ/"
+        ]
+      },
+      {
+        "id": "e81u1_g4_S301",
+        "question": "Âm nào sau đây là âm 'hữu thanh' khiến đuôi -s đọc là /z/?",
+        "options": [
+          "/m, n, l, r, g, b/",
+          "/p, t, k, f/",
+          "/s, ʃ, tʃ, x/",
+          "/h, p, k, t/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e81u6_g3",
+    "hint": {
+      "word": "Pronunciation of -ed",
+      "phonetics": "/t/, /d/, /ɪd/",
+      "type": "Ngữ pháp Unit 6",
+      "meaning": "Quy tắc phát âm đuôi -ed: /ɪd/ sau t, d; /t/ sau các âm vô thanh (p, k, f, s, sh, ch); /d/ sau các âm hữu thanh còn lại.",
+      "example": "He wanted (/ɪd/) to go, but he looked (/t/) at the door and stayed (/d/) inside."
+    },
+    "questions": [
+      {
+        "id": "e81u6_g3_M101",
+        "question": "Đuôi '-ed' được phát âm là /ɪd/ khi từ tận cùng là gì?",
+        "options": [
+          "t, d",
+          "p, k",
+          "s, x",
+          "l, m"
+        ]
+      },
+      {
+        "id": "e81u6_g3_M102",
+        "question": "Từ 'watched' có đuôi '-ed' phát âm là gì?",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/",
+          "/s/"
+        ]
+      },
+      {
+        "id": "e81u6_g3_C101",
+        "question": "Chọn từ có phần gạch chân phát âm khác: looked, laughed, washed, opened",
+        "options": [
+          "opened",
+          "looked",
+          "laughed",
+          "washed"
+        ]
+      },
+      {
+        "id": "e81u6_g3_C201",
+        "question": "Chọn từ có phần gạch chân phát âm là /ɪd/: worked, played, started, missed",
+        "options": [
+          "started",
+          "worked",
+          "played",
+          "misses"
+        ]
+      },
+      {
+        "id": "e81u6_g3_C301",
+        "question": "Chọn từ có phần gạch chân phát âm là /d/: helped, planned, fixed, stepped",
+        "options": [
+          "planned",
+          "helped",
+          "fixed",
+          "stepped"
+        ]
+      },
+      {
+        "id": "e81u6_g3_C401",
+        "question": "Từ nào sau đây có âm cuối phát âm giống 'visited' (/ɪd/)?",
+        "options": [
+          "needed",
+          "stopped",
+          "watched",
+          "smiled"
+        ]
+      },
+      {
+        "id": "e81u6_g3_S101",
+        "question": "Âm /s/ và /ʃ/ khi thêm -ed sẽ phát âm là gì?",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/",
+          "/s/"
+        ]
+      },
+      {
+        "id": "e81u6_g3_S251",
+        "question": "Từ 'naked' và 'wicked' là trường hợp đặc biệt, đuôi -ed phát âm là gì?",
+        "options": [
+          "/ɪd/",
+          "/t/",
+          "/d/",
+          "/əd/"
+        ]
+      },
+      {
+        "id": "e81u6_g3_S301",
+        "question": "Nhóm âm 'vô thanh' (p, k, f, s, sh, ch) đi với âm -ed nào?",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/",
+          "/ed/"
+        ]
+      }
+    ]
+  }
+]
