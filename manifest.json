@@ -24,5 +24,18 @@
       "units": 12
     },
     "path": "data/English9Vocabulary"
+  },
+  {
+    "id": "English8Grammar",
+    "title": "Ngữ pháp tiếng Anh 8 Global Success",
+    "description": "Tổng hợp 22 điểm ngữ pháp trọng tâm lớp 8 qua 198 câu hỏi trắc nghiệm bám sát đề thi, đầy đủ ví dụ và bẫy câu hỏi.",
+    "category": "Grammar",
+    "icon": "📝",
+    "stats": {
+      "lessons": 22,
+      "questions": 198,
+      "units": 8
+    },
+    "path": "data/English8Grammar"
   }
 ]
