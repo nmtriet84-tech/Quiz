@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -87,8 +87,8 @@ header {
 /* Buttons */
 button {
     cursor: pointer;
-    font-family: 'Fredoka', sans-serif;
-    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
     transition: transform 0.1s, box-shadow 0.1s;
 }
 
@@ -181,7 +181,8 @@ button:active {
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
     overflow: hidden;
-    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; /* Font an toàn cho tiếng Việt */
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
 }
 
 .btn-start .btn-icon {
@@ -250,7 +251,7 @@ button:active {
     padding: 15px;
     border: var(--border-width) solid var(--text-color);
     border-radius: 15px;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.1rem;
     box-shadow: 4px 4px 0px var(--text-color);
     outline: none;
