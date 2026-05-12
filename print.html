@@ -488,6 +488,7 @@
     </label>
     <button class="primary" type="submit">Tạo đề</button>
     <button id="printBtn" type="button">In</button>
+    <button id="exportWordBtn" type="button" style="background: #2b8a3e; color: #fff; border-color: #2b8a3e;">Xuất Word</button>
     <a href="index.html">Về trang luyện</a>
   </form>
 
@@ -510,6 +511,8 @@
   </main>
 
   <script src="quiz-engine.js?v=1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docx@8.2.2/build/index.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
   <script>
     const LETTERS = ["A", "B", "C", "D"];
     const TYPE_LABELS = { M: "Nghĩa", C: "Ngữ cảnh", S: "Âm / trọng âm" };
@@ -573,6 +576,7 @@
         await generatePaper();
       });
       $("printBtn").addEventListener("click", () => window.print());
+      $("exportWordBtn").addEventListener("click", exportToDocx);
       $("datasetInput").addEventListener("change", async () => {
         const next = state.manifest.find((set) => set.id === $("datasetInput").value);
         if (!next) return;
@@ -1123,6 +1127,170 @@
 
     function escapeAttr(value) {
       return escapeHtml(value).replace(/`/g, "&#096;");
+    }
+
+    async function exportToDocx() {
+      if (!state.paper) return;
+      
+      const docxLib = window.docx || docx;
+      if (!docxLib) {
+        alert("Thư viện xuất Word chưa được tải xong hoặc bị chặn. Vui lòng kiểm tra kết nối internet và thử lại.");
+        return;
+      }
+      
+      if (typeof saveAs === "undefined") {
+        alert("Thư viện lưu file chưa sẵn sàng. Vui lòng đợi giây lát.");
+        return;
+      }
+
+      const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, AlignmentType, BorderStyle, VerticalAlign } = docxLib;
+
+      const questions = state.paper.questions;
+      const examCode = state.paper.code;
+      const children = [];
+
+      // Header: ĐỀ KIỂM TRA + Mã đề
+      children.push(
+        new Paragraph({
+          alignment: AlignmentType.CENTER,
+          children: [
+            new TextRun({ text: "ĐỀ KIỂM TRA TRẮC NGHIỆM", bold: true, size: 30 }),
+          ],
+        }),
+        new Paragraph({
+          alignment: AlignmentType.CENTER,
+          children: [
+            new TextRun({ text: `MÃ ĐỀ: ${examCode}`, bold: true, size: 24 }),
+          ],
+          spacing: { after: 300 },
+        })
+      );
+
+      // Student Info & Score Table
+      children.push(
+        new Table({
+          width: { size: 100, type: WidthType.PERCENTAGE },
+          borders: {
+            top: { style: BorderStyle.SINGLE, size: 1 },
+            bottom: { style: BorderStyle.SINGLE, size: 1 },
+            left: { style: BorderStyle.SINGLE, size: 1 },
+            right: { style: BorderStyle.SINGLE, size: 1 },
+          },
+          rows: [
+            new TableRow({
+              children: [
+                new TableCell({
+                  children: [
+                    new Paragraph({ children: [new TextRun({ text: "Họ và tên: ...........................................................", bold: true })] }),
+                    new Paragraph({ children: [new TextRun({ text: "Lớp: ...................................................................", bold: true })] }),
+                    new Paragraph({ children: [new TextRun({ text: "SBD/STT: ..........................................................", bold: true })] }),
+                  ],
+                  width: { size: 75, type: WidthType.PERCENTAGE },
+                }),
+                new TableCell({
+                  children: [
+                    new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: "ĐIỂM", bold: true })] }),
+                    new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: "", size: 48 })] }),
+                  ],
+                  width: { size: 25, type: WidthType.PERCENTAGE },
+                  verticalAlign: VerticalAlign.CENTER,
+                }),
+              ],
+            }),
+          ],
+        }),
+        new Paragraph({ text: "", spacing: { after: 400 } })
+      );
+
+      // Questions
+      questions.forEach((q) => {
+        children.push(
+          new Paragraph({
+            children: [
+              new TextRun({ text: `Câu ${q.printNumber}: `, bold: true }),
+              new TextRun({ text: q.question }),
+            ],
+            spacing: { before: 200, after: 100 },
+          })
+        );
+
+        // Options as a 2x2 table
+        children.push(
+          new Table({
+            width: { size: 100, type: WidthType.PERCENTAGE },
+            borders: {
+              top: { style: BorderStyle.NONE },
+              bottom: { style: BorderStyle.NONE },
+              left: { style: BorderStyle.NONE },
+              right: { style: BorderStyle.NONE },
+              insideHorizontal: { style: BorderStyle.NONE },
+              insideVertical: { style: BorderStyle.NONE },
+            },
+            rows: [
+              new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun(`A. ${q.printOptions[0]}`)] })] }),
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun(`B. ${q.printOptions[1]}`)] })] }),
+                ],
+              }),
+              new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun(`C. ${q.printOptions[2]}`)] })] }),
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun(`D. ${q.printOptions[3]}`)] })] }),
+                ],
+              }),
+            ],
+          })
+        );
+      });
+
+      // Answer Key Page
+      children.push(
+        new Paragraph({ text: "", break: 1 }),
+        new Paragraph({
+          alignment: AlignmentType.CENTER,
+          children: [
+            new TextRun({ text: `ĐÁP ÁN CHI TIẾT - MÃ ĐỀ: ${examCode}`, bold: true, size: 30 }),
+          ],
+          spacing: { after: 300, before: 400 },
+        })
+      );
+
+      // Answer Key Table (5 columns)
+      const answerRows = [];
+      for (let i = 0; i < questions.length; i += 5) {
+        const rowCells = [];
+        for (let j = 0; j < 5; j++) {
+          const qIdx = i + j;
+          if (qIdx < questions.length) {
+            const q = questions[qIdx];
+            const ansLetter = LETTERS[q.printOptions.indexOf(q.correctAnswer)] || "?";
+            rowCells.push(new TableCell({
+              children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: `${q.printNumber}. ${ansLetter}`, bold: true })] })],
+              width: { size: 20, type: WidthType.PERCENTAGE }
+            }));
+          } else {
+            rowCells.push(new TableCell({ children: [], width: { size: 20, type: WidthType.PERCENTAGE } }));
+          }
+        }
+        answerRows.push(new TableRow({ children: rowCells }));
+      }
+      children.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, rows: answerRows }));
+
+      const doc = new Document({
+        styles: {
+          default: {
+            document: {
+              run: { font: "Times New Roman", size: 24 }
+            }
+          }
+        },
+        sections: [{ children }]
+      });
+
+      Packer.toBlob(doc).then((blob) => {
+        saveAs(blob, `De_Thi_Ma_${examCode}.docx`);
+      });
     }
   </script>
 </body>

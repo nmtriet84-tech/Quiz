@@ -434,6 +434,14 @@ select {
     line-height: 1.5;
 }
 
+.explanation-box {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--secondary-color);
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
 .hint-word {
     font-weight: bold;
     color: var(--primary-color);
@@ -489,10 +497,34 @@ select {
     margin-bottom: 20px;
 }
 
+.game-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+#question-counter {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+#score-display {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 2px solid var(--text-color);
+    box-shadow: 3px 3px 0px var(--text-color);
+}
+
 #question-text {
     font-size: 2rem;
-    margin: 30px 0;
-    color: var(--primary-color);
+    margin: 20px 0 30px;
+    color: var(--text-color);
+    line-height: 1.4;
 }
 
 .options-grid {
@@ -605,44 +637,131 @@ select {
     margin-top: 18px;
 }
 
+/* Review List Styles */
+.review-title {
+    grid-column: 1 / -1;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-item {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #eee;
+    background: #fff;
+    transition: transform 0.2s;
+}
+
+.review-item.correct {
+    border-color: var(--accent-color);
+    background: #f7fff7;
+}
+
+.review-item.wrong {
+    border-color: var(--primary-color);
+    background: #fffafa;
+}
+
+.review-q {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.review-a {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.user-ans { color: #444; }
+.review-item.correct .user-ans { color: var(--accent-color); }
+.review-item.wrong .user-ans { color: var(--primary-color); }
+.correct-ans { color: var(--accent-color); }
+
+.review-explanation {
+    font-size: 0.95rem;
+    padding: 10px;
+    background: #fffbeb;
+    border-radius: 10px;
+    border-left: 4px solid var(--secondary-color);
+    line-height: 1.4;
+}
+
 footer {
     margin-top: 40px;
     color: #888;
     font-size: 0.9rem;
 }
 
+/* --- RESPONSIVE DESIGN --- */
+@media (max-width: 820px) {
+    #app-container {
+        padding: 10px;
+    }
+    
+    .crayon-title {
+        font-size: 3rem;
+    }
+}
+
 @media (max-width: 640px) {
     body {
-        padding: 12px;
+        padding: 10px;
+        background-size: 15px 15px;
     }
 
     .screen {
         padding: 20px;
-        border-radius: 16px;
+        border-radius: 20px;
+        min-height: 350px;
     }
 
     .crayon-title {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
+    }
+
+    .slogan {
+        font-size: 1.1rem;
     }
 
     #question-text {
-        font-size: 1.35rem;
-        margin: 20px 0;
+        font-size: 1.4rem;
+        margin: 15px 0 25px;
     }
 
-    .options-grid,
-    .game-footer {
+    .options-grid {
         grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .option-btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .game-footer {
         flex-direction: column;
+        gap: 15px;
     }
 
     .game-footer button {
         width: 100%;
     }
 
-    .leaderboard-heading {
-        align-items: flex-start;
-        flex-direction: column;
+    .start-actions-group {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 
     .summary-grid {
@@ -651,9 +770,40 @@ footer {
 
     .summary-actions {
         flex-direction: column;
+        gap: 10px;
     }
 
     .summary-actions button {
         width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .crayon-title {
+        font-size: 2rem;
+    }
+    
+    .btn-start .btn-text {
+        font-size: 0.95rem;
+    }
+    
+    .btn-start .btn-icon {
+        font-size: 2rem;
+    }
+    
+    .btn-primary {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) {
+    .quiz-card:hover, .btn-start:hover {
+        transform: none;
+    }
+    
+    button:active {
+        background-color: rgba(0,0,0,0.05);
     }
 }

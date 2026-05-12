@@ -12,6 +12,7 @@ let filteredQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let currentUnitLabels = {};
+let gameHistory = []; // Lưu lịch sử làm bài
 let timerInterval;
 let timeLeft = 60;
 
@@ -356,6 +357,7 @@ document.getElementById("btn-start-hard").onclick = () => handleStartClick("hard
 function startGame() {
     currentQuestionIndex = 0;
     score = 0;
+    gameHistory = [];
     gameStartedAt = Date.now();
     showScreen("game");
     renderQuestion();
@@ -423,6 +425,16 @@ function handleAnswer(isCorrect, btn) {
 
     const q = filteredQuestions[currentQuestionIndex];
     const correctText = q.options[0];
+    const userAnswer = btn ? btn.innerText : "(Hết giờ)";
+
+    // Lưu vào lịch sử
+    gameHistory.push({
+        question: q.question,
+        userAnswer: userAnswer,
+        correctAnswer: correctText,
+        isCorrect: isCorrect,
+        explanation: q.explanation || ""
+    });
 
     if (isCorrect) {
         score++;
@@ -435,7 +447,7 @@ function handleAnswer(isCorrect, btn) {
         addExtraQuestions(q);
     }
 
-    showHint(getHintForQuestion(q));
+    showHint(getHintForQuestion(q), q.explanation);
     updateProgress();
 
     const nextBtn = document.getElementById("btn-next");
@@ -451,16 +463,10 @@ function updateProgress() {
 
 function addExtraQuestions(failedQuestion) {
     const existingIds = new Set(filteredQuestions.map(q => q.id));
-    const existingTypeWords = {
-        M: new Set(filteredQuestions.filter(q => q.type === "M").map(q => q.wordId)),
-        S: new Set(filteredQuestions.filter(q => q.type === "S").map(q => q.wordId))
-    };
     const pool = currentQuizData.filter(q => {
         return q.unitCode === failedQuestion.unitCode
             && q.level >= failedQuestion.level
-            && !existingIds.has(q.id)
-            && (q.type !== "M" || !existingTypeWords.M.has(q.wordId))
-            && (q.type !== "S" || !existingTypeWords.S.has(q.wordId));
+            && !existingIds.has(q.id);
     });
 
     const extras = shuffle(pool).slice(0, 2);
@@ -471,32 +477,45 @@ function getHintForQuestion(q) {
     return currentVocabData[q.wordId] || q.lesson_hint || null;
 }
 
-function showHint(hint) {
+function showHint(hint, explanation) {
     const hintContainer = document.getElementById("hint-container");
     const hintText = document.getElementById("hint-text");
 
-    if (!hint) {
+    if (!hint && !explanation) {
         hintContainer.classList.add("hidden");
         return;
     }
 
-    const firstMeaning = hint.meanings?.[0] || {};
-    const word = hint.word || "";
-    const phonetics = hint.phonetics || "";
-    const type = hint.type || firstMeaning.pos || "Vocab";
-    const meaning = hint.meaning || firstMeaning.meaning_vn || "";
-    const example = hint.example || firstMeaning.examples?.[0] || "";
+    let html = "";
+    
+    if (hint) {
+        const word = hint.word || "";
+        const phonetics = hint.phonetics || "";
+        const type = hint.type || "Grammar";
+        const meaning = hint.meaning || "";
+        const example = hint.example || "";
+        
+        html += `
+            <div class="hint-header">
+                <span class="hint-word">${word}</span>
+                <span class="hint-ipa">${phonetics}</span>
+            </div>
+            <div class="hint-body">
+                <span class="hint-type">[${type}]</span> ${meaning}
+                <div class="hint-example">${example ? `<em>Ví dụ: ${example}</em>` : ""}</div>
+            </div>
+        `;
+    }
 
-    hintText.innerHTML = `
-        <div class="hint-header">
-            <span class="hint-word">${word}</span>
-            <span class="hint-ipa">${phonetics}</span>
-        </div>
-        <div class="hint-body">
-            <span class="hint-type">[${type}]</span> ${meaning}
-            <div class="hint-example">${example ? `<em>Ví dụ: ${example}</em>` : ""}</div>
-        </div>
-    `;
+    if (explanation) {
+        html += `
+            <div class="explanation-box">
+                <strong>📝 Giải thích:</strong> ${explanation}
+            </div>
+        `;
+    }
+
+    hintText.innerHTML = html;
     hintContainer.classList.remove("hidden");
 }
 
@@ -664,7 +683,8 @@ function buildResultStats(finalScore) {
         total,
         percent: Number(percent.toFixed(2)),
         durationSeconds,
-        extraQuestions: Math.max(0, total - QUESTIONS_PER_GAME)
+        extraQuestions: Math.max(0, total - QUESTIONS_PER_GAME),
+        history: [...gameHistory]
     };
 }
 
@@ -737,6 +757,28 @@ function showSummaryModal(stats) {
             <span class="summary-value">${escapeHtml(value)}</span>
         </div>
     `).join("");
+
+    // Thêm phần xem lại câu hỏi
+    if (stats.history && stats.history.length > 0) {
+        const reviewTitle = document.createElement("h3");
+        reviewTitle.className = "review-title";
+        reviewTitle.innerText = "🔍 Chi tiết câu hỏi và Giải thích:";
+        grid.appendChild(reviewTitle);
+
+        const reviewList = document.createElement("div");
+        reviewList.className = "review-list wide";
+        reviewList.innerHTML = stats.history.map((item, idx) => `
+            <div class="review-item ${item.isCorrect ? "correct" : "wrong"}">
+                <div class="review-q"><strong>Câu ${idx + 1}:</strong> ${escapeHtml(item.question)}</div>
+                <div class="review-a">
+                    <span>Bạn chọn: <strong class="user-ans">${escapeHtml(item.userAnswer)}</strong></span>
+                    ${!item.isCorrect ? `<span> | Đáp án đúng: <strong class="correct-ans">${escapeHtml(item.correctAnswer)}</strong></span>` : ""}
+                </div>
+                ${item.explanation ? `<div class="review-explanation">💡 <strong>Giải thích:</strong> ${escapeHtml(item.explanation)}</div>` : ""}
+            </div>
+        `).join("");
+        grid.appendChild(reviewList);
+    }
 
     modal.classList.remove("hidden");
 }
