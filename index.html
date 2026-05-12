@@ -87,13 +87,16 @@
 
             <div id="game-screen" class="screen hidden">
                 <div class="game-header">
-                    <div id="timer-box" class="timer">60s</div>
-                    <div class="progress-container">
-                        <div id="progress-bar"></div>
-                    </div>
                     <div class="game-stats">
-                        <span id="question-counter">Câu: 1/20</span>
-                        <span id="score-display">Điểm: 0</span>
+                        <div id="question-info">
+                            <span id="question-counter">Câu: 1/20</span>
+                            <span class="stat-badge correct">✅ <span id="correct-count">0</span></span>
+                            <span class="stat-badge wrong">❌ <span id="wrong-count">0</span></span>
+                        </div>
+                        <div class="score-timer-group">
+                            <span id="score-display">0</span>
+                            <span id="timer-box" class="timer">60s</span>
+                        </div>
                     </div>
                 </div>
 
@@ -148,6 +151,6 @@
     </div>
 
     <script src="quiz-engine.js?v=1.0"></script>
-    <script src="app.js?v=3.3"></script>
+    <script src="app.js?v=4.0"></script>
 </body>
 </html>

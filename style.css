@@ -20,15 +20,20 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
-    padding: 20px;
+    padding: clamp(10px, 3vw, 20px);
     background-image: radial-gradient(#FFD93D 0.5px, transparent 0.5px);
     background-size: 20px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #app-container {
-    max-width: 800px;
+    width: 100%;
+    max-width: 850px;
     margin: 0 auto;
     text-align: center;
+    flex: 1;
 }
 
 /* Header & Titles */
@@ -37,7 +42,7 @@ header {
 }
 
 .crayon-title {
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 8vw, 3.5rem);
     color: var(--primary-color);
     text-shadow: 3px 3px 0px #FFD93D;
     letter-spacing: 2px;
@@ -59,13 +64,14 @@ header {
     background: var(--card-bg);
     border: var(--border-width) solid var(--text-color);
     border-radius: 25px;
-    padding: 30px;
+    padding: clamp(15px, 5vw, 30px);
     box-shadow: var(--shadow);
-    min-height: 400px;
+    min-height: clamp(300px, 60vh, 500px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: all 0.3s ease;
+    width: 100%;
 }
 
 .hidden { display: none !important; }
@@ -402,11 +408,12 @@ select {
 }
 
 .timer {
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    font-weight: 800;
     color: var(--accent-color);
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 0px #eee;
+    margin: 0;
+    padding: 0 10px;
+    min-width: 80px;
 }
 
 .timer.warning {
@@ -482,49 +489,79 @@ select {
 }
 
 /* Game Styles */
-#progress-bar {
-    height: 15px;
-    background: var(--accent-color);
-    width: 0%;
-    border-radius: 10px;
-    transition: width 0.3s;
-}
-
-.progress-container {
-    background: #eee;
-    border-radius: 10px;
-    border: 2px solid var(--text-color);
+/* Game Header Compact Layout */
+.game-header {
     margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #eee;
 }
 
 .game-stats {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
-    font-weight: 800;
+    gap: 10px;
+}
+
+#question-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 #question-counter {
-    font-size: 1.2rem;
-    color: #666;
+    font-size: 1.1rem;
+    color: #4D4D4D;
+    font-weight: 800;
+}
+
+.stat-badge {
+    font-size: 0.9rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    font-weight: 700;
+}
+
+.stat-badge.correct { color: var(--accent-color); border-color: var(--accent-color); background: #f0fff0; }
+.stat-badge.wrong { color: var(--primary-color); border-color: var(--primary-color); background: #fff0f0; }
+
+.score-timer-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 #score-display {
-    font-size: 2.2rem;
-    color: var(--primary-color);
-    background: var(--secondary-color);
-    padding: 5px 20px;
-    border-radius: 50px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 800;
+    background: var(--primary-color);
+    padding: 4px 12px;
+    border-radius: 12px;
     border: 2px solid var(--text-color);
-    box-shadow: 3px 3px 0px var(--text-color);
+    box-shadow: 2px 2px 0px var(--text-color);
 }
 
-#question-text {
-    font-size: 2rem;
-    margin: 20px 0 30px;
+.timer {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent-color);
+    background: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: 2px solid var(--accent-color);
+    min-width: 65px;
+    text-align: center;
+}
+
+# question-text {
+    font-size: clamp(1.2rem, 5vw, 2.2rem);
+    margin: 10px 0 clamp(15px, 4vw, 35px);
     color: var(--text-color);
-    line-height: 1.4;
+    line-height: 1.3;
+    font-weight: 700;
 }
 
 .options-grid {

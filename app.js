@@ -15,6 +15,10 @@ let currentUnitLabels = {};
 let gameHistory = []; // Lưu lịch sử làm bài
 let timerInterval;
 let timeLeft = 60;
+let correctCount = 0;
+let wrongCount = 0;
+
+const surrenderTexts = ["Đầu hàng 🏳️", "Em xin thua 🏳️", "Em xin dừng 🏳️", "Thôi em chịu 🏳️"];
 
 const QUESTIONS_PER_GAME = 20;
 const LEADERBOARD_URL = "https://script.google.com/macros/s/AKfycbxwb3BJGz73Tx8sEb-ihuI5rFmXbuFmSXmP1GfGCKulV5lrfJCNGxzbE4XDdCqTEk6yVw/exec";
@@ -357,36 +361,65 @@ document.getElementById("btn-start-hard").onclick = () => handleStartClick("hard
 function startGame() {
     currentQuestionIndex = 0;
     score = 0;
+    correctCount = 0;
+    wrongCount = 0;
     gameHistory = [];
     gameStartedAt = Date.now();
+    
+    // Randomize surrender button text
+    const finishBtn = document.getElementById("btn-finish");
+    if (finishBtn) {
+        finishBtn.innerText = surrenderTexts[Math.floor(Math.random() * surrenderTexts.length)];
+    }
+    
     showScreen("game");
     renderQuestion();
 }
 
 function renderQuestion() {
+    if (!filteredQuestions || filteredQuestions.length === 0) {
+        console.error("No questions found!");
+        return;
+    }
+    
     const q = filteredQuestions[currentQuestionIndex];
+    if (!q) return;
 
-    document.getElementById("btn-next").disabled = true;
-    document.getElementById("btn-next").style.opacity = "0.5";
-    document.getElementById("hint-container").classList.add("hidden");
-    document.getElementById("timer-box").classList.remove("warning");
+    // Safety checks for elements
+    const nextBtn = document.getElementById("btn-next");
+    const hintBox = document.getElementById("hint-container");
+    const timerBox = document.getElementById("timer-box");
+    const qCounter = document.getElementById("question-counter");
+    const cCount = document.getElementById("correct-count");
+    const wCount = document.getElementById("wrong-count");
+    const sDisplay = document.getElementById("score-display");
+    const qText = document.getElementById("question-text");
 
-    document.getElementById("question-counter").innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
-    document.getElementById("score-display").innerText = `Điểm: ${formattedScoreOnScale10()}`;
-    document.getElementById("progress-bar").style.width = `${(currentQuestionIndex / filteredQuestions.length) * 100}%`;
-    document.getElementById("question-text").innerText = q.question;
+    if (nextBtn) {
+        nextBtn.disabled = true;
+        nextBtn.style.opacity = "0.5";
+    }
+    if (hintBox) hintBox.classList.add("hidden");
+    if (timerBox) timerBox.classList.remove("warning");
+
+    if (qCounter) qCounter.innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
+    if (cCount) cCount.innerText = correctCount;
+    if (wCount) wCount.innerText = wrongCount;
+    if (sDisplay) sDisplay.innerText = `Điểm: ${formattedScoreOnScale10()}`;
+    if (qText) qText.innerText = q.question;
 
     const optionsBox = document.getElementById("options-container");
-    optionsBox.innerHTML = "";
-
-    const correctText = q.options[0];
-    shuffle(q.options).forEach(option => {
-        const btn = document.createElement("button");
-        btn.className = "option-btn";
-        btn.innerText = option;
-        btn.onclick = () => handleAnswer(option === correctText, btn);
-        optionsBox.appendChild(btn);
-    });
+    if (optionsBox) {
+        optionsBox.innerHTML = "";
+        const correctText = q.options[0];
+        shuffle(q.options).forEach(option => {
+            const btn = document.createElement("button");
+            btn.className = "option-btn";
+            btn.innerText = option;
+            btn.onclick = () => handleAnswer(option === correctText, btn);
+            optionsBox.appendChild(btn);
+        });
+    }
 
     startTimer(q.level);
 }
@@ -424,6 +457,13 @@ function handleAnswer(isCorrect, btn) {
     });
 
     const q = filteredQuestions[currentQuestionIndex];
+    
+    if (isCorrect) correctCount++;
+    else wrongCount++;
+    
+    document.getElementById("correct-count").innerText = correctCount;
+    document.getElementById("wrong-count").innerText = wrongCount;
+
     const correctText = q.options[0];
     const userAnswer = btn ? btn.innerText : "(Hết giờ)";
 
@@ -451,14 +491,15 @@ function handleAnswer(isCorrect, btn) {
     updateProgress();
 
     const nextBtn = document.getElementById("btn-next");
-    nextBtn.disabled = false;
-    nextBtn.style.opacity = "1";
+    if (nextBtn) {
+        nextBtn.disabled = false;
+        nextBtn.style.opacity = "1";
+    }
 }
 
 function updateProgress() {
     document.getElementById("question-counter").innerText = `Câu: ${currentQuestionIndex + 1}/${filteredQuestions.length}`;
     document.getElementById("score-display").innerText = `Điểm: ${formattedScoreOnScale10()}`;
-    document.getElementById("progress-bar").style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
 }
 
 function addExtraQuestions(failedQuestion) {
