@@ -281,17 +281,44 @@ function setupIntroScreen(set) {
     updateSlogan(`${userData.name} - ${set.title}`);
     document.getElementById("current-quiz-desc").innerText = set.description;
 
-    const checkboxGroup = document.getElementById("unit-checkboxes");
-    checkboxGroup.innerHTML = "";
+    const chipGroup = document.getElementById("unit-checkboxes");
+    chipGroup.innerHTML = "";
+    chipGroup.className = "chip-container";
 
-    getUnitsForIntro().forEach(unit => {
-        const label = document.createElement("label");
-        label.className = "checkbox-item";
-        label.innerHTML = `
-            <input type="checkbox" name="unit" value="${unit.id}" checked>
-            <span>${unit.title}</span>
-        `;
-        checkboxGroup.appendChild(label);
+    const units = getUnitsForIntro();
+    
+    // Add "All" button
+    const allBtn = document.createElement("button");
+    allBtn.type = "button";
+    allBtn.className = "chip all-chip";
+    allBtn.innerText = "Tất cả 📚";
+    allBtn.onclick = () => {
+        const isActivating = !allBtn.classList.contains("active");
+        allBtn.classList.toggle("active", isActivating);
+        document.querySelectorAll(".unit-chip").forEach(c => c.classList.toggle("active", isActivating));
+    };
+    chipGroup.appendChild(allBtn);
+
+    units.forEach(unit => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "chip unit-chip";
+        btn.dataset.unitId = unit.id;
+        btn.innerText = unit.title;
+        
+        // Default ONLY Unit 1 to active (avoiding Unit 10, 11, 12...)
+        const isUnit1 = /^unit\s+1$/i.test(unit.title.trim()) || unit.id.toLowerCase().endsWith("u1");
+        if (isUnit1) {
+            btn.classList.add("active");
+        }
+
+        btn.onclick = () => {
+            btn.classList.toggle("active");
+            if (!btn.classList.contains("active")) {
+                allBtn.classList.remove("active");
+            }
+        };
+        chipGroup.appendChild(btn);
     });
 
     showScreen("intro");
@@ -330,7 +357,7 @@ function findUnitCodeByNumber(unitNumber) {
 }
 
 function handleStartClick(mode) {
-    const selectedUnits = Array.from(document.querySelectorAll('input[name="unit"]:checked')).map(cb => cb.value);
+    const selectedUnits = Array.from(document.querySelectorAll('.unit-chip.active')).map(btn => btn.dataset.unitId);
 
     if (selectedUnits.length === 0) {
         alert("Vui lòng chọn ít nhất một Unit để bắt đầu!");
@@ -777,43 +804,53 @@ function showSummaryModal(stats) {
     const grid = document.getElementById("summary-grid");
     if (!modal || !grid) return;
 
-    const rows = [
-        ["Thời gian", formatDateTime(stats.timestamp)],
-        ["Mã bộ đề", stats.quizId],
-        ["Tên bộ đề", stats.quizTitle],
-        ["Họ tên", stats.playerName],
-        ["Lớp", stats.className || "Chưa tách lớp"],
-        ["Unit đã chọn", stats.units || "Tất cả", true],
-        ["Điểm", stats.score.toFixed(2)],
-        ["Số câu đúng", String(stats.correct)],
-        ["Tổng số câu", String(stats.total)],
-        ["Tỉ lệ đúng", `${stats.percent.toFixed(2)}%`],
-        ["Thời gian làm bài", formatDuration(stats.durationSeconds)],
-        ["Câu cộng thêm", String(stats.extraQuestions)]
-    ];
+    // Clear old grid content
+    grid.innerHTML = "";
 
-    grid.innerHTML = rows.map(([label, value, wide]) => `
-        <div class="summary-item${wide ? " wide" : ""}">
-            <span class="summary-label">${escapeHtml(label)}</span>
-            <span class="summary-value">${escapeHtml(value)}</span>
+    // 1. Highlights (Score, Correct, Time)
+    const highlights = document.createElement("div");
+    highlights.className = "summary-highlights";
+    highlights.innerHTML = `
+        <div class="highlight-item">
+            <span class="highlight-label">ĐIỂM SỐ</span>
+            <span class="highlight-value">${stats.score.toFixed(2)}</span>
         </div>
-    `).join("");
+        <div class="highlight-item">
+            <span class="highlight-label">ĐÚNG</span>
+            <span class="highlight-value">${stats.correct}/${stats.total}</span>
+        </div>
+        <div class="highlight-item">
+            <span class="highlight-label">THỜI GIAN</span>
+            <span class="highlight-value">${formatDuration(stats.durationSeconds)}</span>
+        </div>
+    `;
+    grid.appendChild(highlights);
 
-    // Thêm phần xem lại câu hỏi
+    // 2. Meta Info (Name, Units)
+    const meta = document.createElement("div");
+    meta.className = "summary-meta";
+    meta.innerHTML = `
+        <div class="meta-row"><span class="meta-label">Thí sinh:</span> <span>${escapeHtml(stats.playerName)}</span></div>
+        <div class="meta-row"><span class="meta-label">Lớp:</span> <span>${escapeHtml(stats.className || "---")}</span></div>
+        <div class="meta-row" style="grid-column: 1 / -1;"><span class="meta-label">Bài học:</span> <span>${escapeHtml(stats.units || "Tất cả")}</span></div>
+    `;
+    grid.appendChild(meta);
+
+    // 3. Review List
     if (stats.history && stats.history.length > 0) {
         const reviewTitle = document.createElement("h3");
         reviewTitle.className = "review-title";
-        reviewTitle.innerText = "🔍 Chi tiết câu hỏi và Giải thích:";
+        reviewTitle.innerText = "🔍 Xem lại các câu đã làm:";
         grid.appendChild(reviewTitle);
 
         const reviewList = document.createElement("div");
-        reviewList.className = "review-list wide";
+        reviewList.className = "review-list";
         reviewList.innerHTML = stats.history.map((item, idx) => `
             <div class="review-item ${item.isCorrect ? "correct" : "wrong"}">
-                <div class="review-q"><strong>Câu ${idx + 1}:</strong> ${escapeHtml(item.question)}</div>
+                <div class="review-q"><strong>${idx + 1}.</strong> ${escapeHtml(item.question)}</div>
                 <div class="review-a">
-                    <span>Bạn chọn: <strong class="user-ans">${escapeHtml(item.userAnswer)}</strong></span>
-                    ${!item.isCorrect ? `<span> | Đáp án đúng: <strong class="correct-ans">${escapeHtml(item.correctAnswer)}</strong></span>` : ""}
+                    ${item.isCorrect ? `✅ <strong class="correct-ans">${escapeHtml(item.correctAnswer)}</strong>` : 
+                    `❌ <strong class="user-ans">${escapeHtml(item.userAnswer)}</strong> | ✅ <strong class="correct-ans">${escapeHtml(item.correctAnswer)}</strong>`}
                 </div>
                 ${item.explanation ? `<div class="review-explanation">💡 <strong>Giải thích:</strong> ${escapeHtml(item.explanation)}</div>` : ""}
             </div>

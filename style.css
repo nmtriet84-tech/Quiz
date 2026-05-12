@@ -471,21 +471,46 @@ select {
 .chip-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 12px;
+    margin-top: 15px;
+    justify-content: center;
 }
 
 .chip {
-    padding: 8px 15px;
+    padding: 10px 18px;
     border: 2px solid var(--text-color);
-    border-radius: 20px;
+    border-radius: 15px;
     background: white;
     cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s;
+    box-shadow: 2px 2px 0px var(--text-color);
+    font-size: 0.95rem;
+}
+
+.chip:hover {
+    transform: translateY(-2px);
+    background: #f8f8f8;
 }
 
 .chip.active {
     background: var(--accent-color);
     color: white;
+    transform: translateY(1px);
+    box-shadow: 1px 1px 0px var(--text-color);
+}
+
+.chip.all-chip {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.chip.all-chip.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--text-color);
 }
 
 /* Game Styles */
@@ -601,77 +626,88 @@ select {
 
 .summary-modal {
     width: min(720px, 100%);
-    max-height: min(760px, 92vh);
+    max-height: min(800px, 95vh);
     overflow-y: auto;
     background: var(--card-bg);
     border: var(--border-width) solid var(--text-color);
-    border-radius: 20px;
+    border-radius: 24px;
     box-shadow: 6px 6px 0px var(--text-color);
-    padding: 22px;
+    padding: 24px;
     text-align: left;
 }
 
-.summary-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    margin-bottom: 16px;
+.summary-highlights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
 }
 
-.summary-header h2 {
-    font-size: 1.6rem;
+.highlight-item {
+    text-align: center;
+    padding: 15px;
+    background: #FFF9F2;
+    border: 2px solid var(--text-color);
+    border-radius: 18px;
+    box-shadow: 3px 3px 0px var(--text-color);
+}
+
+.highlight-label {
+    display: block;
+    font-size: 0.8rem;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.highlight-value {
+    font-size: 1.5rem;
+    font-weight: 800;
     color: var(--primary-color);
 }
 
-.btn-icon {
-    width: 38px;
-    height: 38px;
-    border: 2px solid var(--text-color);
-    border-radius: 50%;
-    background: white;
-    color: var(--text-color);
-    font-size: 1.6rem;
-    line-height: 1;
-    box-shadow: 2px 2px 0px var(--text-color);
-}
-
-.summary-grid {
+.summary-meta {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 25px;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
 
-.summary-item {
-    padding: 12px;
-    border: 2px solid #EFEFEF;
-    border-radius: 12px;
-    background: #FFFCF7;
-}
+.meta-row { display: flex; gap: 10px; }
+.meta-label { font-weight: 700; color: #444; }
 
-.summary-item.wide {
-    grid-column: 1 / -1;
-}
-
-.summary-label {
-    display: block;
-    color: #777;
-    font-size: 0.85rem;
-    margin-bottom: 4px;
-}
-
-.summary-value {
-    color: var(--text-color);
-    font-size: 1.05rem;
-    font-weight: 600;
-    overflow-wrap: anywhere;
-}
-
-.summary-actions {
+.summary-header {
     display: flex;
-    justify-content: flex-end;
-    gap: 12px;
-    margin-top: 18px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.2s;
+    line-height: 1;
+    padding: 0 5px;
+}
+
+.btn-close:hover {
+    color: var(--primary-color);
+}
+
+.top-actions {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
 }
 
 /* Review List Styles */
